@@ -136,6 +136,11 @@ li{
   width: 70%
 }
 
+.lineimg{
+  width: 70%;
+  height: 150%;
+}
+
 .memoimg{
   width: 73%;
 }
@@ -145,6 +150,10 @@ li{
 }
 
 .NIT{
+  width: 70%;
+}
+
+.media{
   width: 70%;
 }
 
