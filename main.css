@@ -1,0 +1,103 @@
+html,body{
+  background-color:#232323 ;
+  margin: 0%;
+  height: 100%;
+}
+
+div.prof{
+  margin-top: 10%;
+  margin-right: 60%;
+  margin-left: 2%;
+  width: 100%;
+}
+
+a{
+  white-space: nowrap;
+}
+
+div{
+  color: azure;
+}
+
+.hed{
+  padding-top: 2%;
+  margin-left: 2%;
+}
+
+.tex{
+  white-space: nowrap;
+  width: 100%;
+}
+
+.product{
+  margin-left: 45%;
+  font-size: 130%;
+  margin-top: 3%;
+  padding-bottom: 10%;
+}
+
+div{
+  background-color: #232323
+}
+
+.tapeimg{
+  transition-duration: 0.3s;
+}
+
+.tapeimg:hover{
+  transform: scale(1.1);
+	transition-duration: 0.3s;
+}
+
+.inner{
+  text-align: center;
+}
+
+.con{
+  margin-top: 1%;
+}
+
+.t{
+  margin-bottom: 2%;
+  font-size: 120%;
+}
+
+.jsImg{
+  margin-bottom: 1%;
+}
+
+@media screen and (max-width: 750px){
+  div.prof{
+    width: 100%;
+  }
+  .inner{
+    text-align: center;
+    padding-top: 10%;
+  }
+}
+.sizeImg{
+  max-width: 784px;
+  width: 100%;
+  height: 100%;
+}
+
+.titleText{
+  padding-top:1%;
+  font-size: 120%;
+  background-color: #232323;
+}
+
+.backButton{
+  position: -webkit-sticky;
+  position: fixed;
+  top: 85%;
+  left: 73%;
+  z-index: 1;
+  width: 0%;
+}
+
+.app{
+  height: 100%;
+  width: 100%;
+}
+
