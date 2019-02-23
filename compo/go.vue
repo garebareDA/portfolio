@@ -11,7 +11,7 @@
       </div>
       <hr>
       <p class="t">QR-generator</p>
-      <video controls name="media" class="jsImg sizeImg">
+      <video controls webkit-playsinline playsinline autoplay loop name="media" class="jsImg sizeImg">
         <source src="./goImg/bandicam 2019-01-03 21-20-21-172.mp4" type="video/mp4">
       </video>
       <br>
@@ -23,7 +23,7 @@
       <p class="con">Golangで作成しましたQRコードジェネレーターです</p>
       <hr>
       <p class="t">web-Crawler</p>
-      <video controls name="media" class="jsImg sizeImg">
+      <video controls webkit-playsinline playsinline autoplay loop name="media" class="jsImg sizeImg">
         <source src="./goImg/bandicam 2019-01-14 08-48-34-715.mp4" type="video/mp4">
       </video>
       <br>
@@ -45,7 +45,7 @@
       <p class="con">GoLangで作成しましたダイスBOTです</p>
     <hr>
     <p class="t">rhombus-home</p>
-      <video controls muted name="media" class="jsImg sizeImg">
+      <video controls webkit-playsinline playsinline autoplay loop muted name="media" class="jsImg sizeImg">
         <source src="./goImg/bandicam 2019-02-19 17-41-17-134.mp4" type="video/mp4">
       </video>
       <br>
