@@ -6,35 +6,24 @@ import go from '../compo/go.vue';
 import blender from '../compo/ble.vue';
 import magica from '../compo/magi.vue';
 import Vue from 'vue'
+import VueRouter from 'vue-router'
 
-Vue.component('home', home);
-Vue.component('javascript', javascript);
-Vue.component('python', python);
-Vue.component('go', go);
-Vue.component('blender', blender);
-Vue.component('magica', magica);
+Vue.use(VueRouter);
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    currentPage : 'home',
-  },
+const routes = [
+  { path: '/', component: home},
+  { path: '/js', component: javascript},
+  { path:'/py', component: python},
+  { path:'/go', component: go},
+  { path:'/ble', component: blender},
+  { path:'/magi', component: magica}
+];
 
-  methods : {
-    transPage : function(page){
-      this.currentPage = page;
-    }
-  }
-
+const router = new VueRouter({
+  routes
 });
 
-function scroll(){
-  window.scrollTo(0,0);
-}
-
-
-window.trans = function (page){
-  app.transPage(page);
-  scroll();
-}
-
+new Vue({
+  el: '#app',
+  router: router,
+});

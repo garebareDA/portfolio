@@ -2,7 +2,7 @@
   <div>
     <div class="backButton">
       <div class="ButtonMargin">
-        <div class="button is-large is-link" onclick="trans('home')">戻る</div>
+        <router-link to="/" class="button is-large is-link" ></router-link>
       </div>
     </div>
     <div class="inner">

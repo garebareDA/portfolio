@@ -50,28 +50,30 @@
 
       <div class="column">
         <p class="product">Product</p>
+
         <div class="columns">
-          <div class="image is-1280x720 column">
-            <img src="./tapeImg/javascripttape.png" class="tapeimg" onclick="trans('javascript'); ">
-          </div>
 
-          <div class="image is-1280x720 column">
-            <img src="./tapeImg/pythontape.png" class="tapeimg" onclick="trans('python')">
-          </div>
+          <router-link to="/js" class="image is-1280x720 column">
+            <img src="./tapeImg/javascripttape.png" class="tapeimg">
+          </router-link>
 
-          <div class="image is-1280x720 column">
-            <img src="./tapeImg/gotape.png" class="tapeimg" onclick="trans('go')">
-          </div>
+          <router-link to="/py" class="image is-1280x720 column">
+            <img src="./tapeImg/pythontape.png" class="tapeimg">
+          </router-link>
+
+          <router-link to="/go" class="image is-1280x720 column">
+            <img src="./tapeImg/gotape.png" class="tapeimg" >
+          </router-link>
         </div>
 
         <div class="columns">
-          <div class="image is-1280x720 column">
-            <img src="./tapeImg/blendertape.png" class="tapeimg" onclick="trans('blender')">
-          </div>
+          <router-link to="/ble" class="image is-1280x720 column">
+            <img src="./tapeImg/blendertape.png" class="tapeimg">
+          </router-link>
 
-          <div class="image is-1280x720 column">
-            <img src="./tapeImg/magicatape.png" class="tapeimg" onclick="trans('magica')">
-          </div>
+          <router-link to="/magi" class="image is-1280x720 column">
+            <img src="./tapeImg/magicatape.png" class="tapeimg" >
+          </router-link>
 
           <div class="column"></div>
         </div>
