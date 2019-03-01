@@ -10,7 +10,7 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter);
 
-const routes = [
+let routes = [
   { path: '/', component: home},
   { path: '/js', component: javascript},
   { path:'/py', component: python},
@@ -19,7 +19,7 @@ const routes = [
   { path:'/magi', component: magica}
 ];
 
-const router = new VueRouter({
+let router = new VueRouter({
   routes
 });
 
@@ -28,6 +28,6 @@ new Vue({
   router: router,
 });
 
-window.slide = function(){
+window.slide = function slide (){
   window.scrollTo(0, 0);
 }
