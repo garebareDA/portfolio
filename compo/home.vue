@@ -38,11 +38,11 @@
 
         <div class="prof">
           <p class="tex">SNS</p>
-          <a>Twitter</a>
+          <a href="https://twitter.com/garebare521" target="_blank">Twitter</a>
           <br>
-          <a>GitHub</a>
+          <a href="https://github.com/garebareDA" target="_blank">GitHub</a>
           <br>
-          <a>Qiita</a>
+          <a href="https://qiita.com/DA_garebare" target="_blank">Qiita</a>
           <br>
           <hr>
         </div>
