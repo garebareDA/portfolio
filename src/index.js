@@ -27,3 +27,7 @@ new Vue({
   el: '#app',
   router: router,
 });
+
+window.slide = function(){
+  window.scrollTo(0, 0);
+}

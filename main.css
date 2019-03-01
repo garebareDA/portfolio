@@ -2,12 +2,13 @@ html,body{
   background-color:#232323 ;
   margin: 0%;
   height: 100%;
+  width: 100%;
+  box-sizing : border-box;
 }
 
 div.prof{
   margin-top: 10%;
-  margin-right: 60%;
-  margin-left: 5%;
+  padding-left: 5%;
   width: 100%;
 }
 
@@ -73,6 +74,7 @@ div{
   .inner{
     text-align: center;
     padding-top: 10%;
+    margin-left: 0%;
   }
 }
 .sizeImg{
