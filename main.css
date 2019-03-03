@@ -6,7 +6,7 @@ html,body{
   box-sizing : border-box;
 }
 
-div.prof{
+.prof{
   margin-top: 10%;
   padding-left: 5%;
   width: 100%;
@@ -68,8 +68,9 @@ div{
 }
 
 @media screen and (max-width: 750px){
-  div.prof{
-    width: 100%;
+  .prof{
+    padding-left: 3%;
+    width: 90%;
   }
   .inner{
     text-align: center;
@@ -103,3 +104,33 @@ div{
   width: 100%;
 }
 
+.router-transition-enter-active {
+  animation: fadeIn 0.5s;
+  animation-delay: .3s;
+  opacity: 0;
+  }
+
+  @keyframes fadeIn {
+  from {
+  transform: translateY(-20px);
+  opacity: 0;
+  }
+  to {
+  transform: translateY(0);
+  opacity: 1;
+  }
+  }
+
+  .router-transition-leave-active {
+  animation: fadeOut 0.5s;
+  }
+
+  @keyframes fadeOut {
+  from {
+  transform: translateY(0);
+  }
+  to {
+  transform: translateY(-20px);
+  opacity: 0;
+  }
+  }

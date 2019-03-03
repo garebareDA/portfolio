@@ -24,7 +24,9 @@
   </head>
   <body>
     <div id="app" class="app">
-      <router-view></router-view>
+      <transition name="router-transition">
+        <router-view></router-view>
+      </transition>
     </div>
     <script src="./build/build.js"></script>
   </body>
