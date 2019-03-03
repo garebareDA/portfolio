@@ -54,25 +54,25 @@
         <div class="columns">
 
           <router-link to="/js" class="image is-1280x720 column" >
-            <img src="./tapeImg/javascripttape.png" class="tapeimg" onclick="slide()">
+            <img src="./tapeImg/javascripttape.png" class="tapeimg">
           </router-link>
 
           <router-link to="/py" class="image is-1280x720 column" >
-            <img src="./tapeImg/pythontape.png" class="tapeimg" onclick="slide()">
+            <img src="./tapeImg/pythontape.png" class="tapeimg">
           </router-link>
 
           <router-link to="/go" class="image is-1280x720 column">
-            <img src="./tapeImg/gotape.png" class="tapeimg" onclick="slide()">
+            <img src="./tapeImg/gotape.png" class="tapeimg">
           </router-link>
         </div>
 
         <div class="columns">
           <router-link to="/ble" class="image is-1280x720 column">
-            <img src="./tapeImg/blendertape.png" class="tapeimg" onclick="slide()">
+            <img src="./tapeImg/blendertape.png" class="tapeimg">
           </router-link>
 
           <router-link to="/magi" class="image is-1280x720 column">
-            <img src="./tapeImg/magicatape.png" class="tapeimg" onclick="slide()">
+            <img src="./tapeImg/magicatape.png" class="tapeimg">
           </router-link>
 
           <div class="column"></div>

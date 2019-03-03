@@ -20,14 +20,13 @@ let routes = [
 ];
 
 let router = new VueRouter({
-  routes
+  routes,
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 });
 
 new Vue({
   el: '#app',
   router: router,
 });
-
-window.slide = function slide (){
-  window.scrollTo(0, 0);
-}
