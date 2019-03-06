@@ -1,9 +1,12 @@
-html,body{
-  background-color:#232323 ;
-  margin: 0%;
+html, body { 
+  height: 100vh;
+  background-color: #232323;
+}
+
+
+.app{
+  background-color: #232323;
   height: 100%;
-  width: 100%;
-  box-sizing : border-box;
 }
 
 .prof{
@@ -35,10 +38,6 @@ div{
   font-size: 130%;
   margin-top: 3%;
   padding-bottom: 10%;
-}
-
-div{
-  background-color: #232323
 }
 
 .tapeimg{
@@ -97,11 +96,6 @@ div{
   left: 73%;
   z-index: 1;
   width: 0%;
-}
-
-.app{
-  height: 100%;
-  width: 100%;
 }
 
 .router-transition-enter-active {
