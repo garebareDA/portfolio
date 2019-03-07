@@ -1,5 +1,6 @@
 html, body {
   height: 100vh;
+  width: 100vw;
   background-color: #232323;
 }
 
@@ -92,7 +93,7 @@ div{
 .backButton{
   position: -webkit-sticky;
   position: fixed;
-  top: 85%;
+  top: 92%;
   left: 73%;
   z-index: 1;
   width: 0%;
@@ -128,3 +129,8 @@ div{
   opacity: 0;
   }
   }
+
+.not{
+  padding: 3%;
+  font-size: 150%;
+}

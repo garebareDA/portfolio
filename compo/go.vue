@@ -88,7 +88,6 @@
         playsinline
         autoplay
         loop
-        muted
         name="media"
         class="jsImg sizeImg"
       >

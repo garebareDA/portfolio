@@ -5,8 +5,9 @@ import python from '../compo/py.vue';
 import go from '../compo/go.vue';
 import blender from '../compo/ble.vue';
 import magica from '../compo/magi.vue';
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import notFound from '../compo/notFound.vue';
+import Vue from 'vue';
+import VueRouter from 'vue-router';
 
 Vue.use(VueRouter);
 
@@ -16,11 +17,12 @@ let routes = [
   { path:'/py', component: python},
   { path:'/go', component: go},
   { path:'/ble', component: blender},
-  { path:'/magi', component: magica}
+  { path:'/magi', component: magica},
+  { path:'*', component: notFound}
 ];
 
 let router = new VueRouter({
-  routes,
+  routes: routes,
   scrollBehavior (to, from, savedPosition) {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
