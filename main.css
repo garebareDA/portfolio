@@ -4,14 +4,13 @@ html, body {
   background-color: #232323;
 }
 
-
 .app{
   background-color: #232323;
   height: 100%;
 }
 
 .prof{
-  margin-top: 10%;
+  padding-top: 10%;
   padding-left: 5%;
   width: 100%;
 }

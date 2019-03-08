@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="columns">
+    <div class="columns is-gapless" is-gapless>
       <div class="column is-one-quarter">
         <div class="prof">
           <p class="tex">Portfolio</p>
@@ -51,7 +51,7 @@
       <div class="column">
         <p class="product">Product</p>
 
-        <div class="columns">
+        <div class="columns is-gapless">
 
           <router-link to="/js" class="image is-1280x720 column" >
             <img src="./tapeImg/javascripttape.png" class="tapeimg">
@@ -66,7 +66,7 @@
           </router-link>
         </div>
 
-        <div class="columns">
+        <div class="columns is-gapless">
           <router-link to="/ble" class="image is-1280x720 column">
             <img src="./tapeImg/blendertape.png" class="tapeimg">
           </router-link>
