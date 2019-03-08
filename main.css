@@ -101,7 +101,7 @@ div{
 
 .router-transition-enter-active {
   animation: fadeIn 0.5s;
-  animation-delay: .3s;
+  animation-delay: 0.5s;
   opacity: 0;
   }
 
