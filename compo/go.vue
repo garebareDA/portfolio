@@ -81,7 +81,7 @@
       >GitHub</a>
       <p class="con">Golangで作成しました,Chromeで動くアシスタントです</p>
       <hr>
-      <p class="t">rhombus-home</p>
+      <p class="t">discord-voice</p>
       <video
         controls
         webkit-playsinline
