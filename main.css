@@ -46,7 +46,7 @@ div{
 
 .tapeimg:hover{
   transform: scale(1.1);
-  ransition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .inner{

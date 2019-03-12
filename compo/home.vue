@@ -32,7 +32,7 @@
           <p class="tex">CSS</p>
           <p class="tex">JavaScript (Node.js)</p>
           <p class="tex">Python</p>
-          <p class="tex">Go </p>
+          <p class="tex">GoLang</p>
           <hr>
         </div>
 
