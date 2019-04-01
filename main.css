@@ -76,6 +76,10 @@ div{
     padding-top: 10%;
     margin-left: 0%;
   }
+
+  .end{
+    margin-bottom: 10%;
+  }
 }
 .sizeImg{
   max-width: 784px;
@@ -135,5 +139,5 @@ div{
 }
 
 .end{
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }

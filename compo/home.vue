@@ -75,7 +75,9 @@
             <img src="./tapeImg/magicatape.png" class="tapeimg">
           </router-link>
 
-          <div class="column"></div>
+          <router-link to="/other" class="image is-1280x720 column">
+            <img src="./tapeImg/othertape.png" class="tapeimg">
+          </router-link>
         </div>
       </div>
     </div>

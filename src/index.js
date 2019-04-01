@@ -5,6 +5,7 @@ import python from '../compo/py.vue';
 import go from '../compo/go.vue';
 import blender from '../compo/ble.vue';
 import magica from '../compo/magi.vue';
+import other from '../compo/other.vue';
 import notFound from '../compo/notFound.vue';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
@@ -18,6 +19,7 @@ let routes = [
   { path:'/go', component: go},
   { path:'/ble', component: blender},
   { path:'/magi', component: magica},
+  { path:'/other', component: other},
   { path:'*', component: notFound}
 ];
 
