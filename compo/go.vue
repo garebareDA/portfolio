@@ -100,6 +100,26 @@
         class="button is-dark is-inverted is-outlined"
       >GitHub</a>
       <p class="con">Golangで作成しました,Discordのボイスチャットの入退室を通知してくれるBotです</p>
+      <hr>
+      <p class="t">discord-voice</p>
+      <video
+        controls
+        webkit-playsinline
+        playsinline
+        autoplay
+        loop
+        name="media"
+        class="jsImg sizeImg"
+      >
+        <source src="./goImg/bandicam 2019-04-21 21-19-33-008.mp4" type="video/mp4">
+      </video>
+      <br>
+      <a
+        href="https://github.com/garebareDA/youtube-trending-save"
+        target="_blank"
+        class="button is-dark is-inverted is-outlined"
+      >GitHub</a>
+      <p class="con">Golangで作成しました,Youtubeの急上昇を保存してくれます</p>
     </div>
   </div>
-</template>
+</tem>
