@@ -86,6 +86,31 @@
         class="button is-dark is-inverted is-outlined"
       >GitHub</a>
       <p class="con">Node.jsで作りましたLINEのBOTです</p>
+            <hr>
+      <p class="t">Bord</p>
+      <video
+        controls
+        webkit-playsinline
+        playsinline
+        autoplay
+        loop
+        name="media"
+        class="jsImg sizeImg"
+      >
+        <source src="./javascriptImg/bandicam 2019-06-25 14-14-10-967.mp4" type="video/mp4">
+      </video>
+      <br>
+      <a
+        href="https://github.com/garebareDA/Bord"
+        target="_blank"
+        class="button is-dark is-inverted is-outlined"
+      >GitHub</a>
+      <a
+        href="https://write-mine.firebaseapp.com"
+        target="_blank"
+        class="button is-dark is-inverted is-outlined"
+      >Firebase</a>
+      <p class="con">FirebaseとVue.jsを使用した誰でも利用できる掲示板です</p>
     </div>
   </div>
 </template>

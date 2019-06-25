@@ -101,7 +101,7 @@
       >GitHub</a>
       <p class="con">Golangで作成しました,Discordのボイスチャットの入退室を通知してくれるBotです</p>
       <hr>
-      <p class="t">discord-voice</p>
+      <p class="t">youtube-trending-save</p>
       <video
         controls
         webkit-playsinline
@@ -120,6 +120,26 @@
         class="button is-dark is-inverted is-outlined"
       >GitHub</a>
       <p class="con">Golangで作成しました,Youtubeの急上昇を保存してくれます</p>
+      <hr>
+      <p class="t">imgPost</p>
+      <video
+        controls
+        webkit-playsinline
+        playsinline
+        autoplay
+        loop
+        name="media"
+        class="jsImg sizeImg"
+      >
+        <source src="./goImg/imgpost.mp4" type="video/mp4">
+      </video>
+      <br>
+      <a
+        href="https://github.com/garebareDA/imgPost"
+        target="_blank"
+        class="button is-dark is-inverted is-outlined"
+      >GitHub</a>
+      <p class="con">ginで作成しました,画像にテキストを添えて投稿できるサイトです。運用はしていません。</p>
     </div>
   </div>
-</tem>
+</template>
