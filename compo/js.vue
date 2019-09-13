@@ -111,6 +111,31 @@
         class="button is-dark is-inverted is-outlined"
       >Firebase</a>
       <p class="con">FirebaseとVue.jsを使用した誰でも利用できる掲示板です</p>
+      <hr>
+      <p class="t">smork</p>
+      <video
+        controls
+        webkit-playsinline
+        playsinline
+        autoplay
+        loop
+        name="media"
+        class="jsImg sizeImg"
+      >
+        <source src="./javascriptImg/bandicam 2019-08-27 21-35-42-138.mp4" type="video/mp4">
+      </video>
+      <br>
+      <a
+        href="https://github.com/garebareDA/smork"
+        target="_blank"
+        class="button is-dark is-inverted is-outlined"
+      >GitHub</a>
+      <a
+        href="https://smork-5493e.firebaseapp.com"
+        target="_blank"
+        class="button is-dark is-inverted is-outlined"
+      >Firebase</a>
+      <p class="con">FirebaseとVue.jsとSkywayを使用したラジオ配信サイトです</p>
     </div>
   </div>
 </template>
