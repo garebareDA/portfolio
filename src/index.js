@@ -3,8 +3,8 @@ import home from '../compo/home.vue';
 import javascript from '../compo/js.vue';
 import python from '../compo/py.vue';
 import go from '../compo/go.vue';
-import blender from '../compo/ble.vue';
-import magica from '../compo/magi.vue';
+import bleAndMagi from '../compo/bleAndMagi.vue';
+import rs from '../compo/rs.vue';
 import other from '../compo/other.vue';
 import notFound from '../compo/notFound.vue';
 import Vue from 'vue';
@@ -17,8 +17,8 @@ let routes = [
   { path: '/js', component: javascript},
   { path:'/py', component: python},
   { path:'/go', component: go},
-  { path:'/ble', component: blender},
-  { path:'/magi', component: magica},
+  { path:'/bleAndMagi', component: bleAndMagi},
+  { path:'/rs', component: rs},
   { path:'/other', component: other},
   { path:'*', component: notFound}
 ];

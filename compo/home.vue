@@ -33,6 +33,7 @@
           <p class="tex">JavaScript (Node.js)</p>
           <p class="tex">Python</p>
           <p class="tex">GoLang</p>
+          <p class="tex">Rust</p>
           <hr>
         </div>
 
@@ -67,12 +68,12 @@
         </div>
 
         <div class="columns is-gapless">
-          <router-link to="/ble" class="image is-1280x720 column">
-            <img src="./tapeImg/blendertape.png" class="tapeimg">
+          <router-link to="/rs" class="image is-1280x720 column">
+            <img src="./tapeImg/rusttape.png" class="tapeimg">
           </router-link>
 
-          <router-link to="/magi" class="image is-1280x720 column">
-            <img src="./tapeImg/magicatape.png" class="tapeimg">
+          <router-link to="/bleAndMagi" class="image is-1280x720 column">
+            <img src="./tapeImg/BlenderAndMagicaVoxeltape.png" class="tapeimg">
           </router-link>
 
           <router-link to="/other" class="image is-1280x720 column">
