@@ -139,7 +139,27 @@
         target="_blank"
         class="button is-dark is-inverted is-outlined"
       >GitHub</a>
-      <p class="con">ginで作成しました,画像にテキストを添えて投稿できるサイトです。運用はしていません。</p>
+      <p class="con">ginで作成しました。画像にテキストを添えて投稿できるサイトです。運用はしていません。</p>
+      <hr>
+      <p class="t">imgPost</p>
+      <video
+        controls
+        webkit-playsinline
+        playsinline
+        autoplay
+        loop
+        name="media"
+        class="jsImg sizeImg"
+      >
+        <source src="./goImg/bandicam 2019-10-01 00-40-01-804.mp4" type="video/mp4">
+      </video>
+      <br>
+      <a
+        href="https://github.com/garebareDA/fileDwonload"
+        target="_blank"
+        class="button is-dark is-inverted is-outlined"
+      >GitHub</a>
+      <p class="con">ginで作成しました。アップローダーとダウンローダーです。</p>
     </div>
   </div>
 </template>
