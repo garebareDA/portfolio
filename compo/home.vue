@@ -7,19 +7,10 @@
         </div>
 
         <div class="prof">
-          <div>
-            <p class="tex">Name</p>
-            <p class="tex">田中大貴</p>
-          </div>
 
           <div>
             <p class="tex">HandleName</p>
             <p class="tex">ガレバレ</p>
-          </div>
-
-          <div>
-            <p class="tex">Education</p>
-            <p class="tex">2017-N高等学校</p>
           </div>
 
           <hr>
