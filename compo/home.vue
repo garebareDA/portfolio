@@ -30,7 +30,7 @@
           <span>Languages</span>
           <p class="tex">HTML</p>
           <p class="tex">CSS</p>
-          <p class="tex">JavaScript (Node.js)</p>
+          <p class="tex">JavaScript/TypeScript (Node.js)</p>
           <p class="tex">Python</p>
           <p class="tex">GoLang</p>
           <p class="tex">Rust</p>

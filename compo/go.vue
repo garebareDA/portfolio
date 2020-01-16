@@ -160,6 +160,31 @@
         class="button is-dark is-inverted is-outlined"
       >GitHub</a>
       <p class="con">ginで作成しました。アップローダーとダウンローダーです。</p>
+      <hr>
+      <p class="t">slope</p>
+      <video
+        controls
+        webkit-playsinline
+        playsinline
+        autoplay
+        loop
+        name="media"
+        class="jsImg sizeImg"
+      >
+        <source src="./goImg/bandicam 2020-01-17 01-48-06-050.mp4" type="video/mp4">
+      </video>
+      <br>
+      <a
+        href="https://github.com/garebareDA/slope"
+        target="_blank"
+        class="button is-dark is-inverted is-outlined"
+      >GitHub</a>
+      <a
+        href="https://slope-9080.herokuapp.com/#/"
+        target="_blank"
+        class="button is-dark is-inverted is-outlined"
+      >Heroku</a>
+      <p class="con">GolangとVue.jsで作成しました。思ったことを文字にして投稿できるサイトです</p>
     </div>
   </div>
 </template>

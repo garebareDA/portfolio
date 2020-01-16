@@ -33,6 +33,18 @@
         class="button is-dark is-inverted is-outlined"
       >GitHub</a>
       <p class="con">termionを使って作成しました。自作のテキストエディタです。</p>
+      <hr>
+      <p class="t">web_browser</p>
+      <video  webkit-playsinline playsinline autoplay loop controls name="media" class="jsImg sizeImg">
+        <source src="./rustImg/bandicam 2019-12-13 17-08-01-503.mp4" type="video/mp4">
+      </video>
+      <br>
+      <a
+        href="https://github.com/garebareDA/web_browser"
+        target="_blank"
+        class="button is-dark is-inverted is-outlined"
+      >GitHub</a>
+      <p class="con">HTMLパーサーから作りました。簡易ブラウザです。GUIにはgtkを使っています。</p>
     </div>
   </div>
 </template>
