@@ -45,6 +45,18 @@
         class="button is-dark is-inverted is-outlined"
       >GitHub</a>
       <p class="con">HTMLパーサーから作りました。簡易ブラウザです。GUIにはgtkを使っています。</p>
+            <hr>
+      <p class="t">koto</p>
+      <video  webkit-playsinline playsinline autoplay loop controls name="media" class="jsImg sizeImg">
+        <source src="./rustImg/bandicam 2020-02-16 12-05-51-381.mp4" type="video/mp4">
+      </video>
+      <br>
+      <a
+        href="https://github.com/garebareDA/koto"
+        target="_blank"
+        class="button is-dark is-inverted is-outlined"
+      >GitHub</a>
+      <p class="con">自作のスクリプト言語です。現在、標準出力のみできます</p>
     </div>
   </div>
 </template>
