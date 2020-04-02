@@ -20,6 +20,7 @@
           <div>
             <p class="tex">Education</p>
             <p class="tex">2017-N高等学校</p>
+            <p class="tex">2020-サイバー大学</p>
           </div>
 
           <hr>

@@ -48,7 +48,7 @@
         <hr>
       <p class="t">koto</p>
       <video  webkit-playsinline playsinline autoplay loop controls name="media" class="jsImg sizeImg">
-        <source src="./rustImg/bandicam 2020-02-16 12-05-51-381.mp4" type="video/mp4">
+        <source src="./rustImg/bandicam 2020-04-02 08-56-01-231.mp4" type="video/mp4">
       </video>
       <br>
       <a
@@ -56,7 +56,7 @@
         target="_blank"
         class="button is-dark is-inverted is-outlined"
       >GitHub</a>
-      <p class="con">自作のスクリプト言語です。現在、標準出力のみできます</p>
+      <p class="con">自作言語のインタプリタです。現在基礎的な部分が完成しています。</p>
     </div>
   </div>
 </template>
