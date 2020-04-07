@@ -27,10 +27,12 @@
   <body>
     <div class="back">
       <div id="app" class="app">
-        <transition name="router-transition">
-          <router-view></router-view>
+        <div v-show="loading">
+          <loading></loading>
+        </div>
+        <transition name="router-transition" v-show="loading == false">
+          <router-view ></router-view>
         </transition>
-        <hr class="end">
       </div>
     </div>
     <script src="./build/build.js"></script>

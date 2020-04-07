@@ -7,6 +7,7 @@ import bleAndMagi from '../compo/bleAndMagi.vue';
 import rs from '../compo/rs.vue';
 import other from '../compo/other.vue';
 import notFound from '../compo/notFound.vue';
+import loading from '../compo/loading.vue';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
@@ -29,12 +30,36 @@ let router = new VueRouter({
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve({ x: 0, y: 0 })
-      }, 400)
+      }, 0)
     })
   }
 });
 
+Vue.component('loading', loading);
 new Vue({
   el: '#app',
   router: router,
+  data: () => {
+    return{
+      loading: false,
+    }
+  },
+
+  created () {
+    this.laoding();
+  },
+
+  watch: {
+    '$route': 'laoding'
+  },
+
+  methods: {
+    laoding:function () {
+      this.$data.loading = true;
+
+      setTimeout(() => {
+        this.$data.loading = false;
+      }, 1000);
+    }
+  }
 });

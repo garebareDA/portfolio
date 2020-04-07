@@ -56,29 +56,35 @@
         <div class="columns is-gapless">
 
           <router-link to="/js" class="image is-1280x720 column" >
-            <img src="./tapeImg/javascripttape.png" class="tapeimg">
+            <div class="inner">JavaScript</div>
+            <img src="./tapeImg/js.png" class="tapeimg">
           </router-link>
 
           <router-link to="/py" class="image is-1280x720 column" >
-            <img src="./tapeImg/pythontape.png" class="tapeimg">
+            <div class="inner">Python</div>
+            <img src="./tapeImg/py.png" class="tapeimg">
           </router-link>
 
           <router-link to="/go" class="image is-1280x720 column">
-            <img src="./tapeImg/gotape.png" class="tapeimg">
+            <div class="inner">GoLang</div>
+            <img src="./tapeImg/go.png" class="tapeimg">
           </router-link>
         </div>
 
         <div class="columns is-gapless">
           <router-link to="/rs" class="image is-1280x720 column">
-            <img src="./tapeImg/rusttape.png" class="tapeimg">
+            <div class="inner">Rust</div>
+            <img src="./tapeImg/rs.png" class="tapeimg">
           </router-link>
 
           <router-link to="/bleAndMagi" class="image is-1280x720 column">
-            <img src="./tapeImg/BlenderAndMagicaVoxeltape.png" class="tapeimg">
+            <div class="inner">Blender and Pixel</div>
+            <img src="./tapeImg/ble.png" class="tapeimg">
           </router-link>
 
           <router-link to="/other" class="image is-1280x720 column">
-            <img src="./tapeImg/othertape.png" class="tapeimg">
+            <div class="inner">Other</div>
+            <img src="./tapeImg/oth.png" class="tapeimg">
           </router-link>
         </div>
       </div>
