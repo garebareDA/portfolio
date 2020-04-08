@@ -17,6 +17,7 @@
      <contents v-bind:contents="koto"></contents>
       <p class="con">自作言語のインタプリタです。現在基礎的な部分が完成しています。</p>
     </div>
+    <hr class="end">
   </div>
 </template>
 

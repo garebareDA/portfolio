@@ -15,6 +15,7 @@
       <contents v-bind:contents="webcut"></contents>
       <p class="con">wxPythonで作りましたURLを入力すると単独でWebページを開いてくれます</p>
     </div>
+    <hr class="end">
   </div>
 </template>
 

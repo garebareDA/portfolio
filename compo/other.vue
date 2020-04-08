@@ -18,6 +18,7 @@
       <p>マイクの音声から字幕が生成されます</p>
 
     </div>
+    <hr class="end">
   </div>
 </template>
 

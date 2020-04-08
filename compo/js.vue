@@ -31,6 +31,7 @@
 
       <contents v-bind:contents="smork"></contents>
       <p class="con">FirebaseとVue.jsとSkywayを使用したラジオ配信サイトです</p>
+      <hr class="end">
     </div>
   </div>
 </template>

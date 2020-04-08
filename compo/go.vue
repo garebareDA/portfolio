@@ -31,6 +31,7 @@
 
       <contents v-bind:contents="slope"></contents>
       <p class="con">GolangとVue.jsで作成しました。思ったことを文字にして投稿できるサイトです</p>
+      <hr class="end">
     </div>
   </div>
 </template>
