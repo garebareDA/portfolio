@@ -57,34 +57,34 @@
 
           <router-link to="/js" class="image is-1280x720 column" >
             <div class="inner">JavaScript</div>
-            <img src="./tapeImg/js.png" class="tapeimg">
+            <img src="./img/tapeImg/js.png" class="tapeimg">
           </router-link>
 
           <router-link to="/py" class="image is-1280x720 column" >
             <div class="inner">Python</div>
-            <img src="./tapeImg/py.png" class="tapeimg">
+            <img src="./img/tapeImg/py.png" class="tapeimg">
           </router-link>
 
           <router-link to="/go" class="image is-1280x720 column">
             <div class="inner">GoLang</div>
-            <img src="./tapeImg/go.png" class="tapeimg">
+            <img src="./img/tapeImg/go.png" class="tapeimg">
           </router-link>
         </div>
 
         <div class="columns is-gapless">
           <router-link to="/rs" class="image is-1280x720 column">
             <div class="inner">Rust</div>
-            <img src="./tapeImg/rs.png" class="tapeimg">
+            <img src="./img/tapeImg/rs.png" class="tapeimg">
           </router-link>
 
           <router-link to="/bleAndMagi" class="image is-1280x720 column">
             <div class="inner">Blender and Pixel</div>
-            <img src="./tapeImg/ble.png" class="tapeimg">
+            <img src="./img/tapeImg/ble.png" class="tapeimg">
           </router-link>
 
           <router-link to="/other" class="image is-1280x720 column">
             <div class="inner">Other</div>
-            <img src="./tapeImg/oth.png" class="tapeimg">
+            <img src="./img/tapeImg/oth.png" class="tapeimg">
           </router-link>
         </div>
       </div>

@@ -110,83 +110,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 
 /***/ }),
 
-/***/ "./compo/blenderImg/Dg7by6AU0AAl0lK.jpg":
-/*!**********************************************!*\
-  !*** ./compo/blenderImg/Dg7by6AU0AAl0lK.jpg ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/blenderImg/Dg7by6AU0AAl0lK.jpg\";\n\n//# sourceURL=webpack:///./compo/blenderImg/Dg7by6AU0AAl0lK.jpg?");
-
-/***/ }),
-
-/***/ "./compo/blenderImg/DmaqiY0U4AERiMW.jpg":
-/*!**********************************************!*\
-  !*** ./compo/blenderImg/DmaqiY0U4AERiMW.jpg ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/blenderImg/DmaqiY0U4AERiMW.jpg\";\n\n//# sourceURL=webpack:///./compo/blenderImg/DmaqiY0U4AERiMW.jpg?");
-
-/***/ }),
-
-/***/ "./compo/blenderImg/onippoi.png":
-/*!**************************************!*\
-  !*** ./compo/blenderImg/onippoi.png ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/blenderImg/onippoi.png\";\n\n//# sourceURL=webpack:///./compo/blenderImg/onippoi.png?");
-
-/***/ }),
-
-/***/ "./compo/blenderImg/piano.png":
-/*!************************************!*\
-  !*** ./compo/blenderImg/piano.png ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/blenderImg/piano.png\";\n\n//# sourceURL=webpack:///./compo/blenderImg/piano.png?");
-
-/***/ }),
-
-/***/ "./compo/blenderImg/untitled.png":
-/*!***************************************!*\
-  !*** ./compo/blenderImg/untitled.png ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/blenderImg/untitled.png\";\n\n//# sourceURL=webpack:///./compo/blenderImg/untitled.png?");
-
-/***/ }),
-
-/***/ "./compo/blenderImg/人狼.png":
-/*!*********************************!*\
-  !*** ./compo/blenderImg/人狼.png ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/blenderImg/人狼.png\";\n\n//# sourceURL=webpack:///./compo/blenderImg/%E4%BA%BA%E7%8B%BC.png?");
-
-/***/ }),
-
-/***/ "./compo/blenderImg/完成.png":
-/*!*********************************!*\
-  !*** ./compo/blenderImg/完成.png ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/blenderImg/完成.png\";\n\n//# sourceURL=webpack:///./compo/blenderImg/%E5%AE%8C%E6%88%90.png?");
-
-/***/ }),
-
 /***/ "./compo/button/back.vue":
 /*!*******************************!*\
   !*** ./compo/button/back.vue ***!
@@ -307,6 +230,226 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 
 /***/ }),
 
+/***/ "./compo/img/blenderImg/Dg7by6AU0AAl0lK.jpg":
+/*!**************************************************!*\
+  !*** ./compo/img/blenderImg/Dg7by6AU0AAl0lK.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/blenderImg/Dg7by6AU0AAl0lK.jpg\";\n\n//# sourceURL=webpack:///./compo/img/blenderImg/Dg7by6AU0AAl0lK.jpg?");
+
+/***/ }),
+
+/***/ "./compo/img/blenderImg/DmaqiY0U4AERiMW.jpg":
+/*!**************************************************!*\
+  !*** ./compo/img/blenderImg/DmaqiY0U4AERiMW.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/blenderImg/DmaqiY0U4AERiMW.jpg\";\n\n//# sourceURL=webpack:///./compo/img/blenderImg/DmaqiY0U4AERiMW.jpg?");
+
+/***/ }),
+
+/***/ "./compo/img/blenderImg/onippoi.png":
+/*!******************************************!*\
+  !*** ./compo/img/blenderImg/onippoi.png ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/blenderImg/onippoi.png\";\n\n//# sourceURL=webpack:///./compo/img/blenderImg/onippoi.png?");
+
+/***/ }),
+
+/***/ "./compo/img/blenderImg/piano.png":
+/*!****************************************!*\
+  !*** ./compo/img/blenderImg/piano.png ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/blenderImg/piano.png\";\n\n//# sourceURL=webpack:///./compo/img/blenderImg/piano.png?");
+
+/***/ }),
+
+/***/ "./compo/img/blenderImg/untitled.png":
+/*!*******************************************!*\
+  !*** ./compo/img/blenderImg/untitled.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/blenderImg/untitled.png\";\n\n//# sourceURL=webpack:///./compo/img/blenderImg/untitled.png?");
+
+/***/ }),
+
+/***/ "./compo/img/blenderImg/人狼.png":
+/*!*************************************!*\
+  !*** ./compo/img/blenderImg/人狼.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/blenderImg/人狼.png\";\n\n//# sourceURL=webpack:///./compo/img/blenderImg/%E4%BA%BA%E7%8B%BC.png?");
+
+/***/ }),
+
+/***/ "./compo/img/blenderImg/完成.png":
+/*!*************************************!*\
+  !*** ./compo/img/blenderImg/完成.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/blenderImg/完成.png\";\n\n//# sourceURL=webpack:///./compo/img/blenderImg/%E5%AE%8C%E6%88%90.png?");
+
+/***/ }),
+
+/***/ "./compo/img/magicaImg/snap2018-05-13-05-30-59.png":
+/*!*********************************************************!*\
+  !*** ./compo/img/magicaImg/snap2018-05-13-05-30-59.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/magicaImg/snap2018-05-13-05-30-59.png\";\n\n//# sourceURL=webpack:///./compo/img/magicaImg/snap2018-05-13-05-30-59.png?");
+
+/***/ }),
+
+/***/ "./compo/img/magicaImg/snap2018-05-26-23-03-56.png":
+/*!*********************************************************!*\
+  !*** ./compo/img/magicaImg/snap2018-05-26-23-03-56.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/magicaImg/snap2018-05-26-23-03-56.png\";\n\n//# sourceURL=webpack:///./compo/img/magicaImg/snap2018-05-26-23-03-56.png?");
+
+/***/ }),
+
+/***/ "./compo/img/magicaImg/snap2018-05-28-19-43-21.png":
+/*!*********************************************************!*\
+  !*** ./compo/img/magicaImg/snap2018-05-28-19-43-21.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/magicaImg/snap2018-05-28-19-43-21.png\";\n\n//# sourceURL=webpack:///./compo/img/magicaImg/snap2018-05-28-19-43-21.png?");
+
+/***/ }),
+
+/***/ "./compo/img/magicaImg/snap2018-06-01-23-47-24.png":
+/*!*********************************************************!*\
+  !*** ./compo/img/magicaImg/snap2018-06-01-23-47-24.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/magicaImg/snap2018-06-01-23-47-24.png\";\n\n//# sourceURL=webpack:///./compo/img/magicaImg/snap2018-06-01-23-47-24.png?");
+
+/***/ }),
+
+/***/ "./compo/img/magicaImg/snap2018-06-08-23-47-59.png":
+/*!*********************************************************!*\
+  !*** ./compo/img/magicaImg/snap2018-06-08-23-47-59.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/magicaImg/snap2018-06-08-23-47-59.png\";\n\n//# sourceURL=webpack:///./compo/img/magicaImg/snap2018-06-08-23-47-59.png?");
+
+/***/ }),
+
+/***/ "./compo/img/magicaImg/snap2018-08-05-15-36-47.png":
+/*!*********************************************************!*\
+  !*** ./compo/img/magicaImg/snap2018-08-05-15-36-47.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/magicaImg/snap2018-08-05-15-36-47.png\";\n\n//# sourceURL=webpack:///./compo/img/magicaImg/snap2018-08-05-15-36-47.png?");
+
+/***/ }),
+
+/***/ "./compo/img/tapeImg/ble.png":
+/*!***********************************!*\
+  !*** ./compo/img/tapeImg/ble.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/tapeImg/ble.png\";\n\n//# sourceURL=webpack:///./compo/img/tapeImg/ble.png?");
+
+/***/ }),
+
+/***/ "./compo/img/tapeImg/go.png":
+/*!**********************************!*\
+  !*** ./compo/img/tapeImg/go.png ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/tapeImg/go.png\";\n\n//# sourceURL=webpack:///./compo/img/tapeImg/go.png?");
+
+/***/ }),
+
+/***/ "./compo/img/tapeImg/js.png":
+/*!**********************************!*\
+  !*** ./compo/img/tapeImg/js.png ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/tapeImg/js.png\";\n\n//# sourceURL=webpack:///./compo/img/tapeImg/js.png?");
+
+/***/ }),
+
+/***/ "./compo/img/tapeImg/oth.png":
+/*!***********************************!*\
+  !*** ./compo/img/tapeImg/oth.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/tapeImg/oth.png\";\n\n//# sourceURL=webpack:///./compo/img/tapeImg/oth.png?");
+
+/***/ }),
+
+/***/ "./compo/img/tapeImg/py.png":
+/*!**********************************!*\
+  !*** ./compo/img/tapeImg/py.png ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/tapeImg/py.png\";\n\n//# sourceURL=webpack:///./compo/img/tapeImg/py.png?");
+
+/***/ }),
+
+/***/ "./compo/img/tapeImg/radio.gif":
+/*!*************************************!*\
+  !*** ./compo/img/tapeImg/radio.gif ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/tapeImg/radio.gif\";\n\n//# sourceURL=webpack:///./compo/img/tapeImg/radio.gif?");
+
+/***/ }),
+
+/***/ "./compo/img/tapeImg/rs.png":
+/*!**********************************!*\
+  !*** ./compo/img/tapeImg/rs.png ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"compo/img/tapeImg/rs.png\";\n\n//# sourceURL=webpack:///./compo/img/tapeImg/rs.png?");
+
+/***/ }),
+
 /***/ "./compo/js.vue":
 /*!**********************!*\
   !*** ./compo/js.vue ***!
@@ -364,72 +507,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _loa
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_loading_vue_vue_type_template_id_38fe644f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/vue-loader/lib??vue-loader-options!./loading.vue?vue&type=template&id=38fe644f& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./compo/loading.vue?vue&type=template&id=38fe644f&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_loading_vue_vue_type_template_id_38fe644f___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_loading_vue_vue_type_template_id_38fe644f___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=webpack:///./compo/loading.vue?");
-
-/***/ }),
-
-/***/ "./compo/magicaImg/snap2018-05-13-05-30-59.png":
-/*!*****************************************************!*\
-  !*** ./compo/magicaImg/snap2018-05-13-05-30-59.png ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/magicaImg/snap2018-05-13-05-30-59.png\";\n\n//# sourceURL=webpack:///./compo/magicaImg/snap2018-05-13-05-30-59.png?");
-
-/***/ }),
-
-/***/ "./compo/magicaImg/snap2018-05-26-23-03-56.png":
-/*!*****************************************************!*\
-  !*** ./compo/magicaImg/snap2018-05-26-23-03-56.png ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/magicaImg/snap2018-05-26-23-03-56.png\";\n\n//# sourceURL=webpack:///./compo/magicaImg/snap2018-05-26-23-03-56.png?");
-
-/***/ }),
-
-/***/ "./compo/magicaImg/snap2018-05-28-19-43-21.png":
-/*!*****************************************************!*\
-  !*** ./compo/magicaImg/snap2018-05-28-19-43-21.png ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/magicaImg/snap2018-05-28-19-43-21.png\";\n\n//# sourceURL=webpack:///./compo/magicaImg/snap2018-05-28-19-43-21.png?");
-
-/***/ }),
-
-/***/ "./compo/magicaImg/snap2018-06-01-23-47-24.png":
-/*!*****************************************************!*\
-  !*** ./compo/magicaImg/snap2018-06-01-23-47-24.png ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/magicaImg/snap2018-06-01-23-47-24.png\";\n\n//# sourceURL=webpack:///./compo/magicaImg/snap2018-06-01-23-47-24.png?");
-
-/***/ }),
-
-/***/ "./compo/magicaImg/snap2018-06-08-23-47-59.png":
-/*!*****************************************************!*\
-  !*** ./compo/magicaImg/snap2018-06-08-23-47-59.png ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/magicaImg/snap2018-06-08-23-47-59.png\";\n\n//# sourceURL=webpack:///./compo/magicaImg/snap2018-06-08-23-47-59.png?");
-
-/***/ }),
-
-/***/ "./compo/magicaImg/snap2018-08-05-15-36-47.png":
-/*!*****************************************************!*\
-  !*** ./compo/magicaImg/snap2018-08-05-15-36-47.png ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/magicaImg/snap2018-08-05-15-36-47.png\";\n\n//# sourceURL=webpack:///./compo/magicaImg/snap2018-08-05-15-36-47.png?");
 
 /***/ }),
 
@@ -565,83 +642,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 
 /***/ }),
 
-/***/ "./compo/tapeImg/ble.png":
-/*!*******************************!*\
-  !*** ./compo/tapeImg/ble.png ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/tapeImg/ble.png\";\n\n//# sourceURL=webpack:///./compo/tapeImg/ble.png?");
-
-/***/ }),
-
-/***/ "./compo/tapeImg/go.png":
-/*!******************************!*\
-  !*** ./compo/tapeImg/go.png ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/tapeImg/go.png\";\n\n//# sourceURL=webpack:///./compo/tapeImg/go.png?");
-
-/***/ }),
-
-/***/ "./compo/tapeImg/js.png":
-/*!******************************!*\
-  !*** ./compo/tapeImg/js.png ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/tapeImg/js.png\";\n\n//# sourceURL=webpack:///./compo/tapeImg/js.png?");
-
-/***/ }),
-
-/***/ "./compo/tapeImg/oth.png":
-/*!*******************************!*\
-  !*** ./compo/tapeImg/oth.png ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/tapeImg/oth.png\";\n\n//# sourceURL=webpack:///./compo/tapeImg/oth.png?");
-
-/***/ }),
-
-/***/ "./compo/tapeImg/py.png":
-/*!******************************!*\
-  !*** ./compo/tapeImg/py.png ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/tapeImg/py.png\";\n\n//# sourceURL=webpack:///./compo/tapeImg/py.png?");
-
-/***/ }),
-
-/***/ "./compo/tapeImg/radio.gif":
-/*!*********************************!*\
-  !*** ./compo/tapeImg/radio.gif ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/tapeImg/radio.gif\";\n\n//# sourceURL=webpack:///./compo/tapeImg/radio.gif?");
-
-/***/ }),
-
-/***/ "./compo/tapeImg/rs.png":
-/*!******************************!*\
-  !*** ./compo/tapeImg/rs.png ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"compo/tapeImg/rs.png\";\n\n//# sourceURL=webpack:///./compo/tapeImg/rs.png?");
-
-/***/ }),
-
 /***/ "./node_modules/process/browser.js":
 /*!*****************************************!*\
   !*** ./node_modules/process/browser.js ***!
@@ -755,7 +755,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _con
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", [_c(\"backButton\"), _vm._v(\" \"), _vm._m(0)], 1)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"div\", { staticClass: \"inner\" }, [\n      _c(\"div\", [\n        _c(\"p\", { staticClass: \"titleText\", attrs: { id: \"top\" } }, [\n          _vm._v(\"Blender\")\n        ]),\n        _c(\"br\"),\n        _vm._v(\" \"),\n        _c(\"p\", [_vm._v(\"Blenderで作成した3DCGです\")])\n      ]),\n      _vm._v(\" \"),\n      _c(\"hr\"),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./blenderImg/Dg7by6AU0AAl0lK.jpg */ \"./compo/blenderImg/Dg7by6AU0AAl0lK.jpg\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./blenderImg/DmaqiY0U4AERiMW.jpg */ \"./compo/blenderImg/DmaqiY0U4AERiMW.jpg\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./blenderImg/onippoi.png */ \"./compo/blenderImg/onippoi.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./blenderImg/piano.png */ \"./compo/blenderImg/piano.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./blenderImg/untitled.png */ \"./compo/blenderImg/untitled.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./blenderImg/人狼.png */ \"./compo/blenderImg/人狼.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./blenderImg/完成.png */ \"./compo/blenderImg/完成.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"hr\"),\n      _vm._v(\" \"),\n      _c(\"div\", [\n        _c(\"p\", { staticClass: \"titleText\", attrs: { id: \"top\" } }, [\n          _vm._v(\"MgicaVoxel\")\n        ]),\n        _vm._v(\" \"),\n        _c(\"p\", [_vm._v(\"MagicaVoxelで作成したVoxelアートです\")])\n      ]),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./magicaImg/snap2018-05-13-05-30-59.png */ \"./compo/magicaImg/snap2018-05-13-05-30-59.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./magicaImg/snap2018-05-26-23-03-56.png */ \"./compo/magicaImg/snap2018-05-26-23-03-56.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./magicaImg/snap2018-05-28-19-43-21.png */ \"./compo/magicaImg/snap2018-05-28-19-43-21.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./magicaImg/snap2018-06-01-23-47-24.png */ \"./compo/magicaImg/snap2018-06-01-23-47-24.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./magicaImg/snap2018-06-08-23-47-59.png */ \"./compo/magicaImg/snap2018-06-08-23-47-59.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./magicaImg/snap2018-08-05-15-36-47.png */ \"./compo/magicaImg/snap2018-08-05-15-36-47.png\") }\n      })\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./compo/bleAndMagi.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", [_c(\"backButton\"), _vm._v(\" \"), _vm._m(0)], 1)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"div\", { staticClass: \"inner\" }, [\n      _c(\"div\", [\n        _c(\"p\", { staticClass: \"titleText\", attrs: { id: \"top\" } }, [\n          _vm._v(\"Blender\")\n        ]),\n        _c(\"br\"),\n        _vm._v(\" \"),\n        _c(\"p\", [_vm._v(\"Blenderで作成した3DCGです\")])\n      ]),\n      _vm._v(\" \"),\n      _c(\"hr\"),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./img/blenderImg/Dg7by6AU0AAl0lK.jpg */ \"./compo/img/blenderImg/Dg7by6AU0AAl0lK.jpg\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./img/blenderImg/DmaqiY0U4AERiMW.jpg */ \"./compo/img/blenderImg/DmaqiY0U4AERiMW.jpg\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./img/blenderImg/onippoi.png */ \"./compo/img/blenderImg/onippoi.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./img/blenderImg/piano.png */ \"./compo/img/blenderImg/piano.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./img/blenderImg/untitled.png */ \"./compo/img/blenderImg/untitled.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./img/blenderImg/人狼.png */ \"./compo/img/blenderImg/人狼.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./img/blenderImg/完成.png */ \"./compo/img/blenderImg/完成.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"hr\"),\n      _vm._v(\" \"),\n      _c(\"div\", [\n        _c(\"p\", { staticClass: \"titleText\", attrs: { id: \"top\" } }, [\n          _vm._v(\"MgicaVoxel\")\n        ]),\n        _vm._v(\" \"),\n        _c(\"p\", [_vm._v(\"MagicaVoxelで作成したVoxelアートです\")])\n      ]),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./img/magicaImg/snap2018-05-13-05-30-59.png */ \"./compo/img/magicaImg/snap2018-05-13-05-30-59.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./img/magicaImg/snap2018-05-26-23-03-56.png */ \"./compo/img/magicaImg/snap2018-05-26-23-03-56.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./img/magicaImg/snap2018-05-28-19-43-21.png */ \"./compo/img/magicaImg/snap2018-05-28-19-43-21.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./img/magicaImg/snap2018-06-01-23-47-24.png */ \"./compo/img/magicaImg/snap2018-06-01-23-47-24.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./img/magicaImg/snap2018-06-08-23-47-59.png */ \"./compo/img/magicaImg/snap2018-06-08-23-47-59.png\") }\n      }),\n      _vm._v(\" \"),\n      _c(\"img\", {\n        staticClass: \"jsImg sizeImg\",\n        attrs: { src: __webpack_require__(/*! ./img/magicaImg/snap2018-08-05-15-36-47.png */ \"./compo/img/magicaImg/snap2018-08-05-15-36-47.png\") }\n      })\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./compo/bleAndMagi.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -803,7 +803,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", [\n    _c(\n      \"div\",\n      { staticClass: \"columns is-gapless\", attrs: { \"is-gapless\": \"\" } },\n      [\n        _vm._m(0),\n        _vm._v(\" \"),\n        _c(\"div\", { staticClass: \"column\" }, [\n          _c(\"p\", { staticClass: \"product\" }, [_vm._v(\"Product\")]),\n          _vm._v(\" \"),\n          _c(\n            \"div\",\n            { staticClass: \"columns is-gapless\" },\n            [\n              _c(\n                \"router-link\",\n                {\n                  staticClass: \"image is-1280x720 column\",\n                  attrs: { to: \"/js\" }\n                },\n                [\n                  _c(\"div\", { staticClass: \"inner\" }, [_vm._v(\"JavaScript\")]),\n                  _vm._v(\" \"),\n                  _c(\"img\", {\n                    staticClass: \"tapeimg\",\n                    attrs: { src: __webpack_require__(/*! ./tapeImg/js.png */ \"./compo/tapeImg/js.png\") }\n                  })\n                ]\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"router-link\",\n                {\n                  staticClass: \"image is-1280x720 column\",\n                  attrs: { to: \"/py\" }\n                },\n                [\n                  _c(\"div\", { staticClass: \"inner\" }, [_vm._v(\"Python\")]),\n                  _vm._v(\" \"),\n                  _c(\"img\", {\n                    staticClass: \"tapeimg\",\n                    attrs: { src: __webpack_require__(/*! ./tapeImg/py.png */ \"./compo/tapeImg/py.png\") }\n                  })\n                ]\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"router-link\",\n                {\n                  staticClass: \"image is-1280x720 column\",\n                  attrs: { to: \"/go\" }\n                },\n                [\n                  _c(\"div\", { staticClass: \"inner\" }, [_vm._v(\"GoLang\")]),\n                  _vm._v(\" \"),\n                  _c(\"img\", {\n                    staticClass: \"tapeimg\",\n                    attrs: { src: __webpack_require__(/*! ./tapeImg/go.png */ \"./compo/tapeImg/go.png\") }\n                  })\n                ]\n              )\n            ],\n            1\n          ),\n          _vm._v(\" \"),\n          _c(\n            \"div\",\n            { staticClass: \"columns is-gapless\" },\n            [\n              _c(\n                \"router-link\",\n                {\n                  staticClass: \"image is-1280x720 column\",\n                  attrs: { to: \"/rs\" }\n                },\n                [\n                  _c(\"div\", { staticClass: \"inner\" }, [_vm._v(\"Rust\")]),\n                  _vm._v(\" \"),\n                  _c(\"img\", {\n                    staticClass: \"tapeimg\",\n                    attrs: { src: __webpack_require__(/*! ./tapeImg/rs.png */ \"./compo/tapeImg/rs.png\") }\n                  })\n                ]\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"router-link\",\n                {\n                  staticClass: \"image is-1280x720 column\",\n                  attrs: { to: \"/bleAndMagi\" }\n                },\n                [\n                  _c(\"div\", { staticClass: \"inner\" }, [\n                    _vm._v(\"Blender and Pixel\")\n                  ]),\n                  _vm._v(\" \"),\n                  _c(\"img\", {\n                    staticClass: \"tapeimg\",\n                    attrs: { src: __webpack_require__(/*! ./tapeImg/ble.png */ \"./compo/tapeImg/ble.png\") }\n                  })\n                ]\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"router-link\",\n                {\n                  staticClass: \"image is-1280x720 column\",\n                  attrs: { to: \"/other\" }\n                },\n                [\n                  _c(\"div\", { staticClass: \"inner\" }, [_vm._v(\"Other\")]),\n                  _vm._v(\" \"),\n                  _c(\"img\", {\n                    staticClass: \"tapeimg\",\n                    attrs: { src: __webpack_require__(/*! ./tapeImg/oth.png */ \"./compo/tapeImg/oth.png\") }\n                  })\n                ]\n              )\n            ],\n            1\n          )\n        ])\n      ]\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"div\", { staticClass: \"column is-one-quarter\" }, [\n      _c(\"div\", { staticClass: \"prof\" }, [\n        _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"Portfolio\")])\n      ]),\n      _vm._v(\" \"),\n      _c(\"div\", { staticClass: \"prof\" }, [\n        _c(\"div\", [\n          _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"Name\")]),\n          _vm._v(\" \"),\n          _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"田中大貴\")])\n        ]),\n        _vm._v(\" \"),\n        _c(\"div\", [\n          _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"HandleName\")]),\n          _vm._v(\" \"),\n          _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"ガレバレ\")])\n        ]),\n        _vm._v(\" \"),\n        _c(\"div\", [\n          _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"Education\")]),\n          _vm._v(\" \"),\n          _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"2017-N高等学校\")]),\n          _vm._v(\" \"),\n          _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"2020-サイバー大学\")])\n        ]),\n        _vm._v(\" \"),\n        _c(\"hr\")\n      ]),\n      _vm._v(\" \"),\n      _c(\"div\", { staticClass: \"prof\" }, [\n        _c(\"span\", [_vm._v(\"Programming\")]),\n        _vm._v(\" \"),\n        _c(\"span\", [_vm._v(\"Languages\")]),\n        _vm._v(\" \"),\n        _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"HTML\")]),\n        _vm._v(\" \"),\n        _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"CSS\")]),\n        _vm._v(\" \"),\n        _c(\"p\", { staticClass: \"tex\" }, [\n          _vm._v(\"JavaScript/TypeScript (Node.js)\")\n        ]),\n        _vm._v(\" \"),\n        _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"Python\")]),\n        _vm._v(\" \"),\n        _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"GoLang\")]),\n        _vm._v(\" \"),\n        _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"Rust\")]),\n        _vm._v(\" \"),\n        _c(\"hr\")\n      ]),\n      _vm._v(\" \"),\n      _c(\"div\", { staticClass: \"prof\" }, [\n        _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"SNS\")]),\n        _vm._v(\" \"),\n        _c(\n          \"a\",\n          {\n            attrs: { href: \"https://twitter.com/garebare521\", target: \"_blank\" }\n          },\n          [_vm._v(\"Twitter\")]\n        ),\n        _vm._v(\" \"),\n        _c(\"br\"),\n        _vm._v(\" \"),\n        _c(\n          \"a\",\n          {\n            attrs: { href: \"https://github.com/garebareDA\", target: \"_blank\" }\n          },\n          [_vm._v(\"GitHub\")]\n        ),\n        _vm._v(\" \"),\n        _c(\"br\"),\n        _vm._v(\" \"),\n        _c(\n          \"a\",\n          {\n            attrs: { href: \"https://qiita.com/DA_garebare\", target: \"_blank\" }\n          },\n          [_vm._v(\"Qiita\")]\n        ),\n        _vm._v(\" \"),\n        _c(\"br\"),\n        _vm._v(\" \"),\n        _c(\"hr\")\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./compo/home.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", [\n    _c(\n      \"div\",\n      { staticClass: \"columns is-gapless\", attrs: { \"is-gapless\": \"\" } },\n      [\n        _vm._m(0),\n        _vm._v(\" \"),\n        _c(\"div\", { staticClass: \"column\" }, [\n          _c(\"p\", { staticClass: \"product\" }, [_vm._v(\"Product\")]),\n          _vm._v(\" \"),\n          _c(\n            \"div\",\n            { staticClass: \"columns is-gapless\" },\n            [\n              _c(\n                \"router-link\",\n                {\n                  staticClass: \"image is-1280x720 column\",\n                  attrs: { to: \"/js\" }\n                },\n                [\n                  _c(\"div\", { staticClass: \"inner\" }, [_vm._v(\"JavaScript\")]),\n                  _vm._v(\" \"),\n                  _c(\"img\", {\n                    staticClass: \"tapeimg\",\n                    attrs: { src: __webpack_require__(/*! ./img/tapeImg/js.png */ \"./compo/img/tapeImg/js.png\") }\n                  })\n                ]\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"router-link\",\n                {\n                  staticClass: \"image is-1280x720 column\",\n                  attrs: { to: \"/py\" }\n                },\n                [\n                  _c(\"div\", { staticClass: \"inner\" }, [_vm._v(\"Python\")]),\n                  _vm._v(\" \"),\n                  _c(\"img\", {\n                    staticClass: \"tapeimg\",\n                    attrs: { src: __webpack_require__(/*! ./img/tapeImg/py.png */ \"./compo/img/tapeImg/py.png\") }\n                  })\n                ]\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"router-link\",\n                {\n                  staticClass: \"image is-1280x720 column\",\n                  attrs: { to: \"/go\" }\n                },\n                [\n                  _c(\"div\", { staticClass: \"inner\" }, [_vm._v(\"GoLang\")]),\n                  _vm._v(\" \"),\n                  _c(\"img\", {\n                    staticClass: \"tapeimg\",\n                    attrs: { src: __webpack_require__(/*! ./img/tapeImg/go.png */ \"./compo/img/tapeImg/go.png\") }\n                  })\n                ]\n              )\n            ],\n            1\n          ),\n          _vm._v(\" \"),\n          _c(\n            \"div\",\n            { staticClass: \"columns is-gapless\" },\n            [\n              _c(\n                \"router-link\",\n                {\n                  staticClass: \"image is-1280x720 column\",\n                  attrs: { to: \"/rs\" }\n                },\n                [\n                  _c(\"div\", { staticClass: \"inner\" }, [_vm._v(\"Rust\")]),\n                  _vm._v(\" \"),\n                  _c(\"img\", {\n                    staticClass: \"tapeimg\",\n                    attrs: { src: __webpack_require__(/*! ./img/tapeImg/rs.png */ \"./compo/img/tapeImg/rs.png\") }\n                  })\n                ]\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"router-link\",\n                {\n                  staticClass: \"image is-1280x720 column\",\n                  attrs: { to: \"/bleAndMagi\" }\n                },\n                [\n                  _c(\"div\", { staticClass: \"inner\" }, [\n                    _vm._v(\"Blender and Pixel\")\n                  ]),\n                  _vm._v(\" \"),\n                  _c(\"img\", {\n                    staticClass: \"tapeimg\",\n                    attrs: { src: __webpack_require__(/*! ./img/tapeImg/ble.png */ \"./compo/img/tapeImg/ble.png\") }\n                  })\n                ]\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"router-link\",\n                {\n                  staticClass: \"image is-1280x720 column\",\n                  attrs: { to: \"/other\" }\n                },\n                [\n                  _c(\"div\", { staticClass: \"inner\" }, [_vm._v(\"Other\")]),\n                  _vm._v(\" \"),\n                  _c(\"img\", {\n                    staticClass: \"tapeimg\",\n                    attrs: { src: __webpack_require__(/*! ./img/tapeImg/oth.png */ \"./compo/img/tapeImg/oth.png\") }\n                  })\n                ]\n              )\n            ],\n            1\n          )\n        ])\n      ]\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"div\", { staticClass: \"column is-one-quarter\" }, [\n      _c(\"div\", { staticClass: \"prof\" }, [\n        _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"Portfolio\")])\n      ]),\n      _vm._v(\" \"),\n      _c(\"div\", { staticClass: \"prof\" }, [\n        _c(\"div\", [\n          _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"Name\")]),\n          _vm._v(\" \"),\n          _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"田中大貴\")])\n        ]),\n        _vm._v(\" \"),\n        _c(\"div\", [\n          _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"HandleName\")]),\n          _vm._v(\" \"),\n          _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"ガレバレ\")])\n        ]),\n        _vm._v(\" \"),\n        _c(\"div\", [\n          _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"Education\")]),\n          _vm._v(\" \"),\n          _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"2017-N高等学校\")]),\n          _vm._v(\" \"),\n          _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"2020-サイバー大学\")])\n        ]),\n        _vm._v(\" \"),\n        _c(\"hr\")\n      ]),\n      _vm._v(\" \"),\n      _c(\"div\", { staticClass: \"prof\" }, [\n        _c(\"span\", [_vm._v(\"Programming\")]),\n        _vm._v(\" \"),\n        _c(\"span\", [_vm._v(\"Languages\")]),\n        _vm._v(\" \"),\n        _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"HTML\")]),\n        _vm._v(\" \"),\n        _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"CSS\")]),\n        _vm._v(\" \"),\n        _c(\"p\", { staticClass: \"tex\" }, [\n          _vm._v(\"JavaScript/TypeScript (Node.js)\")\n        ]),\n        _vm._v(\" \"),\n        _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"Python\")]),\n        _vm._v(\" \"),\n        _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"GoLang\")]),\n        _vm._v(\" \"),\n        _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"Rust\")]),\n        _vm._v(\" \"),\n        _c(\"hr\")\n      ]),\n      _vm._v(\" \"),\n      _c(\"div\", { staticClass: \"prof\" }, [\n        _c(\"p\", { staticClass: \"tex\" }, [_vm._v(\"SNS\")]),\n        _vm._v(\" \"),\n        _c(\n          \"a\",\n          {\n            attrs: { href: \"https://twitter.com/garebare521\", target: \"_blank\" }\n          },\n          [_vm._v(\"Twitter\")]\n        ),\n        _vm._v(\" \"),\n        _c(\"br\"),\n        _vm._v(\" \"),\n        _c(\n          \"a\",\n          {\n            attrs: { href: \"https://github.com/garebareDA\", target: \"_blank\" }\n          },\n          [_vm._v(\"GitHub\")]\n        ),\n        _vm._v(\" \"),\n        _c(\"br\"),\n        _vm._v(\" \"),\n        _c(\n          \"a\",\n          {\n            attrs: { href: \"https://qiita.com/DA_garebare\", target: \"_blank\" }\n          },\n          [_vm._v(\"Qiita\")]\n        ),\n        _vm._v(\" \"),\n        _c(\"br\"),\n        _vm._v(\" \"),\n        _c(\"hr\")\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./compo/home.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -827,7 +827,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm._m(0)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"div\", { staticClass: \"loading\" }, [\n      _c(\"img\", { attrs: { src: __webpack_require__(/*! ./tapeImg/radio.gif */ \"./compo/tapeImg/radio.gif\") } }),\n      _vm._v(\" \"),\n      _c(\"div\", [_vm._v(\"loading...\")])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./compo/loading.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm._m(0)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"div\", { staticClass: \"loading\" }, [\n      _c(\"img\", { attrs: { src: __webpack_require__(/*! ./img/tapeImg/radio.gif */ \"./compo/img/tapeImg/radio.gif\") } }),\n      _vm._v(\" \"),\n      _c(\"div\", [_vm._v(\"loading...\")])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./compo/loading.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -946,7 +946,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _com
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Inner\", function() { return Inner; });\nclass Inner {\n    constructor(title, URL, githubURL, isVideo, other, otherURL) {\n        this.title = title;\n        this.URL = \"./compo/\" + URL;\n        this.githubURL = githubURL;\n        this.isVideo = isVideo;\n        this.otherURL = otherURL;\n        this.other = other;\n    }\n}\n\n//# sourceURL=webpack:///./src/inner.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Inner\", function() { return Inner; });\nclass Inner {\n    constructor(title, URL, githubURL, isVideo, other, otherURL) {\n        this.title = title;\n        this.URL = \"./compo/img/\" + URL;\n        this.githubURL = githubURL;\n        this.isVideo = isVideo;\n        this.otherURL = otherURL;\n        this.other = other;\n    }\n}\n\n//# sourceURL=webpack:///./src/inner.js?");
 
 /***/ })
 
