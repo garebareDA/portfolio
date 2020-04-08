@@ -90,7 +90,7 @@ div{
 .titleText{
   padding-top:1%;
   font-size: 120%;
-  background-color: #232323;
+  background-color: #363636;
 }
 
 .backButton{
@@ -149,5 +149,17 @@ div{
   transform: translate(-50%, -50%);
   text-align: center;
   font-size:120%;
-  z-index: 9999;
+  z-index: 1;
+  background-color: #313131;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.head{
+  position: -webkit-sticky;
+  position: fixed;
+  top: 90%;
+  left: 0%;
+  transform: translate(-50%, 0%);
+  z-index: 1;
+
 }

@@ -1,6 +1,8 @@
 <template>
-  <div class="loading">
-      <img src="./tapeImg/radio.gif">
+  <div class="load-back">
+    <div class="loading">
+      <img src="./img/tapeImg/radio.gif">
       <div>loading...</div>
+  </div>
   </div>
 </template>
