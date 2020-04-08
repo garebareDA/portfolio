@@ -1,10 +1,6 @@
 <template>
 <div>
-  <div class="backButton">
-    <div class="ButtonMargin">
-      <router-link to="/" class="button is-large is-link">戻る</router-link>
-      </div>
-    </div>
+    <backButton></backButton>
       <div class="inner">
         <div>
           <p id="top" class="titleText">Blender</p><br>
@@ -32,5 +28,3 @@
     </div>
 </div>
 </template>
-
-

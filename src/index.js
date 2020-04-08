@@ -8,6 +8,7 @@ import rs from '../compo/rs.vue';
 import other from '../compo/other.vue';
 import notFound from '../compo/notFound.vue';
 import loading from '../compo/loading.vue';
+import backButton from '../compo/button/back.vue';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
@@ -36,6 +37,8 @@ let router = new VueRouter({
 });
 
 Vue.component('loading', loading);
+Vue.component('backButton', backButton);
+
 new Vue({
   el: '#app',
   router: router,
