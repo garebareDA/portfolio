@@ -4,6 +4,11 @@ html, body {
   background-color: #363636;
 }
 
+.start{
+  width: 80%;
+  white-space: nowrap;
+}
+
 .app{
   background-color: #363636;
   height: 100%;
@@ -42,11 +47,13 @@ div{
 
 .tapeimg{
   transition-duration: 0.3s;
+  filter: drop-shadow(0mm 2mm 2mm rgb(100 100 100));
 }
 
 .tapeimg:hover{
   transform: scale(1.1);
   transition-duration: 0.3s;
+  filter: drop-shadow(0mm 0.5mm 0.5mm rgb(100 100 100));
 }
 
 .inner{
@@ -64,6 +71,7 @@ div{
 
 .jsImg{
   margin-bottom: 1%;
+  filter: drop-shadow(2mm 1mm 1mm rgb(100 100 100));
 }
 
 @media screen and (max-width: 750px){
@@ -78,7 +86,12 @@ div{
   }
 
   .end{
+    filter: drop-shadow(2mm 1mm 1mm rgb(0 100 100));
     margin-bottom: 10%;
+  }
+
+  .start{
+    width: 100vw;
   }
 }
 .sizeImg{
@@ -140,19 +153,33 @@ div{
 
 .end{
   margin-bottom: 8%;
+  filter: drop-shadow(10mm 1mm 1mm rgb(0 0 0));
 }
 
 .loading{
   position: fixed;
+  text-align: center;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  top:calc(50% - 50px/2);
+  left:calc(50% - 50px/2);
+	transform: translate(-50%, -50%);
   font-size:120%;
   z-index: 1;
   background-color: #313131;
   border-radius: 30px 30px 30px 30px;
+  filter: drop-shadow(0mm 1mm 10mm rgb(0 0 0));
+  animation: fadeInLoad 0.4s;
 }
+
+@keyframes fadeInLoad {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  }
 
 .head{
   position: -webkit-sticky;
@@ -161,5 +188,4 @@ div{
   left: 0%;
   transform: translate(-50%, 0%);
   z-index: 1;
-
 }
