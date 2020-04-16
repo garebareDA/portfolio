@@ -1,6 +1,8 @@
 <template>
     <div>
-      <hr>
+      <div align="center">
+        <hr class="start">
+      </div>
       <p class="t">{{contents.title}}</p>
       <video
         controls
