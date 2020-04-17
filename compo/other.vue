@@ -17,6 +17,9 @@
       <p>hromeでlocalhost:8000にアクセスすれば</p>
       <p>マイクの音声から字幕が生成されます</p>
 
+      <contents v-bind:contents="pixelVruber"></contents>
+      <p class="con">Unityで作成しました</p>
+      <p>ドット絵のVtuberです</p>
     </div>
     <hr class="end">
   </div>
@@ -40,6 +43,12 @@ const sub = new Inner(
   true
 );
 
+const pixelVruber = new Inner(
+  "PixelVtuber",
+  "otherImg/bandicam 2020-04-17 18-16-08-829.mp4",
+  "https://github.com/garebareDA/PixelVtuber"
+);
+
 export default {
   components: {
     contents
@@ -49,6 +58,7 @@ export default {
     return{
       youtuber: youtuber,
       sub: sub,
+      pixelVruber:pixelVruber
     }
   }
 }
