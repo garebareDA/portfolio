@@ -46,7 +46,8 @@ const sub = new Inner(
 const pixelVruber = new Inner(
   "PixelVtuber",
   "otherImg/bandicam 2020-04-17 18-16-08-829.mp4",
-  "https://github.com/garebareDA/PixelVtuber"
+  "https://github.com/garebareDA/PixelVtuber",
+  true
 );
 
 export default {
