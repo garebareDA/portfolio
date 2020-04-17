@@ -48,7 +48,7 @@ const webBrowser = new Inner(
 
 const koto = new Inner(
   "koto",
-  "rustImg/bandicam 2020-04-02 08-56-01-231.mp4",
+  "rustImg/bandicam 2020-04-17 17-49-52-977.mp4",
   "https://github.com/garebareDA/koto",
   true
 );
