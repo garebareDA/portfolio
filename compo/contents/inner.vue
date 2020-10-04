@@ -20,6 +20,7 @@
       <img v-if="contents.isVideo == false" v-bind:src="contents.URL" class="sizeImg jsImg">
       <div></div>
       <a
+        v-if ="contents.githubURL !== ''"
         v-bind:href="contents.githubURL"
         target="_blank"
         class="button is-dark is-inverted is-outlined"
@@ -38,6 +39,13 @@
         target="_blank"
         class="button is-dark is-inverted is-outlined"
       >Heroku</a>
+
+      <a
+        v-if="contents.other == 'pages'"
+        v-bind:href="contents.otherURL"
+        target="_blank"
+        class="button is-dark is-inverted is-outlined"
+      >GitHubPages</a>
     </div>
 </template>
 

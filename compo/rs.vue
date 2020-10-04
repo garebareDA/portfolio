@@ -16,6 +16,12 @@
 
      <contents v-bind:contents="koto"></contents>
       <p class="con">自作言語のインタプリタです。現在基礎的な部分が完成しています。</p>
+
+    <contents v-bind:contents="kotoWasm"></contents>
+    <p class="con">自作言語のインタプリタのwasm版です。ウェブブラウザで動作します。</p>
+
+    <contents v-bind:contents="umbrella"></contents>
+    <p class="con">自作言語のコンパイラです LLVM IRを生成します</p>
     </div>
     <hr class="end">
   </div>
@@ -53,6 +59,22 @@ const koto = new Inner(
   true
 );
 
+const kotoWasm = new Inner(
+  "koto wasm",
+  "rustImg/bandicam 2020-07-07 16-12-13-859.mp4",
+  "https://github.com/garebareDA/koto/tree/wasm",
+  true,
+  "firebase",
+  "https://koto-e2f64.firebaseapp.com/"
+)
+
+const umbrella= new Inner(
+  "umbrella",
+  "rustImg/bandicam 2020-10-04 10-54-51-211.mp4",
+  "https://github.com/garebareDA/umbrella",
+  true
+)
+
 export default {
   components:{
     contents
@@ -64,6 +86,8 @@ export default {
       editor: editor,
       webBrowser: webBrowser,
       koto: koto,
+      kotoWasm: kotoWasm,
+      umbrella: umbrella,
     }
   }
 }
