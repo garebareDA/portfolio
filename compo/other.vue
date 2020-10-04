@@ -20,6 +20,10 @@
       <contents v-bind:contents="pixelVruber"></contents>
       <p class="con">Unityで作成しました</p>
       <p>ドット絵のVtuberです</p>
+
+      <contents v-bind:contents="fireOfBass"></contents>
+      <p class="con">Unityで作成しました</p>
+      <p>クリックをするとドット絵が演奏してくれます</p>
     </div>
     <hr class="end">
   </div>
@@ -50,6 +54,15 @@ const pixelVruber = new Inner(
   true
 );
 
+const fireOfBass = new Inner(
+  "fire-of-bass",
+  "otherImg/bandicam 2020-06-20 23-30-57-335.mp4",
+  "https://github.com/garebareDA/fire-of-bass",
+  true,
+  "pages",
+  "https://garebareda.github.io/fire-of-bass/build/index.html"
+)
+
 export default {
   components: {
     contents
@@ -59,7 +72,8 @@ export default {
     return{
       youtuber: youtuber,
       sub: sub,
-      pixelVruber:pixelVruber
+      pixelVruber:pixelVruber,
+      fireOfBass:fireOfBass
     }
   }
 }

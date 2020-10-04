@@ -31,6 +31,9 @@
 
       <contents v-bind:contents="slope"></contents>
       <p class="con">GolangとVue.jsで作成しました。思ったことを文字にして投稿できるサイトです</p>
+
+      <contents v-bind:contents="later"></contents>
+      <p class="con">GolangとVue.jsで作成しました。MarkDownで記事を書いて投稿できるサイトです</p>
       <hr class="end">
     </div>
   </div>
@@ -105,6 +108,15 @@ const slope = new Inner(
   "https://slope-9080.herokuapp.com/#/"
 );
 
+const later = new Inner(
+  "later",
+  "goImg/bandicam 2020-10-04 09-49-42-403.mp4",
+  "https://github.com/garebareDA/later",
+  true,
+  "heroku",
+  "https://later-090.herokuapp.com/#/"
+)
+
 export default {
   components: {
     contents
@@ -121,6 +133,7 @@ export default {
       imgPost: imgPost,
       fileDwonload: fileDwonload,
       slope: slope,
+      later: later,
     };
   }
 };

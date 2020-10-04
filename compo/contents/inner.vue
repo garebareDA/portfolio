@@ -38,6 +38,13 @@
         target="_blank"
         class="button is-dark is-inverted is-outlined"
       >Heroku</a>
+
+      <a
+        v-if="contents.other == 'pages'"
+        v-bind:href="contents.otherURL"
+        target="_blank"
+        class="button is-dark is-inverted is-outlined"
+      >GitHubPages</a>
     </div>
 </template>
 
