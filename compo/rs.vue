@@ -19,6 +19,9 @@
 
     <contents v-bind:contents="kotoWasm"></contents>
     <p class="con">自作言語のインタプリタのwasm版です。ウェブブラウザで動作します。</p>
+
+    <contents v-bind:contents="umbrella"></contents>
+    <p class="con">自作言語のコンパイラです LLVM IRを生成します</p>
     </div>
     <hr class="end">
   </div>
@@ -65,6 +68,13 @@ const kotoWasm = new Inner(
   "https://koto-e2f64.firebaseapp.com/"
 )
 
+const umbrella= new Inner(
+  "umbrella",
+  "rustImg/bandicam 2020-10-04 10-54-51-211.mp4",
+  "https://github.com/garebareDA/umbrella",
+  true
+)
+
 export default {
   components:{
     contents
@@ -77,6 +87,7 @@ export default {
       webBrowser: webBrowser,
       koto: koto,
       kotoWasm: kotoWasm,
+      umbrella: umbrella,
     }
   }
 }

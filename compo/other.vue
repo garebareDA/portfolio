@@ -24,6 +24,13 @@
       <contents v-bind:contents="fireOfBass"></contents>
       <p class="con">Unityで作成しました</p>
       <p>クリックをするとドット絵が演奏してくれます</p>
+
+      <contents v-bind:contents="actionNanika"></contents>
+      <p class="con">Unityで作成しました</p>
+      <p>アクションゲームです</p>
+      <contents v-bind:contents="PixelVtuberMulti"></contents>
+      <p class="con">Unityで作成しました</p>
+      <p>PixelVtuberのマルチプレイヤーバージョンです</p>
     </div>
     <hr class="end">
   </div>
@@ -50,7 +57,7 @@ const sub = new Inner(
 const pixelVruber = new Inner(
   "PixelVtuber",
   "otherImg/bandicam 2020-04-17 18-16-08-829.mp4",
-  "https://github.com/garebareDA/PixelVtuber",
+  "",
   true
 );
 
@@ -63,6 +70,20 @@ const fireOfBass = new Inner(
   "https://garebareda.github.io/fire-of-bass/build/index.html"
 )
 
+const actionNanika = new Inner(
+  "action-nanika(grabi)",
+  "otherImg/bandicam 2020-10-04 11-04-43-900.mp4",
+  "https://github.com/garebareDA/action-nanika",
+  true
+)
+
+const PixelVtuberMulti = new Inner(
+  "PixelVtuberMulti",
+  "otherImg/bandicam 2020-10-04 11-13-34-310.mp4",
+  "",
+  true,
+)
+
 export default {
   components: {
     contents
@@ -73,7 +94,9 @@ export default {
       youtuber: youtuber,
       sub: sub,
       pixelVruber:pixelVruber,
-      fireOfBass:fireOfBass
+      fireOfBass:fireOfBass,
+      actionNanika: actionNanika,
+      PixelVtuberMulti: PixelVtuberMulti,
     }
   }
 }
