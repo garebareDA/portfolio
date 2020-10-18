@@ -74,7 +74,9 @@ const actionNanika = new Inner(
   "action-nanika(grabi)",
   "otherImg/bandicam 2020-10-04 11-04-43-900.mp4",
   "https://github.com/garebareDA/action-nanika",
-  true
+  true,
+  "pages",
+  "https://garebareda.github.io/action-nanika/WebGL/index.html"
 )
 
 const PixelVtuberMulti = new Inner(
