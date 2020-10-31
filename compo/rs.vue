@@ -9,21 +9,32 @@
       <p class="con">Zipファイルを作成します。</p>
 
       <contents v-bind:contents="editor"></contents>
-      <p class="con">termionを使って作成しました。自作のテキストエディタです。</p>
+      <p class="con">
+        termionを使って作成しました。自作のテキストエディタです。
+      </p>
 
       <contents v-bind:contents="webBrowser"></contents>
-      <p class="con">HTMLパーサーから作りました。簡易ブラウザです。GUIにはgtkを使っています。</p>
+      <p class="con">
+        HTMLパーサーから作りました。簡易ブラウザです。GUIにはgtkを使っています。
+      </p>
 
-     <contents v-bind:contents="koto"></contents>
-      <p class="con">自作言語のインタプリタです。現在基礎的な部分が完成しています。</p>
+      <contents v-bind:contents="koto"></contents>
+      <p class="con">
+        自作言語のインタプリタです。現在基礎的な部分が完成しています。
+      </p>
 
-    <contents v-bind:contents="kotoWasm"></contents>
-    <p class="con">自作言語のインタプリタのwasm版です。ウェブブラウザで動作します。</p>
+      <contents v-bind:contents="kotoWasm"></contents>
+      <p class="con">
+        自作言語のインタプリタのwasm版です。ウェブブラウザで動作します。
+      </p>
 
-    <contents v-bind:contents="umbrella"></contents>
-    <p class="con">自作言語のコンパイラです LLVM IRを生成します</p>
+      <contents v-bind:contents="umbrella"></contents>
+      <p class="con">自作言語のコンパイラです。 LLVM IRを生成します。</p>
+
+      <contents v-bind:contents="smallgit"></contents>
+      <p class="con">自作gitです。ステージングやコミットが実装されています。</p>
     </div>
-    <hr class="end">
+    <hr class="end" />
   </div>
 </template>
 
@@ -75,6 +86,13 @@ const umbrella= new Inner(
   true
 )
 
+const smallgit = new Inner(
+  "smallgit",
+  "rustImg/bandicam 2020-10-30 14-14-11-505.mp4",
+  "https://github.com/garebareDA/smallgit",
+  true
+)
+
 export default {
   components:{
     contents
@@ -88,6 +106,7 @@ export default {
       koto: koto,
       kotoWasm: kotoWasm,
       umbrella: umbrella,
+      smallgit:smallgit,
     }
   }
 }
