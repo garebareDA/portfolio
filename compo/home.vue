@@ -25,18 +25,18 @@
           <p class="tex">Python</p>
           <p class="tex">GoLang</p>
           <p class="tex">Rust</p>
-          <hr>
+          <hr />
         </div>
 
         <div class="prof">
           <p class="tex">SNS</p>
           <a href="https://twitter.com/garebare521" target="_blank">Twitter</a>
-          <br>
+          <br />
           <a href="https://github.com/garebareDA" target="_blank">GitHub</a>
-          <br>
+          <br />
           <a href="https://qiita.com/DA_garebare" target="_blank">Qiita</a>
-          <br>
-          <hr>
+          <br />
+          <hr />
         </div>
       </div>
 
@@ -44,37 +44,36 @@
         <p class="product">Product</p>
 
         <div class="columns is-gapless">
-
-          <router-link to="/js" class="image is-1280x720 column" >
+          <router-link to="/js" class="image is-1280x720 column">
             <div class="inner">JavaScript</div>
-            <img src="./img/tapeImg/js.png" class="tapeimg">
-          </router-link>
-
-          <router-link to="/py" class="image is-1280x720 column" >
-            <div class="inner">Python</div>
-            <img src="./img/tapeImg/py.png" class="tapeimg">
+            <img src="./img/tapeImg/js.png" class="tapeimg" />
           </router-link>
 
           <router-link to="/go" class="image is-1280x720 column">
             <div class="inner">GoLang</div>
-            <img src="./img/tapeImg/go.png" class="tapeimg">
+            <img src="./img/tapeImg/go.png" class="tapeimg" />
+          </router-link>
+
+          <router-link to="/rs" class="image is-1280x720 column">
+            <div class="inner">Rust</div>
+            <img src="./img/tapeImg/rs.png" class="tapeimg" />
           </router-link>
         </div>
 
         <div class="columns is-gapless">
-          <router-link to="/rs" class="image is-1280x720 column">
-            <div class="inner">Rust</div>
-            <img src="./img/tapeImg/rs.png" class="tapeimg">
+          <router-link to="/uni" class="image is-1280x720 column">
+            <div class="inner">Unity</div>
+            <img src="./img/tapeImg/uni.png" class="tapeimg" />
           </router-link>
 
           <router-link to="/bleAndMagi" class="image is-1280x720 column">
             <div class="inner">Blender and Pixel</div>
-            <img src="./img/tapeImg/ble.png" class="tapeimg">
+            <img src="./img/tapeImg/ble.png" class="tapeimg" />
           </router-link>
 
           <router-link to="/other" class="image is-1280x720 column">
             <div class="inner">Other</div>
-            <img src="./img/tapeImg/oth.png" class="tapeimg">
+            <img src="./img/tapeImg/oth.png" class="tapeimg" />
           </router-link>
         </div>
       </div>
