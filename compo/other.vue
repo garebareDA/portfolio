@@ -11,6 +11,11 @@
       <p>chromeでlocalhost:8000にアクセスすれば</p>
       <p>マイクの音声から字幕が生成されます</p>
       <p>OBSのブラウザソースなどから読み込めば使えます</p>
+
+      <contents v-bind:contents="todoList"></contents>
+      <p>flutterで作成しました</p>
+      <p>TODOリストです</p>
+
     </div>
     <hr class="end">
   </div>
@@ -27,6 +32,13 @@ const sub = new Inner(
   true
 );
 
+const todoList = new Inner(
+  "todo_list",
+  "otherImg/20201109_030240.mp4",
+  "https://github.com/garebareDA/todo_list",
+  true
+);
+
 export default {
   components: {
     contents
@@ -35,6 +47,7 @@ export default {
   data:()=>{
     return{
       sub: sub,
+      todoList:todoList,
     }
   }
 }
