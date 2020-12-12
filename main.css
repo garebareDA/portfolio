@@ -87,7 +87,7 @@ div{
 
   .end{
     filter: drop-shadow(2mm 1mm 1mm rgb(0 100 100));
-    margin-bottom: 10%;
+    margin-bottom: 20%;
   }
 
   .start{
@@ -152,7 +152,8 @@ div{
 }
 
 .end{
-  margin-bottom: 8%;
+  margin-bottom: 10%;
+  height: 100px;
   filter: drop-shadow(10mm 1mm 1mm rgb(0 0 0));
 }
 
@@ -162,7 +163,7 @@ div{
   top: 50%;
   left: 50%;
   top:calc(50% - 50px/2);
-  left:calc(50% - 50px/2);
+  left:calc(50%);
 	transform: translate(-50%, -50%);
   font-size:120%;
   z-index: 1;

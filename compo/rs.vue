@@ -33,6 +33,9 @@
 
       <contents v-bind:contents="smallgit"></contents>
       <p class="con">自作gitです。ステージングやコミットが実装されています。</p>
+
+      <contents v-bind:contents="gShell"></contents>
+       <p class="con">自作Shellです。コマンド実行、多段パイプ、リダイレクトが実装されています。</p>
     </div>
     <hr class="end" />
   </div>
@@ -93,6 +96,13 @@ const smallgit = new Inner(
   true
 )
 
+const gShell = new Inner(
+  "g_shell",
+  "rustImg/bandicam 2020-12-12 15-11-08-928.mp4",
+  "https://github.com/garebareDA/g_shell",
+  true
+)
+
 export default {
   components:{
     contents
@@ -107,6 +117,7 @@ export default {
       kotoWasm: kotoWasm,
       umbrella: umbrella,
       smallgit:smallgit,
+      gShell:gShell,
     }
   }
 }
