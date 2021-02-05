@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Icon from '../components/icon/icon';
 import Logo from '../components/icon/logo';
 import Profile from '../components/text/profile';
+import Link from '../components/text/link';
 
 const Portfolio = styled.div({
   color:"white",
@@ -44,13 +45,14 @@ const InlineBlock = styled.div({
 const Left = styled.div({
   marginLeft:"45vw",
   marginTop:"150px",
+  clear:'none',
 });
 
 class Home extends React.Component {
   render(){
     return (
       <div>
-        <Portfolio>Portfolio</Portfolio>
+        <Portfolio>|Portfolio|</Portfolio>
         <Left>  
           <InlineBlock>
             <ProfileText>
@@ -67,7 +69,12 @@ class Home extends React.Component {
             </OuterBorder>
           </InlineBlock>
         </Left>
-        <Logo/>
+        <InlineBlock>
+          <Logo/>
+        </InlineBlock>
+        <InlineBlock>
+          <Link/>
+        </InlineBlock>
       </div>
     )
   }

@@ -36192,6 +36192,114 @@ function (_super) {
 }(React.Component);
 
 exports.default = Icon;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/text/link.tsx":[function(require,module,exports) {
+"use strict";
+
+var __extends = this && this.__extends || function () {
+  var _extendStatics = function extendStatics(d, b) {
+    _extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) {
+        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+      }
+    };
+
+    return _extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    _extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var styled_components_1 = __importDefault(require("styled-components"));
+
+var Links = styled_components_1.default.a({
+  fontSize: "40px",
+  color: "white"
+});
+
+var Link =
+/** @class */
+function (_super) {
+  __extends(Link, _super);
+
+  function Link() {
+    return _super !== null && _super.apply(this, arguments) || this;
+  }
+
+  Link.prototype.render = function () {
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Links, {
+      href: "https://github.com/garebareDA",
+      target: "blank"
+    }, "Github")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Links, {
+      href: "https://twitter.com/garebare521",
+      target: "blank"
+    }, "Twitter")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Links, {
+      href: "https://zenn.dev/garebare",
+      target: "blank"
+    }, "Zenn")));
+  };
+
+  return Link;
+}(React.Component);
+
+exports.default = Link;
 },{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/Routes/home.tsx":[function(require,module,exports) {
 "use strict";
 
@@ -36275,6 +36383,8 @@ var logo_1 = __importDefault(require("../components/icon/logo"));
 
 var profile_1 = __importDefault(require("../components/text/profile"));
 
+var link_1 = __importDefault(require("../components/text/link"));
+
 var Portfolio = styled_components_1.default.div({
   color: "white",
   marginTop: "25px",
@@ -36307,7 +36417,8 @@ var InlineBlock = styled_components_1.default.div({
 });
 var Left = styled_components_1.default.div({
   marginLeft: "45vw",
-  marginTop: "150px"
+  marginTop: "150px",
+  clear: 'none'
 });
 
 var Home =
@@ -36320,14 +36431,14 @@ function (_super) {
   }
 
   Home.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Portfolio, null, "Portfolio"), /*#__PURE__*/React.createElement(Left, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(ProfileText, null, /*#__PURE__*/React.createElement(profile_1.default, null))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(OuterBorder, null, /*#__PURE__*/React.createElement(InnerBorder, null, /*#__PURE__*/React.createElement(IconHome, null, /*#__PURE__*/React.createElement(icon_1.default, null)))))), /*#__PURE__*/React.createElement(logo_1.default, null));
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Portfolio, null, "|Portfolio|"), /*#__PURE__*/React.createElement(Left, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(ProfileText, null, /*#__PURE__*/React.createElement(profile_1.default, null))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(OuterBorder, null, /*#__PURE__*/React.createElement(InnerBorder, null, /*#__PURE__*/React.createElement(IconHome, null, /*#__PURE__*/React.createElement(icon_1.default, null)))))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(logo_1.default, null)), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(link_1.default, null)));
   };
 
   return Home;
 }(React.Component);
 
 exports.default = Home;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../components/icon/icon":"ts/components/icon/icon.tsx","../components/icon/logo":"ts/components/icon/logo.tsx","../components/text/profile":"ts/components/text/profile.tsx"}],"ts/router.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../components/icon/icon":"ts/components/icon/icon.tsx","../components/icon/logo":"ts/components/icon/logo.tsx","../components/text/profile":"ts/components/text/profile.tsx","../components/text/link":"ts/components/text/link.tsx"}],"ts/router.tsx":[function(require,module,exports) {
 "use strict";
 
 var __extends = this && this.__extends || function () {
@@ -36512,7 +36623,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41677" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36771" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
