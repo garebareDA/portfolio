@@ -5,18 +5,19 @@ import Icon from '../components/icon/icon';
 import Logo from '../components/icon/logo';
 import Profile from '../components/text/profile';
 
-const Portfolio = styled.h3({
+const Portfolio = styled.div({
   color:"white",
+  fontSize:"25px",
 });
 
 const IconHome = styled.div({
-  paddingTop:"200px",
-  paddingRight:"150px",
-  paddingLeft:"50px",
+  marginTop:"200px",
+  padding:"10px",
+  backgroundColor:"#ffffff",
+  borderRadius:"50%",
 });
 
 const ProfileText = styled.div({
-  paddingTop:"200px",
   textAlign:"center"
 });
 
@@ -26,21 +27,27 @@ const InlineBlock = styled.div({
   verticalAlign:"middle",
 })
 
+const Left = styled.div({
+  marginLeft:"50vw"
+});
+
 class Home extends React.Component {
   render(){
     return (
       <div>
-        <Portfolio>Porfolio</Portfolio>
-        <InlineBlock>
-          <IconHome>
-            <Icon/>
-          </IconHome>
-        </InlineBlock>
-        <InlineBlock>
-          <ProfileText>
-            <Profile/>
-          </ProfileText>
-        </InlineBlock>
+        <Portfolio>Garebare Portfolio</Portfolio>
+        <Left>  
+          <InlineBlock>
+            <ProfileText>
+              <Profile/>
+            </ProfileText>
+          </InlineBlock>
+          <InlineBlock>
+            <IconHome>
+              <Icon/>
+            </IconHome>
+          </InlineBlock>
+        </Left>
         <Logo/>
       </div>
     )

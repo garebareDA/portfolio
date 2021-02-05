@@ -7,7 +7,7 @@ class Icon extends React.Component {
   render(){
     return (
       <div>
-        <Logo>
+        <Logo xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 105 105" width="300" height="300">
           <path
             opacity="1" fill = "#ffffff" stroke="#ffffff" strokeWidth="0.299997px" strokeLinecap="butt"strokeLinejoin="miter" strokeOpacity = "1"
             d="m 16.403447,87.83491 c 0,0 29.320237,-12.950989 33.665877,-26.82878 1.376092,-4.394549 -3.843858,-13.273808 -3.843858,-13.273808 L 79.613155,23.359317 c 0,0 -16.394402,14.70669 -17.645882,24.88222 -0.68034,5.531695 6.017112,15.546383 6.017112,15.546383 z"
