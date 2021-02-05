@@ -2,14 +2,14 @@ import * as React from 'react';
 import styled from 'styled-components';
 
 const Profile = styled.div({
-  textAlign:"left",
+  textAlign:"center",
 });
 
 const TextProfile = styled.div({
   color:"white",
   fontSize:"25px",
   margin:"20px",
-  transform:"rotate(15deg)",
+  whiteSpace:"nowrap",
 });
 
 const OneText = styled.span({
@@ -17,20 +17,8 @@ const OneText = styled.span({
 });
 
 const TowText = styled.span({
-  fontSize:"50px",
-});
-
-const ThreeText = styled.span({
-  fontSize:"45px"
-});
-
-const FourText = styled.span({
-  fontSize:"40px"
-})
-
-const FiveText = styled.span({
-  fontSize:"35px"
-})
+  fontSize:"30px"
+}); 
 
 class Icon extends React.Component {
   render(){
@@ -38,20 +26,10 @@ class Icon extends React.Component {
       <div>
         <Profile>
           <TextProfile>
-            <OneText>N</OneText>
-            <TowText>a</TowText>
-            <ThreeText>m</ThreeText>
-            <FourText>e</FourText>
-            <FiveText>:</FiveText>
-            田中大貴
+            <OneText>N</OneText><TowText>anme:田中大貴</TowText>
             </TextProfile>
           <TextProfile>
-          <OneText>H</OneText>
-          <TowText>andle</TowText>
-          <ThreeText>Na</ThreeText>
-          <FourText>me</FourText>
-          <FiveText>:</FiveText>
-          ガレバレ
+          <OneText>H</OneText><TowText>andle Name:ガレバレ</TowText>
           </TextProfile>
         </Profile>
       </div>

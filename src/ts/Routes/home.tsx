@@ -7,18 +7,32 @@ import Profile from '../components/text/profile';
 
 const Portfolio = styled.div({
   color:"white",
-  fontSize:"25px",
+  marginTop:"25px",
+  fontSize:"30px",
+  textAlign:"center",
 });
 
 const IconHome = styled.div({
-  marginTop:"200px",
   padding:"10px",
-  backgroundColor:"#ffffff",
+  backgroundColor:"#004085",
+  borderRadius:"50%",
+});
+
+const InnerBorder = styled.div({
+  padding:"20px",
+  backgroundColor:"#002852",
+  borderRadius:"50%",
+});
+
+const OuterBorder = styled.div({
+  padding:"30px",
+  backgroundColor:"#001b38",
   borderRadius:"50%",
 });
 
 const ProfileText = styled.div({
-  textAlign:"center"
+  left:"34%",
+  textAlign:"center",
 });
 
 const InlineBlock = styled.div({
@@ -28,14 +42,15 @@ const InlineBlock = styled.div({
 })
 
 const Left = styled.div({
-  marginLeft:"50vw"
+  marginLeft:"45vw",
+  marginTop:"150px",
 });
 
 class Home extends React.Component {
   render(){
     return (
       <div>
-        <Portfolio>Garebare Portfolio</Portfolio>
+        <Portfolio>Portfolio</Portfolio>
         <Left>  
           <InlineBlock>
             <ProfileText>
@@ -43,9 +58,13 @@ class Home extends React.Component {
             </ProfileText>
           </InlineBlock>
           <InlineBlock>
-            <IconHome>
-              <Icon/>
-            </IconHome>
+            <OuterBorder>
+              <InnerBorder>
+                <IconHome>
+                  <Icon/>
+                </IconHome>
+              </InnerBorder>
+            </OuterBorder>
           </InlineBlock>
         </Left>
         <Logo/>

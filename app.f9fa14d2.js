@@ -35926,9 +35926,9 @@ var styled_components_1 = __importDefault(require("styled-components"));
 var garebare_jpg_1 = __importDefault(require("../../../images/icon/garebare.jpg"));
 
 var IconGarebare = styled_components_1.default.img({
-  borderRadius: "200px",
-  width: "400px",
-  height: "400px"
+  borderRadius: "50%",
+  width: "300px",
+  height: "300px"
 });
 
 var Icon =
@@ -36160,28 +36160,19 @@ var React = __importStar(require("react"));
 var styled_components_1 = __importDefault(require("styled-components"));
 
 var Profile = styled_components_1.default.div({
-  textAlign: "left"
+  textAlign: "center"
 });
 var TextProfile = styled_components_1.default.div({
   color: "white",
   fontSize: "25px",
   margin: "20px",
-  transform: "rotate(15deg)"
+  whiteSpace: "nowrap"
 });
 var OneText = styled_components_1.default.span({
   fontSize: "55px"
 });
 var TowText = styled_components_1.default.span({
-  fontSize: "50px"
-});
-var ThreeText = styled_components_1.default.span({
-  fontSize: "45px"
-});
-var FourText = styled_components_1.default.span({
-  fontSize: "40px"
-});
-var FiveText = styled_components_1.default.span({
-  fontSize: "35px"
+  fontSize: "30px"
 });
 
 var Icon =
@@ -36194,7 +36185,7 @@ function (_super) {
   }
 
   Icon.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Profile, null, /*#__PURE__*/React.createElement(TextProfile, null, /*#__PURE__*/React.createElement(OneText, null, "N"), /*#__PURE__*/React.createElement(TowText, null, "a"), /*#__PURE__*/React.createElement(ThreeText, null, "m"), /*#__PURE__*/React.createElement(FourText, null, "e"), /*#__PURE__*/React.createElement(FiveText, null, ":"), "\u7530\u4E2D\u5927\u8CB4"), /*#__PURE__*/React.createElement(TextProfile, null, /*#__PURE__*/React.createElement(OneText, null, "H"), /*#__PURE__*/React.createElement(TowText, null, "andle"), /*#__PURE__*/React.createElement(ThreeText, null, "Na"), /*#__PURE__*/React.createElement(FourText, null, "me"), /*#__PURE__*/React.createElement(FiveText, null, ":"), "\u30AC\u30EC\u30D0\u30EC")));
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Profile, null, /*#__PURE__*/React.createElement(TextProfile, null, /*#__PURE__*/React.createElement(OneText, null, "N"), /*#__PURE__*/React.createElement(TowText, null, "anme:\u7530\u4E2D\u5927\u8CB4")), /*#__PURE__*/React.createElement(TextProfile, null, /*#__PURE__*/React.createElement(OneText, null, "H"), /*#__PURE__*/React.createElement(TowText, null, "andle Name:\u30AC\u30EC\u30D0\u30EC"))));
   };
 
   return Icon;
@@ -36286,15 +36277,27 @@ var profile_1 = __importDefault(require("../components/text/profile"));
 
 var Portfolio = styled_components_1.default.div({
   color: "white",
-  fontSize: "25px"
+  marginTop: "25px",
+  fontSize: "30px",
+  textAlign: "center"
 });
 var IconHome = styled_components_1.default.div({
-  marginTop: "200px",
   padding: "10px",
-  backgroundColor: "#ffffff",
+  backgroundColor: "#004085",
+  borderRadius: "50%"
+});
+var InnerBorder = styled_components_1.default.div({
+  padding: "20px",
+  backgroundColor: "#002852",
+  borderRadius: "50%"
+});
+var OuterBorder = styled_components_1.default.div({
+  padding: "30px",
+  backgroundColor: "#001b38",
   borderRadius: "50%"
 });
 var ProfileText = styled_components_1.default.div({
+  left: "34%",
   textAlign: "center"
 });
 var InlineBlock = styled_components_1.default.div({
@@ -36303,7 +36306,8 @@ var InlineBlock = styled_components_1.default.div({
   verticalAlign: "middle"
 });
 var Left = styled_components_1.default.div({
-  marginLeft: "50vw"
+  marginLeft: "45vw",
+  marginTop: "150px"
 });
 
 var Home =
@@ -36316,7 +36320,7 @@ function (_super) {
   }
 
   Home.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Portfolio, null, "Garebare Portfolio"), /*#__PURE__*/React.createElement(Left, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(ProfileText, null, /*#__PURE__*/React.createElement(profile_1.default, null))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(IconHome, null, /*#__PURE__*/React.createElement(icon_1.default, null)))), /*#__PURE__*/React.createElement(logo_1.default, null));
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Portfolio, null, "Portfolio"), /*#__PURE__*/React.createElement(Left, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(ProfileText, null, /*#__PURE__*/React.createElement(profile_1.default, null))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(OuterBorder, null, /*#__PURE__*/React.createElement(InnerBorder, null, /*#__PURE__*/React.createElement(IconHome, null, /*#__PURE__*/React.createElement(icon_1.default, null)))))), /*#__PURE__*/React.createElement(logo_1.default, null));
   };
 
   return Home;
@@ -36508,7 +36512,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36813" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41677" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
