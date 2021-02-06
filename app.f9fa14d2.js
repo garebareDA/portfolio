@@ -36273,6 +36273,24 @@ var Links = styled_components_1.default.a({
   fontSize: "40px",
   color: "white"
 });
+var GithubLink = styled_components_1.default.div({
+  position: "relative",
+  left: "-150px",
+  bottom: "30px",
+  transform: "rotate(-51deg)"
+});
+var TwitterLink = styled_components_1.default.div({
+  position: "relative",
+  left: "-80px",
+  bottom: "-15px",
+  transform: "rotate(-40deg)"
+});
+var ZennLink = styled_components_1.default.div({
+  position: "relative",
+  left: "-25px",
+  bottom: "-90px",
+  transform: "rotate(-15deg)"
+});
 
 var Link =
 /** @class */
@@ -36284,13 +36302,13 @@ function (_super) {
   }
 
   Link.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Links, {
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(GithubLink, null, /*#__PURE__*/React.createElement(Links, {
       href: "https://github.com/garebareDA",
       target: "blank"
-    }, "Github")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Links, {
+    }, "Github")), /*#__PURE__*/React.createElement(TwitterLink, null, /*#__PURE__*/React.createElement(Links, {
       href: "https://twitter.com/garebare521",
       target: "blank"
-    }, "Twitter")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Links, {
+    }, "Twitter")), /*#__PURE__*/React.createElement(ZennLink, null, /*#__PURE__*/React.createElement(Links, {
       href: "https://zenn.dev/garebare",
       target: "blank"
     }, "Zenn")));
@@ -36300,7 +36318,7 @@ function (_super) {
 }(React.Component);
 
 exports.default = Link;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/Routes/home.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/icon/arrow.tsx":[function(require,module,exports) {
 "use strict";
 
 var __extends = this && this.__extends || function () {
@@ -36377,13 +36395,141 @@ var React = __importStar(require("react"));
 
 var styled_components_1 = __importDefault(require("styled-components"));
 
-var icon_1 = __importDefault(require("../components/icon/icon"));
+var Arrows = styled_components_1.default.svg({});
 
-var logo_1 = __importDefault(require("../components/icon/logo"));
+var Arrow =
+/** @class */
+function (_super) {
+  __extends(Arrow, _super);
 
-var profile_1 = __importDefault(require("../components/text/profile"));
+  function Arrow() {
+    return _super !== null && _super.apply(this, arguments) || this;
+  }
 
-var link_1 = __importDefault(require("../components/text/link"));
+  Arrow.prototype.render = function () {
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Arrows, {
+      xmlns: "http://www.w3.org/2000/svg",
+      xmlnsXlink: "http://www.w3.org/1999/xlink",
+      viewBox: "0 0 210 50",
+      width: "210",
+      height: "50"
+    }, /*#__PURE__*/React.createElement("path", {
+      opacity: "1",
+      fill: "#ffffff",
+      stroke: "#ffffff",
+      strokeWidth: "4",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeOpacity: "1",
+      strokeMiterlimit: "4",
+      strokeDasharray: "none",
+      d: "M 9.8278804,15.119047 C 100.54217,43.845239 101.29812,43.845239 101.29812,43.845239",
+      id: "path26"
+    }), /*#__PURE__*/React.createElement("path", {
+      opacity: "1",
+      fill: "#ffffff",
+      stroke: "#ffffff",
+      strokeWidth: "4",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeOpacity: "1",
+      strokeMiterlimit: "4",
+      strokeDasharray: "none",
+      d: "M 192.76786,15.119046 C 102.05357,43.845239 101.29762,43.845239 101.29762,43.845239",
+      id: "path26-6"
+    })));
+  };
+
+  return Arrow;
+}(React.Component);
+
+exports.default = Arrow;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/home/first.tsx":[function(require,module,exports) {
+"use strict";
+
+var __extends = this && this.__extends || function () {
+  var _extendStatics = function extendStatics(d, b) {
+    _extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) {
+        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+      }
+    };
+
+    return _extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    _extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var styled_components_1 = __importDefault(require("styled-components"));
+
+var icon_1 = __importDefault(require("../icon/icon"));
+
+var logo_1 = __importDefault(require("../icon/logo"));
+
+var profile_1 = __importDefault(require("../text/profile"));
+
+var link_1 = __importDefault(require("../text/link"));
+
+var arrow_1 = __importDefault(require("../icon/arrow"));
 
 var Portfolio = styled_components_1.default.div({
   color: "white",
@@ -36415,11 +36561,116 @@ var InlineBlock = styled_components_1.default.div({
   textAlign: "left",
   verticalAlign: "middle"
 });
+var InlineBlockLink = styled_components_1.default.div({
+  display: "inline-block",
+  textAlign: "left",
+  verticalAlign: "top"
+});
 var Left = styled_components_1.default.div({
   marginLeft: "45vw",
   marginTop: "150px",
   clear: 'none'
 });
+var Links = styled_components_1.default.div({
+  marginLeft: "150px"
+});
+var Arrows = styled_components_1.default.div({
+  textAlign: "center"
+});
+
+var First =
+/** @class */
+function (_super) {
+  __extends(First, _super);
+
+  function First() {
+    return _super !== null && _super.apply(this, arguments) || this;
+  }
+
+  First.prototype.render = function () {
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Portfolio, null, "|Portfolio|"), /*#__PURE__*/React.createElement(Left, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(ProfileText, null, /*#__PURE__*/React.createElement(profile_1.default, null))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(OuterBorder, null, /*#__PURE__*/React.createElement(InnerBorder, null, /*#__PURE__*/React.createElement(IconHome, null, /*#__PURE__*/React.createElement(icon_1.default, null)))))), /*#__PURE__*/React.createElement(Links, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(logo_1.default, null)), /*#__PURE__*/React.createElement(InlineBlockLink, null, /*#__PURE__*/React.createElement(link_1.default, null))), /*#__PURE__*/React.createElement(Arrows, null, /*#__PURE__*/React.createElement(arrow_1.default, null)));
+  };
+
+  return First;
+}(React.Component);
+
+exports.default = First;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../icon/icon":"ts/components/icon/icon.tsx","../icon/logo":"ts/components/icon/logo.tsx","../text/profile":"ts/components/text/profile.tsx","../text/link":"ts/components/text/link.tsx","../icon/arrow":"ts/components/icon/arrow.tsx"}],"ts/Routes/home.tsx":[function(require,module,exports) {
+"use strict";
+
+var __extends = this && this.__extends || function () {
+  var _extendStatics = function extendStatics(d, b) {
+    _extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) {
+        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+      }
+    };
+
+    return _extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    _extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var first_1 = __importDefault(require("../components/home/first"));
 
 var Home =
 /** @class */
@@ -36431,14 +36682,14 @@ function (_super) {
   }
 
   Home.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Portfolio, null, "|Portfolio|"), /*#__PURE__*/React.createElement(Left, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(ProfileText, null, /*#__PURE__*/React.createElement(profile_1.default, null))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(OuterBorder, null, /*#__PURE__*/React.createElement(InnerBorder, null, /*#__PURE__*/React.createElement(IconHome, null, /*#__PURE__*/React.createElement(icon_1.default, null)))))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(logo_1.default, null)), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(link_1.default, null)));
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(first_1.default, null));
   };
 
   return Home;
 }(React.Component);
 
 exports.default = Home;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../components/icon/icon":"ts/components/icon/icon.tsx","../components/icon/logo":"ts/components/icon/logo.tsx","../components/text/profile":"ts/components/text/profile.tsx","../components/text/link":"ts/components/text/link.tsx"}],"ts/router.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","../components/home/first":"ts/components/home/first.tsx"}],"ts/router.tsx":[function(require,module,exports) {
 "use strict";
 
 var __extends = this && this.__extends || function () {
@@ -36623,7 +36874,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36771" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41567" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
