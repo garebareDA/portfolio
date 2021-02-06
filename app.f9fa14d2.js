@@ -36082,7 +36082,7 @@ function (_super) {
 }(React.Component);
 
 exports.default = Icon;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/text/profile.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/text/profileName.tsx":[function(require,module,exports) {
 "use strict";
 
 var __extends = this && this.__extends || function () {
@@ -36175,23 +36175,23 @@ var TowText = styled_components_1.default.span({
   fontSize: "30px"
 });
 
-var Icon =
+var ProfileName =
 /** @class */
 function (_super) {
-  __extends(Icon, _super);
+  __extends(ProfileName, _super);
 
-  function Icon() {
+  function ProfileName() {
     return _super !== null && _super.apply(this, arguments) || this;
   }
 
-  Icon.prototype.render = function () {
+  ProfileName.prototype.render = function () {
     return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Profile, null, /*#__PURE__*/React.createElement(TextProfile, null, /*#__PURE__*/React.createElement(OneText, null, "N"), /*#__PURE__*/React.createElement(TowText, null, "anme:\u7530\u4E2D\u5927\u8CB4")), /*#__PURE__*/React.createElement(TextProfile, null, /*#__PURE__*/React.createElement(OneText, null, "H"), /*#__PURE__*/React.createElement(TowText, null, "andle Name:\u30AC\u30EC\u30D0\u30EC"))));
   };
 
-  return Icon;
+  return ProfileName;
 }(React.Component);
 
-exports.default = Icon;
+exports.default = ProfileName;
 },{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/text/link.tsx":[function(require,module,exports) {
 "use strict";
 
@@ -36525,7 +36525,7 @@ var icon_1 = __importDefault(require("../icon/icon"));
 
 var logo_1 = __importDefault(require("../icon/logo"));
 
-var profile_1 = __importDefault(require("../text/profile"));
+var profileName_1 = __importDefault(require("../text/profileName"));
 
 var link_1 = __importDefault(require("../text/link"));
 
@@ -36588,14 +36588,327 @@ function (_super) {
   }
 
   First.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Portfolio, null, "|Portfolio|"), /*#__PURE__*/React.createElement(Left, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(ProfileText, null, /*#__PURE__*/React.createElement(profile_1.default, null))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(OuterBorder, null, /*#__PURE__*/React.createElement(InnerBorder, null, /*#__PURE__*/React.createElement(IconHome, null, /*#__PURE__*/React.createElement(icon_1.default, null)))))), /*#__PURE__*/React.createElement(Links, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(logo_1.default, null)), /*#__PURE__*/React.createElement(InlineBlockLink, null, /*#__PURE__*/React.createElement(link_1.default, null))), /*#__PURE__*/React.createElement(Arrows, null, /*#__PURE__*/React.createElement(arrow_1.default, null)));
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Portfolio, null, "|Portfolio|"), /*#__PURE__*/React.createElement(Left, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(ProfileText, null, /*#__PURE__*/React.createElement(profileName_1.default, null))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(OuterBorder, null, /*#__PURE__*/React.createElement(InnerBorder, null, /*#__PURE__*/React.createElement(IconHome, null, /*#__PURE__*/React.createElement(icon_1.default, null)))))), /*#__PURE__*/React.createElement(Links, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(logo_1.default, null)), /*#__PURE__*/React.createElement(InlineBlockLink, null, /*#__PURE__*/React.createElement(link_1.default, null))), /*#__PURE__*/React.createElement(Arrows, null, /*#__PURE__*/React.createElement(arrow_1.default, null)));
   };
 
   return First;
 }(React.Component);
 
 exports.default = First;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../icon/icon":"ts/components/icon/icon.tsx","../icon/logo":"ts/components/icon/logo.tsx","../text/profile":"ts/components/text/profile.tsx","../text/link":"ts/components/text/link.tsx","../icon/arrow":"ts/components/icon/arrow.tsx"}],"ts/Routes/home.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../icon/icon":"ts/components/icon/icon.tsx","../icon/logo":"ts/components/icon/logo.tsx","../text/profileName":"ts/components/text/profileName.tsx","../text/link":"ts/components/text/link.tsx","../icon/arrow":"ts/components/icon/arrow.tsx"}],"ts/components/text/profileEducation.tsx":[function(require,module,exports) {
+"use strict";
+
+var __extends = this && this.__extends || function () {
+  var _extendStatics = function extendStatics(d, b) {
+    _extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) {
+        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+      }
+    };
+
+    return _extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    _extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var styled_components_1 = __importDefault(require("styled-components"));
+
+var Title = styled_components_1.default.div({
+  marginBottom: "10px"
+});
+var Text = styled_components_1.default.div({
+  fontSize: "30px",
+  color: "white"
+});
+
+var ProfileEducation =
+/** @class */
+function (_super) {
+  __extends(ProfileEducation, _super);
+
+  function ProfileEducation() {
+    return _super !== null && _super.apply(this, arguments) || this;
+  }
+
+  ProfileEducation.prototype.render = function () {
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, /*#__PURE__*/React.createElement(Text, null, "|Education|")), /*#__PURE__*/React.createElement(Text, null, "2017-N\u9AD8\u7B49\u5B66\u6821"), /*#__PURE__*/React.createElement(Text, null, "2020-\u30B5\u30A4\u30D0\u30FC\u5927\u5B66"));
+  };
+
+  return ProfileEducation;
+}(React.Component);
+
+exports.default = ProfileEducation;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/text/profileLangage.tsx":[function(require,module,exports) {
+"use strict";
+
+var __extends = this && this.__extends || function () {
+  var _extendStatics = function extendStatics(d, b) {
+    _extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) {
+        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+      }
+    };
+
+    return _extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    _extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var styled_components_1 = __importDefault(require("styled-components"));
+
+var Title = styled_components_1.default.div({
+  marginBottom: "10px"
+});
+var Text = styled_components_1.default.div({
+  fontSize: "30px",
+  color: "white"
+});
+
+var ProfileLangage =
+/** @class */
+function (_super) {
+  __extends(ProfileLangage, _super);
+
+  function ProfileLangage() {
+    return _super !== null && _super.apply(this, arguments) || this;
+  }
+
+  ProfileLangage.prototype.render = function () {
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, /*#__PURE__*/React.createElement(Text, null, "|Programing Langage Skill|")), /*#__PURE__*/React.createElement(Text, null, "HTML"), /*#__PURE__*/React.createElement(Text, null, "CSS"), /*#__PURE__*/React.createElement(Text, null, "JavaScript"), /*#__PURE__*/React.createElement(Text, null, "TypeScript"), /*#__PURE__*/React.createElement(Text, null, "(Node.js)"), /*#__PURE__*/React.createElement(Text, null, "Python"), /*#__PURE__*/React.createElement(Text, null, "Go"), /*#__PURE__*/React.createElement(Text, null, "Rust"));
+  };
+
+  return ProfileLangage;
+}(React.Component);
+
+exports.default = ProfileLangage;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/home/profile.tsx":[function(require,module,exports) {
+"use strict";
+
+var __extends = this && this.__extends || function () {
+  var _extendStatics = function extendStatics(d, b) {
+    _extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) {
+        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+      }
+    };
+
+    return _extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    _extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var styled_components_1 = __importDefault(require("styled-components"));
+
+var profileEducation_1 = __importDefault(require("../text/profileEducation"));
+
+var profileLangage_1 = __importDefault(require("../text/profileLangage"));
+
+var Center = styled_components_1.default.div({
+  textAlign: "center"
+});
+var Margin = styled_components_1.default.div({
+  marginTop: "300px",
+  marginBottom: "300px"
+});
+var LangageMargin = styled_components_1.default.div({
+  marginTop: "20px"
+});
+
+var Profile =
+/** @class */
+function (_super) {
+  __extends(Profile, _super);
+
+  function Profile() {
+    return _super !== null && _super.apply(this, arguments) || this;
+  }
+
+  Profile.prototype.render = function () {
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Center, null, /*#__PURE__*/React.createElement(Margin, null, /*#__PURE__*/React.createElement(profileEducation_1.default, null), /*#__PURE__*/React.createElement(LangageMargin, null, /*#__PURE__*/React.createElement(profileLangage_1.default, null)))));
+  };
+
+  return Profile;
+}(React.Component);
+
+exports.default = Profile;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../text/profileEducation":"ts/components/text/profileEducation.tsx","../text/profileLangage":"ts/components/text/profileLangage.tsx"}],"ts/Routes/home.tsx":[function(require,module,exports) {
 "use strict";
 
 var __extends = this && this.__extends || function () {
@@ -36672,6 +36985,8 @@ var React = __importStar(require("react"));
 
 var first_1 = __importDefault(require("../components/home/first"));
 
+var profile_1 = __importDefault(require("../components/home/profile"));
+
 var Home =
 /** @class */
 function (_super) {
@@ -36682,14 +36997,14 @@ function (_super) {
   }
 
   Home.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(first_1.default, null));
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(first_1.default, null), /*#__PURE__*/React.createElement(profile_1.default, null));
   };
 
   return Home;
 }(React.Component);
 
 exports.default = Home;
-},{"react":"../node_modules/react/index.js","../components/home/first":"ts/components/home/first.tsx"}],"ts/router.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","../components/home/first":"ts/components/home/first.tsx","../components/home/profile":"ts/components/home/profile.tsx"}],"ts/router.tsx":[function(require,module,exports) {
 "use strict";
 
 var __extends = this && this.__extends || function () {
@@ -36874,7 +37189,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41567" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37933" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

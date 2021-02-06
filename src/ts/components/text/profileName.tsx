@@ -20,7 +20,7 @@ const TowText = styled.span({
   fontSize:"30px"
 }); 
 
-class Icon extends React.Component {
+class ProfileName extends React.Component {
   render(){
     return (
       <div>
@@ -37,4 +37,4 @@ class Icon extends React.Component {
   }
 }
 
-export default Icon;
+export default ProfileName;

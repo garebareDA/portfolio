@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import Icon from '../icon/icon';
 import Logo from '../icon/logo';
-import Profile from '../text/profile';
+import Profile from '../text/profileName';
 import Link from '../text/link';
 import Arrow from '../icon/arrow';
 
