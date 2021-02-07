@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import Profile from '../home/profile';
 
 const Title = styled.div({
-  marginBottom:"10px",
+  marginBottom:"15px",
 });
 
 const Text = styled.div({
-  fontSize:"30px",
+  fontSize:"25px",
   color:"white",
 });
 
@@ -16,7 +16,7 @@ class ProfileLangage extends React.Component {
     return (
       <div>
         <Title>
-          <Text>|Programing Langage Skill|</Text>
+          <Text>|Programing Langage|</Text>
         </Title>
         <Text>HTML</Text>
         <Text>CSS</Text>

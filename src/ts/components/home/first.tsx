@@ -1,11 +1,11 @@
 import * as React from 'react';
 import styled from 'styled-components';
 
-import Icon from '../icon/icon';
-import Logo from '../icon/logo';
+import Icon from '../images/icon';
+import Logo from '../images/logo';
 import Profile from '../text/profileName';
 import Link from '../text/link';
-import Arrow from '../icon/arrow';
+import Arrow from '../images/arrow';
 
 const Portfolio = styled.div({
   color:"white",
@@ -50,13 +50,18 @@ const InlineBlockLink = styled.div({
 })
 
 const Left = styled.div({
-  marginLeft:"45vw",
-  marginTop:"150px",
+  marginLeft:"41vw",
+  marginTop:"200px",
   clear:'none',
 });
 
 const Links = styled.div({
-  marginLeft:"150px",
+  marginLeft:"300px",
+});
+
+const Scroll = styled.div({
+  fontSize:"25px",
+  color:"white",
 });
 
 const Arrows = styled.div({
@@ -93,6 +98,7 @@ class First extends React.Component {
           </InlineBlockLink>
         </Links>
         <Arrows>
+          <Scroll>Scroll</Scroll>
           <Arrow/>
         </Arrows>
       </div>

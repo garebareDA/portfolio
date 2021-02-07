@@ -2,12 +2,16 @@ import * as React from 'react';
 import styled from 'styled-components';
 
 const Title = styled.div({
-  marginBottom:"10px",
+  marginBottom:"15px",
 });
 
 const Text = styled.div({
-  fontSize:"30px",
+  fontSize:"25px",
   color:"white",
+});
+
+const MarginBttom = styled.div({
+  marginBottom:"10px"
 });
 
 class ProfileEducation extends React.Component {
@@ -17,8 +21,9 @@ class ProfileEducation extends React.Component {
         <Title>
           <Text>|Education|</Text>
         </Title>
-        <Text>2017-N高等学校</Text>
-        <Text>2020-サイバー大学</Text>
+        <Text>2017-????</Text>
+        <Text>2020-????</Text>
+        <MarginBttom/>
       </div>
     )
   }

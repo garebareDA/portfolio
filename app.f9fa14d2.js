@@ -35846,7 +35846,7 @@ var _default = qe;
 exports.default = _default;
 },{"react-is":"../node_modules/react-is/index.js","react":"../node_modules/react/index.js","shallowequal":"../node_modules/shallowequal/index.js","@emotion/stylis":"../node_modules/@emotion/stylis/dist/stylis.browser.esm.js","@emotion/unitless":"../node_modules/@emotion/unitless/dist/unitless.browser.esm.js","@emotion/is-prop-valid":"../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js","hoist-non-react-statics":"../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js","process":"../../../../usr/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"images/icon/garebare.jpg":[function(require,module,exports) {
 module.exports = "/garebare.913a3dad.jpg";
-},{}],"ts/components/icon/icon.tsx":[function(require,module,exports) {
+},{}],"ts/components/images/icon.tsx":[function(require,module,exports) {
 "use strict";
 
 var __extends = this && this.__extends || function () {
@@ -35950,7 +35950,7 @@ function (_super) {
 }(React.Component);
 
 exports.default = Icon;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../../../images/icon/garebare.jpg":"images/icon/garebare.jpg"}],"ts/components/icon/logo.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../../../images/icon/garebare.jpg":"images/icon/garebare.jpg"}],"ts/components/images/logo.tsx":[function(require,module,exports) {
 "use strict";
 
 var __extends = this && this.__extends || function () {
@@ -36318,7 +36318,7 @@ function (_super) {
 }(React.Component);
 
 exports.default = Link;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/icon/arrow.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/images/arrow.tsx":[function(require,module,exports) {
 "use strict";
 
 var __extends = this && this.__extends || function () {
@@ -36521,15 +36521,15 @@ var React = __importStar(require("react"));
 
 var styled_components_1 = __importDefault(require("styled-components"));
 
-var icon_1 = __importDefault(require("../icon/icon"));
+var icon_1 = __importDefault(require("../images/icon"));
 
-var logo_1 = __importDefault(require("../icon/logo"));
+var logo_1 = __importDefault(require("../images/logo"));
 
 var profileName_1 = __importDefault(require("../text/profileName"));
 
 var link_1 = __importDefault(require("../text/link"));
 
-var arrow_1 = __importDefault(require("../icon/arrow"));
+var arrow_1 = __importDefault(require("../images/arrow"));
 
 var Portfolio = styled_components_1.default.div({
   color: "white",
@@ -36567,12 +36567,16 @@ var InlineBlockLink = styled_components_1.default.div({
   verticalAlign: "top"
 });
 var Left = styled_components_1.default.div({
-  marginLeft: "45vw",
-  marginTop: "150px",
+  marginLeft: "41vw",
+  marginTop: "200px",
   clear: 'none'
 });
 var Links = styled_components_1.default.div({
-  marginLeft: "150px"
+  marginLeft: "300px"
+});
+var Scroll = styled_components_1.default.div({
+  fontSize: "25px",
+  color: "white"
 });
 var Arrows = styled_components_1.default.div({
   textAlign: "center"
@@ -36588,14 +36592,14 @@ function (_super) {
   }
 
   First.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Portfolio, null, "|Portfolio|"), /*#__PURE__*/React.createElement(Left, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(ProfileText, null, /*#__PURE__*/React.createElement(profileName_1.default, null))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(OuterBorder, null, /*#__PURE__*/React.createElement(InnerBorder, null, /*#__PURE__*/React.createElement(IconHome, null, /*#__PURE__*/React.createElement(icon_1.default, null)))))), /*#__PURE__*/React.createElement(Links, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(logo_1.default, null)), /*#__PURE__*/React.createElement(InlineBlockLink, null, /*#__PURE__*/React.createElement(link_1.default, null))), /*#__PURE__*/React.createElement(Arrows, null, /*#__PURE__*/React.createElement(arrow_1.default, null)));
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Portfolio, null, "|Portfolio|"), /*#__PURE__*/React.createElement(Left, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(ProfileText, null, /*#__PURE__*/React.createElement(profileName_1.default, null))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(OuterBorder, null, /*#__PURE__*/React.createElement(InnerBorder, null, /*#__PURE__*/React.createElement(IconHome, null, /*#__PURE__*/React.createElement(icon_1.default, null)))))), /*#__PURE__*/React.createElement(Links, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(logo_1.default, null)), /*#__PURE__*/React.createElement(InlineBlockLink, null, /*#__PURE__*/React.createElement(link_1.default, null))), /*#__PURE__*/React.createElement(Arrows, null, /*#__PURE__*/React.createElement(Scroll, null, "Scroll"), /*#__PURE__*/React.createElement(arrow_1.default, null)));
   };
 
   return First;
 }(React.Component);
 
 exports.default = First;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../icon/icon":"ts/components/icon/icon.tsx","../icon/logo":"ts/components/icon/logo.tsx","../text/profileName":"ts/components/text/profileName.tsx","../text/link":"ts/components/text/link.tsx","../icon/arrow":"ts/components/icon/arrow.tsx"}],"ts/components/text/profileEducation.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../images/icon":"ts/components/images/icon.tsx","../images/logo":"ts/components/images/logo.tsx","../text/profileName":"ts/components/text/profileName.tsx","../text/link":"ts/components/text/link.tsx","../images/arrow":"ts/components/images/arrow.tsx"}],"ts/components/text/profileEducation.tsx":[function(require,module,exports) {
 "use strict";
 
 var __extends = this && this.__extends || function () {
@@ -36673,11 +36677,14 @@ var React = __importStar(require("react"));
 var styled_components_1 = __importDefault(require("styled-components"));
 
 var Title = styled_components_1.default.div({
-  marginBottom: "10px"
+  marginBottom: "15px"
 });
 var Text = styled_components_1.default.div({
-  fontSize: "30px",
+  fontSize: "25px",
   color: "white"
+});
+var MarginBttom = styled_components_1.default.div({
+  marginBottom: "10px"
 });
 
 var ProfileEducation =
@@ -36690,7 +36697,7 @@ function (_super) {
   }
 
   ProfileEducation.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, /*#__PURE__*/React.createElement(Text, null, "|Education|")), /*#__PURE__*/React.createElement(Text, null, "2017-N\u9AD8\u7B49\u5B66\u6821"), /*#__PURE__*/React.createElement(Text, null, "2020-\u30B5\u30A4\u30D0\u30FC\u5927\u5B66"));
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, /*#__PURE__*/React.createElement(Text, null, "|Education|")), /*#__PURE__*/React.createElement(Text, null, "2017-????"), /*#__PURE__*/React.createElement(Text, null, "2020-????"), /*#__PURE__*/React.createElement(MarginBttom, null));
   };
 
   return ProfileEducation;
@@ -36775,10 +36782,10 @@ var React = __importStar(require("react"));
 var styled_components_1 = __importDefault(require("styled-components"));
 
 var Title = styled_components_1.default.div({
-  marginBottom: "10px"
+  marginBottom: "15px"
 });
 var Text = styled_components_1.default.div({
-  fontSize: "30px",
+  fontSize: "25px",
   color: "white"
 });
 
@@ -36792,14 +36799,136 @@ function (_super) {
   }
 
   ProfileLangage.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, /*#__PURE__*/React.createElement(Text, null, "|Programing Langage Skill|")), /*#__PURE__*/React.createElement(Text, null, "HTML"), /*#__PURE__*/React.createElement(Text, null, "CSS"), /*#__PURE__*/React.createElement(Text, null, "JavaScript"), /*#__PURE__*/React.createElement(Text, null, "TypeScript"), /*#__PURE__*/React.createElement(Text, null, "(Node.js)"), /*#__PURE__*/React.createElement(Text, null, "Python"), /*#__PURE__*/React.createElement(Text, null, "Go"), /*#__PURE__*/React.createElement(Text, null, "Rust"));
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, /*#__PURE__*/React.createElement(Text, null, "|Programing Langage|")), /*#__PURE__*/React.createElement(Text, null, "HTML"), /*#__PURE__*/React.createElement(Text, null, "CSS"), /*#__PURE__*/React.createElement(Text, null, "JavaScript"), /*#__PURE__*/React.createElement(Text, null, "TypeScript"), /*#__PURE__*/React.createElement(Text, null, "(Node.js)"), /*#__PURE__*/React.createElement(Text, null, "Python"), /*#__PURE__*/React.createElement(Text, null, "Go"), /*#__PURE__*/React.createElement(Text, null, "Rust"));
   };
 
   return ProfileLangage;
 }(React.Component);
 
 exports.default = ProfileLangage;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/home/profile.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"images/profile/smartPhone.webp":[function(require,module,exports) {
+module.exports = "/smartPhone.625fc3bc.webp";
+},{}],"ts/components/images/smartPhone.tsx":[function(require,module,exports) {
+"use strict";
+
+var __makeTemplateObject = this && this.__makeTemplateObject || function (cooked, raw) {
+  if (Object.defineProperty) {
+    Object.defineProperty(cooked, "raw", {
+      value: raw
+    });
+  } else {
+    cooked.raw = raw;
+  }
+
+  return cooked;
+};
+
+var __extends = this && this.__extends || function () {
+  var _extendStatics = function extendStatics(d, b) {
+    _extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) {
+        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+      }
+    };
+
+    return _extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    _extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var styled_components_1 = __importStar(require("styled-components"));
+
+var smartPhone_webp_1 = __importDefault(require("../../../images/profile/smartPhone.webp"));
+
+var SmartPhoneAnimation = styled_components_1.keyframes(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  100% {\n    background-position: -2625px 0;\n  }\n"], ["\n  100% {\n    background-position: -2625px 0;\n  }\n"])));
+var ImagePhone = styled_components_1.default.div(function () {
+  return {
+    background: "url(" + smartPhone_webp_1.default + ") no-repeat",
+    backgroundSize: "3000px",
+    width: "370px",
+    height: "920px",
+    margin: "auto"
+  };
+}, styled_components_1.css(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  animation: ", " 1s steps(7) forwards;\n  "], ["\n  animation: ", " 1s steps(7) forwards;\n  "])), SmartPhoneAnimation));
+
+var SmartPhone =
+/** @class */
+function (_super) {
+  __extends(SmartPhone, _super);
+
+  function SmartPhone() {
+    return _super !== null && _super.apply(this, arguments) || this;
+  }
+
+  SmartPhone.prototype.render = function () {
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(ImagePhone, null));
+  };
+
+  return SmartPhone;
+}(React.Component);
+
+exports.default = SmartPhone;
+var templateObject_1, templateObject_2;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../../../images/profile/smartPhone.webp":"images/profile/smartPhone.webp"}],"ts/components/home/profile.tsx":[function(require,module,exports) {
 "use strict";
 
 var __extends = this && this.__extends || function () {
@@ -36880,15 +37009,16 @@ var profileEducation_1 = __importDefault(require("../text/profileEducation"));
 
 var profileLangage_1 = __importDefault(require("../text/profileLangage"));
 
+var smartPhone_1 = __importDefault(require("../images/smartPhone"));
+
 var Center = styled_components_1.default.div({
-  textAlign: "center"
+  textAlign: "center",
+  position: "relative",
+  top: "-650px"
 });
 var Margin = styled_components_1.default.div({
   marginTop: "300px",
-  marginBottom: "300px"
-});
-var LangageMargin = styled_components_1.default.div({
-  marginTop: "20px"
+  height: "1000px"
 });
 
 var Profile =
@@ -36901,14 +37031,14 @@ function (_super) {
   }
 
   Profile.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Center, null, /*#__PURE__*/React.createElement(Margin, null, /*#__PURE__*/React.createElement(profileEducation_1.default, null), /*#__PURE__*/React.createElement(LangageMargin, null, /*#__PURE__*/React.createElement(profileLangage_1.default, null)))));
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Margin, null, /*#__PURE__*/React.createElement(smartPhone_1.default, null), /*#__PURE__*/React.createElement(Center, null, /*#__PURE__*/React.createElement(profileEducation_1.default, null), /*#__PURE__*/React.createElement(profileLangage_1.default, null))));
   };
 
   return Profile;
 }(React.Component);
 
 exports.default = Profile;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../text/profileEducation":"ts/components/text/profileEducation.tsx","../text/profileLangage":"ts/components/text/profileLangage.tsx"}],"ts/Routes/home.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../text/profileEducation":"ts/components/text/profileEducation.tsx","../text/profileLangage":"ts/components/text/profileLangage.tsx","../images/smartPhone":"ts/components/images/smartPhone.tsx"}],"ts/Routes/home.tsx":[function(require,module,exports) {
 "use strict";
 
 var __extends = this && this.__extends || function () {
@@ -37189,7 +37319,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37933" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38981" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
