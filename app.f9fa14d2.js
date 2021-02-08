@@ -35849,32 +35849,6 @@ module.exports = "/garebare.913a3dad.jpg";
 },{}],"ts/components/images/icon.tsx":[function(require,module,exports) {
 "use strict";
 
-var __extends = this && this.__extends || function () {
-  var _extendStatics = function extendStatics(d, b) {
-    _extendStatics = Object.setPrototypeOf || {
-      __proto__: []
-    } instanceof Array && function (d, b) {
-      d.__proto__ = b;
-    } || function (d, b) {
-      for (var p in b) {
-        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
-      }
-    };
-
-    return _extendStatics(d, b);
-  };
-
-  return function (d, b) {
-    _extendStatics(d, b);
-
-    function __() {
-      this.constructor = d;
-    }
-
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-  };
-}();
-
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
   if (k2 === undefined) k2 = k;
   Object.defineProperty(o, k2, {
@@ -35927,57 +35901,19 @@ var garebare_jpg_1 = __importDefault(require("../../../images/icon/garebare.jpg"
 
 var IconGarebare = styled_components_1.default.img({
   borderRadius: "50%",
-  width: "300px",
-  height: "300px"
+  width: "200px",
+  height: "200px"
 });
 
-var Icon =
-/** @class */
-function (_super) {
-  __extends(Icon, _super);
-
-  function Icon() {
-    return _super !== null && _super.apply(this, arguments) || this;
-  }
-
-  Icon.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(IconGarebare, {
-      src: garebare_jpg_1.default
-    }));
-  };
-
-  return Icon;
-}(React.Component);
+function Icon() {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(IconGarebare, {
+    src: garebare_jpg_1.default
+  }));
+}
 
 exports.default = Icon;
 },{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../../../images/icon/garebare.jpg":"images/icon/garebare.jpg"}],"ts/components/images/logo.tsx":[function(require,module,exports) {
 "use strict";
-
-var __extends = this && this.__extends || function () {
-  var _extendStatics = function extendStatics(d, b) {
-    _extendStatics = Object.setPrototypeOf || {
-      __proto__: []
-    } instanceof Array && function (d, b) {
-      d.__proto__ = b;
-    } || function (d, b) {
-      for (var p in b) {
-        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
-      }
-    };
-
-    return _extendStatics(d, b);
-  };
-
-  return function (d, b) {
-    _extendStatics(d, b);
-
-    function __() {
-      this.constructor = d;
-    }
-
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-  };
-}();
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
   if (k2 === undefined) k2 = k;
@@ -36029,87 +35965,49 @@ var styled_components_1 = __importDefault(require("styled-components"));
 
 var Logo = styled_components_1.default.svg({});
 
-var Icon =
-/** @class */
-function (_super) {
-  __extends(Icon, _super);
-
-  function Icon() {
-    return _super !== null && _super.apply(this, arguments) || this;
-  }
-
-  Icon.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Logo, {
-      xmlns: "http://www.w3.org/2000/svg",
-      xmlnsXlink: "http://www.w3.org/1999/xlink",
-      viewBox: "0 0 105 105",
-      width: "300",
-      height: "300"
-    }, /*#__PURE__*/React.createElement("path", {
-      opacity: "1",
-      fill: "#ffffff",
-      stroke: "#ffffff",
-      strokeWidth: "0.299997px",
-      strokeLinecap: "butt",
-      strokeLinejoin: "miter",
-      strokeOpacity: "1",
-      d: "m 16.403447,87.83491 c 0,0 29.320237,-12.950989 33.665877,-26.82878 1.376092,-4.394549 -3.843858,-13.273808 -3.843858,-13.273808 L 79.613155,23.359317 c 0,0 -16.394402,14.70669 -17.645882,24.88222 -0.68034,5.531695 6.017112,15.546383 6.017112,15.546383 z",
-      id: "path32"
-    }), /*#__PURE__*/React.createElement("path", {
-      opacity: "1",
-      fill: "#ffffff",
-      stroke: "#ffffff",
-      strokeWidth: "0.299997px",
-      strokeLinecap: "butt",
-      strokeLinejoin: "miter",
-      strokeOpacity: "1",
-      d: "m 16.403447,87.83491 c 0,0 31.618278,-0.02031 40.985707,-10.841745 3.026605,-3.496411 1.823612,-13.901716 1.823612,-13.901716 l 39.757715,-8.681823 c 0,0 -20.642036,6.918101 -25.789623,15.709594 -2.832919,4.838303 -0.771886,16.912791 -0.771886,16.912791 z",
-      id: "path32-6"
-    }), /*#__PURE__*/React.createElement("path", {
-      opacity: "1",
-      fill: "#ffffff",
-      stroke: "#ffffff",
-      strokeWidth: "0.299997px",
-      strokeLinecap: "butt",
-      strokeLinejoin: "miter",
-      strokeOpacity: "1",
-      d: "m 16.403447,87.83491 c 0,0 22.616519,-23.16726 21.45436,-37.656601 C 37.491061,45.605854 29.284932,39.589557 29.284932,39.589557 L 51.39937,4.2800765 c 0,0 -9.828749,19.7973315 -7.189805,29.5980795 1.441304,5.35284 11.458749,11.807234 11.458749,11.807234 z",
-      id: "path32-63"
-    })));
-  };
-
-  return Icon;
-}(React.Component);
+function Icon() {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Logo, {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    viewBox: "0 0 105 105",
+    width: "300",
+    height: "300"
+  }, /*#__PURE__*/React.createElement("path", {
+    opacity: "1",
+    fill: "#ffffff",
+    stroke: "#ffffff",
+    strokeWidth: "0.299997px",
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeOpacity: "1",
+    d: "m 16.403447,87.83491 c 0,0 29.320237,-12.950989 33.665877,-26.82878 1.376092,-4.394549 -3.843858,-13.273808 -3.843858,-13.273808 L 79.613155,23.359317 c 0,0 -16.394402,14.70669 -17.645882,24.88222 -0.68034,5.531695 6.017112,15.546383 6.017112,15.546383 z",
+    id: "path32"
+  }), /*#__PURE__*/React.createElement("path", {
+    opacity: "1",
+    fill: "#ffffff",
+    stroke: "#ffffff",
+    strokeWidth: "0.299997px",
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeOpacity: "1",
+    d: "m 16.403447,87.83491 c 0,0 31.618278,-0.02031 40.985707,-10.841745 3.026605,-3.496411 1.823612,-13.901716 1.823612,-13.901716 l 39.757715,-8.681823 c 0,0 -20.642036,6.918101 -25.789623,15.709594 -2.832919,4.838303 -0.771886,16.912791 -0.771886,16.912791 z",
+    id: "path32-6"
+  }), /*#__PURE__*/React.createElement("path", {
+    opacity: "1",
+    fill: "#ffffff",
+    stroke: "#ffffff",
+    strokeWidth: "0.299997px",
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeOpacity: "1",
+    d: "m 16.403447,87.83491 c 0,0 22.616519,-23.16726 21.45436,-37.656601 C 37.491061,45.605854 29.284932,39.589557 29.284932,39.589557 L 51.39937,4.2800765 c 0,0 -9.828749,19.7973315 -7.189805,29.5980795 1.441304,5.35284 11.458749,11.807234 11.458749,11.807234 z",
+    id: "path32-63"
+  })));
+}
 
 exports.default = Icon;
 },{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/text/profileName.tsx":[function(require,module,exports) {
 "use strict";
-
-var __extends = this && this.__extends || function () {
-  var _extendStatics = function extendStatics(d, b) {
-    _extendStatics = Object.setPrototypeOf || {
-      __proto__: []
-    } instanceof Array && function (d, b) {
-      d.__proto__ = b;
-    } || function (d, b) {
-      for (var p in b) {
-        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
-      }
-    };
-
-    return _extendStatics(d, b);
-  };
-
-  return function (d, b) {
-    _extendStatics(d, b);
-
-    function __() {
-      this.constructor = d;
-    }
-
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-  };
-}();
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
   if (k2 === undefined) k2 = k;
@@ -36164,7 +36062,6 @@ var Profile = styled_components_1.default.div({
 });
 var TextProfile = styled_components_1.default.div({
   color: "white",
-  fontSize: "25px",
   margin: "20px",
   whiteSpace: "nowrap"
 });
@@ -36175,51 +36072,13 @@ var TowText = styled_components_1.default.span({
   fontSize: "30px"
 });
 
-var ProfileName =
-/** @class */
-function (_super) {
-  __extends(ProfileName, _super);
-
-  function ProfileName() {
-    return _super !== null && _super.apply(this, arguments) || this;
-  }
-
-  ProfileName.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Profile, null, /*#__PURE__*/React.createElement(TextProfile, null, /*#__PURE__*/React.createElement(OneText, null, "N"), /*#__PURE__*/React.createElement(TowText, null, "anme:\u7530\u4E2D\u5927\u8CB4")), /*#__PURE__*/React.createElement(TextProfile, null, /*#__PURE__*/React.createElement(OneText, null, "H"), /*#__PURE__*/React.createElement(TowText, null, "andle Name:\u30AC\u30EC\u30D0\u30EC"))));
-  };
-
-  return ProfileName;
-}(React.Component);
+function ProfileName() {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Profile, null, /*#__PURE__*/React.createElement(TextProfile, null, /*#__PURE__*/React.createElement(OneText, null, "N"), /*#__PURE__*/React.createElement(TowText, null, "anme:\u7530\u4E2D\u5927\u8CB4")), /*#__PURE__*/React.createElement(TextProfile, null, /*#__PURE__*/React.createElement(OneText, null, "H"), /*#__PURE__*/React.createElement(TowText, null, "andle Name:\u30AC\u30EC\u30D0\u30EC"))));
+}
 
 exports.default = ProfileName;
 },{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/text/link.tsx":[function(require,module,exports) {
 "use strict";
-
-var __extends = this && this.__extends || function () {
-  var _extendStatics = function extendStatics(d, b) {
-    _extendStatics = Object.setPrototypeOf || {
-      __proto__: []
-    } instanceof Array && function (d, b) {
-      d.__proto__ = b;
-    } || function (d, b) {
-      for (var p in b) {
-        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
-      }
-    };
-
-    return _extendStatics(d, b);
-  };
-
-  return function (d, b) {
-    _extendStatics(d, b);
-
-    function __() {
-      this.constructor = d;
-    }
-
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-  };
-}();
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
   if (k2 === undefined) k2 = k;
@@ -36292,60 +36151,22 @@ var ZennLink = styled_components_1.default.div({
   transform: "rotate(-15deg)"
 });
 
-var Link =
-/** @class */
-function (_super) {
-  __extends(Link, _super);
-
-  function Link() {
-    return _super !== null && _super.apply(this, arguments) || this;
-  }
-
-  Link.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(GithubLink, null, /*#__PURE__*/React.createElement(Links, {
-      href: "https://github.com/garebareDA",
-      target: "blank"
-    }, "Github")), /*#__PURE__*/React.createElement(TwitterLink, null, /*#__PURE__*/React.createElement(Links, {
-      href: "https://twitter.com/garebare521",
-      target: "blank"
-    }, "Twitter")), /*#__PURE__*/React.createElement(ZennLink, null, /*#__PURE__*/React.createElement(Links, {
-      href: "https://zenn.dev/garebare",
-      target: "blank"
-    }, "Zenn")));
-  };
-
-  return Link;
-}(React.Component);
+function Link() {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(GithubLink, null, /*#__PURE__*/React.createElement(Links, {
+    href: "https://github.com/garebareDA",
+    target: "blank"
+  }, "Github")), /*#__PURE__*/React.createElement(TwitterLink, null, /*#__PURE__*/React.createElement(Links, {
+    href: "https://twitter.com/garebare521",
+    target: "blank"
+  }, "Twitter")), /*#__PURE__*/React.createElement(ZennLink, null, /*#__PURE__*/React.createElement(Links, {
+    href: "https://zenn.dev/garebare",
+    target: "blank"
+  }, "Zenn")));
+}
 
 exports.default = Link;
 },{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/images/arrow.tsx":[function(require,module,exports) {
 "use strict";
-
-var __extends = this && this.__extends || function () {
-  var _extendStatics = function extendStatics(d, b) {
-    _extendStatics = Object.setPrototypeOf || {
-      __proto__: []
-    } instanceof Array && function (d, b) {
-      d.__proto__ = b;
-    } || function (d, b) {
-      for (var p in b) {
-        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
-      }
-    };
-
-    return _extendStatics(d, b);
-  };
-
-  return function (d, b) {
-    _extendStatics(d, b);
-
-    function __() {
-      this.constructor = d;
-    }
-
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-  };
-}();
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
   if (k2 === undefined) k2 = k;
@@ -36397,81 +36218,43 @@ var styled_components_1 = __importDefault(require("styled-components"));
 
 var Arrows = styled_components_1.default.svg({});
 
-var Arrow =
-/** @class */
-function (_super) {
-  __extends(Arrow, _super);
-
-  function Arrow() {
-    return _super !== null && _super.apply(this, arguments) || this;
-  }
-
-  Arrow.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Arrows, {
-      xmlns: "http://www.w3.org/2000/svg",
-      xmlnsXlink: "http://www.w3.org/1999/xlink",
-      viewBox: "0 0 210 50",
-      width: "210",
-      height: "50"
-    }, /*#__PURE__*/React.createElement("path", {
-      opacity: "1",
-      fill: "#ffffff",
-      stroke: "#ffffff",
-      strokeWidth: "4",
-      strokeLinecap: "butt",
-      strokeLinejoin: "miter",
-      strokeOpacity: "1",
-      strokeMiterlimit: "4",
-      strokeDasharray: "none",
-      d: "M 9.8278804,15.119047 C 100.54217,43.845239 101.29812,43.845239 101.29812,43.845239",
-      id: "path26"
-    }), /*#__PURE__*/React.createElement("path", {
-      opacity: "1",
-      fill: "#ffffff",
-      stroke: "#ffffff",
-      strokeWidth: "4",
-      strokeLinecap: "butt",
-      strokeLinejoin: "miter",
-      strokeOpacity: "1",
-      strokeMiterlimit: "4",
-      strokeDasharray: "none",
-      d: "M 192.76786,15.119046 C 102.05357,43.845239 101.29762,43.845239 101.29762,43.845239",
-      id: "path26-6"
-    })));
-  };
-
-  return Arrow;
-}(React.Component);
+function Arrow() {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Arrows, {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    viewBox: "0 0 210 50",
+    width: "210",
+    height: "50"
+  }, /*#__PURE__*/React.createElement("path", {
+    opacity: "1",
+    fill: "#ffffff",
+    stroke: "#ffffff",
+    strokeWidth: "4",
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeOpacity: "1",
+    strokeMiterlimit: "4",
+    strokeDasharray: "none",
+    d: "M 9.8278804,15.119047 C 100.54217,43.845239 101.29812,43.845239 101.29812,43.845239",
+    id: "path26"
+  }), /*#__PURE__*/React.createElement("path", {
+    opacity: "1",
+    fill: "#ffffff",
+    stroke: "#ffffff",
+    strokeWidth: "4",
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeOpacity: "1",
+    strokeMiterlimit: "4",
+    strokeDasharray: "none",
+    d: "M 192.76786,15.119046 C 102.05357,43.845239 101.29762,43.845239 101.29762,43.845239",
+    id: "path26-6"
+  })));
+}
 
 exports.default = Arrow;
 },{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/home/first.tsx":[function(require,module,exports) {
 "use strict";
-
-var __extends = this && this.__extends || function () {
-  var _extendStatics = function extendStatics(d, b) {
-    _extendStatics = Object.setPrototypeOf || {
-      __proto__: []
-    } instanceof Array && function (d, b) {
-      d.__proto__ = b;
-    } || function (d, b) {
-      for (var p in b) {
-        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
-      }
-    };
-
-    return _extendStatics(d, b);
-  };
-
-  return function (d, b) {
-    _extendStatics(d, b);
-
-    function __() {
-      this.constructor = d;
-    }
-
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-  };
-}();
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
   if (k2 === undefined) k2 = k;
@@ -36567,11 +36350,13 @@ var InlineBlockLink = styled_components_1.default.div({
   verticalAlign: "top"
 });
 var Left = styled_components_1.default.div({
+  whiteSpace: "nowrap",
   marginLeft: "41vw",
   marginTop: "200px",
   clear: 'none'
 });
 var Links = styled_components_1.default.div({
+  whiteSpace: "nowrap",
   marginLeft: "300px"
 });
 var Scroll = styled_components_1.default.div({
@@ -36582,51 +36367,392 @@ var Arrows = styled_components_1.default.div({
   textAlign: "center"
 });
 
-var First =
-/** @class */
-function (_super) {
-  __extends(First, _super);
-
-  function First() {
-    return _super !== null && _super.apply(this, arguments) || this;
-  }
-
-  First.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Portfolio, null, "|Portfolio|"), /*#__PURE__*/React.createElement(Left, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(ProfileText, null, /*#__PURE__*/React.createElement(profileName_1.default, null))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(OuterBorder, null, /*#__PURE__*/React.createElement(InnerBorder, null, /*#__PURE__*/React.createElement(IconHome, null, /*#__PURE__*/React.createElement(icon_1.default, null)))))), /*#__PURE__*/React.createElement(Links, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(logo_1.default, null)), /*#__PURE__*/React.createElement(InlineBlockLink, null, /*#__PURE__*/React.createElement(link_1.default, null))), /*#__PURE__*/React.createElement(Arrows, null, /*#__PURE__*/React.createElement(Scroll, null, "Scroll"), /*#__PURE__*/React.createElement(arrow_1.default, null)));
-  };
-
-  return First;
-}(React.Component);
+function First() {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Portfolio, null, "|Portfolio|"), /*#__PURE__*/React.createElement(Left, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(ProfileText, null, /*#__PURE__*/React.createElement(profileName_1.default, null))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(OuterBorder, null, /*#__PURE__*/React.createElement(InnerBorder, null, /*#__PURE__*/React.createElement(IconHome, null, /*#__PURE__*/React.createElement(icon_1.default, null)))))), /*#__PURE__*/React.createElement(Links, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(logo_1.default, null)), /*#__PURE__*/React.createElement(InlineBlockLink, null, /*#__PURE__*/React.createElement(link_1.default, null))), /*#__PURE__*/React.createElement(Arrows, null, /*#__PURE__*/React.createElement(Scroll, null, "Scroll"), /*#__PURE__*/React.createElement(arrow_1.default, null)));
+}
 
 exports.default = First;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../images/icon":"ts/components/images/icon.tsx","../images/logo":"ts/components/images/logo.tsx","../text/profileName":"ts/components/text/profileName.tsx","../text/link":"ts/components/text/link.tsx","../images/arrow":"ts/components/images/arrow.tsx"}],"ts/components/text/profileEducation.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../images/icon":"ts/components/images/icon.tsx","../images/logo":"ts/components/images/logo.tsx","../text/profileName":"ts/components/text/profileName.tsx","../text/link":"ts/components/text/link.tsx","../images/arrow":"ts/components/images/arrow.tsx"}],"../node_modules/react-intersection-observer/react-intersection-observer.m.js":[function(require,module,exports) {
 "use strict";
 
-var __extends = this && this.__extends || function () {
-  var _extendStatics = function extendStatics(d, b) {
-    _extendStatics = Object.setPrototypeOf || {
-      __proto__: []
-    } instanceof Array && function (d, b) {
-      d.__proto__ = b;
-    } || function (d, b) {
-      for (var p in b) {
-        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.useInView = useInView;
+exports.InView = exports.default = void 0;
+
+var _react = require("react");
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  subClass.__proto__ = superClass;
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+var ObserverMap = new Map();
+var RootIds = new Map();
+var rootId = 0;
+/**
+ * Generate a unique ID for the root element
+ * @param root
+ */
+
+function getRootId(root) {
+  if (!root) return '0';
+  if (RootIds.has(root)) return RootIds.get(root);
+  rootId += 1;
+  RootIds.set(root, rootId.toString());
+  return RootIds.get(root);
+}
+/**
+ * Convert the options to a string Id, based on the values.
+ * Ensures we can reuse the same observer when observing elements with the same options.
+ * @param options
+ */
+
+
+function optionsToId(options) {
+  return Object.keys(options).sort().filter(function (key) {
+    return options[key] !== undefined;
+  }).map(function (key) {
+    return key + "_" + (key === 'root' ? getRootId(options.root) : options[key]);
+  }).toString();
+}
+
+function createObserver(options) {
+  // Create a unique ID for this observer instance, based on the root, root margin and threshold.
+  var id = optionsToId(options);
+  var instance = ObserverMap.get(id);
+
+  if (!instance) {
+    // Create a map of elements this observer is going to observe. Each element has a list of callbacks that should be triggered, once it comes into view.
+    var elements = new Map();
+    var thresholds;
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        var _elements$get; // While it would be nice if you could just look at isIntersecting to determine if the component is inside the viewport, browsers can't agree on how to use it.
+        // -Firefox ignores `threshold` when considering `isIntersecting`, so it will never be false again if `threshold` is > 0
+
+
+        var inView = entry.isIntersecting && thresholds.some(function (threshold) {
+          return entry.intersectionRatio >= threshold;
+        }); // @ts-ignore support IntersectionObserver v2
+
+        if (options.trackVisibility && typeof entry.isVisible === 'undefined') {
+          // The browser doesn't support Intersection Observer v2, falling back to v1 behavior.
+          // @ts-ignore
+          entry.isVisible = inView;
+        }
+
+        (_elements$get = elements.get(entry.target)) == null ? void 0 : _elements$get.forEach(function (callback) {
+          callback(inView, entry);
+        });
+      });
+    }, options); // Ensure we have a valid thresholds array. If not, use the threshold from the options
+
+    thresholds = observer.thresholds || (Array.isArray(options.threshold) ? options.threshold : [options.threshold || 0]);
+    instance = {
+      id: id,
+      observer: observer,
+      elements: elements
+    };
+    ObserverMap.set(id, instance);
+  }
+
+  return instance;
+}
+
+function observe(element, callback, options) {
+  if (options === void 0) {
+    options = {};
+  }
+
+  if (!element) return function () {}; // An observer with the same options can be reused, so lets use this fact
+
+  var _createObserver = createObserver(options),
+      id = _createObserver.id,
+      observer = _createObserver.observer,
+      elements = _createObserver.elements; // Register the callback listener for this element
+
+
+  var callbacks = elements.get(element) || [];
+
+  if (!elements.has(element)) {
+    elements.set(element, callbacks);
+  }
+
+  callbacks.push(callback);
+  observer.observe(element);
+  return function unobserve() {
+    // Remove the callback from the callback list
+    callbacks.splice(callbacks.indexOf(callback), 1);
+
+    if (callbacks.length === 0) {
+      // No more callback exists for element, so destroy it
+      elements["delete"](element);
+      observer.unobserve(element);
+    }
+
+    if (elements.size === 0) {
+      // No more elements are being observer by this instance, so destroy it
+      observer.disconnect();
+      ObserverMap["delete"](id);
+    }
+  };
+}
+
+function isPlainChildren(props) {
+  return typeof props.children !== 'function';
+}
+/**
+ * Monitors scroll, and triggers the children function with updated props
+ */
+
+
+var InView = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(InView, _React$Component);
+
+  function InView(props) {
+    var _this;
+
+    _this = _React$Component.call(this, props) || this;
+    _this.node = null;
+    _this._unobserveCb = null;
+
+    _this.handleNode = function (node) {
+      if (_this.node) {
+        // Clear the old observer, before we start observing a new element
+        _this.unobserve();
+
+        if (!node && !_this.props.triggerOnce && !_this.props.skip) {
+          // Reset the state if we get a new node, and we aren't ignoring updates
+          _this.setState({
+            inView: !!_this.props.initialInView,
+            entry: undefined
+          });
+        }
+      }
+
+      _this.node = node ? node : null;
+
+      _this.observeNode();
+    };
+
+    _this.handleChange = function (inView, entry) {
+      if (inView && _this.props.triggerOnce) {
+        // If `triggerOnce` is true, we should stop observing the element.
+        _this.unobserve();
+      }
+
+      if (!isPlainChildren(_this.props)) {
+        // Store the current State, so we can pass it to the children in the next render update
+        // There's no reason to update the state for plain children, since it's not used in the rendering.
+        _this.setState({
+          inView: inView,
+          entry: entry
+        });
+      }
+
+      if (_this.props.onChange) {
+        // If the user is actively listening for onChange, always trigger it
+        _this.props.onChange(inView, entry);
       }
     };
 
-    return _extendStatics(d, b);
+    _this.state = {
+      inView: !!props.initialInView,
+      entry: undefined
+    };
+    return _this;
+  }
+
+  var _proto = InView.prototype;
+
+  _proto.componentDidUpdate = function componentDidUpdate(prevProps) {
+    // If a IntersectionObserver option changed, reinit the observer
+    if (prevProps.rootMargin !== this.props.rootMargin || prevProps.root !== this.props.root || prevProps.threshold !== this.props.threshold || prevProps.skip !== this.props.skip || prevProps.trackVisibility !== this.props.trackVisibility || prevProps.delay !== this.props.delay) {
+      this.unobserve();
+      this.observeNode();
+    }
   };
 
-  return function (d, b) {
-    _extendStatics(d, b);
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    this.unobserve();
+    this.node = null;
+  };
 
-    function __() {
-      this.constructor = d;
+  _proto.observeNode = function observeNode() {
+    if (!this.node || this.props.skip) return;
+    var _this$props = this.props,
+        threshold = _this$props.threshold,
+        root = _this$props.root,
+        rootMargin = _this$props.rootMargin,
+        trackVisibility = _this$props.trackVisibility,
+        delay = _this$props.delay;
+    this._unobserveCb = observe(this.node, this.handleChange, {
+      threshold: threshold,
+      root: root,
+      rootMargin: rootMargin,
+      // @ts-ignore
+      trackVisibility: trackVisibility,
+      // @ts-ignore
+      delay: delay
+    });
+  };
+
+  _proto.unobserve = function unobserve() {
+    if (this._unobserveCb) {
+      this._unobserveCb();
+
+      this._unobserveCb = null;
+    }
+  };
+
+  _proto.render = function render() {
+    if (!isPlainChildren(this.props)) {
+      var _this$state = this.state,
+          inView = _this$state.inView,
+          entry = _this$state.entry;
+      return this.props.children({
+        inView: inView,
+        entry: entry,
+        ref: this.handleNode
+      });
     }
 
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    var _this$props2 = this.props,
+        children = _this$props2.children,
+        as = _this$props2.as,
+        tag = _this$props2.tag,
+        props = _objectWithoutPropertiesLoose(_this$props2, ["children", "as", "tag", "triggerOnce", "threshold", "root", "rootMargin", "onChange", "skip", "trackVisibility", "delay", "initialInView"]);
+
+    return /*#__PURE__*/(0, _react.createElement)(as || tag || 'div', _extends({
+      ref: this.handleNode
+    }, props), children);
   };
-}();
+
+  return InView;
+}(_react.Component);
+
+exports.InView = InView;
+InView.displayName = 'InView';
+InView.defaultProps = {
+  threshold: 0,
+  triggerOnce: false,
+  initialInView: false
+};
+
+function useInView(_temp) {
+  var _ref = _temp === void 0 ? {} : _temp,
+      threshold = _ref.threshold,
+      delay = _ref.delay,
+      trackVisibility = _ref.trackVisibility,
+      rootMargin = _ref.rootMargin,
+      root = _ref.root,
+      triggerOnce = _ref.triggerOnce,
+      skip = _ref.skip,
+      initialInView = _ref.initialInView;
+
+  var unobserve = (0, _react.useRef)();
+
+  var _React$useState = (0, _react.useState)({
+    inView: !!initialInView
+  }),
+      state = _React$useState[0],
+      setState = _React$useState[1];
+
+  var setRef = (0, _react.useCallback)(function (node) {
+    if (unobserve.current !== undefined) {
+      unobserve.current();
+      unobserve.current = undefined;
+    } // Skip creating the observer
+
+
+    if (skip) return;
+
+    if (node) {
+      unobserve.current = observe(node, function (inView, entry) {
+        setState({
+          inView: inView,
+          entry: entry
+        });
+
+        if (entry.isIntersecting && triggerOnce && unobserve.current) {
+          // If it should only trigger once, unobserve the element after it's inView
+          unobserve.current();
+          unobserve.current = undefined;
+        }
+      }, {
+        root: root,
+        rootMargin: rootMargin,
+        threshold: threshold,
+        // @ts-ignore
+        trackVisibility: trackVisibility,
+        // @ts-ignore
+        delay: delay
+      });
+    }
+  }, // We break the rule here, because we aren't including the actual `threshold` variable
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  [// If the threshold is an array, convert it to a string so it won't change between renders.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  Array.isArray(threshold) ? threshold.toString() : threshold, root, rootMargin, triggerOnce, skip, trackVisibility, delay]);
+  /* eslint-disable-next-line */
+
+  (0, _react.useEffect)(function () {
+    if (!unobserve.current && state.entry && !triggerOnce && !skip) {
+      // If we don't have a ref, then reset the state (unless the hook is set to only `triggerOnce` or `skip`)
+      // This ensures we correctly reflect the current state - If you aren't observing anything, then nothing is inView
+      setState({
+        inView: !!initialInView
+      });
+    }
+  });
+  var result = [setRef, state.inView, state.entry]; // Support object destructuring, by adding the specific values.
+
+  result.ref = result[0];
+  result.inView = result[1];
+  result.entry = result[2];
+  return result;
+}
+
+var _default = InView;
+exports.default = _default;
+},{"react":"../node_modules/react/index.js"}],"ts/components/text/profileEducation.tsx":[function(require,module,exports) {
+"use strict";
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
   if (k2 === undefined) k2 = k;
@@ -36687,51 +36813,13 @@ var MarginBttom = styled_components_1.default.div({
   marginBottom: "10px"
 });
 
-var ProfileEducation =
-/** @class */
-function (_super) {
-  __extends(ProfileEducation, _super);
-
-  function ProfileEducation() {
-    return _super !== null && _super.apply(this, arguments) || this;
-  }
-
-  ProfileEducation.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, /*#__PURE__*/React.createElement(Text, null, "|Education|")), /*#__PURE__*/React.createElement(Text, null, "2017-????"), /*#__PURE__*/React.createElement(Text, null, "2020-????"), /*#__PURE__*/React.createElement(MarginBttom, null));
-  };
-
-  return ProfileEducation;
-}(React.Component);
+function ProfileEducation() {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, /*#__PURE__*/React.createElement(Text, null, "|Education|")), /*#__PURE__*/React.createElement(Text, null, "2017-N\u9AD8\u7B49\u5B66\u6821"), /*#__PURE__*/React.createElement(Text, null, "2020-\u30B5\u30A4\u30D0\u30FC\u5927\u5B66"), /*#__PURE__*/React.createElement(MarginBttom, null));
+}
 
 exports.default = ProfileEducation;
 },{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/text/profileLangage.tsx":[function(require,module,exports) {
 "use strict";
-
-var __extends = this && this.__extends || function () {
-  var _extendStatics = function extendStatics(d, b) {
-    _extendStatics = Object.setPrototypeOf || {
-      __proto__: []
-    } instanceof Array && function (d, b) {
-      d.__proto__ = b;
-    } || function (d, b) {
-      for (var p in b) {
-        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
-      }
-    };
-
-    return _extendStatics(d, b);
-  };
-
-  return function (d, b) {
-    _extendStatics(d, b);
-
-    function __() {
-      this.constructor = d;
-    }
-
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-  };
-}();
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
   if (k2 === undefined) k2 = k;
@@ -36789,21 +36877,9 @@ var Text = styled_components_1.default.div({
   color: "white"
 });
 
-var ProfileLangage =
-/** @class */
-function (_super) {
-  __extends(ProfileLangage, _super);
-
-  function ProfileLangage() {
-    return _super !== null && _super.apply(this, arguments) || this;
-  }
-
-  ProfileLangage.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, /*#__PURE__*/React.createElement(Text, null, "|Programing Langage|")), /*#__PURE__*/React.createElement(Text, null, "HTML"), /*#__PURE__*/React.createElement(Text, null, "CSS"), /*#__PURE__*/React.createElement(Text, null, "JavaScript"), /*#__PURE__*/React.createElement(Text, null, "TypeScript"), /*#__PURE__*/React.createElement(Text, null, "(Node.js)"), /*#__PURE__*/React.createElement(Text, null, "Python"), /*#__PURE__*/React.createElement(Text, null, "Go"), /*#__PURE__*/React.createElement(Text, null, "Rust"));
-  };
-
-  return ProfileLangage;
-}(React.Component);
+function ProfileLangage() {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, /*#__PURE__*/React.createElement(Text, null, "|Programing Langage|")), /*#__PURE__*/React.createElement(Text, null, "HTML"), /*#__PURE__*/React.createElement(Text, null, "CSS"), /*#__PURE__*/React.createElement(Text, null, "JavaScript"), /*#__PURE__*/React.createElement(Text, null, "TypeScript"), /*#__PURE__*/React.createElement(Text, null, "(Node.js)"), /*#__PURE__*/React.createElement(Text, null, "Python"), /*#__PURE__*/React.createElement(Text, null, "Go"), /*#__PURE__*/React.createElement(Text, null, "Rust"));
+}
 
 exports.default = ProfileLangage;
 },{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"images/profile/smartPhone.webp":[function(require,module,exports) {
@@ -36822,32 +36898,6 @@ var __makeTemplateObject = this && this.__makeTemplateObject || function (cooked
 
   return cooked;
 };
-
-var __extends = this && this.__extends || function () {
-  var _extendStatics = function extendStatics(d, b) {
-    _extendStatics = Object.setPrototypeOf || {
-      __proto__: []
-    } instanceof Array && function (d, b) {
-      d.__proto__ = b;
-    } || function (d, b) {
-      for (var p in b) {
-        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
-      }
-    };
-
-    return _extendStatics(d, b);
-  };
-
-  return function (d, b) {
-    _extendStatics(d, b);
-
-    function __() {
-      this.constructor = d;
-    }
-
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-  };
-}();
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
   if (k2 === undefined) k2 = k;
@@ -36900,6 +36950,7 @@ var styled_components_1 = __importStar(require("styled-components"));
 var smartPhone_webp_1 = __importDefault(require("../../../images/profile/smartPhone.webp"));
 
 var SmartPhoneAnimation = styled_components_1.keyframes(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  100% {\n    background-position: -2625px 0;\n  }\n"], ["\n  100% {\n    background-position: -2625px 0;\n  }\n"])));
+var SmartPhoneIdle = styled_components_1.keyframes(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  0% {\n    background-postion: 0px 0px;\n  }\n"], ["\n  0% {\n    background-postion: 0px 0px;\n  }\n"])));
 var ImagePhone = styled_components_1.default.div(function () {
   return {
     background: "url(" + smartPhone_webp_1.default + ") no-repeat",
@@ -36908,54 +36959,54 @@ var ImagePhone = styled_components_1.default.div(function () {
     height: "920px",
     margin: "auto"
   };
-}, styled_components_1.css(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  animation: ", " 1s steps(7) forwards;\n  "], ["\n  animation: ", " 1s steps(7) forwards;\n  "])), SmartPhoneAnimation));
-
-var SmartPhone =
-/** @class */
-function (_super) {
-  __extends(SmartPhone, _super);
-
-  function SmartPhone() {
-    return _super !== null && _super.apply(this, arguments) || this;
+}, styled_components_1.css(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  animation: ", " 1s steps(7) forwards;\n  "], ["\n  animation: ", " 1s steps(7) forwards;\n  "])), function (props) {
+  if (props.idle == false && props.isPlayed == false) {
+    return SmartPhoneIdle;
+  } else {
+    return SmartPhoneAnimation;
   }
+}));
+var Cable = styled_components_1.default.div({
+  position: "relative",
+  backgroundColor: "white",
+  paddingBottom: "25px",
+  paddingRight: "25vw",
+  left: "350px",
+  bottom: "-895px"
+});
+var EarPhone = styled_components_1.default.div({
+  position: "relative",
+  backgroundColor: "#1d1a59",
+  paddingBottom: "15px",
+  paddingRight: "25vw",
+  left: "350px"
+});
 
-  SmartPhone.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(ImagePhone, null));
-  };
-
-  return SmartPhone;
-}(React.Component);
+function SmartPhone(props) {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(ImagePhone, {
+    ref: props.inView.ref,
+    idle: props.inView.inView,
+    isPlayed: props.anim.isPlayed,
+    isPlayedChange: props.anim.isPlayedChange
+  }, /*#__PURE__*/React.createElement(EarPhone, null), /*#__PURE__*/React.createElement(Cable, null)));
+}
 
 exports.default = SmartPhone;
-var templateObject_1, templateObject_2;
+var templateObject_1, templateObject_2, templateObject_3;
 },{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../../../images/profile/smartPhone.webp":"images/profile/smartPhone.webp"}],"ts/components/home/profile.tsx":[function(require,module,exports) {
 "use strict";
 
-var __extends = this && this.__extends || function () {
-  var _extendStatics = function extendStatics(d, b) {
-    _extendStatics = Object.setPrototypeOf || {
-      __proto__: []
-    } instanceof Array && function (d, b) {
-      d.__proto__ = b;
-    } || function (d, b) {
-      for (var p in b) {
-        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
-      }
-    };
+var __makeTemplateObject = this && this.__makeTemplateObject || function (cooked, raw) {
+  if (Object.defineProperty) {
+    Object.defineProperty(cooked, "raw", {
+      value: raw
+    });
+  } else {
+    cooked.raw = raw;
+  }
 
-    return _extendStatics(d, b);
-  };
-
-  return function (d, b) {
-    _extendStatics(d, b);
-
-    function __() {
-      this.constructor = d;
-    }
-
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-  };
-}();
+  return cooked;
+};
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
   if (k2 === undefined) k2 = k;
@@ -37000,10 +37051,13 @@ var __importDefault = this && this.__importDefault || function (mod) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.Profile = void 0;
 
 var React = __importStar(require("react"));
 
-var styled_components_1 = __importDefault(require("styled-components"));
+var styled_components_1 = __importStar(require("styled-components"));
+
+var react_intersection_observer_1 = require("react-intersection-observer");
 
 var profileEducation_1 = __importDefault(require("../text/profileEducation"));
 
@@ -37011,61 +37065,60 @@ var profileLangage_1 = __importDefault(require("../text/profileLangage"));
 
 var smartPhone_1 = __importDefault(require("../images/smartPhone"));
 
-var Center = styled_components_1.default.div({
-  textAlign: "center",
-  position: "relative",
-  top: "-650px"
-});
+var ProfileAnimation = styled_components_1.keyframes(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  0% {\n    opacity:0;\n  }\n\n  90%{ \n    opacity:0;\n  }\n\n  100% {\n    opacity:1;\n  }\n"], ["\n  0% {\n    opacity:0;\n  }\n\n  90%{ \n    opacity:0;\n  }\n\n  100% {\n    opacity:1;\n  }\n"])));
+var ProfileIdle = styled_components_1.keyframes(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  0% {\n    opacity:0;\n  }\n\n  100% {\n    opacity:0;\n  }\n"], ["\n  0% {\n    opacity:0;\n  }\n\n  100% {\n    opacity:0;\n  }\n"])));
+var Center = styled_components_1.default.div(function () {
+  return {
+    textAlign: "center",
+    position: "relative",
+    top: "-650px"
+  };
+}, styled_components_1.css(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  animation:", " 1s forwards\n  "], ["\n  animation:", " 1s forwards\n  "])), function (props) {
+  React.useEffect(function () {
+    if (props.idle === true) {
+      props.isPlayedChange(true);
+    }
+  });
+
+  if (props.idle === false && props.isPlayed === false) {
+    return ProfileIdle;
+  } else {
+    return ProfileAnimation;
+  }
+}));
 var Margin = styled_components_1.default.div({
   marginTop: "300px",
   height: "1000px"
 });
 
-var Profile =
-/** @class */
-function (_super) {
-  __extends(Profile, _super);
+function Profile() {
+  var props = react_intersection_observer_1.useInView({
+    threshold: 1
+  });
 
-  function Profile() {
-    return _super !== null && _super.apply(this, arguments) || this;
-  }
+  var _a = React.useState(false),
+      isPlayed = _a[0],
+      setIsPlayed = _a[1];
 
-  Profile.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Margin, null, /*#__PURE__*/React.createElement(smartPhone_1.default, null), /*#__PURE__*/React.createElement(Center, null, /*#__PURE__*/React.createElement(profileEducation_1.default, null), /*#__PURE__*/React.createElement(profileLangage_1.default, null))));
-  };
-
-  return Profile;
-}(React.Component);
-
-exports.default = Profile;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../text/profileEducation":"ts/components/text/profileEducation.tsx","../text/profileLangage":"ts/components/text/profileLangage.tsx","../images/smartPhone":"ts/components/images/smartPhone.tsx"}],"ts/Routes/home.tsx":[function(require,module,exports) {
-"use strict";
-
-var __extends = this && this.__extends || function () {
-  var _extendStatics = function extendStatics(d, b) {
-    _extendStatics = Object.setPrototypeOf || {
-      __proto__: []
-    } instanceof Array && function (d, b) {
-      d.__proto__ = b;
-    } || function (d, b) {
-      for (var p in b) {
-        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
-      }
-    };
-
-    return _extendStatics(d, b);
-  };
-
-  return function (d, b) {
-    _extendStatics(d, b);
-
-    function __() {
-      this.constructor = d;
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Margin, null, /*#__PURE__*/React.createElement(smartPhone_1.default, {
+    inView: props,
+    anim: {
+      idle: props.inView,
+      isPlayed: isPlayed,
+      isPlayedChange: setIsPlayed
     }
+  }), /*#__PURE__*/React.createElement(Center, {
+    ref: props.ref,
+    idle: props.inView,
+    isPlayed: isPlayed,
+    isPlayedChange: setIsPlayed
+  }, /*#__PURE__*/React.createElement(profileEducation_1.default, null), /*#__PURE__*/React.createElement(profileLangage_1.default, null))));
+}
 
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-  };
-}();
+exports.Profile = Profile;
+var templateObject_1, templateObject_2, templateObject_3;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","react-intersection-observer":"../node_modules/react-intersection-observer/react-intersection-observer.m.js","../text/profileEducation":"ts/components/text/profileEducation.tsx","../text/profileLangage":"ts/components/text/profileLangage.tsx","../images/smartPhone":"ts/components/images/smartPhone.tsx"}],"ts/Routes/home.tsx":[function(require,module,exports) {
+"use strict";
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
   if (k2 === undefined) k2 = k;
@@ -37115,53 +37168,15 @@ var React = __importStar(require("react"));
 
 var first_1 = __importDefault(require("../components/home/first"));
 
-var profile_1 = __importDefault(require("../components/home/profile"));
+var profile_1 = require("../components/home/profile");
 
-var Home =
-/** @class */
-function (_super) {
-  __extends(Home, _super);
-
-  function Home() {
-    return _super !== null && _super.apply(this, arguments) || this;
-  }
-
-  Home.prototype.render = function () {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(first_1.default, null), /*#__PURE__*/React.createElement(profile_1.default, null));
-  };
-
-  return Home;
-}(React.Component);
+function Home() {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(first_1.default, null), /*#__PURE__*/React.createElement(profile_1.Profile, null));
+}
 
 exports.default = Home;
 },{"react":"../node_modules/react/index.js","../components/home/first":"ts/components/home/first.tsx","../components/home/profile":"ts/components/home/profile.tsx"}],"ts/router.tsx":[function(require,module,exports) {
 "use strict";
-
-var __extends = this && this.__extends || function () {
-  var _extendStatics = function extendStatics(d, b) {
-    _extendStatics = Object.setPrototypeOf || {
-      __proto__: []
-    } instanceof Array && function (d, b) {
-      d.__proto__ = b;
-    } || function (d, b) {
-      for (var p in b) {
-        if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
-      }
-    };
-
-    return _extendStatics(d, b);
-  };
-
-  return function (d, b) {
-    _extendStatics(d, b);
-
-    function __() {
-      this.constructor = d;
-    }
-
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-  };
-}();
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
   if (k2 === undefined) k2 = k;
@@ -37213,25 +37228,13 @@ var react_router_dom_1 = require("react-router-dom");
 
 var home_1 = __importDefault(require("./Routes/home"));
 
-var Router =
-/** @class */
-function (_super) {
-  __extends(Router, _super);
-
-  function Router() {
-    return _super !== null && _super.apply(this, arguments) || this;
-  }
-
-  Router.prototype.render = function () {
-    return /*#__PURE__*/React.createElement(react_router_dom_1.Switch, null, /*#__PURE__*/React.createElement(react_router_dom_1.Route, {
-      path: "/",
-      exact: true,
-      component: home_1.default
-    }));
-  };
-
-  return Router;
-}(React.Component);
+function Router() {
+  return /*#__PURE__*/React.createElement(react_router_dom_1.Switch, null, /*#__PURE__*/React.createElement(react_router_dom_1.Route, {
+    path: "/",
+    exact: true,
+    component: home_1.default
+  }));
+}
 
 exports.default = react_router_dom_1.withRouter(Router);
 },{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","./Routes/home":"ts/Routes/home.tsx"}],"ts/app.tsx":[function(require,module,exports) {
@@ -37319,7 +37322,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38981" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34347" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

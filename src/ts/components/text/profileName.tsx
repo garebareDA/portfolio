@@ -2,14 +2,13 @@ import * as React from 'react';
 import styled from 'styled-components';
 
 const Profile = styled.div({
-  textAlign:"center",
+  textAlign: "center",
 });
 
 const TextProfile = styled.div({
-  color:"white",
-  fontSize:"25px",
-  margin:"20px",
-  whiteSpace:"nowrap",
+  color: "white",
+  margin: "20px",
+  whiteSpace: "nowrap",
 });
 
 const OneText = styled.span({
@@ -17,24 +16,22 @@ const OneText = styled.span({
 });
 
 const TowText = styled.span({
-  fontSize:"30px"
-}); 
+  fontSize: "30px"
+});
 
-class ProfileName extends React.Component {
-  render(){
-    return (
-      <div>
-        <Profile>
-          <TextProfile>
-            <OneText>N</OneText><TowText>anme:田中大貴</TowText>
-            </TextProfile>
-          <TextProfile>
+function ProfileName() {
+  return (
+    <div>
+      <Profile>
+        <TextProfile>
+          <OneText>N</OneText><TowText>anme:田中大貴</TowText>
+        </TextProfile>
+        <TextProfile>
           <OneText>H</OneText><TowText>andle Name:ガレバレ</TowText>
-          </TextProfile>
-        </Profile>
-      </div>
-    )
-  }
+        </TextProfile>
+      </Profile>
+    </div>
+  )
 }
 
 export default ProfileName;

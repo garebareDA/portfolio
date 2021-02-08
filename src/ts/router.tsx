@@ -8,16 +8,12 @@ import {
 
 import Home from './Routes/home';
 
-interface Props extends RouteComponentProps<{}>{}
-
-class Router extends React.Component<Props> {
-  render() {
-    return (
-        <Switch>
-          <Route path= '/' exact component={Home}/>
-        </Switch>
-    );
-  }
+function Router() {
+  return (
+    <Switch>
+      <Route path='/' exact component={Home} />
+    </Switch>
+  );
 }
 
 export default withRouter(Router);
