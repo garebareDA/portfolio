@@ -36058,7 +36058,7 @@ var React = __importStar(require("react"));
 var styled_components_1 = __importDefault(require("styled-components"));
 
 var Profile = styled_components_1.default.div({
-  textAlign: "center"
+  textAlign: "left"
 });
 var TextProfile = styled_components_1.default.div({
   color: "white",
@@ -37322,7 +37322,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34347" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33339" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

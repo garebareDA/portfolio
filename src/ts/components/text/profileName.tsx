@@ -2,7 +2,7 @@ import * as React from 'react';
 import styled from 'styled-components';
 
 const Profile = styled.div({
-  textAlign: "center",
+  textAlign: "left",
 });
 
 const TextProfile = styled.div({
