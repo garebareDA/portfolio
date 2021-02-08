@@ -1,5 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
+import MediaQuery from "react-responsive";
 
 import Icon from '../images/icon';
 import Logo from '../images/logo';
@@ -50,56 +51,67 @@ const InlineBlockLink = styled.div({
 })
 
 const Left = styled.div({
-  whiteSpace: "nowrap", 
-  marginLeft: "41vw",
-  marginTop: "200px",
+  whiteSpace: "nowrap",
+  textAlign: "center",
+  marginTop: "250px",
+  marginBottom: "50px",
   clear: 'none',
 });
 
 const Links = styled.div({
-  whiteSpace: "nowrap", 
-  marginLeft: "300px",
-});
-
-const Scroll = styled.div({
-  fontSize: "25px",
-  color: "white",
+  whiteSpace: "nowrap",
+  textAlign: "center",
+  marginRight: "50vw",
 });
 
 const Arrows = styled.div({
   textAlign: "center",
 });
 
-function First():JSX.Element {
+const PhoneIcon = styled.div({
+  textAlign: "center",
+  marginTop:"70px",
+});
+
+function First(): JSX.Element {
   return (
     <div>
       <Portfolio>|Portfolio|</Portfolio>
-      <Left>
+      <MediaQuery query="(min-width: 768px)">
+        <Left>
+          <InlineBlock>
+            <ProfileText>
+              <Profile />
+            </ProfileText>
+          </InlineBlock>
+          <InlineBlock>
+            <OuterBorder>
+              <InnerBorder>
+                <IconHome>
+                  <Icon />
+                </IconHome>
+              </InnerBorder>
+            </OuterBorder>
+          </InlineBlock>
+        </Left>
+        <Links>
         <InlineBlock>
-          <ProfileText>
-            <Profile />
-          </ProfileText>
-        </InlineBlock>
-        <InlineBlock>
-          <OuterBorder>
-            <InnerBorder>
-              <IconHome>
-                <Icon />
-              </IconHome>
-            </InnerBorder>
-          </OuterBorder>
-        </InlineBlock>
-      </Left>
-      <Links>
-        <InlineBlock>
-          <Logo />
+          <Logo width={300} height={300}/>
         </InlineBlock>
         <InlineBlockLink>
           <Link />
         </InlineBlockLink>
       </Links>
+      </MediaQuery>
+
+      <MediaQuery query="(max-width: 767px)">
+        <PhoneIcon>
+          <Icon />
+          <Profile />
+        </PhoneIcon>
+        <Logo width={150} height={150}/>
+      </MediaQuery>
       <Arrows>
-        <Scroll>Scroll</Scroll>
         <Arrow />
       </Arrows>
     </div>

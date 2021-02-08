@@ -1,9 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
+import MediaQuery from "react-responsive";
 
-const Profile = styled.div({
-  textAlign: "left",
-});
 
 const TextProfile = styled.div({
   color: "white",
@@ -22,14 +20,12 @@ const TowText = styled.span({
 function ProfileName() {
   return (
     <div>
-      <Profile>
         <TextProfile>
           <OneText>N</OneText><TowText>anme:田中大貴</TowText>
         </TextProfile>
         <TextProfile>
           <OneText>H</OneText><TowText>andle Name:ガレバレ</TowText>
         </TextProfile>
-      </Profile>
     </div>
   )
 }
