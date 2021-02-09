@@ -1,9 +1,5 @@
 import * as React from 'react';
-
-type Size = {
-  width:number,
-  height:number,
-}
+import {Size} from '../../styleType/size';
 
 function Icon(porps:Size) {
   return (

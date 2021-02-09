@@ -6,7 +6,7 @@ const Title = styled.div({
 });
 
 const Text = styled.div({
-  fontSize: "25px",
+  fontSize: "35px",
   color: "white",
 });
 

@@ -2,18 +2,24 @@ import * as React from 'react';
 import styled from 'styled-components';
 import MediaQuery from "react-responsive";
 
+import { FontSize } from "../../styleType/fontSize";
+
 import Icon from '../images/icon';
 import Logo from '../images/logo';
 import Profile from '../text/profileName';
 import Link from '../text/link';
 import Arrow from '../images/arrow';
 
-const Portfolio = styled.div({
-  color: "white",
-  marginTop: "25px",
-  fontSize: "30px",
-  textAlign: "center",
-});
+const Portfolio = styled.div<FontSize>((props: FontSize) => ({
+  fontSize:props.size,
+}),
+  {
+    color: "white",
+    marginTop: "25px",
+    fontSize: `${(props:FontSize) => props.size}`,
+    textAlign: "center",
+  }
+);
 
 const IconHome = styled.div({
   padding: "10px",
@@ -53,7 +59,7 @@ const InlineBlockLink = styled.div({
 const Left = styled.div({
   whiteSpace: "nowrap",
   textAlign: "center",
-  marginTop: "250px",
+  marginTop: "300px",
   marginBottom: "50px",
   clear: 'none',
 });
@@ -70,50 +76,65 @@ const Arrows = styled.div({
 
 const PhoneIcon = styled.div({
   textAlign: "center",
-  marginTop:"70px",
+  marginTop: "70px",
 });
+
+const MediaCenter = styled.div({
+  textAlign: "center",
+})
 
 function First(): JSX.Element {
   return (
     <div>
-      <Portfolio>|Portfolio|</Portfolio>
       <MediaQuery query="(min-width: 768px)">
+        <Portfolio size="60px">|Portfolio|</Portfolio>
         <Left>
           <InlineBlock>
             <ProfileText>
-              <Profile />
+              <Profile textMargin="20px" oneSize="70px" twoSize="50px" />
             </ProfileText>
           </InlineBlock>
           <InlineBlock>
             <OuterBorder>
               <InnerBorder>
                 <IconHome>
-                  <Icon />
+                  <Icon border={false} />
                 </IconHome>
               </InnerBorder>
             </OuterBorder>
           </InlineBlock>
         </Left>
         <Links>
-        <InlineBlock>
-          <Logo width={300} height={300}/>
-        </InlineBlock>
-        <InlineBlockLink>
-          <Link />
-        </InlineBlockLink>
-      </Links>
+          <InlineBlock>
+            <Logo width={300} height={300} />
+          </InlineBlock>
+          <InlineBlockLink>
+            <Link size={"51px"} />
+          </InlineBlockLink>
+        </Links>
+        <Arrows>
+          <Arrow />
+        </Arrows>
       </MediaQuery>
 
       <MediaQuery query="(max-width: 767px)">
+        <Portfolio size="30px">|Portfolio|</Portfolio>
         <PhoneIcon>
-          <Icon />
-          <Profile />
+          <Icon border={true} />
         </PhoneIcon>
-        <Logo width={150} height={150}/>
+        <MediaCenter>
+          <div>
+            <InlineBlock>
+              <Logo width={100} height={100} />
+            </InlineBlock>
+            <InlineBlock>
+              <Profile textMargin="2px" oneSize="25px" twoSize="20px" />
+            </InlineBlock>
+          </div>
+        </MediaCenter>
+        <Portfolio size="30px">|Link|</Portfolio>
+        <Link size={"25px"} />
       </MediaQuery>
-      <Arrows>
-        <Arrow />
-      </Arrows>
     </div>
   )
 }

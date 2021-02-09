@@ -1,31 +1,48 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import MediaQuery from "react-responsive";
+import {FontSize} from '../../styleType/fontSize';
 
+type Props = {
+  textMargin: string,
+  oneSize: string,
+  twoSize: string,
+}
 
-const TextProfile = styled.div({
-  color: "white",
-  margin: "20px",
-  whiteSpace: "nowrap",
-});
+const TextProfile = styled.div<FontSize>(props => ({
+  margin: props.size,
+}),
+  {
+    color: "white",
+    whiteSpace: "nowrap",
+    margin: `${props => props.size}`,
+  }
+)
 
-const OneText = styled.span({
-  fontSize: "55px"
-});
+const OneText = styled.span<FontSize>(props => ({
+  fontSize:props.size
+}),
+  {
+    fontSize: `${props => props.size}`
+  }
+);
 
-const TowText = styled.span({
-  fontSize: "30px"
-});
+const TwoText = styled.span<FontSize>(props => ({
+  fontSize:props.size
+}),
+  {
+    fontSize: `${(props: FontSize) => props.size}`
+  }
+);
 
-function ProfileName() {
+function ProfileName(props: Props) {
   return (
     <div>
-        <TextProfile>
-          <OneText>N</OneText><TowText>anme:田中大貴</TowText>
-        </TextProfile>
-        <TextProfile>
-          <OneText>H</OneText><TowText>andle Name:ガレバレ</TowText>
-        </TextProfile>
+      <TextProfile size={props.textMargin}>
+        <OneText size={props.oneSize}>N</OneText><TwoText size={props.twoSize}>anme:田中大貴</TwoText>
+      </TextProfile>
+      <TextProfile size={props.textMargin}>
+        <OneText size={props.oneSize}>H</OneText><TwoText size={props.twoSize}>andle Name:ガレバレ</TwoText>
+      </TextProfile>
     </div>
   )
 }

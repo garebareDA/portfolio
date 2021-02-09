@@ -45,7 +45,7 @@ const Center = styled.div<IdleProps>(
   () => ({
     textAlign: "center",
     position: "relative",
-    top: "-650px"
+    top: "-700px"
   }),
   css`
   animation:${(props: IdleProps) => {
@@ -62,18 +62,19 @@ const Center = styled.div<IdleProps>(
       return ProfileAnimation;
     }
   }
-  } 1s forwards
+  } 0.5s forwards
   `
 )
 
 const Margin = styled.div({
-  marginTop: "300px",
+  marginTop: "200px",
+  marginBottom:"200px",
   height: "1000px",
 });
 
 function Profile() {
   const props:InView = useInView({
-    threshold: 1,
+    threshold: 0.5,
   });
   const [isPlayed, setIsPlayed] = React.useState(false);
   return (

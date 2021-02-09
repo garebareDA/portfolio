@@ -35844,7 +35844,9 @@ exports.ServerStyleSheet = Ue;
 "production" !== "development" && "undefined" != typeof navigator && "ReactNative" === navigator.product && console.warn("It looks like you've imported 'styled-components' on React Native.\nPerhaps you're looking to import 'styled-components/native'?\nRead more about this at https://www.styled-components.com/docs/basics#react-native"), "production" !== "development" && "test" !== "development" && (window["__styled-components-init__"] = window["__styled-components-init__"] || 0, 1 === window["__styled-components-init__"] && console.warn("It looks like there are several instances of 'styled-components' initialized in this application. This may cause dynamic styles to not render properly, errors during the rehydration process, a missing theme prop, and makes your application bigger without good reason.\n\nSee https://s-c.sh/2BAXzed for more info."), window["__styled-components-init__"] += 1);
 var _default = qe;
 exports.default = _default;
-},{"react-is":"../node_modules/react-is/index.js","react":"../node_modules/react/index.js","shallowequal":"../node_modules/shallowequal/index.js","@emotion/stylis":"../node_modules/@emotion/stylis/dist/stylis.browser.esm.js","@emotion/unitless":"../node_modules/@emotion/unitless/dist/unitless.browser.esm.js","@emotion/is-prop-valid":"../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js","hoist-non-react-statics":"../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js","process":"../../../../usr/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"../node_modules/react-responsive/dist/react-responsive.js":[function(require,module,exports) {
+},{"react-is":"../node_modules/react-is/index.js","react":"../node_modules/react/index.js","shallowequal":"../node_modules/shallowequal/index.js","@emotion/stylis":"../node_modules/@emotion/stylis/dist/stylis.browser.esm.js","@emotion/unitless":"../node_modules/@emotion/unitless/dist/unitless.browser.esm.js","@emotion/is-prop-valid":"../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js","hoist-non-react-statics":"../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js","process":"../../../../usr/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"../font/k8x12L.ttf":[function(require,module,exports) {
+module.exports = "/k8x12L.69bce72b.ttf";
+},{}],"../node_modules/react-responsive/dist/react-responsive.js":[function(require,module,exports) {
 var define;
 !function (root, factory) {
   "object" == typeof exports && "object" == typeof module ? module.exports = factory(require("react")) : "function" == typeof define && define.amd ? define(["react"], factory) : "object" == typeof exports ? exports.MediaQuery = factory(require("react")) : root.MediaQuery = factory(root.React);
@@ -37056,15 +37058,24 @@ var styled_components_1 = __importDefault(require("styled-components"));
 
 var garebare_jpg_1 = __importDefault(require("../../../images/icon/garebare.jpg"));
 
-var IconGarebare = styled_components_1.default.img({
+var IconGarebare = styled_components_1.default.img(function (props) {
+  return {
+    borderStyle: props.border ? "solid" : "none"
+  };
+}, {
   borderRadius: "50%",
   width: "200px",
-  height: "200px"
+  height: "200px",
+  borderStyle: "" + function (props) {
+    return props.border ? "solid" : "none";
+  },
+  borderColor: "white"
 });
 
-function Icon() {
+function Icon(props) {
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(IconGarebare, {
-    src: garebare_jpg_1.default
+    src: garebare_jpg_1.default,
+    border: props.border
   }));
 }
 
@@ -37204,20 +37215,50 @@ var React = __importStar(require("react"));
 
 var styled_components_1 = __importDefault(require("styled-components"));
 
-var TextProfile = styled_components_1.default.div({
+var TextProfile = styled_components_1.default.div(function (props) {
+  return {
+    margin: props.size
+  };
+}, {
   color: "white",
-  margin: "20px",
-  whiteSpace: "nowrap"
+  whiteSpace: "nowrap",
+  margin: "" + function (props) {
+    return props.size;
+  }
 });
-var OneText = styled_components_1.default.span({
-  fontSize: "55px"
+var OneText = styled_components_1.default.span(function (props) {
+  return {
+    fontSize: props.size
+  };
+}, {
+  fontSize: "" + function (props) {
+    return props.size;
+  }
 });
-var TowText = styled_components_1.default.span({
-  fontSize: "30px"
+var TwoText = styled_components_1.default.span(function (props) {
+  return {
+    fontSize: props.size
+  };
+}, {
+  fontSize: "" + function (props) {
+    return props.size;
+  }
 });
 
-function ProfileName() {
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(TextProfile, null, /*#__PURE__*/React.createElement(OneText, null, "N"), /*#__PURE__*/React.createElement(TowText, null, "anme:\u7530\u4E2D\u5927\u8CB4")), /*#__PURE__*/React.createElement(TextProfile, null, /*#__PURE__*/React.createElement(OneText, null, "H"), /*#__PURE__*/React.createElement(TowText, null, "andle Name:\u30AC\u30EC\u30D0\u30EC")));
+function ProfileName(props) {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(TextProfile, {
+    size: props.textMargin
+  }, /*#__PURE__*/React.createElement(OneText, {
+    size: props.oneSize
+  }, "N"), /*#__PURE__*/React.createElement(TwoText, {
+    size: props.twoSize
+  }, "anme:\u7530\u4E2D\u5927\u8CB4")), /*#__PURE__*/React.createElement(TextProfile, {
+    size: props.textMargin
+  }, /*#__PURE__*/React.createElement(OneText, {
+    size: props.oneSize
+  }, "H"), /*#__PURE__*/React.createElement(TwoText, {
+    size: props.twoSize
+  }, "andle Name:\u30AC\u30EC\u30D0\u30EC")));
 }
 
 exports.default = ProfileName;
@@ -37274,9 +37315,20 @@ var styled_components_1 = __importDefault(require("styled-components"));
 
 var react_responsive_1 = __importDefault(require("react-responsive"));
 
-var Links = styled_components_1.default.a({
-  fontSize: "40px",
+var Links = styled_components_1.default.a(function (props) {
+  return {
+    fontSize: props.size
+  };
+}, {
+  //40px
+  fontSize: "" + function (props) {
+    return props.size;
+  },
   color: "white"
+});
+var MediaLink = styled_components_1.default.div({
+  textAlign: "center",
+  marginTop: "10px"
 });
 var GithubLink = styled_components_1.default.div({
   position: "relative",
@@ -37297,21 +37349,36 @@ var ZennLink = styled_components_1.default.div({
   transform: "rotate(-15deg)"
 });
 
-function Link() {
+function Link(props) {
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(react_responsive_1.default, {
     query: "(min-width: 768px)"
   }, /*#__PURE__*/React.createElement(GithubLink, null, /*#__PURE__*/React.createElement(Links, {
+    size: props.size,
     href: "https://github.com/garebareDA",
     target: "blank"
   }, "Github")), /*#__PURE__*/React.createElement(TwitterLink, null, /*#__PURE__*/React.createElement(Links, {
+    size: props.size,
     href: "https://twitter.com/garebare521",
     target: "blank"
   }, "Twitter")), /*#__PURE__*/React.createElement(ZennLink, null, /*#__PURE__*/React.createElement(Links, {
+    size: props.size,
     href: "https://zenn.dev/garebare",
     target: "blank"
   }, "Zenn"))), /*#__PURE__*/React.createElement(react_responsive_1.default, {
-    query: "(max-widht:767)"
-  }));
+    query: "(max-width: 767px)"
+  }, /*#__PURE__*/React.createElement(MediaLink, null, /*#__PURE__*/React.createElement(Links, {
+    size: props.size,
+    href: "https://github.com/garebareDA",
+    target: "blank"
+  }, "Github")), /*#__PURE__*/React.createElement(MediaLink, null, /*#__PURE__*/React.createElement(Links, {
+    size: props.size,
+    href: "https://twitter.com/garebare521",
+    target: "blank"
+  }, "Twitter")), /*#__PURE__*/React.createElement(MediaLink, null, /*#__PURE__*/React.createElement(Links, {
+    size: props.size,
+    href: "https://zenn.dev/garebare",
+    target: "blank"
+  }, "Zenn"))));
 }
 
 exports.default = Link;
@@ -37466,10 +37533,16 @@ var link_1 = __importDefault(require("../text/link"));
 
 var arrow_1 = __importDefault(require("../images/arrow"));
 
-var Portfolio = styled_components_1.default.div({
+var Portfolio = styled_components_1.default.div(function (props) {
+  return {
+    fontSize: props.size
+  };
+}, {
   color: "white",
   marginTop: "25px",
-  fontSize: "30px",
+  fontSize: "" + function (props) {
+    return props.size;
+  },
   textAlign: "center"
 });
 var IconHome = styled_components_1.default.div({
@@ -37504,7 +37577,7 @@ var InlineBlockLink = styled_components_1.default.div({
 var Left = styled_components_1.default.div({
   whiteSpace: "nowrap",
   textAlign: "center",
-  marginTop: "250px",
+  marginTop: "300px",
   marginBottom: "50px",
   clear: 'none'
 });
@@ -37520,19 +37593,44 @@ var PhoneIcon = styled_components_1.default.div({
   textAlign: "center",
   marginTop: "70px"
 });
+var MediaCenter = styled_components_1.default.div({
+  textAlign: "center"
+});
 
 function First() {
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Portfolio, null, "|Portfolio|"), /*#__PURE__*/React.createElement(react_responsive_1.default, {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(react_responsive_1.default, {
     query: "(min-width: 768px)"
-  }, /*#__PURE__*/React.createElement(Left, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(ProfileText, null, /*#__PURE__*/React.createElement(profileName_1.default, null))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(OuterBorder, null, /*#__PURE__*/React.createElement(InnerBorder, null, /*#__PURE__*/React.createElement(IconHome, null, /*#__PURE__*/React.createElement(icon_1.default, null)))))), /*#__PURE__*/React.createElement(Links, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(logo_1.default, {
+  }, /*#__PURE__*/React.createElement(Portfolio, {
+    size: "60px"
+  }, "|Portfolio|"), /*#__PURE__*/React.createElement(Left, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(ProfileText, null, /*#__PURE__*/React.createElement(profileName_1.default, {
+    textMargin: "20px",
+    oneSize: "70px",
+    twoSize: "50px"
+  }))), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(OuterBorder, null, /*#__PURE__*/React.createElement(InnerBorder, null, /*#__PURE__*/React.createElement(IconHome, null, /*#__PURE__*/React.createElement(icon_1.default, {
+    border: false
+  })))))), /*#__PURE__*/React.createElement(Links, null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(logo_1.default, {
     width: 300,
     height: 300
-  })), /*#__PURE__*/React.createElement(InlineBlockLink, null, /*#__PURE__*/React.createElement(link_1.default, null)))), /*#__PURE__*/React.createElement(react_responsive_1.default, {
+  })), /*#__PURE__*/React.createElement(InlineBlockLink, null, /*#__PURE__*/React.createElement(link_1.default, {
+    size: "51px"
+  }))), /*#__PURE__*/React.createElement(Arrows, null, /*#__PURE__*/React.createElement(arrow_1.default, null))), /*#__PURE__*/React.createElement(react_responsive_1.default, {
     query: "(max-width: 767px)"
-  }, /*#__PURE__*/React.createElement(PhoneIcon, null, /*#__PURE__*/React.createElement(icon_1.default, null), /*#__PURE__*/React.createElement(profileName_1.default, null)), /*#__PURE__*/React.createElement(logo_1.default, {
-    width: 150,
-    height: 150
-  })), /*#__PURE__*/React.createElement(Arrows, null, /*#__PURE__*/React.createElement(arrow_1.default, null)));
+  }, /*#__PURE__*/React.createElement(Portfolio, {
+    size: "30px"
+  }, "|Portfolio|"), /*#__PURE__*/React.createElement(PhoneIcon, null, /*#__PURE__*/React.createElement(icon_1.default, {
+    border: true
+  })), /*#__PURE__*/React.createElement(MediaCenter, null, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(logo_1.default, {
+    width: 100,
+    height: 100
+  })), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(profileName_1.default, {
+    textMargin: "2px",
+    oneSize: "25px",
+    twoSize: "20px"
+  })))), /*#__PURE__*/React.createElement(Portfolio, {
+    size: "30px"
+  }, "|Link|"), /*#__PURE__*/React.createElement(link_1.default, {
+    size: "25px"
+  })));
 }
 
 exports.default = First;
@@ -37970,7 +38068,7 @@ var Title = styled_components_1.default.div({
   marginBottom: "15px"
 });
 var Text = styled_components_1.default.div({
-  fontSize: "25px",
+  fontSize: "35px",
   color: "white"
 });
 var MarginBttom = styled_components_1.default.div({
@@ -38037,7 +38135,7 @@ var Title = styled_components_1.default.div({
   marginBottom: "15px"
 });
 var Text = styled_components_1.default.div({
-  fontSize: "25px",
+  fontSize: "35px",
   color: "white"
 });
 
@@ -38123,28 +38221,13 @@ var ImagePhone = styled_components_1.default.div(function () {
     height: "920px",
     margin: "auto"
   };
-}, styled_components_1.css(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  animation: ", " 1s steps(7) forwards;\n  "], ["\n  animation: ", " 1s steps(7) forwards;\n  "])), function (props) {
+}, styled_components_1.css(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  animation: ", " 0.5s steps(7) forwards;\n  "], ["\n  animation: ", " 0.5s steps(7) forwards;\n  "])), function (props) {
   if (props.idle == false && props.isPlayed == false) {
     return SmartPhoneIdle;
   } else {
     return SmartPhoneAnimation;
   }
 }));
-var Cable = styled_components_1.default.div({
-  position: "relative",
-  backgroundColor: "white",
-  paddingBottom: "25px",
-  paddingRight: "25vw",
-  left: "350px",
-  bottom: "-895px"
-});
-var EarPhone = styled_components_1.default.div({
-  position: "relative",
-  backgroundColor: "#1d1a59",
-  paddingBottom: "15px",
-  paddingRight: "25vw",
-  left: "350px"
-});
 
 function SmartPhone(props) {
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(ImagePhone, {
@@ -38152,7 +38235,7 @@ function SmartPhone(props) {
     idle: props.inView.inView,
     isPlayed: props.anim.isPlayed,
     isPlayedChange: props.anim.isPlayedChange
-  }, /*#__PURE__*/React.createElement(EarPhone, null), /*#__PURE__*/React.createElement(Cable, null)));
+  }));
 }
 
 exports.default = SmartPhone;
@@ -38235,9 +38318,9 @@ var Center = styled_components_1.default.div(function () {
   return {
     textAlign: "center",
     position: "relative",
-    top: "-650px"
+    top: "-700px"
   };
-}, styled_components_1.css(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  animation:", " 1s forwards\n  "], ["\n  animation:", " 1s forwards\n  "])), function (props) {
+}, styled_components_1.css(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  animation:", " 0.5s forwards\n  "], ["\n  animation:", " 0.5s forwards\n  "])), function (props) {
   React.useEffect(function () {
     if (props.idle === true) {
       props.isPlayedChange(true);
@@ -38251,13 +38334,14 @@ var Center = styled_components_1.default.div(function () {
   }
 }));
 var Margin = styled_components_1.default.div({
-  marginTop: "300px",
+  marginTop: "200px",
+  marginBottom: "200px",
   height: "1000px"
 });
 
 function Profile() {
   var props = react_intersection_observer_1.useInView({
-    threshold: 1
+    threshold: 0.5
   });
 
   var _a = React.useState(false),
@@ -38404,6 +38488,18 @@ exports.default = react_router_dom_1.withRouter(Router);
 },{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","./Routes/home":"ts/Routes/home.tsx"}],"ts/app.tsx":[function(require,module,exports) {
 "use strict";
 
+var __makeTemplateObject = this && this.__makeTemplateObject || function (cooked, raw) {
+  if (Object.defineProperty) {
+    Object.defineProperty(cooked, "raw", {
+      value: raw
+    });
+  } else {
+    cooked.raw = raw;
+  }
+
+  return cooked;
+};
+
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
   if (k2 === undefined) k2 = k;
   Object.defineProperty(o, k2, {
@@ -38454,11 +38550,18 @@ var ReactDOM = __importStar(require("react-dom"));
 
 var react_router_dom_1 = require("react-router-dom");
 
+var styled_components_1 = require("styled-components");
+
+var k8x12L_ttf_1 = __importDefault(require("../../font/k8x12L.ttf"));
+
+var GlobalStyles = styled_components_1.createGlobalStyle(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  @font-face {\n    font-family:'pixleFont';\n    src: url(", ");\n  }\n  body {\n    font-family: 'pixleFont', sans-serif;\n  }\n"], ["\n  @font-face {\n    font-family:'pixleFont';\n    src: url(", ");\n  }\n  body {\n    font-family: 'pixleFont', sans-serif;\n  }\n"])), k8x12L_ttf_1.default);
+
 var router_1 = __importDefault(require("./router"));
 
 var app = document.getElementById("app");
-ReactDOM.render( /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(react_router_dom_1.HashRouter, null, /*#__PURE__*/React.createElement(router_1.default, null))), app);
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","./router":"ts/router.tsx"}],"../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+ReactDOM.render( /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(GlobalStyles, null), /*#__PURE__*/React.createElement(react_router_dom_1.HashRouter, null, /*#__PURE__*/React.createElement(router_1.default, null))), app);
+var templateObject_1;
+},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../../font/k8x12L.ttf":"../font/k8x12L.ttf","./router":"ts/router.tsx"}],"../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -38486,7 +38589,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43583" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35251" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
