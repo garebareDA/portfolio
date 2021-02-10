@@ -61,24 +61,24 @@ function Products() {
         
         <InlineOut>
           <Inline>
-            <Cassette url={JSTSCassette} name="JavaScript/TypeScript" size={size} fontSize={{ size: "45px" }}></Cassette>
+            <Cassette to="jsts" url={JSTSCassette} name="JavaScript/TypeScript" size={size} fontSize={{ size: "45px" }}></Cassette>
           </Inline>
           <Inline>
-            <Cassette url={GOCassette} name="Go" size={size} fontSize={{ size: "45px" }}></Cassette>
+            <Cassette to="go" url={GOCassette} name="Go" size={size} fontSize={{ size: "45px" }}></Cassette>
           </Inline>
           <Inline>
-            <Cassette url={RustCassette} name="Rust" size={size} fontSize={{ size: "45px" }}></Cassette>
+            <Cassette to="rust" url={RustCassette} name="Rust" size={size} fontSize={{ size: "45px" }}></Cassette>
           </Inline>
         </InlineOut>
         <InlineOut>
           <Inline>
-            <Cassette url={UnityCassette} name="Unity" size={size} fontSize={{ size: "45px" }}></Cassette>
+            <Cassette to="unity" url={UnityCassette} name="Unity" size={size} fontSize={{ size: "45px" }}></Cassette>
           </Inline>
           <Inline>
-            <Cassette url={PIXBLECassette} name="Pixel/Blender" size={size} fontSize={{ size: "45px" }}></Cassette>
+            <Cassette to="pixble" url={PIXBLECassette} name="Pixel/Blender" size={size} fontSize={{ size: "45px" }}></Cassette>
           </Inline>
           <Inline>
-            <Cassette url={OtherCassette} name="Other" size={size} fontSize={{ size: "45px" }}></Cassette>
+            <Cassette to="other" url={OtherCassette} name="Other" size={size} fontSize={{ size: "45px" }}></Cassette>
           </Inline>
         </InlineOut>
       </Center>

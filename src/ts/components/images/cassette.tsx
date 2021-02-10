@@ -1,11 +1,13 @@
 import * as React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom'
 import { Size } from '../../styleType/size';
 import { FontSize } from '../../styleType/fontSize';
 
 type cassette = {
   url: string,
   name: string,
+  to:string,
   size: Size,
   fontSize: FontSize
 }
@@ -20,11 +22,20 @@ const Name = styled.div<FontSize>((props: FontSize) => ({
   }
 );
 
+const Img = styled.img({
+  ":hover":{
+    transform: "scale(1.1)",
+    transitionDuration: "0.3s",
+  }
+});
+
 function Cassette(props: cassette) {
   return (
     <div>
         <Name size={props.fontSize.size}>{props.name}</Name>
-        <img src={props.url} height={props.size.height} width={props.size.width} alt="cassette" />
+        <Link to={props.to}>
+          <Img src={props.url} height={props.size.height} width={props.size.width} alt="cassette" />
+        </Link>
     </div>
   )
 }

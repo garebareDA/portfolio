@@ -38416,6 +38416,8 @@ var React = __importStar(require("react"));
 
 var styled_components_1 = __importDefault(require("styled-components"));
 
+var react_router_dom_1 = require("react-router-dom");
+
 var Name = styled_components_1.default.div(function (props) {
   return {
     fontSize: props.size
@@ -38427,20 +38429,28 @@ var Name = styled_components_1.default.div(function (props) {
     props.size;
   }
 });
+var Img = styled_components_1.default.img({
+  ":hover": {
+    transform: "scale(1.1)",
+    transitionDuration: "0.3s"
+  }
+});
 
 function Cassette(props) {
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Name, {
     size: props.fontSize.size
-  }, props.name), /*#__PURE__*/React.createElement("img", {
+  }, props.name), /*#__PURE__*/React.createElement(react_router_dom_1.Link, {
+    to: props.to
+  }, /*#__PURE__*/React.createElement(Img, {
     src: props.url,
     height: props.size.height,
     width: props.size.width,
     alt: "cassette"
-  }));
+  })));
 }
 
 exports.default = Cassette;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"images/cassette/JSTSCassette.webp":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js"}],"images/cassette/JSTSCassette.webp":[function(require,module,exports) {
 module.exports = "/JSTSCassette.62a8f26d.webp";
 },{}],"images/cassette/RustCassette.webp":[function(require,module,exports) {
 module.exports = "/RustCassette.edbf43d3.webp";
@@ -38554,6 +38564,7 @@ function Products() {
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Center, null, /*#__PURE__*/React.createElement(ProductsText, {
     size: "60px"
   }, "|Products|", /*#__PURE__*/React.createElement(Click, null, "\u898B\u305F\u3044\u30B8\u30E3\u30F3\u30EB\u306E\u30AB\u30BB\u30C3\u30C8\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u3060\u3055\u3044")), /*#__PURE__*/React.createElement(InlineOut, null, /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
+    to: "jsts",
     url: JSTSCassette_webp_1.default,
     name: "JavaScript/TypeScript",
     size: size,
@@ -38561,6 +38572,7 @@ function Products() {
       size: "45px"
     }
   })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
+    to: "go",
     url: GOCassette_webp_1.default,
     name: "Go",
     size: size,
@@ -38568,6 +38580,7 @@ function Products() {
       size: "45px"
     }
   })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
+    to: "rust",
     url: RustCassette_webp_1.default,
     name: "Rust",
     size: size,
@@ -38575,6 +38588,7 @@ function Products() {
       size: "45px"
     }
   }))), /*#__PURE__*/React.createElement(InlineOut, null, /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
+    to: "unity",
     url: UnityCassette_webp_1.default,
     name: "Unity",
     size: size,
@@ -38582,6 +38596,7 @@ function Products() {
       size: "45px"
     }
   })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
+    to: "pixble",
     url: PIXBLECassette_webp_1.default,
     name: "Pixel/Blender",
     size: size,
@@ -38589,6 +38604,7 @@ function Products() {
       size: "45px"
     }
   })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
+    to: "other",
     url: OtherCassette_webp_1.default,
     name: "Other",
     size: size,
@@ -38825,7 +38841,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46469" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41347" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
