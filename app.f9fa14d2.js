@@ -38365,7 +38365,241 @@ function Profile() {
 
 exports.Profile = Profile;
 var templateObject_1, templateObject_2, templateObject_3;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","react-intersection-observer":"../node_modules/react-intersection-observer/react-intersection-observer.m.js","../text/profileEducation":"ts/components/text/profileEducation.tsx","../text/profileLangage":"ts/components/text/profileLangage.tsx","../images/smartPhone":"ts/components/images/smartPhone.tsx"}],"ts/Routes/home.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","react-intersection-observer":"../node_modules/react-intersection-observer/react-intersection-observer.m.js","../text/profileEducation":"ts/components/text/profileEducation.tsx","../text/profileLangage":"ts/components/text/profileLangage.tsx","../images/smartPhone":"ts/components/images/smartPhone.tsx"}],"ts/components/images/cassette.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var styled_components_1 = __importDefault(require("styled-components"));
+
+var Name = styled_components_1.default.div(function (props) {
+  return {
+    fontSize: props.size
+  };
+}, {
+  color: "white",
+  textAlign: "center",
+  fontSize: "" + function (props) {
+    props.size;
+  }
+});
+
+function Cassette(props) {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Name, {
+    size: props.fontSize.size
+  }, props.name), /*#__PURE__*/React.createElement("img", {
+    src: props.url,
+    height: props.size.height,
+    width: props.size.width,
+    alt: "cassette"
+  }));
+}
+
+exports.default = Cassette;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"images/cassette/JSTSCassette.webp":[function(require,module,exports) {
+module.exports = "/JSTSCassette.62a8f26d.webp";
+},{}],"images/cassette/RustCassette.webp":[function(require,module,exports) {
+module.exports = "/RustCassette.edbf43d3.webp";
+},{}],"images/cassette/GOCassette.webp":[function(require,module,exports) {
+module.exports = "/GOCassette.651e99a7.webp";
+},{}],"images/cassette/UnityCassette.webp":[function(require,module,exports) {
+module.exports = "/UnityCassette.fbd3e6fc.webp";
+},{}],"images/cassette/PIXBLECassette.webp":[function(require,module,exports) {
+module.exports = "/PIXBLECassette.b9dcdc73.webp";
+},{}],"images/cassette/OtherCassette.webp":[function(require,module,exports) {
+module.exports = "/OtherCassette.3f390cad.webp";
+},{}],"ts/components/home/products.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var styled_components_1 = __importDefault(require("styled-components"));
+
+var cassette_1 = __importDefault(require("../images/cassette"));
+
+var JSTSCassette_webp_1 = __importDefault(require("../../../images/cassette/JSTSCassette.webp"));
+
+var RustCassette_webp_1 = __importDefault(require("../../../images/cassette/RustCassette.webp"));
+
+var GOCassette_webp_1 = __importDefault(require("../../../images/cassette/GOCassette.webp"));
+
+var UnityCassette_webp_1 = __importDefault(require("../../../images/cassette/UnityCassette.webp"));
+
+var PIXBLECassette_webp_1 = __importDefault(require("../../../images/cassette/PIXBLECassette.webp"));
+
+var OtherCassette_webp_1 = __importDefault(require("../../../images/cassette/OtherCassette.webp"));
+
+var size = {
+  width: 448,
+  height: 272
+};
+var ProductsText = styled_components_1.default.div(function (props) {
+  return {
+    fontSize: props.size
+  };
+}, {
+  marginTop: "300px",
+  fontSize: "" + function (props) {
+    return props.size;
+  },
+  color: "white",
+  marginBottom: "10px"
+});
+var Inline = styled_components_1.default.div({
+  display: "inline-block",
+  margin: "15px"
+});
+var InlineOut = styled_components_1.default.div({
+  display: "inline-block"
+});
+var Center = styled_components_1.default.div({
+  textAlign: "center",
+  marginBottom: "300px"
+});
+var Click = styled_components_1.default.div({
+  fontSize: "30px",
+  marginTop: "5px",
+  color: "white"
+});
+
+function Products() {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Center, null, /*#__PURE__*/React.createElement(ProductsText, {
+    size: "60px"
+  }, "|Products|", /*#__PURE__*/React.createElement(Click, null, "\u898B\u305F\u3044\u30B8\u30E3\u30F3\u30EB\u306E\u30AB\u30BB\u30C3\u30C8\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u3060\u3055\u3044")), /*#__PURE__*/React.createElement(InlineOut, null, /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
+    url: JSTSCassette_webp_1.default,
+    name: "JavaScript/TypeScript",
+    size: size,
+    fontSize: {
+      size: "45px"
+    }
+  })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
+    url: GOCassette_webp_1.default,
+    name: "Go",
+    size: size,
+    fontSize: {
+      size: "45px"
+    }
+  })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
+    url: RustCassette_webp_1.default,
+    name: "Rust",
+    size: size,
+    fontSize: {
+      size: "45px"
+    }
+  }))), /*#__PURE__*/React.createElement(InlineOut, null, /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
+    url: UnityCassette_webp_1.default,
+    name: "Unity",
+    size: size,
+    fontSize: {
+      size: "45px"
+    }
+  })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
+    url: PIXBLECassette_webp_1.default,
+    name: "Pixel/Blender",
+    size: size,
+    fontSize: {
+      size: "45px"
+    }
+  })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
+    url: OtherCassette_webp_1.default,
+    name: "Other",
+    size: size,
+    fontSize: {
+      size: "45px"
+    }
+  })))));
+}
+
+exports.default = Products;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../images/cassette":"ts/components/images/cassette.tsx","../../../images/cassette/JSTSCassette.webp":"images/cassette/JSTSCassette.webp","../../../images/cassette/RustCassette.webp":"images/cassette/RustCassette.webp","../../../images/cassette/GOCassette.webp":"images/cassette/GOCassette.webp","../../../images/cassette/UnityCassette.webp":"images/cassette/UnityCassette.webp","../../../images/cassette/PIXBLECassette.webp":"images/cassette/PIXBLECassette.webp","../../../images/cassette/OtherCassette.webp":"images/cassette/OtherCassette.webp"}],"ts/Routes/home.tsx":[function(require,module,exports) {
 "use strict";
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
@@ -38418,12 +38652,14 @@ var first_1 = __importDefault(require("../components/home/first"));
 
 var profile_1 = require("../components/home/profile");
 
+var products_1 = __importDefault(require("../components/home/products"));
+
 function Home() {
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(first_1.default, null), /*#__PURE__*/React.createElement(profile_1.Profile, null));
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(first_1.default, null), /*#__PURE__*/React.createElement(profile_1.Profile, null), /*#__PURE__*/React.createElement(products_1.default, null));
 }
 
 exports.default = Home;
-},{"react":"../node_modules/react/index.js","../components/home/first":"ts/components/home/first.tsx","../components/home/profile":"ts/components/home/profile.tsx"}],"ts/router.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","../components/home/first":"ts/components/home/first.tsx","../components/home/profile":"ts/components/home/profile.tsx","../components/home/products":"ts/components/home/products.tsx"}],"ts/router.tsx":[function(require,module,exports) {
 "use strict";
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
@@ -38589,7 +38825,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35251" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46469" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
