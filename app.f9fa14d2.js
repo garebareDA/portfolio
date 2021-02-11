@@ -38442,7 +38442,7 @@ function Cassette(props) {
   }, props.name), /*#__PURE__*/React.createElement(react_router_dom_1.Link, {
     to: props.to
   }, /*#__PURE__*/React.createElement(Img, {
-    src: props.url,
+    src: props.image.url,
     height: props.size.height,
     width: props.size.width,
     alt: "cassette"
@@ -38591,7 +38591,9 @@ function Products() {
     size: "30px"
   }, "\u898B\u305F\u3044\u30B8\u30E3\u30F3\u30EB\u306E\u30AB\u30BB\u30C3\u30C8\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u3060\u3055\u3044")), /*#__PURE__*/React.createElement(InlineOut, null, /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
     to: "jsts",
-    url: JSTSCassette_webp_1.default,
+    image: {
+      url: JSTSCassette_webp_1.default
+    },
     name: "JavaScript/TypeScript",
     size: size,
     fontSize: {
@@ -38599,7 +38601,9 @@ function Products() {
     }
   })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
     to: "go",
-    url: GOCassette_webp_1.default,
+    image: {
+      url: GOCassette_webp_1.default
+    },
     name: "Go",
     size: size,
     fontSize: {
@@ -38607,7 +38611,9 @@ function Products() {
     }
   })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
     to: "rust",
-    url: RustCassette_webp_1.default,
+    image: {
+      url: RustCassette_webp_1.default
+    },
     name: "Rust",
     size: size,
     fontSize: {
@@ -38615,7 +38621,9 @@ function Products() {
     }
   }))), /*#__PURE__*/React.createElement(InlineOut, null, /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
     to: "unity",
-    url: UnityCassette_webp_1.default,
+    image: {
+      url: UnityCassette_webp_1.default
+    },
     name: "Unity",
     size: size,
     fontSize: {
@@ -38623,7 +38631,9 @@ function Products() {
     }
   })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
     to: "pixble",
-    url: PIXBLECassette_webp_1.default,
+    image: {
+      url: PIXBLECassette_webp_1.default
+    },
     name: "Pixel/Blender",
     size: size,
     fontSize: {
@@ -38631,7 +38641,9 @@ function Products() {
     }
   })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
     to: "other",
-    url: OtherCassette_webp_1.default,
+    image: {
+      url: OtherCassette_webp_1.default
+    },
     name: "Other",
     size: size,
     fontSize: {
@@ -38647,7 +38659,9 @@ function Products() {
     size: "20px"
   }, "\u898B\u305F\u3044\u30B8\u30E3\u30F3\u30EB\u306E\u30AB\u30BB\u30C3\u30C8\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u3060\u3055\u3044")), /*#__PURE__*/React.createElement(InlineOut, null, /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
     to: "jsts",
-    url: JSTSCassette_webp_1.default,
+    image: {
+      url: JSTSCassette_webp_1.default
+    },
     name: "JavaScript/TypeScript",
     size: mediaSize,
     fontSize: {
@@ -38655,7 +38669,9 @@ function Products() {
     }
   })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
     to: "go",
-    url: GOCassette_webp_1.default,
+    image: {
+      url: GOCassette_webp_1.default
+    },
     name: "Go",
     size: mediaSize,
     fontSize: {
@@ -38663,7 +38679,9 @@ function Products() {
     }
   })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
     to: "rust",
-    url: RustCassette_webp_1.default,
+    image: {
+      url: RustCassette_webp_1.default
+    },
     name: "Rust",
     size: mediaSize,
     fontSize: {
@@ -38671,7 +38689,9 @@ function Products() {
     }
   }))), /*#__PURE__*/React.createElement(InlineOut, null, /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
     to: "unity",
-    url: UnityCassette_webp_1.default,
+    image: {
+      url: UnityCassette_webp_1.default
+    },
     name: "Unity",
     size: mediaSize,
     fontSize: {
@@ -38679,7 +38699,9 @@ function Products() {
     }
   })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
     to: "pixble",
-    url: PIXBLECassette_webp_1.default,
+    image: {
+      url: PIXBLECassette_webp_1.default
+    },
     name: "Pixel/Blender",
     size: mediaSize,
     fontSize: {
@@ -38687,7 +38709,9 @@ function Products() {
     }
   })), /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
     to: "other",
-    url: OtherCassette_webp_1.default,
+    image: {
+      url: OtherCassette_webp_1.default
+    },
     name: "Other",
     size: mediaSize,
     fontSize: {
@@ -38757,79 +38781,7 @@ function Home() {
 }
 
 exports.default = Home;
-},{"react":"../node_modules/react/index.js","../components/home/first":"ts/components/home/first.tsx","../components/home/profile":"ts/components/home/profile.tsx","../components/home/products":"ts/components/home/products.tsx"}],"ts/components/products/product.tsx":[function(require,module,exports) {
-"use strict";
-
-var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
-  if (k2 === undefined) k2 = k;
-  Object.defineProperty(o, k2, {
-    enumerable: true,
-    get: function get() {
-      return m[k];
-    }
-  });
-} : function (o, m, k, k2) {
-  if (k2 === undefined) k2 = k;
-  o[k2] = m[k];
-});
-
-var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
-  Object.defineProperty(o, "default", {
-    enumerable: true,
-    value: v
-  });
-} : function (o, v) {
-  o["default"] = v;
-});
-
-var __importStar = this && this.__importStar || function (mod) {
-  if (mod && mod.__esModule) return mod;
-  var result = {};
-  if (mod != null) for (var k in mod) {
-    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-  }
-
-  __setModuleDefault(result, mod);
-
-  return result;
-};
-
-var __importDefault = this && this.__importDefault || function (mod) {
-  return mod && mod.__esModule ? mod : {
-    "default": mod
-  };
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var React = __importStar(require("react"));
-
-var styled_components_1 = __importDefault(require("styled-components"));
-
-var Title = styled_components_1.default.div(function (props) {
-  return {
-    fontSize: props.size
-  };
-}, {
-  color: "white",
-  fontSize: "" + function (props) {
-    return props.size;
-  }
-});
-var Center = styled_components_1.default.div({
-  textAlign: "center"
-});
-
-function Product(props) {
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Center, null, /*#__PURE__*/React.createElement(Title, {
-    size: props.titleFontSize.size
-  }, "|", props.title, "|")));
-}
-
-exports.default = Product;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/products/title.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","../components/home/first":"ts/components/home/first.tsx","../components/home/profile":"ts/components/home/profile.tsx","../components/home/products":"ts/components/home/products.tsx"}],"ts/components/products/title.tsx":[function(require,module,exports) {
 "use strict";
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
@@ -38928,20 +38880,20 @@ function Title(props) {
   }, "|", props.title, "|"), /*#__PURE__*/React.createElement(react_responsive_1.default, {
     query: "(min-width: 768px)"
   }, /*#__PURE__*/React.createElement(Center, null, /*#__PURE__*/React.createElement(Cassette, {
-    marginTop: "300px",
+    marginTop: "150px",
     size: size,
-    src: props.src
+    src: props.image.url
   }))), /*#__PURE__*/React.createElement(react_responsive_1.default, {
     query: "(max-width: 767px)"
   }, /*#__PURE__*/React.createElement(Cassette, {
     marginTop: "150px",
     size: mediaSize,
-    src: props.src
+    src: props.image.url
   }))));
 }
 
 exports.default = Title;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","react-responsive":"../node_modules/react-responsive/dist/react-responsive.js"}],"ts/Routes/jsts.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","react-responsive":"../node_modules/react-responsive/dist/react-responsive.js"}],"ts/components/images/image.tsx":[function(require,module,exports) {
 "use strict";
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
@@ -38992,14 +38944,190 @@ var React = __importStar(require("react"));
 
 var styled_components_1 = __importDefault(require("styled-components"));
 
+var Images = styled_components_1.default.img({
+  maxWidth: "1000px",
+  marginTop: "20px",
+  marginBottom: "20px",
+  width: "100%",
+  height: "100%"
+});
+
+function Image(props) {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Images, {
+    src: props.url
+  }));
+}
+
+exports.default = Image;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/images/video.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var styled_components_1 = __importDefault(require("styled-components"));
+
+var Videos = styled_components_1.default.video({
+  maxWidth: "1000px",
+  marginTop: "20px",
+  marginBottom: "20px",
+  width: "100%",
+  height: "100%"
+});
+
+function Video(props) {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Videos, {
+    controls: true,
+    "webkit-playsinline": true,
+    muted: true,
+    loop: true,
+    autoPlay: true,
+    src: props.url
+  }));
+}
+
+exports.default = Video;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/products/product.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Contents = exports.Product = void 0;
+
+var React = __importStar(require("react"));
+
+var styled_components_1 = __importDefault(require("styled-components"));
+
 var react_responsive_1 = __importDefault(require("react-responsive"));
 
-var JSTSCassette_webp_1 = __importDefault(require("../../images/cassette/JSTSCassette.webp"));
+var title_1 = __importDefault(require("./title"));
 
-var product_1 = __importDefault(require("../components/products/product"));
+var image_1 = __importDefault(require("../images/image"));
 
-var title_1 = __importDefault(require("../components/products/title"));
+var video_1 = __importDefault(require("../images/video"));
 
+var Space = styled_components_1.default.div({
+  marginTop: "100px"
+});
+var Titles = styled_components_1.default.div(function (props) {
+  return {
+    fontSize: props.size
+  };
+}, {
+  color: "white",
+  fontSize: "" + function (props) {
+    return props.size;
+  }
+});
+var CenterText = styled_components_1.default.div({
+  textAlign: "center"
+});
+
+function Contents(props) {
+  var contents;
+
+  if (props.image.url !== "") {
+    contents = /*#__PURE__*/React.createElement(image_1.default, {
+      url: props.image.url
+    });
+  }
+
+  if (props.video.url !== "") {
+    contents = /*#__PURE__*/React.createElement(video_1.default, {
+      url: props.video.url
+    });
+  }
+
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Space, null), /*#__PURE__*/React.createElement(CenterText, null, /*#__PURE__*/React.createElement(Titles, {
+    size: props.titleFontSize.size
+  }, "|", props.title, "|"), contents));
+}
+
+exports.Contents = Contents;
 var fontSizePC = "35px";
 var fontSizeMedia = "25px";
 var titleFontSizePC = "60px";
@@ -39008,26 +39136,274 @@ var Center = styled_components_1.default.div({
   textAlign: "center",
   marginTop: "30px"
 });
-var Text = styled_components_1.default.div(function (porps) {
+
+function Product(props) {
+  var Detali = props.details;
+  React.useEffect(function () {
+    if (window.parent.screen.width < 768) {
+      props.setFontsize(fontSizeMedia);
+      props.setTitleFontSize(titleFontSizeMedia);
+    } else {
+      props.setFontsize(fontSizePC);
+      props.setTitleFontSize(titleFontSizePC);
+    }
+  });
+
+  var handleMediaQueryChange = function handleMediaQueryChange(matches) {
+    if (matches) {
+      props.setFontsize(fontSizePC);
+      props.setTitleFontSize(titleFontSizePC);
+    }
+  };
+
+  var handleMediaQueryChangeMax = function handleMediaQueryChangeMax(matches) {
+    if (matches) {
+      props.setFontsize(fontSizeMedia);
+      props.setTitleFontSize(titleFontSizeMedia);
+    }
+  };
+
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(title_1.default, {
+    title: "JavaScript/TypeScript",
+    titleFontSize: {
+      size: props.titleFontSize
+    },
+    image: props.cassette
+  }), /*#__PURE__*/React.createElement(react_responsive_1.default, {
+    query: "(min-width: 768px)",
+    onChange: handleMediaQueryChange
+  }, /*#__PURE__*/React.createElement(Center, null, /*#__PURE__*/React.createElement(Detali, {
+    size: props.fontSize
+  }))), /*#__PURE__*/React.createElement(react_responsive_1.default, {
+    query: "(max-width: 767px) ",
+    onChange: handleMediaQueryChangeMax
+  }, /*#__PURE__*/React.createElement(Center, null, /*#__PURE__*/React.createElement(Detali, {
+    size: props.fontSize
+  }))));
+}
+
+exports.Product = Product;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","react-responsive":"../node_modules/react-responsive/dist/react-responsive.js","./title":"ts/components/products/title.tsx","../images/image":"ts/components/images/image.tsx","../images/video":"ts/components/images/video.tsx"}],"ts/components/products/linkButton.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var styled_components_1 = __importDefault(require("styled-components"));
+
+var Center = styled_components_1.default.div({
+  marginBottom: "20px",
+  textAlign: "center"
+});
+var Link = styled_components_1.default.a(function (props) {
+  return {
+    fontSize: props.size
+  };
+}, {
+  border: "1px",
+  paddingBottom: "0.375em",
+  paddingTop: "0.375em",
+  paddingLeft: "0.75em",
+  paddingRight: "0.75em",
+  borderStyle: "solid",
+  borderColor: "white",
+  borderRadius: "5px",
+  color: "white",
+  backgroundColor: "#003e80",
+  marginTop: "0.375em",
+  marginBottom: "0.375em",
+  marginLeft: "2px",
+  marginRight: "2px",
+  fontSize: "" + function (props) {
+    props.size;
+  },
+  ":hover": {
+    color: "#003e80",
+    backgroundColor: "white"
+  }
+});
+
+function LinkButtons(props) {
+  var items = [];
+
+  for (var i = 0; i < props.text.length; i++) {
+    items.push( /*#__PURE__*/React.createElement(Link, {
+      key: i,
+      size: props.size.size,
+      href: props.url[i],
+      target: "blank "
+    }, " ", props.text[i], " "));
+  }
+
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Center, null, items));
+}
+
+exports.default = LinkButtons;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/components/products/textStyled.tsx":[function(require,module,exports) {
+"use strict";
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Text = void 0;
+
+var styled_components_1 = __importDefault(require("styled-components"));
+
+exports.Text = styled_components_1.default.div(function (porps) {
   return {
     fontSize: porps.size
   };
 }, {
   color: "white",
+  textAlign: "center",
   fontSize: "" + function (props) {
     props.size;
   }
 });
-var Space = styled_components_1.default.div({
-  marginTop: "100px"
+},{"styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"images/javascriptImg/ElectronMemo.webp":[function(require,module,exports) {
+module.exports = "/ElectronMemo.7499a613.webp";
+},{}],"images/javascriptImg/DesktopAnimation.webp":[function(require,module,exports) {
+module.exports = "/DesktopAnimation.0cddfeb4.webp";
+},{}],"images/javascriptImg/NITdeDance.webp":[function(require,module,exports) {
+module.exports = "/NITdeDance.bdf3c6dc.webp";
+},{}],"images/javascriptImg/marker.webp":[function(require,module,exports) {
+module.exports = "/marker.4b4e1e0d.webp";
+},{}],"images/javascriptImg/CoC.webp":[function(require,module,exports) {
+module.exports = "/CoC.3e6dd9d3.webp";
+},{}],"images/javascriptImg/LINEBot.webp":[function(require,module,exports) {
+module.exports = "/LINEBot.ef94e186.webp";
+},{}],"images/javascriptImg/Bord.webm":[function(require,module,exports) {
+module.exports = "/Bord.2c0438c4.webm";
+},{}],"images/javascriptImg/Smork.webm":[function(require,module,exports) {
+module.exports = "/Smork.d102bcdb.webm";
+},{}],"ts/Routes/jsts.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
 });
 
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var product_1 = require("../components/products/product");
+
+var linkButton_1 = __importDefault(require("../components/products/linkButton"));
+
+var textStyled_1 = require("../components/products/textStyled");
+
+var JSTSCassette_webp_1 = __importDefault(require("../../images/cassette/JSTSCassette.webp"));
+
+var ElectronMemo_webp_1 = __importDefault(require("../../images/javascriptImg/ElectronMemo.webp"));
+
+var DesktopAnimation_webp_1 = __importDefault(require("../../images/javascriptImg/DesktopAnimation.webp"));
+
+var NITdeDance_webp_1 = __importDefault(require("../../images/javascriptImg/NITdeDance.webp"));
+
+var marker_webp_1 = __importDefault(require("../../images/javascriptImg/marker.webp"));
+
+var CoC_webp_1 = __importDefault(require("../../images/javascriptImg/CoC.webp"));
+
+var LINEBot_webp_1 = __importDefault(require("../../images/javascriptImg/LINEBot.webp"));
+
+var Bord_webm_1 = __importDefault(require("../../images/javascriptImg/Bord.webm"));
+
+var Smork_webm_1 = __importDefault(require("../../images/javascriptImg/Smork.webm"));
+
 function Details(props) {
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Text, {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(textStyled_1.Text, {
     size: props.size
-  }, "Electron\u3084Three.js,Firebase\u306A\u3069\u3092\u4F7F\u3044\u4F5C\u6210\u3057\u305F\u3082\u306E\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(Text, {
+  }, "Electron\u3084Three.js,Firebase\u306A\u3069\u3092\u4F7F\u3044\u4F5C\u6210\u3057\u305F\u3082\u306E\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
     size: props.size
-  }, "\u30D5\u30EC\u30FC\u30E0\u30EF\u30FC\u30AF\u306FVue.js\u3084React\u3092\u3088\u304F\u4F7F\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(Text, {
+  }, "\u30D5\u30EC\u30FC\u30E0\u30EF\u30FC\u30AF\u306FVue.js\u3084React\u3092\u3088\u304F\u4F7F\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
     size: props.size
   }, "TypeScript\u3092\u4F7F\u3063\u305F\u3082\u306E\u306F\u30B5\u30FC\u30D0\u30FC\u30B5\u30A4\u30C9\u304CGo\u306E\u305F\u3081\u305D\u3061\u3089\u306B\u3042\u308A\u307E\u3059\u3002"));
 }
@@ -39039,58 +39415,492 @@ function JSTS() {
 
   var _b = React.useState("30px"),
       titleFontSize = _b[0],
-      setTitleFontSize = _b[1];
+      SettitleFontSize = _b[1];
 
-  React.useEffect(function () {
-    if (window.parent.screen.width < 768) {
-      setFontsize(fontSizeMedia);
-      setTitleFontSize(titleFontSizeMedia);
-    } else {
-      setFontsize(fontSizePC);
-      setTitleFontSize(titleFontSizePC);
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(product_1.Product, {
+    fontSize: fontSize,
+    titleFontSize: titleFontSize,
+    setFontsize: setFontsize,
+    setTitleFontSize: SettitleFontSize,
+    details: Details,
+    cassette: {
+      url: JSTSCassette_webp_1.default
     }
-  });
-
-  var handleMediaQueryChange = function handleMediaQueryChange(matches) {
-    if (matches) {
-      setFontsize(fontSizePC);
-      setTitleFontSize(titleFontSizePC);
-    }
-  };
-
-  var handleMediaQueryChangeMax = function handleMediaQueryChangeMax(matches) {
-    if (matches) {
-      setFontsize(fontSizeMedia);
-      setTitleFontSize(titleFontSizeMedia);
-    }
-  };
-
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(title_1.default, {
-    title: "JavaScript/TypeScript",
+  }), /*#__PURE__*/React.createElement(product_1.Contents, {
     titleFontSize: {
       size: titleFontSize
     },
-    src: JSTSCassette_webp_1.default
-  }), /*#__PURE__*/React.createElement(react_responsive_1.default, {
-    query: "(min-width: 768px)",
-    onChange: handleMediaQueryChange
-  }, /*#__PURE__*/React.createElement(Center, null, /*#__PURE__*/React.createElement(Details, {
+    title: "erectron-memo",
+    image: {
+      url: ElectronMemo_webp_1.default
+    },
+    video: {
+      url: ""
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/electron-memo"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
     size: fontSize
-  }))), /*#__PURE__*/React.createElement(react_responsive_1.default, {
-    query: "(max-width: 767px) ",
-    onChange: handleMediaQueryChangeMax
-  }, /*#__PURE__*/React.createElement(Center, null, /*#__PURE__*/React.createElement(Details, {
-    size: fontSize
-  }))), /*#__PURE__*/React.createElement(Space, null), /*#__PURE__*/React.createElement(product_1.default, {
+  }, "Electron\u3067\u4F5C\u6210\u3057\u305F\u30B7\u30F3\u30D7\u30EB\u306A\u30E1\u30E2\u5E33\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
     titleFontSize: {
       size: titleFontSize
     },
-    title: "erectron-memo"
-  }));
+    title: "desktop-animation",
+    image: {
+      url: DesktopAnimation_webp_1.default
+    },
+    video: {
+      url: ""
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/electron-animation"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Electoron\u3068Three.js\u3067\u4F5C\u6210\u3057\u305F\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\u30DE\u30B9\u30B3\u30C3\u30C8\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "3D\u30E2\u30C7\u30EB\u306FMgicaVoxel\u3067\u4F5C\u6210\u3057\u3066\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "NIT-de-dance",
+    image: {
+      url: NITdeDance_webp_1.default
+    },
+    video: {
+      url: ""
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/NIT-de-dance"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Three.js\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002\u30DE\u30A6\u30B9\u3092\u52D5\u304B\u3059\u3068\u30AD\u30E3\u30E9\u30AF\u30BF\u30FC\u304C\u8E0A\u308A\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "3D\u30E2\u30C7\u30EB\u306FBlender\u3067\u4F5C\u6210\u3057\u3066\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "NIT-AR",
+    image: {
+      url: marker_webp_1.default
+    },
+    video: {
+      url: ""
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/NIT-AR"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Three.js\u3068AR.js\u3067\u4F5C\u6210\u3057\u305FWebAR\u3067\u3059\u3002\u4E0A\u306E\u30DE\u30FC\u30AB\u30FC\u3092\u8AAD\u307F\u53D6\u308B\u3068\u30AD\u30E3\u30E9\u30AF\u30BF\u30FC\u304C\u8868\u793A\u3055\u308C\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "CoCDiscord-hubot",
+    image: {
+      url: CoC_webp_1.default
+    },
+    video: {
+      url: ""
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/CoCDiscord-hubot"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Hubot\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002TRPG\u3067\u4F7F\u7528\u3059\u308BDiscord\u306E\u30C0\u30A4\u30B9BOT\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "LINE-bot",
+    image: {
+      url: LINEBot_webp_1.default
+    },
+    video: {
+      url: ""
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/LINE-bot"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Node.js\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002\u7279\u5B9A\u306E\u30EF\u30FC\u30C9\u306B\u8FD4\u4FE1\u3092\u8FD4\u3057\u3066\u304F\u308C\u308BLINE\u306EBOT\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "Bord",
+    image: {
+      url: ""
+    },
+    video: {
+      url: Bord_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/Bord", "https://write-mine.firebaseapp.com/"],
+    text: ["GitHub", "Firebase"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u30DB\u30B9\u30C6\u30A3\u30F3\u30B0\u3001\u30C7\u30FC\u30BF\u30D9\u30FC\u30B9\u306BFirebase\u3001\u30D5\u30EC\u30FC\u30E0\u30EF\u30FC\u30AF\u306FVue\u3092\u4F7F\u3044\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u8AB0\u3067\u3082\u6295\u7A3F\u3067\u304D\u308B\u533F\u540D\u306E\u63B2\u793A\u677F\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "Smork",
+    image: {
+      url: ""
+    },
+    video: {
+      url: Smork_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/Smork", "https://smork-5493e.firebaseapp.com/"],
+    text: ["GitHub", "Firebase"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u30DB\u30B9\u30C6\u30A3\u30F3\u30B0\u3001\u30C7\u30FC\u30BF\u30D9\u30FC\u30B9\u3001\u30ED\u30B0\u30A4\u30F3\u306B\u306FFirebase\u3001\u30D5\u30EC\u30FC\u30E0\u30EF\u30FC\u30AF\u306FVue.js\u3001\u901A\u4FE1\u90E8\u5206\u306BSkyway\u3092\u4F7F\u3044\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u30E9\u30B8\u30AA\u304C\u914D\u4FE1\u3067\u304D\u308B\u30B5\u30A4\u30C8\u3067\u3059\u3002"));
 }
 
 exports.default = JSTS;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","react-responsive":"../node_modules/react-responsive/dist/react-responsive.js","../../images/cassette/JSTSCassette.webp":"images/cassette/JSTSCassette.webp","../components/products/product":"ts/components/products/product.tsx","../components/products/title":"ts/components/products/title.tsx"}],"ts/router.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/JSTSCassette.webp":"images/cassette/JSTSCassette.webp","../../images/javascriptImg/ElectronMemo.webp":"images/javascriptImg/ElectronMemo.webp","../../images/javascriptImg/DesktopAnimation.webp":"images/javascriptImg/DesktopAnimation.webp","../../images/javascriptImg/NITdeDance.webp":"images/javascriptImg/NITdeDance.webp","../../images/javascriptImg/marker.webp":"images/javascriptImg/marker.webp","../../images/javascriptImg/CoC.webp":"images/javascriptImg/CoC.webp","../../images/javascriptImg/LINEBot.webp":"images/javascriptImg/LINEBot.webp","../../images/javascriptImg/Bord.webm":"images/javascriptImg/Bord.webm","../../images/javascriptImg/Smork.webm":"images/javascriptImg/Smork.webm"}],"images/goImg/QRGenerator.webm":[function(require,module,exports) {
+module.exports = "/QRGenerator.afcb900d.webm";
+},{}],"images/goImg/WebCrawler.webm":[function(require,module,exports) {
+module.exports = "/WebCrawler.3356c5de.webm";
+},{}],"images/goImg/DiceBot.webp":[function(require,module,exports) {
+module.exports = "/DiceBot.0c13283f.webp";
+},{}],"images/goImg/RhombusHome.webm":[function(require,module,exports) {
+module.exports = "/RhombusHome.0259884e.webm";
+},{}],"images/goImg/DiscordVoice.webm":[function(require,module,exports) {
+module.exports = "/DiscordVoice.b1c11303.webm";
+},{}],"images/goImg/YoutubeTrendingSave.webm":[function(require,module,exports) {
+module.exports = "/YoutubeTrendingSave.51a8ef2f.webm";
+},{}],"images/goImg/ImgPost.webm":[function(require,module,exports) {
+module.exports = "/ImgPost.48e982c8.webm";
+},{}],"images/goImg/Slope.webm":[function(require,module,exports) {
+module.exports = "/Slope.d870e788.webm";
+},{}],"images/goImg/Later.webm":[function(require,module,exports) {
+module.exports = "/Later.645dd5c0.webm";
+},{}],"ts/Routes/go.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var product_1 = require("../components/products/product");
+
+var linkButton_1 = __importDefault(require("../components/products/linkButton"));
+
+var textStyled_1 = require("../components/products/textStyled");
+
+var GOCassette_webp_1 = __importDefault(require("../../images/cassette/GOCassette.webp"));
+
+var QRGenerator_webm_1 = __importDefault(require("../../images/goImg/QRGenerator.webm"));
+
+var WebCrawler_webm_1 = __importDefault(require("../../images/goImg/WebCrawler.webm"));
+
+var DiceBot_webp_1 = __importDefault(require("../../images/goImg/DiceBot.webp"));
+
+var RhombusHome_webm_1 = __importDefault(require("../../images/goImg/RhombusHome.webm"));
+
+var DiscordVoice_webm_1 = __importDefault(require("../../images/goImg/DiscordVoice.webm"));
+
+var YoutubeTrendingSave_webm_1 = __importDefault(require("../../images/goImg/YoutubeTrendingSave.webm"));
+
+var ImgPost_webm_1 = __importDefault(require("../../images/goImg/ImgPost.webm"));
+
+var Slope_webm_1 = __importDefault(require("../../images/goImg/Slope.webm"));
+
+var Later_webm_1 = __importDefault(require("../../images/goImg/Later.webm"));
+
+function Details(props) {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: props.size
+  }, "\u30D5\u30EC\u30FC\u30E0\u30EF\u30FC\u30AF\u306EGin\u306A\u3069\u3092\u4F7F\u3044\u4F5C\u6210\u3057\u305F\u3082\u306E\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: props.size
+  }, "Go\u8A00\u8A9E\u306F\u4E3B\u306BWeb\u30A2\u30D7\u30EA\u30B1\u30FC\u30B7\u30E7\u30F3\u3092\u4E2D\u5FC3\u306B\u4F7F\u3063\u3066\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: props.size
+  }, "\u30D5\u30ED\u30F3\u30C8\u30A8\u30F3\u30C9\u306FReact, Vue.js\u3092\u3088\u304F\u4F7F\u3044\u307E\u3059\u3002"));
+}
+
+function Go() {
+  var _a = React.useState("25px"),
+      fontSize = _a[0],
+      setFontsize = _a[1];
+
+  var _b = React.useState("30px"),
+      titleFontSize = _b[0],
+      SettitleFontSize = _b[1];
+
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(product_1.Product, {
+    fontSize: fontSize,
+    titleFontSize: titleFontSize,
+    setFontsize: setFontsize,
+    setTitleFontSize: SettitleFontSize,
+    details: Details,
+    cassette: {
+      url: GOCassette_webp_1.default
+    }
+  }), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "QR-generator",
+    image: {
+      url: ""
+    },
+    video: {
+      url: QRGenerator_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/QR-generator"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "QR\u30B3\u30FC\u30C9\u30B8\u30A7\u30CD\u30EC\u30FC\u30BF\u30FC\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u30C6\u30AD\u30B9\u30C8\u30A8\u30EA\u30A2\u306E\u6587\u5B57\u5217\u3092\u5143\u306BQR\u30B3\u30FC\u30C9\u3092\u751F\u6210\u3057\u3066\u304F\u308C\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "web-Crawler",
+    image: {
+      url: ""
+    },
+    video: {
+      url: WebCrawler_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/web-Crawler"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Web\u753B\u50CF\u30AF\u30ED\u30FC\u30E9\u30FC\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u6307\u5B9A\u3055\u308C\u305FURL\u304B\u3089\u753B\u50CF\u3092\u6B62\u3081\u308B\u307E\u3067\u81EA\u52D5\u3067\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9\u3057\u3066\u304F\u308C\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "GoDiscordDiceBot",
+    image: {
+      url: DiceBot_webp_1.default
+    },
+    video: {
+      url: ""
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/GoDiscordDiceBot"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "discordgo\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002TRPG\u7528\u306EDiscord\u306E\u30C0\u30A4\u30B9BOT\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "rhombus-home",
+    image: {
+      url: ""
+    },
+    video: {
+      url: RhombusHome_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/rhombus-home"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Gin\u3092\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002Web\u4E0A\u3067\u52D5\u304F\u7279\u5B9A\u306E\u8A00\u8449\u306B\u53CD\u5FDC\u3059\u308B\u30A2\u30B7\u30B9\u30BF\u30F3\u30C8\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u30D5\u30ED\u30F3\u30C8\u30B5\u30A4\u30C9\u306FThree.js\u3092\u4F7F\u3063\u3066\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "discord-voice",
+    image: {
+      url: ""
+    },
+    video: {
+      url: DiscordVoice_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/discord-voice"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "discordgo\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Discord\u306E\u30DC\u30A4\u30B9\u30C1\u30E3\u30C3\u30C8\u306E\u5165\u9000\u5BA4\u3092\u901A\u77E5\u3057\u3066\u304F\u308C\u308BBot\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "youtube-trending-save",
+    image: {
+      url: ""
+    },
+    video: {
+      url: YoutubeTrendingSave_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/youtube-trending-save"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Gin\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002Youtube\u306E\u6025\u4E0A\u6607\u3092\u4FDD\u5B58\u3057\u3066\u304F\u308C\u308B\u30B5\u30A4\u30C8\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "imgPost",
+    image: {
+      url: ""
+    },
+    video: {
+      url: ImgPost_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/imgPost"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Gin\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002\u753B\u50CF\u306B\u4E00\u8A00\u6DFB\u3048\u3066\u6295\u7A3F\u3067\u304D\u308B\u30B5\u30A4\u30C8\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u30D5\u30ED\u30F3\u30C8\u30B5\u30A4\u30C9\u306FVue.js\u3092\u4F7F\u3063\u3066\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "slope",
+    image: {
+      url: ""
+    },
+    video: {
+      url: Slope_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/slope"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Gin\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002\u601D\u3063\u305F\u3053\u3068\u3092\u6587\u5B57\u306B\u3057\u3066\u6295\u7A3F\u3067\u304D\u308B\u30B5\u30A4\u30C8\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u30ED\u30B0\u30A4\u30F3\u306B\u306FFirebase,\u30D5\u30ED\u30F3\u30C8\u30B5\u30A4\u30C9\u306FVue.js\u3092\u4F7F\u3063\u3066\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "later",
+    image: {
+      url: ""
+    },
+    video: {
+      url: Later_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/later"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Gin\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002MarkDown\u3067\u8A18\u4E8B\u3092\u66F8\u3044\u3066\u6295\u7A3F\u3067\u304D\u308B\u30B5\u30A4\u30C8\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u30ED\u30B0\u30A4\u30F3\u306B\u306FFirebase,\u30D5\u30ED\u30F3\u30C8\u30B5\u30A4\u30C9\u306FReact\u3092\u4F7F\u3063\u3066\u3044\u307E\u3059\u3002"));
+}
+
+exports.default = Go;
+},{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/GOCassette.webp":"images/cassette/GOCassette.webp","../../images/goImg/QRGenerator.webm":"images/goImg/QRGenerator.webm","../../images/goImg/WebCrawler.webm":"images/goImg/WebCrawler.webm","../../images/goImg/DiceBot.webp":"images/goImg/DiceBot.webp","../../images/goImg/RhombusHome.webm":"images/goImg/RhombusHome.webm","../../images/goImg/DiscordVoice.webm":"images/goImg/DiscordVoice.webm","../../images/goImg/YoutubeTrendingSave.webm":"images/goImg/YoutubeTrendingSave.webm","../../images/goImg/ImgPost.webm":"images/goImg/ImgPost.webm","../../images/goImg/Slope.webm":"images/goImg/Slope.webm","../../images/goImg/Later.webm":"images/goImg/Later.webm"}],"ts/router.tsx":[function(require,module,exports) {
 "use strict";
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
@@ -39145,6 +39955,8 @@ var home_1 = __importDefault(require("./Routes/home"));
 
 var jsts_1 = __importDefault(require("./Routes/jsts"));
 
+var go_1 = __importDefault(require("./Routes/go"));
+
 function Router() {
   return /*#__PURE__*/React.createElement(react_router_dom_1.Switch, null, /*#__PURE__*/React.createElement(react_router_dom_1.Route, {
     path: "/",
@@ -39154,11 +39966,15 @@ function Router() {
     path: "/jsts",
     exact: true,
     component: jsts_1.default
+  }), /*#__PURE__*/React.createElement(react_router_dom_1.Route, {
+    path: "/go",
+    exact: true,
+    component: go_1.default
   }));
 }
 
 exports.default = react_router_dom_1.withRouter(Router);
-},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","./Routes/home":"ts/Routes/home.tsx","./Routes/jsts":"ts/Routes/jsts.tsx"}],"ts/app.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","./Routes/home":"ts/Routes/home.tsx","./Routes/jsts":"ts/Routes/jsts.tsx","./Routes/go":"ts/Routes/go.tsx"}],"ts/app.tsx":[function(require,module,exports) {
 "use strict";
 
 var __makeTemplateObject = this && this.__makeTemplateObject || function (cooked, raw) {
@@ -39262,7 +40078,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43039" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36715" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

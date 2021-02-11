@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import {Path} from '../../styleType/path';
 
-const Videos = styled.video({
+const Images = styled.img({
   maxWidth:"1000px",
   marginTop:"20px",
   marginBottom:"20px",
@@ -11,19 +11,13 @@ const Videos = styled.video({
   height: "100%",
 });
 
-function Video(props:Path)
+function Image(props:Path)
 {
   return(
     <div>
-      <Videos 
-        controls
-        webkit-playsinline
-        muted
-        loop
-        autoPlay
-        src={props.url}/>
+      <Images src={props.url}/>
     </div>
   )
 }
 
-export default Video;
+export default Image;

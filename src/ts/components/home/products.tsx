@@ -84,24 +84,24 @@ function Products() {
           </ProductsText>
           <InlineOut>
             <Inline>
-              <Cassette to="jsts" url={JSTSCassette} name="JavaScript/TypeScript" size={size} fontSize={{ size: fontSize }}></Cassette>
+              <Cassette to="jsts" image={{url:JSTSCassette}} name="JavaScript/TypeScript" size={size} fontSize={{ size: fontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="go" url={GOCassette} name="Go" size={size} fontSize={{ size: fontSize }}></Cassette>
+              <Cassette to="go" image={{url:GOCassette}} name="Go" size={size} fontSize={{ size: fontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="rust" url={RustCassette} name="Rust" size={size} fontSize={{ size: fontSize }}></Cassette>
+              <Cassette to="rust" image={{url:RustCassette}} name="Rust" size={size} fontSize={{ size: fontSize }}></Cassette>
             </Inline>
           </InlineOut>
           <InlineOut>
             <Inline>
-              <Cassette to="unity" url={UnityCassette} name="Unity" size={size} fontSize={{ size: fontSize }}></Cassette>
+              <Cassette to="unity" image={{url:UnityCassette}} name="Unity" size={size} fontSize={{ size: fontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="pixble" url={PIXBLECassette} name="Pixel/Blender" size={size} fontSize={{ size: fontSize }}></Cassette>
+              <Cassette to="pixble" image={{url:PIXBLECassette}} name="Pixel/Blender" size={size} fontSize={{ size: fontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="other" url={OtherCassette} name="Other" size={size} fontSize={{ size: fontSize }}></Cassette>
+              <Cassette to="other" image={{url:OtherCassette}} name="Other" size={size} fontSize={{ size: fontSize }}></Cassette>
             </Inline>
           </InlineOut>
         </Center>
@@ -117,24 +117,24 @@ function Products() {
           </ProductsText>
           <InlineOut>
             <Inline>
-              <Cassette to="jsts" url={JSTSCassette} name="JavaScript/TypeScript" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
+              <Cassette to="jsts" image={{url:JSTSCassette}} name="JavaScript/TypeScript" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="go" url={GOCassette} name="Go" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
+              <Cassette to="go" image={{url:GOCassette}} name="Go" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="rust" url={RustCassette} name="Rust" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
+              <Cassette to="rust" image={{url:RustCassette}} name="Rust" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
             </Inline>
           </InlineOut>
           <InlineOut>
             <Inline>
-              <Cassette to="unity" url={UnityCassette} name="Unity" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
+              <Cassette to="unity" image={{url:UnityCassette}} name="Unity" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="pixble" url={PIXBLECassette} name="Pixel/Blender" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
+              <Cassette to="pixble" image={{url:PIXBLECassette}} name="Pixel/Blender" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="other" url={OtherCassette} name="Other" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
+              <Cassette to="other" image={{url:OtherCassette}} name="Other" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
             </Inline>
           </InlineOut></Center>
       </MediaQuery>

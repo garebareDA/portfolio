@@ -4,11 +4,12 @@ import MediaQuery from "react-responsive";
 
 import { FontSize } from '../../styleType/fontSize';
 import { Size } from '../../styleType/size';
+import {Path} from '../../styleType/path';
 
 type ProductsTitle = {
   title: string,
   titleFontSize:FontSize,
-  src: string,
+  image: Path,
 }
 
 type Cassette = {
@@ -60,11 +61,11 @@ function Title(props: ProductsTitle) {
         <TitleText size={props.titleFontSize.size}>|{props.title}|</TitleText>
         <MediaQuery query="(min-width: 768px)">
           <Center>
-            <Cassette marginTop="300px" size={size} src={props.src} />
+            <Cassette marginTop="150px" size={size} src={props.image.url} />
           </Center>
         </MediaQuery>
         <MediaQuery query="(max-width: 767px)">
-          <Cassette marginTop="150px" size={mediaSize} src={props.src} />
+          <Cassette marginTop="150px" size={mediaSize} src={props.image.url} />
         </MediaQuery>
       </Center>
     </div>

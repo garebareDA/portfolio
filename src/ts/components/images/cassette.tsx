@@ -4,8 +4,12 @@ import { Link } from 'react-router-dom'
 import { Size } from '../../styleType/size';
 import { FontSize } from '../../styleType/fontSize';
 
+import {Path} from '../../styleType/path';
+
+
+
 type cassette = {
-  url: string,
+  image: Path,
   name: string,
   to:string,
   size: Size,
@@ -34,7 +38,7 @@ function Cassette(props: cassette) {
     <div>
         <Name size={props.fontSize.size}>{props.name}</Name>
         <Link to={props.to}>
-          <Img src={props.url} height={props.size.height} width={props.size.width} alt="cassette" />
+          <Img src={props.image.url} height={props.size.height} width={props.size.width} alt="cassette" />
         </Link>
     </div>
   )
