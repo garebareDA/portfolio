@@ -9,6 +9,7 @@ import {
 import Home from './Routes/home';
 import JSTS from './Routes/jsts';
 import Go from './Routes/go';
+import Rust from './Routes/rust';
 
 function Router() {
   return (
@@ -16,6 +17,8 @@ function Router() {
       <Route path='/' exact component={Home} />
       <Route path="/jsts" exact component={JSTS} />
       <Route path="/go" exact component={Go} />
+      <Route path="/rust" exact component={Rust} />
+      
     </Switch>
   );
 }
