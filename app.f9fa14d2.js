@@ -35869,7 +35869,7 @@ function ScrollToTop() {
 
 exports.default = ScrollToTop;
 },{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js"}],"../font/k8x12L.ttf":[function(require,module,exports) {
-module.exports = "/k8x12L.69bce72b.ttf";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/k8x12L.69bce72b.ttf";
 },{}],"../node_modules/react-responsive/dist/react-responsive.js":[function(require,module,exports) {
 var define;
 !function (root, factory) {
@@ -37028,7 +37028,7 @@ var define;
   }]);
 });
 },{"react":"../node_modules/react/index.js"}],"images/icon/garebare.jpg":[function(require,module,exports) {
-module.exports = "/garebare.913a3dad.jpg";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/garebare.913a3dad.jpg";
 },{}],"ts/components/images/icon.tsx":[function(require,module,exports) {
 "use strict";
 
@@ -37348,7 +37348,10 @@ var Links = styled_components_1.default.a(function (props) {
   fontSize: "" + function (props) {
     return props.size;
   },
-  color: "white"
+  color: "white",
+  ":hover": {
+    color: "gray"
+  }
 });
 var MediaLink = styled_components_1.default.div({
   textAlign: "center",
@@ -38169,7 +38172,7 @@ function ProfileLangage() {
 
 exports.default = ProfileLangage;
 },{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"images/profile/smartPhone.webp":[function(require,module,exports) {
-module.exports = "/smartPhone.625fc3bc.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/smartPhone.625fc3bc.webp";
 },{}],"ts/components/images/smartPhone.tsx":[function(require,module,exports) {
 "use strict";
 
@@ -38478,17 +38481,17 @@ function Cassette(props) {
 
 exports.default = Cassette;
 },{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js"}],"images/cassette/JSTSCassette.webp":[function(require,module,exports) {
-module.exports = "/JSTSCassette.62a8f26d.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/JSTSCassette.62a8f26d.webp";
 },{}],"images/cassette/RustCassette.webp":[function(require,module,exports) {
-module.exports = "/RustCassette.edbf43d3.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/RustCassette.edbf43d3.webp";
 },{}],"images/cassette/GOCassette.webp":[function(require,module,exports) {
-module.exports = "/GOCassette.651e99a7.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/GOCassette.651e99a7.webp";
 },{}],"images/cassette/UnityCassette.webp":[function(require,module,exports) {
-module.exports = "/UnityCassette.fbd3e6fc.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/UnityCassette.fbd3e6fc.webp";
 },{}],"images/cassette/PIXBLECassette.webp":[function(require,module,exports) {
-module.exports = "/PIXBLECassette.b9dcdc73.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/PIXBLECassette.b9dcdc73.webp";
 },{}],"images/cassette/OtherCassette.webp":[function(require,module,exports) {
-module.exports = "/OtherCassette.3f390cad.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/OtherCassette.3f390cad.webp";
 },{}],"ts/components/home/products.tsx":[function(require,module,exports) {
 "use strict";
 
@@ -39338,21 +39341,21 @@ exports.Text = styled_components_1.default.div(function (porps) {
   }
 });
 },{"styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"images/javascriptImg/ElectronMemo.webp":[function(require,module,exports) {
-module.exports = "/ElectronMemo.7499a613.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/ElectronMemo.7499a613.webp";
 },{}],"images/javascriptImg/DesktopAnimation.webp":[function(require,module,exports) {
-module.exports = "/DesktopAnimation.0cddfeb4.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/DesktopAnimation.0cddfeb4.webp";
 },{}],"images/javascriptImg/NITdeDance.webp":[function(require,module,exports) {
-module.exports = "/NITdeDance.bdf3c6dc.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/NITdeDance.bdf3c6dc.webp";
 },{}],"images/javascriptImg/marker.webp":[function(require,module,exports) {
-module.exports = "/marker.4b4e1e0d.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/marker.4b4e1e0d.webp";
 },{}],"images/javascriptImg/CoC.webp":[function(require,module,exports) {
-module.exports = "/CoC.3e6dd9d3.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/CoC.3e6dd9d3.webp";
 },{}],"images/javascriptImg/LINEBot.webp":[function(require,module,exports) {
-module.exports = "/LINEBot.ef94e186.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/LINEBot.ef94e186.webp";
 },{}],"images/javascriptImg/Bord.webm":[function(require,module,exports) {
-module.exports = "/Bord.2c0438c4.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Bord.2c0438c4.webm";
 },{}],"images/javascriptImg/Smork.webm":[function(require,module,exports) {
-module.exports = "/Smork.d102bcdb.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Smork.d102bcdb.webm";
 },{}],"ts/Routes/jsts.tsx":[function(require,module,exports) {
 "use strict";
 
@@ -39620,23 +39623,23 @@ function JSTS() {
 
 exports.default = JSTS;
 },{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/JSTSCassette.webp":"images/cassette/JSTSCassette.webp","../../images/javascriptImg/ElectronMemo.webp":"images/javascriptImg/ElectronMemo.webp","../../images/javascriptImg/DesktopAnimation.webp":"images/javascriptImg/DesktopAnimation.webp","../../images/javascriptImg/NITdeDance.webp":"images/javascriptImg/NITdeDance.webp","../../images/javascriptImg/marker.webp":"images/javascriptImg/marker.webp","../../images/javascriptImg/CoC.webp":"images/javascriptImg/CoC.webp","../../images/javascriptImg/LINEBot.webp":"images/javascriptImg/LINEBot.webp","../../images/javascriptImg/Bord.webm":"images/javascriptImg/Bord.webm","../../images/javascriptImg/Smork.webm":"images/javascriptImg/Smork.webm"}],"images/goImg/QRGenerator.webm":[function(require,module,exports) {
-module.exports = "/QRGenerator.afcb900d.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/QRGenerator.afcb900d.webm";
 },{}],"images/goImg/WebCrawler.webm":[function(require,module,exports) {
-module.exports = "/WebCrawler.3356c5de.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/WebCrawler.3356c5de.webm";
 },{}],"images/goImg/DiceBot.webp":[function(require,module,exports) {
-module.exports = "/DiceBot.0c13283f.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/DiceBot.0c13283f.webp";
 },{}],"images/goImg/RhombusHome.webm":[function(require,module,exports) {
-module.exports = "/RhombusHome.0259884e.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/RhombusHome.0259884e.webm";
 },{}],"images/goImg/DiscordVoice.webm":[function(require,module,exports) {
-module.exports = "/DiscordVoice.b1c11303.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/DiscordVoice.b1c11303.webm";
 },{}],"images/goImg/YoutubeTrendingSave.webm":[function(require,module,exports) {
-module.exports = "/YoutubeTrendingSave.51a8ef2f.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/YoutubeTrendingSave.51a8ef2f.webm";
 },{}],"images/goImg/ImgPost.webm":[function(require,module,exports) {
-module.exports = "/ImgPost.48e982c8.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/ImgPost.48e982c8.webm";
 },{}],"images/goImg/Slope.webm":[function(require,module,exports) {
-module.exports = "/Slope.d870e788.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Slope.d870e788.webm";
 },{}],"images/goImg/Later.webm":[function(require,module,exports) {
-module.exports = "/Later.645dd5c0.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Later.645dd5c0.webm";
 },{}],"ts/Routes/go.tsx":[function(require,module,exports) {
 "use strict";
 
@@ -39931,23 +39934,23 @@ function Go() {
 
 exports.default = Go;
 },{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/GOCassette.webp":"images/cassette/GOCassette.webp","../../images/goImg/QRGenerator.webm":"images/goImg/QRGenerator.webm","../../images/goImg/WebCrawler.webm":"images/goImg/WebCrawler.webm","../../images/goImg/DiceBot.webp":"images/goImg/DiceBot.webp","../../images/goImg/RhombusHome.webm":"images/goImg/RhombusHome.webm","../../images/goImg/DiscordVoice.webm":"images/goImg/DiscordVoice.webm","../../images/goImg/YoutubeTrendingSave.webm":"images/goImg/YoutubeTrendingSave.webm","../../images/goImg/ImgPost.webm":"images/goImg/ImgPost.webm","../../images/goImg/Slope.webm":"images/goImg/Slope.webm","../../images/goImg/Later.webm":"images/goImg/Later.webm"}],"images/rustImg/Zip.webm":[function(require,module,exports) {
-module.exports = "/Zip.befc53d9.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Zip.befc53d9.webm";
 },{}],"images/rustImg/Editor.webm":[function(require,module,exports) {
-module.exports = "/Editor.2c4e542b.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Editor.2c4e542b.webm";
 },{}],"images/rustImg/WebBrowser.webm":[function(require,module,exports) {
-module.exports = "/WebBrowser.709fb61d.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/WebBrowser.709fb61d.webm";
 },{}],"images/rustImg/Koto.webm":[function(require,module,exports) {
-module.exports = "/Koto.43b08e38.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Koto.43b08e38.webm";
 },{}],"images/rustImg/KotoWasm.webm":[function(require,module,exports) {
-module.exports = "/KotoWasm.a18b1fcd.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/KotoWasm.a18b1fcd.webm";
 },{}],"images/rustImg/NESEmulator.webp":[function(require,module,exports) {
-module.exports = "/NESEmulator.7b9603cd.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/NESEmulator.7b9603cd.webp";
 },{}],"images/rustImg/Umbrella.webm":[function(require,module,exports) {
-module.exports = "/Umbrella.d2731852.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Umbrella.d2731852.webm";
 },{}],"images/rustImg/SmallGit.webm":[function(require,module,exports) {
-module.exports = "/SmallGit.f1fa5541.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/SmallGit.f1fa5541.webm";
 },{}],"images/rustImg/GShell.webm":[function(require,module,exports) {
-module.exports = "/GShell.c49cb0e0.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/GShell.c49cb0e0.webm";
 },{}],"ts/Routes/rust.tsx":[function(require,module,exports) {
 "use strict";
 
@@ -40234,17 +40237,17 @@ function Rust() {
 
 exports.default = Rust;
 },{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/RustCassette.webp":"images/cassette/RustCassette.webp","../../images/rustImg/Zip.webm":"images/rustImg/Zip.webm","../../images/rustImg/Editor.webm":"images/rustImg/Editor.webm","../../images/rustImg/WebBrowser.webm":"images/rustImg/WebBrowser.webm","../../images/rustImg/Koto.webm":"images/rustImg/Koto.webm","../../images/rustImg/KotoWasm.webm":"images/rustImg/KotoWasm.webm","../../images/rustImg/NESEmulator.webp":"images/rustImg/NESEmulator.webp","../../images/rustImg/Umbrella.webm":"images/rustImg/Umbrella.webm","../..//images/rustImg/SmallGit.webm":"images/rustImg/SmallGit.webm","../../images/rustImg/GShell.webm":"images/rustImg/GShell.webm"}],"images/unityImg/MiniVtuber.webm":[function(require,module,exports) {
-module.exports = "/MiniVtuber.fc29a66a.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/MiniVtuber.fc29a66a.webm";
 },{}],"images/unityImg/PixleVtuber.webm":[function(require,module,exports) {
-module.exports = "/PixleVtuber.4c339a99.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/PixleVtuber.4c339a99.webm";
 },{}],"images/unityImg/FireBass.webm":[function(require,module,exports) {
-module.exports = "/FireBass.bcf45fbb.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/FireBass.bcf45fbb.webm";
 },{}],"images/unityImg/Grabi.webm":[function(require,module,exports) {
-module.exports = "/Grabi.382aa497.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Grabi.382aa497.webm";
 },{}],"images/unityImg/PixelVtuberMulti.webm":[function(require,module,exports) {
-module.exports = "/PixelVtuberMulti.5f3e8f23.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/PixelVtuberMulti.5f3e8f23.webm";
 },{}],"images/unityImg/MinosMaze.webp":[function(require,module,exports) {
-module.exports = "/MinosMaze.a441eb0b.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/MinosMaze.a441eb0b.webp";
 },{}],"ts/Routes/unity.tsx":[function(require,module,exports) {
 "use strict";
 
@@ -40454,51 +40457,51 @@ function Unity() {
 
 exports.default = Unity;
 },{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/UnityCassette.webp":"images/cassette/UnityCassette.webp","../../images/unityImg/MiniVtuber.webm":"images/unityImg/MiniVtuber.webm","../../images/unityImg/PixleVtuber.webm":"images/unityImg/PixleVtuber.webm","../../images/unityImg/FireBass.webm":"images/unityImg/FireBass.webm","../../images/unityImg/Grabi.webm":"images/unityImg/Grabi.webm","../../images/unityImg/PixelVtuberMulti.webm":"images/unityImg/PixelVtuberMulti.webm","../../images/unityImg/MinosMaze.webp":"images/unityImg/MinosMaze.webp"}],"images/blenderImg/Crane.webp":[function(require,module,exports) {
-module.exports = "/Crane.f18a93dd.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Crane.f18a93dd.webp";
 },{}],"images/blenderImg/Desk.webp":[function(require,module,exports) {
-module.exports = "/Desk.12b05292.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Desk.12b05292.webp";
 },{}],"images/blenderImg/Garebare.webp":[function(require,module,exports) {
-module.exports = "/Garebare.669f46a8.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Garebare.669f46a8.webp";
 },{}],"images/blenderImg/NIT.webp":[function(require,module,exports) {
-module.exports = "/NIT.c68c7ded.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/NIT.c68c7ded.webp";
 },{}],"images/blenderImg/Oni.webp":[function(require,module,exports) {
-module.exports = "/Oni.161cdb07.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Oni.161cdb07.webp";
 },{}],"images/blenderImg/Piano.webp":[function(require,module,exports) {
-module.exports = "/Piano.af5e5d78.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Piano.af5e5d78.webp";
 },{}],"images/blenderImg/WarWolf.webp":[function(require,module,exports) {
-module.exports = "/WarWolf.8c76e977.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/WarWolf.8c76e977.webp";
 },{}],"images/magicaImg/Airship.webp":[function(require,module,exports) {
-module.exports = "/Airship.b299ccd6.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Airship.b299ccd6.webp";
 },{}],"images/magicaImg/bin.webp":[function(require,module,exports) {
-module.exports = "/bin.daddeb55.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/bin.daddeb55.webp";
 },{}],"images/magicaImg/Bridge.webp":[function(require,module,exports) {
-module.exports = "/Bridge.cc8fb468.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Bridge.cc8fb468.webp";
 },{}],"images/magicaImg/Controler.webp":[function(require,module,exports) {
-module.exports = "/Controler.0b10730b.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Controler.0b10730b.webp";
 },{}],"images/magicaImg/Dice.webp":[function(require,module,exports) {
-module.exports = "/Dice.10956d1f.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Dice.10956d1f.webp";
 },{}],"images/magicaImg/Train.webp":[function(require,module,exports) {
-module.exports = "/Train.9c9487c5.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Train.9c9487c5.webp";
 },{}],"images/pixelImg/ambllera.webp":[function(require,module,exports) {
-module.exports = "/ambllera.3710d3e6.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/ambllera.3710d3e6.webp";
 },{}],"images/pixelImg/animation.webp":[function(require,module,exports) {
-module.exports = "/animation.2edc1174.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/animation.2edc1174.webp";
 },{}],"images/pixelImg/bloom.webp":[function(require,module,exports) {
-module.exports = "/bloom.8896fbac.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/bloom.8896fbac.webp";
 },{}],"images/pixelImg/coffee.webp":[function(require,module,exports) {
-module.exports = "/coffee.ee0f949c.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/coffee.ee0f949c.webp";
 },{}],"images/pixelImg/radio.webp":[function(require,module,exports) {
-module.exports = "/radio.7cee8513.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/radio.7cee8513.webp";
 },{}],"images/pixelImg/radio3.webp":[function(require,module,exports) {
-module.exports = "/radio3.06c36358.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/radio3.06c36358.webp";
 },{}],"images/pixelImg/radio5.webp":[function(require,module,exports) {
-module.exports = "/radio5.60e2de9d.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/radio5.60e2de9d.webp";
 },{}],"images/pixelImg/radio8.webp":[function(require,module,exports) {
-module.exports = "/radio8.e9f2589a.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/radio8.e9f2589a.webp";
 },{}],"images/pixelImg/riceball.webp":[function(require,module,exports) {
-module.exports = "/riceball.3f9c6fdc.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/riceball.3f9c6fdc.webp";
 },{}],"images/pixelImg/tree.webp":[function(require,module,exports) {
-module.exports = "/tree.23c3d751.webp";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/tree.23c3d751.webp";
 },{}],"ts/Routes/pixble.tsx":[function(require,module,exports) {
 "use strict";
 
@@ -40686,7 +40689,7 @@ function PixBle() {
 
 exports.default = PixBle;
 },{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../components/products/product":"ts/components/products/product.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../components/images/image":"ts/components/images/image.tsx","../../images/cassette/PIXBLECassette.webp":"images/cassette/PIXBLECassette.webp","../../images/blenderImg/Crane.webp":"images/blenderImg/Crane.webp","../../images/blenderImg/Desk.webp":"images/blenderImg/Desk.webp","../../images/blenderImg/Garebare.webp":"images/blenderImg/Garebare.webp","../../images/blenderImg/NIT.webp":"images/blenderImg/NIT.webp","../../images/blenderImg/Oni.webp":"images/blenderImg/Oni.webp","../../images/blenderImg/Piano.webp":"images/blenderImg/Piano.webp","../../images/blenderImg/WarWolf.webp":"images/blenderImg/WarWolf.webp","../../images/magicaImg/Airship.webp":"images/magicaImg/Airship.webp","../../images/magicaImg/bin.webp":"images/magicaImg/bin.webp","../../images/magicaImg/Bridge.webp":"images/magicaImg/Bridge.webp","../../images/magicaImg/Controler.webp":"images/magicaImg/Controler.webp","../../images/magicaImg/Dice.webp":"images/magicaImg/Dice.webp","../../images/magicaImg/Train.webp":"images/magicaImg/Train.webp","../../images/pixelImg/ambllera.webp":"images/pixelImg/ambllera.webp","../../images/pixelImg/animation.webp":"images/pixelImg/animation.webp","../../images/pixelImg/bloom.webp":"images/pixelImg/bloom.webp","../../images/pixelImg/coffee.webp":"images/pixelImg/coffee.webp","../../images/pixelImg/radio.webp":"images/pixelImg/radio.webp","../../images/pixelImg/radio3.webp":"images/pixelImg/radio3.webp","../../images/pixelImg/radio5.webp":"images/pixelImg/radio5.webp","../../images/pixelImg/radio8.webp":"images/pixelImg/radio8.webp","../../images/pixelImg/riceball.webp":"images/pixelImg/riceball.webp","../../images/pixelImg/tree.webp":"images/pixelImg/tree.webp"}],"images/otherImg/TodoList.webm":[function(require,module,exports) {
-module.exports = "/TodoList.600e970d.webm";
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/TodoList.600e970d.webm";
 },{}],"ts/Routes/other.tsx":[function(require,module,exports) {
 "use strict";
 
@@ -41064,7 +41067,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33209" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35731" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -41241,4 +41244,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","ts/app.tsx"], null)
-//# sourceMappingURL=/app.f9fa14d2.js.map
+//# sourceMappingURL=https://xenodochial-almeida-65af43.netlify.app/app.f9fa14d2.js.map
