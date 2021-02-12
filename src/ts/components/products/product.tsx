@@ -64,6 +64,7 @@ const Center = styled.div({
 });
 
 type Products = {
+  title:string,
   cassette:Path,
   details:(props: FontSize) => JSX.Element,
   fontSize:string,
@@ -100,7 +101,7 @@ function Product(props:Products) {
 
   return (
     <div>
-      <Title title="JavaScript/TypeScript" titleFontSize={{ size: props.titleFontSize }} image={props.cassette}></Title>
+      <Title title={props.title} titleFontSize={{ size: props.titleFontSize }} image={props.cassette}></Title>
       <MediaQuery query="(min-width: 768px)" onChange={handleMediaQueryChange}>
         <Center>
           <Detali size={props.fontSize}/>

@@ -4,7 +4,7 @@ import {
   HashRouter
 } from 'react-router-dom';
 import { createGlobalStyle } from 'styled-components';
-
+import Scroll from './scroll';
 import font from '../../font/k8x12L.ttf';
 
 const GlobalStyles = createGlobalStyle`
@@ -24,6 +24,7 @@ ReactDOM.render(
   <div>
     <GlobalStyles/>
     <HashRouter>
+      <Scroll/>
       <Router/>
     </HashRouter>
   </div>,

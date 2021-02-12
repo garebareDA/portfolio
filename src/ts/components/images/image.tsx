@@ -9,6 +9,7 @@ const Images = styled.img({
   marginBottom:"20px",
   width: "100%",
   height: "100%",
+  imageRendering:"pixelated",
 });
 
 function Image(props:Path)

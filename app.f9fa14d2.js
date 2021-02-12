@@ -35844,7 +35844,31 @@ exports.ServerStyleSheet = Ue;
 "production" !== "development" && "undefined" != typeof navigator && "ReactNative" === navigator.product && console.warn("It looks like you've imported 'styled-components' on React Native.\nPerhaps you're looking to import 'styled-components/native'?\nRead more about this at https://www.styled-components.com/docs/basics#react-native"), "production" !== "development" && "test" !== "development" && (window["__styled-components-init__"] = window["__styled-components-init__"] || 0, 1 === window["__styled-components-init__"] && console.warn("It looks like there are several instances of 'styled-components' initialized in this application. This may cause dynamic styles to not render properly, errors during the rehydration process, a missing theme prop, and makes your application bigger without good reason.\n\nSee https://s-c.sh/2BAXzed for more info."), window["__styled-components-init__"] += 1);
 var _default = qe;
 exports.default = _default;
-},{"react-is":"../node_modules/react-is/index.js","react":"../node_modules/react/index.js","shallowequal":"../node_modules/shallowequal/index.js","@emotion/stylis":"../node_modules/@emotion/stylis/dist/stylis.browser.esm.js","@emotion/unitless":"../node_modules/@emotion/unitless/dist/unitless.browser.esm.js","@emotion/is-prop-valid":"../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js","hoist-non-react-statics":"../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js","process":"../../../../usr/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"../font/k8x12L.ttf":[function(require,module,exports) {
+},{"react-is":"../node_modules/react-is/index.js","react":"../node_modules/react/index.js","shallowequal":"../node_modules/shallowequal/index.js","@emotion/stylis":"../node_modules/@emotion/stylis/dist/stylis.browser.esm.js","@emotion/unitless":"../node_modules/@emotion/unitless/dist/unitless.browser.esm.js","@emotion/is-prop-valid":"../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js","hoist-non-react-statics":"../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js","process":"../../../../usr/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"ts/scroll.tsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = require("react");
+
+var react_router_dom_1 = require("react-router-dom");
+
+function ScrollToTop() {
+  var pathname = react_router_dom_1.useLocation().pathname;
+  react_1.useEffect(function () {
+    console.log(pathname);
+
+    if (pathname !== "/") {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname]);
+  return null;
+}
+
+exports.default = ScrollToTop;
+},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js"}],"../font/k8x12L.ttf":[function(require,module,exports) {
 module.exports = "/k8x12L.69bce72b.ttf";
 },{}],"../node_modules/react-responsive/dist/react-responsive.js":[function(require,module,exports) {
 var define;
@@ -37577,8 +37601,8 @@ var InlineBlockLink = styled_components_1.default.div({
 var Left = styled_components_1.default.div({
   whiteSpace: "nowrap",
   textAlign: "center",
-  marginTop: "300px",
-  marginBottom: "50px",
+  marginTop: "100px",
+  marginBottom: "10px",
   clear: 'none'
 });
 var Links = styled_components_1.default.div({
@@ -38430,6 +38454,9 @@ var Name = styled_components_1.default.div(function (props) {
   }
 });
 var Img = styled_components_1.default.img({
+  transitionDuration: "0.3s",
+  transform: "scale(1)",
+  marginTop: "5px",
   ":hover": {
     transform: "scale(1.1)",
     transitionDuration: "0.3s"
@@ -38560,7 +38587,7 @@ var InlineOut = styled_components_1.default.div({
 });
 var Center = styled_components_1.default.div(function (props) {
   return {
-    marginBottom: props.isBottom ? "300px" : "0px"
+    marginBottom: props.isBottom ? "100px" : "0px"
   };
 }, {
   textAlign: "center",
@@ -38949,7 +38976,8 @@ var Images = styled_components_1.default.img({
   marginTop: "20px",
   marginBottom: "20px",
   width: "100%",
-  height: "100%"
+  height: "100%",
+  imageRendering: "pixelated"
 });
 
 function Image(props) {
@@ -39164,7 +39192,7 @@ function Product(props) {
   };
 
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(title_1.default, {
-    title: "JavaScript/TypeScript",
+    title: props.title,
     titleFontSize: {
       size: props.titleFontSize
     },
@@ -39418,6 +39446,7 @@ function JSTS() {
       SettitleFontSize = _b[1];
 
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(product_1.Product, {
+    title: "JavaScript/TypeScript",
     fontSize: fontSize,
     titleFontSize: titleFontSize,
     setFontsize: setFontsize,
@@ -39703,6 +39732,7 @@ function Go() {
       SettitleFontSize = _b[1];
 
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(product_1.Product, {
+    title: "Go",
     fontSize: fontSize,
     titleFontSize: titleFontSize,
     setFontsize: setFontsize,
@@ -39900,7 +39930,933 @@ function Go() {
 }
 
 exports.default = Go;
-},{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/GOCassette.webp":"images/cassette/GOCassette.webp","../../images/goImg/QRGenerator.webm":"images/goImg/QRGenerator.webm","../../images/goImg/WebCrawler.webm":"images/goImg/WebCrawler.webm","../../images/goImg/DiceBot.webp":"images/goImg/DiceBot.webp","../../images/goImg/RhombusHome.webm":"images/goImg/RhombusHome.webm","../../images/goImg/DiscordVoice.webm":"images/goImg/DiscordVoice.webm","../../images/goImg/YoutubeTrendingSave.webm":"images/goImg/YoutubeTrendingSave.webm","../../images/goImg/ImgPost.webm":"images/goImg/ImgPost.webm","../../images/goImg/Slope.webm":"images/goImg/Slope.webm","../../images/goImg/Later.webm":"images/goImg/Later.webm"}],"ts/router.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/GOCassette.webp":"images/cassette/GOCassette.webp","../../images/goImg/QRGenerator.webm":"images/goImg/QRGenerator.webm","../../images/goImg/WebCrawler.webm":"images/goImg/WebCrawler.webm","../../images/goImg/DiceBot.webp":"images/goImg/DiceBot.webp","../../images/goImg/RhombusHome.webm":"images/goImg/RhombusHome.webm","../../images/goImg/DiscordVoice.webm":"images/goImg/DiscordVoice.webm","../../images/goImg/YoutubeTrendingSave.webm":"images/goImg/YoutubeTrendingSave.webm","../../images/goImg/ImgPost.webm":"images/goImg/ImgPost.webm","../../images/goImg/Slope.webm":"images/goImg/Slope.webm","../../images/goImg/Later.webm":"images/goImg/Later.webm"}],"images/rustImg/Zip.webm":[function(require,module,exports) {
+module.exports = "/Zip.befc53d9.webm";
+},{}],"images/rustImg/Editor.webm":[function(require,module,exports) {
+module.exports = "/Editor.2c4e542b.webm";
+},{}],"images/rustImg/WebBrowser.webm":[function(require,module,exports) {
+module.exports = "/WebBrowser.709fb61d.webm";
+},{}],"images/rustImg/Koto.webm":[function(require,module,exports) {
+module.exports = "/Koto.43b08e38.webm";
+},{}],"images/rustImg/KotoWasm.webm":[function(require,module,exports) {
+module.exports = "/KotoWasm.a18b1fcd.webm";
+},{}],"images/rustImg/NESEmulator.webp":[function(require,module,exports) {
+module.exports = "/NESEmulator.7b9603cd.webp";
+},{}],"images/rustImg/Umbrella.webm":[function(require,module,exports) {
+module.exports = "/Umbrella.d2731852.webm";
+},{}],"images/rustImg/SmallGit.webm":[function(require,module,exports) {
+module.exports = "/SmallGit.f1fa5541.webm";
+},{}],"images/rustImg/GShell.webm":[function(require,module,exports) {
+module.exports = "/GShell.c49cb0e0.webm";
+},{}],"ts/Routes/rust.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var product_1 = require("../components/products/product");
+
+var linkButton_1 = __importDefault(require("../components/products/linkButton"));
+
+var textStyled_1 = require("../components/products/textStyled");
+
+var RustCassette_webp_1 = __importDefault(require("../../images/cassette/RustCassette.webp"));
+
+var Zip_webm_1 = __importDefault(require("../../images/rustImg/Zip.webm"));
+
+var Editor_webm_1 = __importDefault(require("../../images/rustImg/Editor.webm"));
+
+var WebBrowser_webm_1 = __importDefault(require("../../images/rustImg/WebBrowser.webm"));
+
+var Koto_webm_1 = __importDefault(require("../../images/rustImg/Koto.webm"));
+
+var KotoWasm_webm_1 = __importDefault(require("../../images/rustImg/KotoWasm.webm"));
+
+var NESEmulator_webp_1 = __importDefault(require("../../images/rustImg/NESEmulator.webp"));
+
+var Umbrella_webm_1 = __importDefault(require("../../images/rustImg/Umbrella.webm"));
+
+var SmallGit_webm_1 = __importDefault(require("../..//images/rustImg/SmallGit.webm"));
+
+var GShell_webm_1 = __importDefault(require("../../images/rustImg/GShell.webm"));
+
+function Details(props) {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: props.size
+  }, "Rust\u306F\u4E3B\u306B\u3044\u308D\u3093\u306A\u7269\u3092\u81EA\u4F5C\u3057\u3066\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: props.size
+  }, "\u30D7\u30ED\u30B0\u30E9\u30DF\u30F3\u30B0\u8A00\u8A9E\u3084Git\u306A\u3069\u3092\u81EA\u4F5C\u3057\u3066\u304D\u307E\u3057\u305F\u3002"));
+}
+
+function Rust() {
+  var _a = React.useState("25px"),
+      fontSize = _a[0],
+      setFontsize = _a[1];
+
+  var _b = React.useState("30px"),
+      titleFontSize = _b[0],
+      SettitleFontSize = _b[1];
+
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(product_1.Product, {
+    title: "Rust",
+    fontSize: fontSize,
+    titleFontSize: titleFontSize,
+    setFontsize: setFontsize,
+    setTitleFontSize: SettitleFontSize,
+    details: Details,
+    cassette: {
+      url: RustCassette_webp_1.default
+    }
+  }), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "zip",
+    image: {
+      url: ""
+    },
+    video: {
+      url: Zip_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/zip"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "zip\u30D5\u30A1\u30A4\u30EB\u3092\u4F5C\u6210\u3057\u3066\u304F\u308C\u308BCLI\u30C4\u30FC\u30EB\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "editor",
+    image: {
+      url: ""
+    },
+    video: {
+      url: Editor_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/editor"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "termion\u3092\u4F7F\u3063\u3066\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002\u81EA\u4F5C\u306E\u30C6\u30AD\u30B9\u30C8\u30A8\u30C7\u30A3\u30BF\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "web-browser",
+    image: {
+      url: ""
+    },
+    video: {
+      url: WebBrowser_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/web-browser"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "HTML\u30D1\u30FC\u30B5\u30FC\u3092\u304B\u3089\u4F5C\u6210\u3057\u305F\u3001\u7C21\u6613\u30D6\u30E9\u30A6\u30B6\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "GUI\u306B\u306FGTK\u3092\u4F7F\u3063\u3066\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "koto",
+    image: {
+      url: ""
+    },
+    video: {
+      url: Koto_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/koto"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u30EC\u30AF\u30B5\u30FC\u3001\u30D1\u30FC\u30B5\u30FC\u3001\u30A4\u30F3\u30BF\u30D7\u30EA\u3092\u30D5\u30EB\u30B9\u30AF\u30E9\u30C3\u30C1\u3067\u4F5C\u6210\u3057\u305F\u81EA\u4F5C\u8A00\u8A9E\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u95A2\u6570\u3084\u69CB\u6587\u3001\u30A4\u30F3\u30DD\u30FC\u30C8\u306A\u3069\u306E\u57FA\u790E\u7684\u306A\u90E8\u5206\u304C\u5B8C\u6210\u3057\u3066\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "koto-wasm",
+    image: {
+      url: ""
+    },
+    video: {
+      url: KotoWasm_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/koto/tree/wasm"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u4E0A\u306E\u81EA\u4F5C\u8A00\u8A9E\u306EWASM\u7248\u3067\u3059\u3002\u30D6\u30E9\u30A6\u30B6\u5185\u3067\u52D5\u4F5C\u3057\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "nes_emulator",
+    image: {
+      url: NESEmulator_webp_1.default
+    },
+    video: {
+      url: ""
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/nes_emulator"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Nintendo Entertainment System\u306E\u30A8\u30DF\u30E5\u30EC\u30FC\u30BF\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "CPU,PPU\u306E\u30A8\u30DF\u30E5\u30EC\u30FC\u30C8\u304C\u3067\u304D\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u73FE\u5728\u306F\u80CC\u666F\u753B\u50CF\u306E\u51FA\u529B\u306E\u307F\u53EF\u80FD\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "umbrella",
+    image: {
+      url: ""
+    },
+    video: {
+      url: Umbrella_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/umbrella"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Inkwell\u3092\u4F7F\u3063\u3066\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002LLVM IR \u3092\u51FA\u529B\u3059\u308B\u81EA\u4F5C\u8A00\u8A9E\u306E\u30B3\u30F3\u30D1\u30A4\u30E9\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "smallgit",
+    image: {
+      url: ""
+    },
+    video: {
+      url: SmallGit_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/smallgit"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u81EA\u4F5C\u306EGit\u3067\u3059\u3002\u30B9\u30C6\u30FC\u30B8\u30F3\u30B0\u3001\u30B3\u30DF\u30C3\u30C8\u306A\u3069\u304C\u5B9F\u88C5\u3055\u308C\u3066\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "g_shell",
+    image: {
+      url: ""
+    },
+    video: {
+      url: GShell_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/g_shell"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u81EA\u4F5C\u306EShell\u3067\u3059\u3002\u30B3\u30DE\u30F3\u30C9\u5B9F\u884C\u3001\u591A\u6BB5\u30D1\u30A4\u30D7\u3001\u30EA\u30C0\u30A4\u30EC\u30AF\u30C8\u304C\u5B9F\u88C5\u3055\u308C\u3066\u3044\u307E\u3059\u3002"));
+}
+
+exports.default = Rust;
+},{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/RustCassette.webp":"images/cassette/RustCassette.webp","../../images/rustImg/Zip.webm":"images/rustImg/Zip.webm","../../images/rustImg/Editor.webm":"images/rustImg/Editor.webm","../../images/rustImg/WebBrowser.webm":"images/rustImg/WebBrowser.webm","../../images/rustImg/Koto.webm":"images/rustImg/Koto.webm","../../images/rustImg/KotoWasm.webm":"images/rustImg/KotoWasm.webm","../../images/rustImg/NESEmulator.webp":"images/rustImg/NESEmulator.webp","../../images/rustImg/Umbrella.webm":"images/rustImg/Umbrella.webm","../..//images/rustImg/SmallGit.webm":"images/rustImg/SmallGit.webm","../../images/rustImg/GShell.webm":"images/rustImg/GShell.webm"}],"images/unityImg/MiniVtuber.webm":[function(require,module,exports) {
+module.exports = "/MiniVtuber.fc29a66a.webm";
+},{}],"images/unityImg/PixleVtuber.webm":[function(require,module,exports) {
+module.exports = "/PixleVtuber.4c339a99.webm";
+},{}],"images/unityImg/FireBass.webm":[function(require,module,exports) {
+module.exports = "/FireBass.bcf45fbb.webm";
+},{}],"images/unityImg/Grabi.webm":[function(require,module,exports) {
+module.exports = "/Grabi.382aa497.webm";
+},{}],"images/unityImg/PixelVtuberMulti.webm":[function(require,module,exports) {
+module.exports = "/PixelVtuberMulti.5f3e8f23.webm";
+},{}],"images/unityImg/MinosMaze.webp":[function(require,module,exports) {
+module.exports = "/MinosMaze.a441eb0b.webp";
+},{}],"ts/Routes/unity.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var product_1 = require("../components/products/product");
+
+var linkButton_1 = __importDefault(require("../components/products/linkButton"));
+
+var textStyled_1 = require("../components/products/textStyled");
+
+var UnityCassette_webp_1 = __importDefault(require("../../images/cassette/UnityCassette.webp"));
+
+var MiniVtuber_webm_1 = __importDefault(require("../../images/unityImg/MiniVtuber.webm"));
+
+var PixleVtuber_webm_1 = __importDefault(require("../../images/unityImg/PixleVtuber.webm"));
+
+var FireBass_webm_1 = __importDefault(require("../../images/unityImg/FireBass.webm"));
+
+var Grabi_webm_1 = __importDefault(require("../../images/unityImg/Grabi.webm"));
+
+var PixelVtuberMulti_webm_1 = __importDefault(require("../../images/unityImg/PixelVtuberMulti.webm"));
+
+var MinosMaze_webp_1 = __importDefault(require("../../images/unityImg/MinosMaze.webp"));
+
+function Details(props) {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: props.size
+  }, "Unity\u3067\u306F\u4E3B\u306B\u30B2\u30FC\u30E0\u3084Vtuber\u306A\u3069\u3092\u4F5C\u6210\u3057\u3066\u3044\u307E\u3059\u3002"));
+}
+
+function Unity() {
+  var _a = React.useState("25px"),
+      fontSize = _a[0],
+      setFontsize = _a[1];
+
+  var _b = React.useState("30px"),
+      titleFontSize = _b[0],
+      SettitleFontSize = _b[1];
+
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(product_1.Product, {
+    title: "Unity",
+    fontSize: fontSize,
+    titleFontSize: titleFontSize,
+    setFontsize: setFontsize,
+    setTitleFontSize: SettitleFontSize,
+    details: Details,
+    cassette: {
+      url: UnityCassette_webp_1.default
+    }
+  }), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "MiniVtuber",
+    image: {
+      url: ""
+    },
+    video: {
+      url: MiniVtuber_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/Vtuber"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Unity\u3068Node.js\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u30B9\u30DE\u306E\u50BE\u304D\u3068\u9023\u52D5\u3057\u3001\u9996\u304C\u52D5\u304D\u3001\u30EA\u30C3\u30D7\u30B7\u30F3\u30AF\u3067\u53E3\u304C\u52D5\u304D\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "MiniVtuber",
+    image: {
+      url: ""
+    },
+    video: {
+      url: PixleVtuber_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Unity\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002\u30C9\u30C3\u30C8\u7D75\u306EVtuber\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u30DE\u30A4\u30AF\u4EE5\u5916\u306B\u5FC5\u8981\u306A\u3082\u306E\u306A\u304F\u3001\u8D77\u52D5\u3059\u308B\u3060\u3051\u3067\u52D5\u3044\u3066\u304F\u308C\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "fire-of-bass",
+    image: {
+      url: ""
+    },
+    video: {
+      url: FireBass_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/fire-of-bass", "https://garebareda.github.io/fire-of-bass/build/index.html"],
+    text: ["GitHub", "GitHubPages"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Unity\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002\u30AF\u30EA\u30C3\u30AF\u3059\u308B\u3068\u30C9\u30C3\u30C8\u7D75\u304C\u6F14\u594F\u3057\u3066\u304F\u308C\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "action-nanika(grabi)",
+    image: {
+      url: ""
+    },
+    video: {
+      url: Grabi_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/action-nanika", "https://garebareda.github.io/action-nanika/WebGL/index.html"],
+    text: ["GitHub", "GitHubPages"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Unity\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002\u30A2\u30AF\u30B7\u30E7\u30F3\u30B2\u30FC\u30E0\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "PixelVtuberMulti",
+    image: {
+      url: ""
+    },
+    video: {
+      url: PixelVtuberMulti_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Unity\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "PixelVtuber\u306E\u30DE\u30EB\u30C1\u30D7\u30EC\u30A4\u30E4\u30FC\u30D0\u30FC\u30B8\u30E7\u30F3\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "MinosMaze",
+    image: {
+      url: MinosMaze_webp_1.default
+    },
+    video: {
+      url: ""
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://garebare.itch.io/minosmaze"],
+    text: ["itch.io"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Unity\u3092\u4F7F\u3044\u4E8C\u4EBA\u3067\u5171\u540C\u958B\u767A\u3057\u305F\u30D1\u30BA\u30EB\u5BFE\u6226\u30B2\u30FC\u30E0\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u73FE\u5728itch.io\u3067\u914D\u5E03\u4E2D\u3067\u3059\u3002"));
+}
+
+exports.default = Unity;
+},{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/UnityCassette.webp":"images/cassette/UnityCassette.webp","../../images/unityImg/MiniVtuber.webm":"images/unityImg/MiniVtuber.webm","../../images/unityImg/PixleVtuber.webm":"images/unityImg/PixleVtuber.webm","../../images/unityImg/FireBass.webm":"images/unityImg/FireBass.webm","../../images/unityImg/Grabi.webm":"images/unityImg/Grabi.webm","../../images/unityImg/PixelVtuberMulti.webm":"images/unityImg/PixelVtuberMulti.webm","../../images/unityImg/MinosMaze.webp":"images/unityImg/MinosMaze.webp"}],"images/blenderImg/Crane.webp":[function(require,module,exports) {
+module.exports = "/Crane.f18a93dd.webp";
+},{}],"images/blenderImg/Desk.webp":[function(require,module,exports) {
+module.exports = "/Desk.12b05292.webp";
+},{}],"images/blenderImg/Garebare.webp":[function(require,module,exports) {
+module.exports = "/Garebare.669f46a8.webp";
+},{}],"images/blenderImg/NIT.webp":[function(require,module,exports) {
+module.exports = "/NIT.c68c7ded.webp";
+},{}],"images/blenderImg/Oni.webp":[function(require,module,exports) {
+module.exports = "/Oni.161cdb07.webp";
+},{}],"images/blenderImg/Piano.webp":[function(require,module,exports) {
+module.exports = "/Piano.af5e5d78.webp";
+},{}],"images/blenderImg/WarWolf.webp":[function(require,module,exports) {
+module.exports = "/WarWolf.8c76e977.webp";
+},{}],"images/magicaImg/Airship.webp":[function(require,module,exports) {
+module.exports = "/Airship.b299ccd6.webp";
+},{}],"images/magicaImg/bin.webp":[function(require,module,exports) {
+module.exports = "/bin.daddeb55.webp";
+},{}],"images/magicaImg/Bridge.webp":[function(require,module,exports) {
+module.exports = "/Bridge.cc8fb468.webp";
+},{}],"images/magicaImg/Controler.webp":[function(require,module,exports) {
+module.exports = "/Controler.0b10730b.webp";
+},{}],"images/magicaImg/Dice.webp":[function(require,module,exports) {
+module.exports = "/Dice.10956d1f.webp";
+},{}],"images/magicaImg/Train.webp":[function(require,module,exports) {
+module.exports = "/Train.9c9487c5.webp";
+},{}],"images/pixelImg/ambllera.webp":[function(require,module,exports) {
+module.exports = "/ambllera.3710d3e6.webp";
+},{}],"images/pixelImg/animation.webp":[function(require,module,exports) {
+module.exports = "/animation.2edc1174.webp";
+},{}],"images/pixelImg/bloom.webp":[function(require,module,exports) {
+module.exports = "/bloom.8896fbac.webp";
+},{}],"images/pixelImg/coffee.webp":[function(require,module,exports) {
+module.exports = "/coffee.ee0f949c.webp";
+},{}],"images/pixelImg/radio.webp":[function(require,module,exports) {
+module.exports = "/radio.7cee8513.webp";
+},{}],"images/pixelImg/radio3.webp":[function(require,module,exports) {
+module.exports = "/radio3.06c36358.webp";
+},{}],"images/pixelImg/radio5.webp":[function(require,module,exports) {
+module.exports = "/radio5.60e2de9d.webp";
+},{}],"images/pixelImg/radio8.webp":[function(require,module,exports) {
+module.exports = "/radio8.e9f2589a.webp";
+},{}],"images/pixelImg/riceball.webp":[function(require,module,exports) {
+module.exports = "/riceball.3f9c6fdc.webp";
+},{}],"images/pixelImg/tree.webp":[function(require,module,exports) {
+module.exports = "/tree.23c3d751.webp";
+},{}],"ts/Routes/pixble.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var styled_components_1 = __importDefault(require("styled-components"));
+
+var product_1 = require("../components/products/product");
+
+var textStyled_1 = require("../components/products/textStyled");
+
+var image_1 = __importDefault(require("../components/images/image"));
+
+var PIXBLECassette_webp_1 = __importDefault(require("../../images/cassette/PIXBLECassette.webp"));
+
+var Crane_webp_1 = __importDefault(require("../../images/blenderImg/Crane.webp"));
+
+var Desk_webp_1 = __importDefault(require("../../images/blenderImg/Desk.webp"));
+
+var Garebare_webp_1 = __importDefault(require("../../images/blenderImg/Garebare.webp"));
+
+var NIT_webp_1 = __importDefault(require("../../images/blenderImg/NIT.webp"));
+
+var Oni_webp_1 = __importDefault(require("../../images/blenderImg/Oni.webp"));
+
+var Piano_webp_1 = __importDefault(require("../../images/blenderImg/Piano.webp"));
+
+var WarWolf_webp_1 = __importDefault(require("../../images/blenderImg/WarWolf.webp"));
+
+var Airship_webp_1 = __importDefault(require("../../images/magicaImg/Airship.webp"));
+
+var bin_webp_1 = __importDefault(require("../../images/magicaImg/bin.webp"));
+
+var Bridge_webp_1 = __importDefault(require("../../images/magicaImg/Bridge.webp"));
+
+var Controler_webp_1 = __importDefault(require("../../images/magicaImg/Controler.webp"));
+
+var Dice_webp_1 = __importDefault(require("../../images/magicaImg/Dice.webp"));
+
+var Train_webp_1 = __importDefault(require("../../images/magicaImg/Train.webp"));
+
+var ambllera_webp_1 = __importDefault(require("../../images/pixelImg/ambllera.webp"));
+
+var animation_webp_1 = __importDefault(require("../../images/pixelImg/animation.webp"));
+
+var bloom_webp_1 = __importDefault(require("../../images/pixelImg/bloom.webp"));
+
+var coffee_webp_1 = __importDefault(require("../../images/pixelImg/coffee.webp"));
+
+var radio_webp_1 = __importDefault(require("../../images/pixelImg/radio.webp"));
+
+var radio3_webp_1 = __importDefault(require("../../images/pixelImg/radio3.webp"));
+
+var radio5_webp_1 = __importDefault(require("../../images/pixelImg/radio5.webp"));
+
+var radio8_webp_1 = __importDefault(require("../../images/pixelImg/radio8.webp"));
+
+var riceball_webp_1 = __importDefault(require("../../images/pixelImg/riceball.webp"));
+
+var tree_webp_1 = __importDefault(require("../../images/pixelImg/tree.webp"));
+
+var Center = styled_components_1.default.div({
+  textAlign: "center"
+});
+
+function Details(props) {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: props.size
+  }, "\u30C9\u30C3\u30C8\u7D75\u30843DCG\u306A\u3069\u306E\u4F5C\u54C1\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: props.size
+  }, "\u30C9\u30C3\u30C8\u7D75\u306FAceprite\u30013DCG\u306FBlender\u3001\u30DC\u30AF\u30BB\u30EB\u30A2\u30FC\u30C8\u306FMagicaVoxel\u3067\u4F5C\u6210\u3057\u3066\u3044\u307E\u3059\u3002"));
+}
+
+function PixBle() {
+  var _a = React.useState("25px"),
+      fontSize = _a[0],
+      setFontsize = _a[1];
+
+  var _b = React.useState("30px"),
+      titleFontSize = _b[0],
+      SettitleFontSize = _b[1];
+
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(product_1.Product, {
+    title: "PIX/BLE",
+    fontSize: fontSize,
+    titleFontSize: titleFontSize,
+    setFontsize: setFontsize,
+    setTitleFontSize: SettitleFontSize,
+    details: Details,
+    cassette: {
+      url: PIXBLECassette_webp_1.default
+    }
+  }), /*#__PURE__*/React.createElement(Center, null, /*#__PURE__*/React.createElement(image_1.default, {
+    url: Crane_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: Desk_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: Garebare_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: NIT_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: Oni_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: Piano_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: WarWolf_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: Airship_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: bin_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: Bridge_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: Controler_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: Dice_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: Train_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: ambllera_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: animation_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: bloom_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: coffee_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: radio_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: radio3_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: radio5_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: radio8_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: riceball_webp_1.default
+  }), /*#__PURE__*/React.createElement(image_1.default, {
+    url: tree_webp_1.default
+  })));
+}
+
+exports.default = PixBle;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../components/products/product":"ts/components/products/product.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../components/images/image":"ts/components/images/image.tsx","../../images/cassette/PIXBLECassette.webp":"images/cassette/PIXBLECassette.webp","../../images/blenderImg/Crane.webp":"images/blenderImg/Crane.webp","../../images/blenderImg/Desk.webp":"images/blenderImg/Desk.webp","../../images/blenderImg/Garebare.webp":"images/blenderImg/Garebare.webp","../../images/blenderImg/NIT.webp":"images/blenderImg/NIT.webp","../../images/blenderImg/Oni.webp":"images/blenderImg/Oni.webp","../../images/blenderImg/Piano.webp":"images/blenderImg/Piano.webp","../../images/blenderImg/WarWolf.webp":"images/blenderImg/WarWolf.webp","../../images/magicaImg/Airship.webp":"images/magicaImg/Airship.webp","../../images/magicaImg/bin.webp":"images/magicaImg/bin.webp","../../images/magicaImg/Bridge.webp":"images/magicaImg/Bridge.webp","../../images/magicaImg/Controler.webp":"images/magicaImg/Controler.webp","../../images/magicaImg/Dice.webp":"images/magicaImg/Dice.webp","../../images/magicaImg/Train.webp":"images/magicaImg/Train.webp","../../images/pixelImg/ambllera.webp":"images/pixelImg/ambllera.webp","../../images/pixelImg/animation.webp":"images/pixelImg/animation.webp","../../images/pixelImg/bloom.webp":"images/pixelImg/bloom.webp","../../images/pixelImg/coffee.webp":"images/pixelImg/coffee.webp","../../images/pixelImg/radio.webp":"images/pixelImg/radio.webp","../../images/pixelImg/radio3.webp":"images/pixelImg/radio3.webp","../../images/pixelImg/radio5.webp":"images/pixelImg/radio5.webp","../../images/pixelImg/radio8.webp":"images/pixelImg/radio8.webp","../../images/pixelImg/riceball.webp":"images/pixelImg/riceball.webp","../../images/pixelImg/tree.webp":"images/pixelImg/tree.webp"}],"images/otherImg/TodoList.webm":[function(require,module,exports) {
+module.exports = "/TodoList.600e970d.webm";
+},{}],"ts/Routes/other.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var product_1 = require("../components/products/product");
+
+var linkButton_1 = __importDefault(require("../components/products/linkButton"));
+
+var textStyled_1 = require("../components/products/textStyled");
+
+var OtherCassette_webp_1 = __importDefault(require("../../images/cassette/OtherCassette.webp"));
+
+var TodoList_webm_1 = __importDefault(require("../../images/otherImg/TodoList.webm"));
+
+function Details(props) {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: props.size
+  }, "\u305D\u306E\u4ED6\u3082\u306E\u3067\u3059\u3002"));
+}
+
+function Other() {
+  var _a = React.useState("25px"),
+      fontSize = _a[0],
+      setFontsize = _a[1];
+
+  var _b = React.useState("30px"),
+      titleFontSize = _b[0],
+      SettitleFontSize = _b[1];
+
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(product_1.Product, {
+    title: "Other",
+    fontSize: fontSize,
+    titleFontSize: titleFontSize,
+    setFontsize: setFontsize,
+    setTitleFontSize: SettitleFontSize,
+    details: Details,
+    cassette: {
+      url: OtherCassette_webp_1.default
+    }
+  }), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "erectron-memo",
+    image: {
+      url: ""
+    },
+    video: {
+      url: TodoList_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/todo_list"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Flutter\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002TODO\u30EA\u30B9\u30C8\u3067\u3059\u3002"));
+}
+
+exports.default = Other;
+},{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/OtherCassette.webp":"images/cassette/OtherCassette.webp","../../images/otherImg/TodoList.webm":"images/otherImg/TodoList.webm"}],"ts/Routes/notFound.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(require("react"));
+
+var styled_components_1 = __importDefault(require("styled-components"));
+
+var Text = styled_components_1.default.div({
+  textAlign: "center",
+  color: "white",
+  fontSize: "20px"
+});
+
+function NotFound() {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Text, null, /*#__PURE__*/React.createElement("h1", null, "404"), /*#__PURE__*/React.createElement("h1", null, "NotFound")));
+}
+
+exports.default = NotFound;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"ts/router.tsx":[function(require,module,exports) {
 "use strict";
 
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
@@ -39957,6 +40913,16 @@ var jsts_1 = __importDefault(require("./Routes/jsts"));
 
 var go_1 = __importDefault(require("./Routes/go"));
 
+var rust_1 = __importDefault(require("./Routes/rust"));
+
+var unity_1 = __importDefault(require("./Routes/unity"));
+
+var pixble_1 = __importDefault(require("./Routes/pixble"));
+
+var other_1 = __importDefault(require("./Routes/other"));
+
+var notFound_1 = __importDefault(require("./Routes/notFound"));
+
 function Router() {
   return /*#__PURE__*/React.createElement(react_router_dom_1.Switch, null, /*#__PURE__*/React.createElement(react_router_dom_1.Route, {
     path: "/",
@@ -39970,11 +40936,29 @@ function Router() {
     path: "/go",
     exact: true,
     component: go_1.default
+  }), /*#__PURE__*/React.createElement(react_router_dom_1.Route, {
+    path: "/unity",
+    exact: true,
+    component: unity_1.default
+  }), /*#__PURE__*/React.createElement(react_router_dom_1.Route, {
+    path: "/rust",
+    exact: true,
+    component: rust_1.default
+  }), /*#__PURE__*/React.createElement(react_router_dom_1.Route, {
+    path: "/pixble",
+    exact: true,
+    component: pixble_1.default
+  }), /*#__PURE__*/React.createElement(react_router_dom_1.Route, {
+    path: "/other",
+    exact: true,
+    component: other_1.default
+  }), /*#__PURE__*/React.createElement(react_router_dom_1.Route, {
+    component: notFound_1.default
   }));
 }
 
 exports.default = react_router_dom_1.withRouter(Router);
-},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","./Routes/home":"ts/Routes/home.tsx","./Routes/jsts":"ts/Routes/jsts.tsx","./Routes/go":"ts/Routes/go.tsx"}],"ts/app.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","./Routes/home":"ts/Routes/home.tsx","./Routes/jsts":"ts/Routes/jsts.tsx","./Routes/go":"ts/Routes/go.tsx","./Routes/rust":"ts/Routes/rust.tsx","./Routes/unity":"ts/Routes/unity.tsx","./Routes/pixble":"ts/Routes/pixble.tsx","./Routes/other":"ts/Routes/other.tsx","./Routes/notFound":"ts/Routes/notFound.tsx"}],"ts/app.tsx":[function(require,module,exports) {
 "use strict";
 
 var __makeTemplateObject = this && this.__makeTemplateObject || function (cooked, raw) {
@@ -40041,6 +41025,8 @@ var react_router_dom_1 = require("react-router-dom");
 
 var styled_components_1 = require("styled-components");
 
+var scroll_1 = __importDefault(require("./scroll"));
+
 var k8x12L_ttf_1 = __importDefault(require("../../font/k8x12L.ttf"));
 
 var GlobalStyles = styled_components_1.createGlobalStyle(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  @font-face {\n    font-family:'pixleFont';\n    src: url(", ");\n  }\n  body {\n    font-family: 'pixleFont', sans-serif;\n  }\n"], ["\n  @font-face {\n    font-family:'pixleFont';\n    src: url(", ");\n  }\n  body {\n    font-family: 'pixleFont', sans-serif;\n  }\n"])), k8x12L_ttf_1.default);
@@ -40048,9 +41034,9 @@ var GlobalStyles = styled_components_1.createGlobalStyle(templateObject_1 || (te
 var router_1 = __importDefault(require("./router"));
 
 var app = document.getElementById("app");
-ReactDOM.render( /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(GlobalStyles, null), /*#__PURE__*/React.createElement(react_router_dom_1.HashRouter, null, /*#__PURE__*/React.createElement(router_1.default, null))), app);
+ReactDOM.render( /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(GlobalStyles, null), /*#__PURE__*/React.createElement(react_router_dom_1.HashRouter, null, /*#__PURE__*/React.createElement(scroll_1.default, null), /*#__PURE__*/React.createElement(router_1.default, null))), app);
 var templateObject_1;
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../../font/k8x12L.ttf":"../font/k8x12L.ttf","./router":"ts/router.tsx"}],"../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","./scroll":"ts/scroll.tsx","../../font/k8x12L.ttf":"../font/k8x12L.ttf","./router":"ts/router.tsx"}],"../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -40078,7 +41064,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36715" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40085" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

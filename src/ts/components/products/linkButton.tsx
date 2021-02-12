@@ -1,5 +1,5 @@
 import * as React from 'react';
-import styled, { StyledComponent } from 'styled-components';
+import styled from 'styled-components';
 
 import { FontSize } from '../../styleType/fontSize';
 
@@ -32,7 +32,7 @@ const Link = styled.a<FontSize>((props) => ({
   marginTop:"0.375em",
   marginBottom:"0.375em",
   marginLeft:"2px",
-  marginRight:"2px"
+  marginRight:"2px",
   fontSize: `${(props) => {props.size}}`,
   ":hover": {
     color: "#003e80",

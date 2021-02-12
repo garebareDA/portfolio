@@ -32,7 +32,7 @@ function Go() {
 
   return(
     <div>
-      <Product fontSize={fontSize} titleFontSize={titleFontSize} setFontsize={setFontsize} setTitleFontSize={SettitleFontSize} details={Details} cassette={{url:GoCassette}}/>
+      <Product title={"Go"} fontSize={fontSize} titleFontSize={titleFontSize} setFontsize={setFontsize} setTitleFontSize={SettitleFontSize} details={Details} cassette={{url:GoCassette}}/>
       <Contents titleFontSize={{ size: titleFontSize }} title="QR-generator" image={{ url: "" }} video={{ url: QRGenerator }}></Contents>
       <LinkButtons size={{size:fontSize}} url={["https://github.com/garebareDA/QR-generator"]} text={["GitHub"]}/>
       <Text size={fontSize}>QRコードジェネレーターです。</Text>

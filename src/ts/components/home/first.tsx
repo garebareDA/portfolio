@@ -59,8 +59,8 @@ const InlineBlockLink = styled.div({
 const Left = styled.div({
   whiteSpace: "nowrap",
   textAlign: "center",
-  marginTop: "300px",
-  marginBottom: "50px",
+  marginTop: "100px",
+  marginBottom: "10px",
   clear: 'none',
 });
 

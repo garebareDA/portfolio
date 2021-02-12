@@ -26,7 +26,7 @@ function Unity(){
   const [titleFontSize, SettitleFontSize] = React.useState("30px");
   return(
     <div>
-      <Product fontSize={fontSize} titleFontSize={titleFontSize} setFontsize={setFontsize} setTitleFontSize={SettitleFontSize} details={Details} cassette={{ url: UnityCassette }} />
+      <Product title={"Unity"} fontSize={fontSize} titleFontSize={titleFontSize} setFontsize={setFontsize} setTitleFontSize={SettitleFontSize} details={Details} cassette={{ url: UnityCassette }} />
       <Contents titleFontSize={{ size: titleFontSize }} title="MiniVtuber" image={{ url: "" }} video={{ url: MiniVtuber }}></Contents>
       <LinkButtons size={{ size: fontSize }} url={["https://github.com/garebareDA/Vtuber"]} text={["GitHub"]} />
       <Text size={fontSize}>UnityとNode.jsで作成しました。</Text>
@@ -48,9 +48,10 @@ function Unity(){
       <Text size={fontSize}>Unityで作成しました。</Text>
       <Text size={fontSize}>PixelVtuberのマルチプレイヤーバージョンです。</Text>
 
-      <Contents titleFontSize={{ size: titleFontSize }} title="action-nanika(grabi)" image={{ url: "" }} video={{ url: MinosMaze }}></Contents>
+      <Contents titleFontSize={{ size: titleFontSize }} title="MinosMaze" image={{ url: MinosMaze }} video={{ url: "" }}></Contents>
       <LinkButtons size={{ size: fontSize }} url={["https://garebare.itch.io/minosmaze",]} text={["itch.io"]} />
       <Text size={fontSize}>Unityを使い二人で共同開発したパズル対戦ゲームです。</Text>
+      <Text size={fontSize}>現在itch.ioで配布中です。</Text>
     </div>
   )
 }

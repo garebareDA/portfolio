@@ -27,6 +27,10 @@ const Name = styled.div<FontSize>((props: FontSize) => ({
 );
 
 const Img = styled.img({
+  transitionDuration:"0.3s",
+  transform: "scale(1)",
+  marginTop:"5px",
+
   ":hover":{
     transform: "scale(1.1)",
     transitionDuration: "0.3s",

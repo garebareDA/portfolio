@@ -11,7 +11,7 @@ import Editor from '../../images/rustImg/Editor.webm';
 import WebBrowser from '../../images/rustImg/WebBrowser.webm';
 import Koto from '../../images/rustImg/Koto.webm';
 import KotoWasm from '../../images/rustImg/KotoWasm.webm';
-import NesEmurator from '../../images/rustImg/NESEmurator.webp'
+import NesEmurator from '../../images/rustImg/NESEmulator.webp'
 import Umbrella from '../../images/rustImg/Umbrella.webm';
 import SmallGit from '../..//images/rustImg/SmallGit.webm';
 import GShell from '../../images/rustImg/GShell.webm';
@@ -32,7 +32,7 @@ function Rust() {
 
   return (
     <div>
-      <Product fontSize={fontSize} titleFontSize={titleFontSize} setFontsize={setFontsize} setTitleFontSize={SettitleFontSize} details={Details} cassette={{ url: RustCassette }} />
+      <Product title={"Rust"} fontSize={fontSize} titleFontSize={titleFontSize} setFontsize={setFontsize} setTitleFontSize={SettitleFontSize} details={Details} cassette={{ url: RustCassette }} />
       <Contents titleFontSize={{ size: titleFontSize }} title="zip" image={{ url: "" }} video={{ url: Zip }}></Contents>
       <LinkButtons size={{ size: fontSize }} url={["https://github.com/garebareDA/zip"]} text={["GitHub"]} />
       <Text size={fontSize}>zipファイルを作成してくれるCLIツールです。</Text>
@@ -51,11 +51,7 @@ function Rust() {
       <Text size={fontSize}>レクサー、パーサー、インタプリをフルスクラッチで作成した自作言語です。</Text>
       <Text size={fontSize}>関数や構文、インポートなどの基礎的な部分が完成しています。</Text>
 
-      <Contents titleFontSize={{ size: titleFontSize }} title="koto" image={{ url: "" }} video={{ url: KotoWasm }}></Contents>
-      <LinkButtons size={{ size: fontSize }} url={["https://github.com/garebareDA/koto/tree/wasm", "https://koto-e2f64.firebaseapp.com/"]} text={["GitHub", "Firebase"]} />
-      <Text size={fontSize}>上の自作言語のWASM版です。ブラウザ内で動作します。</Text>
-
-      <Contents titleFontSize={{ size: titleFontSize }} title="koto" image={{ url: "" }} video={{ url: KotoWasm }}></Contents>
+      <Contents titleFontSize={{ size: titleFontSize }} title="koto-wasm" image={{ url: "" }} video={{ url: KotoWasm }}></Contents>
       <LinkButtons size={{ size: fontSize }} url={["https://github.com/garebareDA/koto/tree/wasm"]} text={["GitHub"]} />
       <Text size={fontSize}>上の自作言語のWASM版です。ブラウザ内で動作します。</Text>
 

@@ -51,7 +51,7 @@ const InlineOut = styled.div({
 })
 
 const Center = styled.div<IsBottom>((props: IsBottom) => ({
-  marginBottom: props.isBottom ? "300px" : "0px"
+  marginBottom: props.isBottom ? "100px" : "0px"
 }),
   {
     textAlign: "center",

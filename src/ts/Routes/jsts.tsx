@@ -31,7 +31,7 @@ function JSTS() {
   
   return (
     <div>
-      <Product fontSize={fontSize} titleFontSize={titleFontSize} setFontsize={setFontsize} setTitleFontSize={SettitleFontSize} details={Details} cassette={{url:JSTSCassette}}/>
+      <Product title={"JavaScript/TypeScript"} fontSize={fontSize} titleFontSize={titleFontSize} setFontsize={setFontsize} setTitleFontSize={SettitleFontSize} details={Details} cassette={{url:JSTSCassette}}/>
       <Contents titleFontSize={{ size: titleFontSize }} title="erectron-memo" image={{ url: ElectronMemo }} video={{ url: "" }}></Contents>
       <LinkButtons size={{size:fontSize}} url={["https://github.com/garebareDA/electron-memo"]} text={["GitHub"]}/>
       <Text size={fontSize}>Electronで作成したシンプルなメモ帳です。</Text>
