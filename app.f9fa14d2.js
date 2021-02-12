@@ -37348,7 +37348,10 @@ var Links = styled_components_1.default.a(function (props) {
   fontSize: "" + function (props) {
     return props.size;
   },
-  color: "white"
+  color: "white",
+  ":hover": {
+    color: "gray"
+  }
 });
 var MediaLink = styled_components_1.default.div({
   textAlign: "center",
@@ -41064,7 +41067,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42239" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38457" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

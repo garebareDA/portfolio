@@ -10,6 +10,9 @@ const Links = styled.a<FontSize>((props: FontSize) => ({
     //40px
     fontSize: `${(props: FontSize) => props.size}`,
     color: "white",
+    ":hover":{
+      color:"gray"
+    }
   }
 );
 
