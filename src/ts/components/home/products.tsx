@@ -27,8 +27,8 @@ const mediaSize: Size = {
   height: 152,
 }
 
-const fontSize = "45px";
-const mediaFontSize = "20px";
+const fontSize = "35px";
+const mediaFontSize = "35px";
 
 const ProductsText = styled.div<FontSize>((props: FontSize) => ({
   fontSize: props.size,
@@ -74,70 +74,63 @@ const Click = styled.div<FontSize>((props: FontSize) =>
 function Products() {
   return (
     <div>
-      <MediaQuery query="(min-width: 768px)">
-        <Center isBottom={true}>
-          <ProductsText size={"60px"}>
-            |Products|
+      <Center isBottom={true}>
+        <ProductsText size={"60px"}>
+          |Products|
           <Click size="30px">
-              見たいジャンルのカセットをクリックしてださい
+            見たいジャンルのカセットをクリックしてださい
           </Click>
-          </ProductsText>
+        </ProductsText>
+        <MediaQuery query="(min-width: 768px)">
           <InlineOut>
             <Inline>
-              <Cassette to="jsts" image={{url:JSTSCassette}} name="JavaScript/TypeScript" size={size} fontSize={{ size: fontSize }}></Cassette>
+              <Cassette to="jsts" image={{ url: JSTSCassette }} name="JavaScript/TypeScript" size={size} fontSize={{ size: fontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="go" image={{url:GOCassette}} name="Go" size={size} fontSize={{ size: fontSize }}></Cassette>
+              <Cassette to="go" image={{ url: GOCassette }} name="Go" size={size} fontSize={{ size: fontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="rust" image={{url:RustCassette}} name="Rust" size={size} fontSize={{ size: fontSize }}></Cassette>
+              <Cassette to="rust" image={{ url: RustCassette }} name="Rust" size={size} fontSize={{ size: fontSize }}></Cassette>
             </Inline>
           </InlineOut>
           <InlineOut>
             <Inline>
-              <Cassette to="unity" image={{url:UnityCassette}} name="Unity" size={size} fontSize={{ size: fontSize }}></Cassette>
+              <Cassette to="unity" image={{ url: UnityCassette }} name="Unity" size={size} fontSize={{ size: fontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="pixble" image={{url:PIXBLECassette}} name="Pixel/Blender" size={size} fontSize={{ size: fontSize }}></Cassette>
+              <Cassette to="pixble" image={{ url: PIXBLECassette }} name="Pixel/Blender" size={size} fontSize={{ size: fontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="other" image={{url:OtherCassette}} name="Other" size={size} fontSize={{ size: fontSize }}></Cassette>
+              <Cassette to="other" image={{ url: OtherCassette }} name="Other" size={size} fontSize={{ size: fontSize }}></Cassette>
             </Inline>
           </InlineOut>
-        </Center>
-      </MediaQuery>
+        </MediaQuery>
 
-      <MediaQuery query="(max-width: 767px)">
-        <Center isBottom={false}>
-          <ProductsText size={"30px"}>
-            |Products|
-          <Click size="20px">
-              見たいジャンルのカセットをクリックしてださい
-          </Click>
-          </ProductsText>
+        <MediaQuery query="(max-width: 767px)">
           <InlineOut>
             <Inline>
-              <Cassette to="jsts" image={{url:JSTSCassette}} name="JavaScript/TypeScript" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
+              <Cassette to="jsts" image={{ url: JSTSCassette }} name="JavaScript/TypeScript" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="go" image={{url:GOCassette}} name="Go" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
+              <Cassette to="go" image={{ url: GOCassette }} name="Go" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="rust" image={{url:RustCassette}} name="Rust" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
+              <Cassette to="rust" image={{ url: RustCassette }} name="Rust" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
             </Inline>
           </InlineOut>
           <InlineOut>
             <Inline>
-              <Cassette to="unity" image={{url:UnityCassette}} name="Unity" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
+              <Cassette to="unity" image={{ url: UnityCassette }} name="Unity" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="pixble" image={{url:PIXBLECassette}} name="Pixel/Blender" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
+              <Cassette to="pixble" image={{ url: PIXBLECassette }} name="Pixel/Blender" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
             </Inline>
             <Inline>
-              <Cassette to="other" image={{url:OtherCassette}} name="Other" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
+              <Cassette to="other" image={{ url: OtherCassette }} name="Other" size={mediaSize} fontSize={{ size: mediaFontSize }}></Cassette>
             </Inline>
-          </InlineOut></Center>
-      </MediaQuery>
+          </InlineOut>
+        </MediaQuery>
+      </Center>
     </div>
   )
 }
