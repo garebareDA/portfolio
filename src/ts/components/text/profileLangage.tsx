@@ -17,7 +17,7 @@ function ProfileLangage() {
   return (
     <div>
       <Title>
-        |Programing Langage|
+        Programing Langage
       </Title>
 
       <Text>HTML</Text>

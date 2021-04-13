@@ -36223,7 +36223,7 @@ var ProfileText = styled_components_1.default.div({
 function First() {
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Portfolio, {
     size: "60px"
-  }, "|Portfolio |"), /*#__PURE__*/React.createElement(PhoneIcon, null, /*#__PURE__*/React.createElement(icon_1.default, {
+  }, "|Portfolio|"), /*#__PURE__*/React.createElement(PhoneIcon, null, /*#__PURE__*/React.createElement(icon_1.default, {
     border: true
   })), /*#__PURE__*/React.createElement(MediaCenter, null, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(logo_1.default, {
     width: 100,
@@ -36302,7 +36302,7 @@ var MarginBttom = styled_components_1.default.div({
 });
 
 function ProfileEducation() {
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, "|Education|"), /*#__PURE__*/React.createElement(Text, null, "2017-??????"), /*#__PURE__*/React.createElement(Text, null, "2020-??????"), /*#__PURE__*/React.createElement(MarginBttom, null));
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, "Education"), /*#__PURE__*/React.createElement(Text, null, "2017-??????"), /*#__PURE__*/React.createElement(Text, null, "2020-??????"), /*#__PURE__*/React.createElement(MarginBttom, null));
 }
 
 exports.default = ProfileEducation;
@@ -36369,7 +36369,7 @@ var Text = styled_components_1.default.div({
 });
 
 function ProfileLangage() {
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, "|Programing Langage|"), /*#__PURE__*/React.createElement(Text, null, "HTML"), /*#__PURE__*/React.createElement(Text, null, "CSS"), /*#__PURE__*/React.createElement(Text, null, "JavaScript"), /*#__PURE__*/React.createElement(Text, null, "TypeScript"), /*#__PURE__*/React.createElement(Text, null, "(Node.js)"), /*#__PURE__*/React.createElement(Text, null, "Python"), /*#__PURE__*/React.createElement(Text, null, "Go"), /*#__PURE__*/React.createElement(Text, null, "Rust"), /*#__PURE__*/React.createElement(Text, null, "Unity C#"));
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, "Programing Langage"), /*#__PURE__*/React.createElement(Text, null, "HTML"), /*#__PURE__*/React.createElement(Text, null, "CSS"), /*#__PURE__*/React.createElement(Text, null, "JavaScript"), /*#__PURE__*/React.createElement(Text, null, "TypeScript"), /*#__PURE__*/React.createElement(Text, null, "(Node.js)"), /*#__PURE__*/React.createElement(Text, null, "Python"), /*#__PURE__*/React.createElement(Text, null, "Go"), /*#__PURE__*/React.createElement(Text, null, "Rust"), /*#__PURE__*/React.createElement(Text, null, "Unity C#"));
 }
 
 exports.default = ProfileLangage;
@@ -36452,7 +36452,7 @@ var MarginBttom = styled_components_1.default.div({
 });
 
 function Link() {
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, "|Links|"), /*#__PURE__*/React.createElement(MediaLink, null, /*#__PURE__*/React.createElement(Links, {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, "Links"), /*#__PURE__*/React.createElement(MediaLink, null, /*#__PURE__*/React.createElement(Links, {
     size: "35px",
     href: "https://github.com/garebareDA",
     target: "blank"
@@ -36544,7 +36544,7 @@ var Margin = styled_components_1.default.div({
   height: "1000px",
   marginLeft: "auto",
   marginRight: "auto",
-  width: "30em"
+  width: "20em"
 });
 
 function Profile() {
@@ -40378,7 +40378,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39839" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33959" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

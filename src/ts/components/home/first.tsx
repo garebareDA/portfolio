@@ -47,7 +47,7 @@ const ProfileText = styled.div({
 function First(): JSX.Element {
   return (
     <div>
-      <Portfolio size="60px">|Portfolio |</Portfolio>
+      <Portfolio size="60px">|Portfolio|</Portfolio>
       <PhoneIcon>
         <Icon border={true} />
       </PhoneIcon>

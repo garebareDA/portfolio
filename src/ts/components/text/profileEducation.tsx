@@ -21,7 +21,7 @@ function ProfileEducation() {
   return (
     <div>
       <Title>
-        |Education|
+        Education
       </Title>
       <Text>2017-??????</Text>
       <Text>2020-??????</Text>

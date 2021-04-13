@@ -11,7 +11,7 @@ const Margin = styled.div({
   height: "1000px",
   marginLeft: "auto",
   marginRight: "auto",
-  width: "30em",
+  width: "20em",
 });
 
 function Profile() {
