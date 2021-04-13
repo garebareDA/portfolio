@@ -21,7 +21,7 @@ function ProfileEducation() {
   return (
     <div>
       <Title>
-        |Education|
+        Education
       </Title>
       <Text>2017-N高等学校</Text>
       <Text>2020-サイバー大学</Text>
