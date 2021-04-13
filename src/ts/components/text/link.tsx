@@ -34,7 +34,7 @@ function Link() {
   return (
     <div>
       <Title>
-        |Links|
+        Links
       </Title>
       <MediaLink>
         <Links size={"35px"} href="https://github.com/garebareDA" target="blank">Github</Links>
