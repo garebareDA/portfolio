@@ -36369,7 +36369,7 @@ var Text = styled_components_1.default.div({
 });
 
 function ProfileLangage() {
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, "Programing Langage"), /*#__PURE__*/React.createElement(Text, null, "HTML"), /*#__PURE__*/React.createElement(Text, null, "CSS"), /*#__PURE__*/React.createElement(Text, null, "JavaScript"), /*#__PURE__*/React.createElement(Text, null, "TypeScript"), /*#__PURE__*/React.createElement(Text, null, "(Node.js)"), /*#__PURE__*/React.createElement(Text, null, "Python"), /*#__PURE__*/React.createElement(Text, null, "Go"), /*#__PURE__*/React.createElement(Text, null, "Rust"), /*#__PURE__*/React.createElement(Text, null, "Unity C#"));
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, /*#__PURE__*/React.createElement(Text, null, "|Programing Language|")), /*#__PURE__*/React.createElement(Text, null, "HTML"), /*#__PURE__*/React.createElement(Text, null, "CSS"), /*#__PURE__*/React.createElement(Text, null, "JavaScript"), /*#__PURE__*/React.createElement(Text, null, "TypeScript"), /*#__PURE__*/React.createElement(Text, null, "(Node.js)"), /*#__PURE__*/React.createElement(Text, null, "Python"), /*#__PURE__*/React.createElement(Text, null, "Go"), /*#__PURE__*/React.createElement(Text, null, "Rust"), /*#__PURE__*/React.createElement(Text, null, "Unity C#"));
 }
 
 exports.default = ProfileLangage;
@@ -40378,7 +40378,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33959" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38643" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
