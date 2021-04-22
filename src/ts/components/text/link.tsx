@@ -1,6 +1,5 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import MediaQuery from "react-responsive";
 import { FontSize } from "../../styleType/fontSize";
 
 const Links = styled.a<FontSize>((props: FontSize) => ({
@@ -10,65 +9,52 @@ const Links = styled.a<FontSize>((props: FontSize) => ({
     //40px
     fontSize: `${(props: FontSize) => props.size}`,
     color: "white",
-    ":hover":{
-      color:"gray"
+    ":hover": {
+      color: "gray"
     }
   }
 );
 
 const MediaLink = styled.div({
-  textAlign:"center",
-  marginTop:"10px",
+  marginTop: "10px",
+  marginLeft: "50px",
 })
 
-const GithubLink = styled.div({
-  position: "relative",
-  left: "-150px",
-  bottom: "30px",
-  transform: "rotate(-51deg)"
+const Title = styled.div({
+  marginBottom: "15px",
+  fontSize:"50px",
+  color: "white",
 });
 
-const TwitterLink = styled.div({
-  position: "relative",
-  left: "-80px",
-  bottom: "-15px",
-  transform: "rotate(-40deg)"
+const MarginBttom = styled.div({
+  marginBottom: "50px"
 });
 
-const ZennLink = styled.div({
-  position: "relative",
-  left: "-25px",
-  bottom: "-90px",
-  transform: "rotate(-15deg)"
-});
-
-function Link(props: FontSize) {
+function Link() {
   return (
     <div>
-      <MediaQuery query="(min-width: 768px)">
-        <GithubLink>
-          <Links size={props.size} href="https://github.com/garebareDA" target="blank">Github</Links>
-        </GithubLink>
-        <TwitterLink>
-          <Links size={props.size} href="https://twitter.com/garebare521" target="blank">Twitter</Links>
-        </TwitterLink>
-        <ZennLink>
-          <Links size={props.size} href="https://zenn.dev/garebare" target="blank">Zenn</Links>
-        </ZennLink>
-      </MediaQuery>
-
-      <MediaQuery query="(max-width: 767px)">
-        <MediaLink>
-          <Links size={props.size} href="https://github.com/garebareDA" target="blank">Github</Links>
-        </MediaLink>
-        <MediaLink>
-          <Links size={props.size} href="https://twitter.com/garebare521" target="blank">Twitter</Links>
-        </MediaLink>
-        <MediaLink>
-          <Links size={props.size} href="https://zenn.dev/garebare" target="blank">Zenn</Links>
-        </MediaLink>
-      </MediaQuery>
-
+      <Title>
+        Links
+      </Title>
+      <MediaLink>
+        <Links size={"35px"} href="https://github.com/garebareDA" target="blank">Github</Links>
+      </MediaLink>
+      <MediaLink>
+        <Links size={"35px"} href="https://twitter.com/garebare521" target="blank">Twitter</Links>
+      </MediaLink>
+      <MediaLink>
+        <Links size={"35px"} href="https://zenn.dev/garebare" target="blank">Zenn</Links>
+      </MediaLink>
+      <MediaLink>
+        <Links size={"35px"} href="https://qiita.com/DA_garebare" target="blank">Qiita</Links>
+      </MediaLink>
+      <MediaLink>
+        <Links size={"35px"} href="https://speakerdeck.com/garebareda" target="blank">Speaker Deck</Links>
+      </MediaLink>
+      <MediaLink>
+        <Links size={"35px"} href="https://www.youtube.com/channel/UCswsDUmDhE96PxKj8hN4rcA" target="blank">Youtube</Links>
+      </MediaLink>
+      <MarginBttom />
     </div>
   )
 }
