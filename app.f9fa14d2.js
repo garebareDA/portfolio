@@ -36369,7 +36369,7 @@ var Text = styled_components_1.default.div({
 });
 
 function ProfileLangage() {
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, "Programing Langage"), /*#__PURE__*/React.createElement(Text, null, "HTML"), /*#__PURE__*/React.createElement(Text, null, "CSS"), /*#__PURE__*/React.createElement(Text, null, "JavaScript"), /*#__PURE__*/React.createElement(Text, null, "TypeScript"), /*#__PURE__*/React.createElement(Text, null, "(Node.js)"), /*#__PURE__*/React.createElement(Text, null, "Python"), /*#__PURE__*/React.createElement(Text, null, "Go"), /*#__PURE__*/React.createElement(Text, null, "Rust"), /*#__PURE__*/React.createElement(Text, null, "Unity C#"));
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, "Programing Language"), /*#__PURE__*/React.createElement(Text, null, "HTML"), /*#__PURE__*/React.createElement(Text, null, "CSS"), /*#__PURE__*/React.createElement(Text, null, "JavaScript"), /*#__PURE__*/React.createElement(Text, null, "TypeScript"), /*#__PURE__*/React.createElement(Text, null, "(Node.js)"), /*#__PURE__*/React.createElement(Text, null, "Python"), /*#__PURE__*/React.createElement(Text, null, "Go"), /*#__PURE__*/React.createElement(Text, null, "Rust"), /*#__PURE__*/React.createElement(Text, null, "Unity C#"));
 }
 
 exports.default = ProfileLangage;
@@ -37511,15 +37511,9 @@ var define;
         }
       }
 
-<<<<<<< HEAD
-function ProfileLangage() {
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Title, null, /*#__PURE__*/React.createElement(Text, null, "|Programing Language|")), /*#__PURE__*/React.createElement(Text, null, "HTML"), /*#__PURE__*/React.createElement(Text, null, "CSS"), /*#__PURE__*/React.createElement(Text, null, "JavaScript"), /*#__PURE__*/React.createElement(Text, null, "TypeScript"), /*#__PURE__*/React.createElement(Text, null, "(Node.js)"), /*#__PURE__*/React.createElement(Text, null, "Python"), /*#__PURE__*/React.createElement(Text, null, "Go"), /*#__PURE__*/React.createElement(Text, null, "Rust"));
-}
-=======
       function getClassName(propValue) {
         return propValue.constructor && propValue.constructor.name ? propValue.constructor.name : ANONYMOUS;
       }
->>>>>>> b1bd1024c98062f4a1b1696a7fb0e0cce78e8e82
 
       var ITERATOR_SYMBOL = "function" == typeof Symbol && Symbol.iterator,
           FAUX_ITERATOR_SYMBOL = "@@iterator",
@@ -40384,11 +40378,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-<<<<<<< HEAD
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34389" + '/');
-=======
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43271" + '/');
->>>>>>> b1bd1024c98062f4a1b1696a7fb0e0cce78e8e82
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42163" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
