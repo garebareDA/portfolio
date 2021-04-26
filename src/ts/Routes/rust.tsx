@@ -15,6 +15,7 @@ import NesEmurator from '../../images/rustImg/NESEmulator.webp'
 import Umbrella from '../../images/rustImg/Umbrella.webm';
 import SmallGit from '../..//images/rustImg/SmallGit.webm';
 import GShell from '../../images/rustImg/GShell.webm';
+import Rekoto from '../../images/rustImg/Rekoto.webm';
 
 
 function Details(props: FontSize) {
@@ -72,6 +73,11 @@ function Rust() {
       <Contents titleFontSize={{ size: titleFontSize }} title="g_shell" image={{ url: "" }} video={{ url: GShell }}></Contents>
       <LinkButtons size={{ size: fontSize }} url={["https://github.com/garebareDA/g_shell"]} text={["GitHub"]} />
       <Text size={fontSize}>自作のShellです。コマンド実行、多段パイプ、リダイレクトが実装されています。</Text>
+
+      <Contents titleFontSize={{ size: titleFontSize }} title="rekoto" image={{ url: "" }} video={{ url: Rekoto }}></Contents>
+      <LinkButtons size={{ size: fontSize }} url={["https://github.com/garebareDA/rekoto"]} text={["GitHub"]} />
+      <Text size={fontSize}>自作言語のインタプリタです。上記のkotoのインタプリタや構文を見直し改善したものです。</Text>
+      <Text size={fontSize}>レクサーのみ流用されています。</Text>
     </div>
   )
 }

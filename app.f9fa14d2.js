@@ -38667,6 +38667,8 @@ module.exports = "https://xenodochial-almeida-65af43.netlify.app/LINEBot.ef94e18
 module.exports = "https://xenodochial-almeida-65af43.netlify.app/Bord.2c0438c4.webm";
 },{}],"images/javascriptImg/Smork.webm":[function(require,module,exports) {
 module.exports = "https://xenodochial-almeida-65af43.netlify.app/Smork.d102bcdb.webm";
+},{}],"images/javascriptImg/Geact.webm":[function(require,module,exports) {
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Geact.b52a378b.webm";
 },{}],"ts/Routes/jsts.tsx":[function(require,module,exports) {
 "use strict";
 
@@ -38740,6 +38742,8 @@ var Bord_webm_1 = __importDefault(require("../../images/javascriptImg/Bord.webm"
 
 var Smork_webm_1 = __importDefault(require("../../images/javascriptImg/Smork.webm"));
 
+var Geact_webm_1 = __importDefault(require("../../images/javascriptImg/Geact.webm"));
+
 function Details(props) {
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(textStyled_1.Text, {
     size: props.size
@@ -38747,7 +38751,7 @@ function Details(props) {
     size: props.size
   }, "\u30D5\u30EC\u30FC\u30E0\u30EF\u30FC\u30AF\u306FVue.js\u3084React\u3092\u3088\u304F\u4F7F\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
     size: props.size
-  }, "TypeScript\u3092\u4F7F\u3063\u305F\u3082\u306E\u306F\u30B5\u30FC\u30D0\u30FC\u30B5\u30A4\u30C9\u304CGo\u306E\u305F\u3081\u305D\u3061\u3089\u306B\u3042\u308A\u307E\u3059\u3002"));
+  }, "\u30B5\u30FC\u30D0\u30FC\u30B5\u30A4\u30C9\u304CGo\u306E\u305F\u3081TypeScript\u3092\u4F7F\u3063\u305FWeb\u30A2\u30D7\u30EA\u306F\u305D\u3061\u3089\u306B\u3042\u308A\u307E\u3059\u3002"));
 }
 
 function JSTS() {
@@ -38929,11 +38933,32 @@ function JSTS() {
     size: fontSize
   }, "\u30DB\u30B9\u30C6\u30A3\u30F3\u30B0\u3001\u30C7\u30FC\u30BF\u30D9\u30FC\u30B9\u3001\u30ED\u30B0\u30A4\u30F3\u306B\u306FFirebase\u3001\u30D5\u30EC\u30FC\u30E0\u30EF\u30FC\u30AF\u306FVue.js\u3001\u901A\u4FE1\u90E8\u5206\u306BSkyway\u3092\u4F7F\u3044\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
     size: fontSize
-  }, "\u30E9\u30B8\u30AA\u304C\u914D\u4FE1\u3067\u304D\u308B\u30B5\u30A4\u30C8\u3067\u3059\u3002"));
+  }, "\u30E9\u30B8\u30AA\u304C\u914D\u4FE1\u3067\u304D\u308B\u30B5\u30A4\u30C8\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "Geact",
+    image: {
+      url: ""
+    },
+    video: {
+      url: Geact_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/GeactOne"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "TypeScript\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002\u81EA\u4F5CReact\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u73FE\u5728\u306F\u30EC\u30F3\u30C0\u30EA\u30F3\u30B0\u3001hooks\u304C\u5B9F\u88C5\u3055\u308C\u3066\u3044\u307E\u3059\u3002"));
 }
 
 exports.default = JSTS;
-},{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/JSTSCassette.webp":"images/cassette/JSTSCassette.webp","../../images/javascriptImg/ElectronMemo.webp":"images/javascriptImg/ElectronMemo.webp","../../images/javascriptImg/DesktopAnimation.webp":"images/javascriptImg/DesktopAnimation.webp","../../images/javascriptImg/NITdeDance.webp":"images/javascriptImg/NITdeDance.webp","../../images/javascriptImg/marker.webp":"images/javascriptImg/marker.webp","../../images/javascriptImg/CoC.webp":"images/javascriptImg/CoC.webp","../../images/javascriptImg/LINEBot.webp":"images/javascriptImg/LINEBot.webp","../../images/javascriptImg/Bord.webm":"images/javascriptImg/Bord.webm","../../images/javascriptImg/Smork.webm":"images/javascriptImg/Smork.webm"}],"images/goImg/QRGenerator.webm":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/JSTSCassette.webp":"images/cassette/JSTSCassette.webp","../../images/javascriptImg/ElectronMemo.webp":"images/javascriptImg/ElectronMemo.webp","../../images/javascriptImg/DesktopAnimation.webp":"images/javascriptImg/DesktopAnimation.webp","../../images/javascriptImg/NITdeDance.webp":"images/javascriptImg/NITdeDance.webp","../../images/javascriptImg/marker.webp":"images/javascriptImg/marker.webp","../../images/javascriptImg/CoC.webp":"images/javascriptImg/CoC.webp","../../images/javascriptImg/LINEBot.webp":"images/javascriptImg/LINEBot.webp","../../images/javascriptImg/Bord.webm":"images/javascriptImg/Bord.webm","../../images/javascriptImg/Smork.webm":"images/javascriptImg/Smork.webm","../../images/javascriptImg/Geact.webm":"images/javascriptImg/Geact.webm"}],"images/goImg/QRGenerator.webm":[function(require,module,exports) {
 module.exports = "https://xenodochial-almeida-65af43.netlify.app/QRGenerator.afcb900d.webm";
 },{}],"images/goImg/WebCrawler.webm":[function(require,module,exports) {
 module.exports = "https://xenodochial-almeida-65af43.netlify.app/WebCrawler.3356c5de.webm";
@@ -39262,6 +39287,8 @@ module.exports = "https://xenodochial-almeida-65af43.netlify.app/Umbrella.d27318
 module.exports = "https://xenodochial-almeida-65af43.netlify.app/SmallGit.f1fa5541.webm";
 },{}],"images/rustImg/GShell.webm":[function(require,module,exports) {
 module.exports = "https://xenodochial-almeida-65af43.netlify.app/GShell.c49cb0e0.webm";
+},{}],"images/rustImg/Rekoto.webm":[function(require,module,exports) {
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Rekoto.ffe2735d.webm";
 },{}],"ts/Routes/rust.tsx":[function(require,module,exports) {
 "use strict";
 
@@ -39336,6 +39363,8 @@ var Umbrella_webm_1 = __importDefault(require("../../images/rustImg/Umbrella.web
 var SmallGit_webm_1 = __importDefault(require("../..//images/rustImg/SmallGit.webm"));
 
 var GShell_webm_1 = __importDefault(require("../../images/rustImg/GShell.webm"));
+
+var Rekoto_webm_1 = __importDefault(require("../../images/rustImg/Rekoto.webm"));
 
 function Details(props) {
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(textStyled_1.Text, {
@@ -39543,11 +39572,32 @@ function Rust() {
     text: ["GitHub"]
   }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
     size: fontSize
-  }, "\u81EA\u4F5C\u306EShell\u3067\u3059\u3002\u30B3\u30DE\u30F3\u30C9\u5B9F\u884C\u3001\u591A\u6BB5\u30D1\u30A4\u30D7\u3001\u30EA\u30C0\u30A4\u30EC\u30AF\u30C8\u304C\u5B9F\u88C5\u3055\u308C\u3066\u3044\u307E\u3059\u3002"));
+  }, "\u81EA\u4F5C\u306EShell\u3067\u3059\u3002\u30B3\u30DE\u30F3\u30C9\u5B9F\u884C\u3001\u591A\u6BB5\u30D1\u30A4\u30D7\u3001\u30EA\u30C0\u30A4\u30EC\u30AF\u30C8\u304C\u5B9F\u88C5\u3055\u308C\u3066\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "rekoto",
+    image: {
+      url: ""
+    },
+    video: {
+      url: Rekoto_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/rekoto"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u81EA\u4F5C\u8A00\u8A9E\u306E\u30A4\u30F3\u30BF\u30D7\u30EA\u30BF\u3067\u3059\u3002\u4E0A\u8A18\u306Ekoto\u306E\u30A4\u30F3\u30BF\u30D7\u30EA\u30BF\u3084\u69CB\u6587\u3092\u898B\u76F4\u3057\u6539\u5584\u3057\u305F\u3082\u306E\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "\u30EC\u30AF\u30B5\u30FC\u306E\u307F\u6D41\u7528\u3055\u308C\u3066\u3044\u307E\u3059\u3002"));
 }
 
 exports.default = Rust;
-},{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/RustCassette.webp":"images/cassette/RustCassette.webp","../../images/rustImg/Zip.webm":"images/rustImg/Zip.webm","../../images/rustImg/Editor.webm":"images/rustImg/Editor.webm","../../images/rustImg/WebBrowser.webm":"images/rustImg/WebBrowser.webm","../../images/rustImg/Koto.webm":"images/rustImg/Koto.webm","../../images/rustImg/KotoWasm.webm":"images/rustImg/KotoWasm.webm","../../images/rustImg/NESEmulator.webp":"images/rustImg/NESEmulator.webp","../../images/rustImg/Umbrella.webm":"images/rustImg/Umbrella.webm","../..//images/rustImg/SmallGit.webm":"images/rustImg/SmallGit.webm","../../images/rustImg/GShell.webm":"images/rustImg/GShell.webm"}],"images/unityImg/MiniVtuber.webm":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/RustCassette.webp":"images/cassette/RustCassette.webp","../../images/rustImg/Zip.webm":"images/rustImg/Zip.webm","../../images/rustImg/Editor.webm":"images/rustImg/Editor.webm","../../images/rustImg/WebBrowser.webm":"images/rustImg/WebBrowser.webm","../../images/rustImg/Koto.webm":"images/rustImg/Koto.webm","../../images/rustImg/KotoWasm.webm":"images/rustImg/KotoWasm.webm","../../images/rustImg/NESEmulator.webp":"images/rustImg/NESEmulator.webp","../../images/rustImg/Umbrella.webm":"images/rustImg/Umbrella.webm","../..//images/rustImg/SmallGit.webm":"images/rustImg/SmallGit.webm","../../images/rustImg/GShell.webm":"images/rustImg/GShell.webm","../../images/rustImg/Rekoto.webm":"images/rustImg/Rekoto.webm"}],"images/unityImg/MiniVtuber.webm":[function(require,module,exports) {
 module.exports = "https://xenodochial-almeida-65af43.netlify.app/MiniVtuber.fc29a66a.webm";
 },{}],"images/unityImg/PixleVtuber.webm":[function(require,module,exports) {
 module.exports = "https://xenodochial-almeida-65af43.netlify.app/PixleVtuber.4c339a99.webm";
@@ -40378,7 +40428,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38643" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37935" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
