@@ -14,13 +14,14 @@ import CoC from '../../images/javascriptImg/CoC.webp';
 import LineBot from '../../images/javascriptImg/LINEBot.webp';
 import Bord from '../../images/javascriptImg/Bord.webm';
 import Smork from '../../images/javascriptImg/Smork.webm';
+import Geact from '../../images/javascriptImg/Geact.webm';
 
 function Details(props: FontSize) {
   return (
     <div>
       <Text size={props.size}>ElectronやThree.js,Firebaseなどを使い作成したものです。</Text>
       <Text size={props.size}>フレームワークはVue.jsやReactをよく使います。</Text>
-      <Text size={props.size}>TypeScriptを使ったものはサーバーサイドがGoのためそちらにあります。</Text>
+      <Text size={props.size}>サーバーサイドがGoのためTypeScriptを使ったWebアプリはそちらにあります。</Text>
     </div>
   );
 }
@@ -63,11 +64,15 @@ function JSTS() {
       <Text size={fontSize}>ホスティング、データベースにFirebase、フレームワークはVueを使い作成しました。</Text>
       <Text size={fontSize}>誰でも投稿できる匿名の掲示板です。</Text>
 
-            
       <Contents titleFontSize={{ size: titleFontSize }} title="Smork" image={{ url: "" }} video={{ url: Smork }}></Contents>
       <LinkButtons size={{size:fontSize}} url={["https://github.com/garebareDA/Smork", "https://smork-5493e.firebaseapp.com/"]} text={["GitHub", "Firebase"]}/>
       <Text size={fontSize}>ホスティング、データベース、ログインにはFirebase、フレームワークはVue.js、通信部分にSkywayを使い作成しました。</Text>
       <Text size={fontSize}>ラジオが配信できるサイトです。</Text>
+
+      <Contents titleFontSize={{ size: titleFontSize }} title="Geact" image={{ url: "" }} video={{ url: Geact }}></Contents>
+      <LinkButtons size={{size:fontSize}} url={["https://github.com/garebareDA/GeactOne"]} text={["GitHub"]}/>
+      <Text size={fontSize}>TypeScriptで作成しました。自作Reactです。</Text>
+      <Text size={fontSize}>現在はレンダリング、hooksが実装されています。</Text>
     </div>
   )
 }
