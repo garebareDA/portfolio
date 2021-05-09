@@ -22,7 +22,7 @@ function Other() {
   return (
     <div>
       <Product title={"Other"} fontSize={fontSize} titleFontSize={titleFontSize} setFontsize={setFontsize} setTitleFontSize={SettitleFontSize} details={Details} cassette={{ url: OtherCassette }} />
-      <Contents titleFontSize={{ size: titleFontSize }} title="erectron-memo" image={{ url: "" }} video={{ url: TodoList }}></Contents>
+      <Contents titleFontSize={{ size: titleFontSize }} title="todo-list" image={{ url: "" }} video={{ url: TodoList }}></Contents>
       <LinkButtons size={{size:fontSize}} url={["https://github.com/garebareDA/todo_list"]} text={["GitHub"]}/>
       <Text size={fontSize}>Flutterで作成しました。TODOリストです。</Text>
     </div>
