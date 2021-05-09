@@ -38976,6 +38976,8 @@ module.exports = "https://xenodochial-almeida-65af43.netlify.app/ImgPost.48e982c
 module.exports = "https://xenodochial-almeida-65af43.netlify.app/Slope.d870e788.webm";
 },{}],"images/goImg/Later.webm":[function(require,module,exports) {
 module.exports = "https://xenodochial-almeida-65af43.netlify.app/Later.645dd5c0.webm";
+},{}],"images/goImg/Gaa.webm":[function(require,module,exports) {
+module.exports = "https://xenodochial-almeida-65af43.netlify.app/Gaa.8eefcd29.webm";
 },{}],"ts/Routes/go.tsx":[function(require,module,exports) {
 "use strict";
 
@@ -39050,6 +39052,8 @@ var ImgPost_webm_1 = __importDefault(require("../../images/goImg/ImgPost.webm"))
 var Slope_webm_1 = __importDefault(require("../../images/goImg/Slope.webm"));
 
 var Later_webm_1 = __importDefault(require("../../images/goImg/Later.webm"));
+
+var Gaa_webm_1 = __importDefault(require("../../images/goImg/Gaa.webm"));
 
 function Details(props) {
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(textStyled_1.Text, {
@@ -39265,11 +39269,32 @@ function Go() {
     size: fontSize
   }, "Gin\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002MarkDown\u3067\u8A18\u4E8B\u3092\u66F8\u3044\u3066\u6295\u7A3F\u3067\u304D\u308B\u30B5\u30A4\u30C8\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
     size: fontSize
-  }, "\u30ED\u30B0\u30A4\u30F3\u306B\u306FFirebase,\u30D5\u30ED\u30F3\u30C8\u30B5\u30A4\u30C9\u306FReact\u3092\u4F7F\u3063\u3066\u3044\u307E\u3059\u3002"));
+  }, "\u30ED\u30B0\u30A4\u30F3\u306B\u306FFirebase,\u30D5\u30ED\u30F3\u30C8\u30B5\u30A4\u30C9\u306FReact\u3092\u4F7F\u3063\u3066\u3044\u307E\u3059\u3002"), /*#__PURE__*/React.createElement(product_1.Contents, {
+    titleFontSize: {
+      size: titleFontSize
+    },
+    title: "gaa",
+    image: {
+      url: ""
+    },
+    video: {
+      url: Gaa_webm_1.default
+    }
+  }), /*#__PURE__*/React.createElement(linkButton_1.default, {
+    size: {
+      size: fontSize
+    },
+    url: ["https://github.com/garebareDA/gaa"],
+    text: ["GitHub"]
+  }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "Go\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002\u5C0F\u3055\u306AWeb\u30D5\u30EC\u30FC\u30E0\u30EF\u30FC\u30AF\u3067\u3059\u3002"), /*#__PURE__*/React.createElement(textStyled_1.Text, {
+    size: fontSize
+  }, "HTTP\u30EB\u30FC\u30BF\u30FC\u306A\u3069\u3092\u81EA\u4F5C\u3057\u307E\u3057\u305F\u3002"));
 }
 
 exports.default = Go;
-},{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/GOCassette.webp":"images/cassette/GOCassette.webp","../../images/goImg/QRGenerator.webm":"images/goImg/QRGenerator.webm","../../images/goImg/WebCrawler.webm":"images/goImg/WebCrawler.webm","../../images/goImg/DiceBot.webp":"images/goImg/DiceBot.webp","../../images/goImg/RhombusHome.webm":"images/goImg/RhombusHome.webm","../../images/goImg/DiscordVoice.webm":"images/goImg/DiscordVoice.webm","../../images/goImg/YoutubeTrendingSave.webm":"images/goImg/YoutubeTrendingSave.webm","../../images/goImg/ImgPost.webm":"images/goImg/ImgPost.webm","../../images/goImg/Slope.webm":"images/goImg/Slope.webm","../../images/goImg/Later.webm":"images/goImg/Later.webm"}],"images/rustImg/Zip.webm":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","../components/products/product":"ts/components/products/product.tsx","../components/products/linkButton":"ts/components/products/linkButton.tsx","../components/products/textStyled":"ts/components/products/textStyled.tsx","../../images/cassette/GOCassette.webp":"images/cassette/GOCassette.webp","../../images/goImg/QRGenerator.webm":"images/goImg/QRGenerator.webm","../../images/goImg/WebCrawler.webm":"images/goImg/WebCrawler.webm","../../images/goImg/DiceBot.webp":"images/goImg/DiceBot.webp","../../images/goImg/RhombusHome.webm":"images/goImg/RhombusHome.webm","../../images/goImg/DiscordVoice.webm":"images/goImg/DiscordVoice.webm","../../images/goImg/YoutubeTrendingSave.webm":"images/goImg/YoutubeTrendingSave.webm","../../images/goImg/ImgPost.webm":"images/goImg/ImgPost.webm","../../images/goImg/Slope.webm":"images/goImg/Slope.webm","../../images/goImg/Later.webm":"images/goImg/Later.webm","../../images/goImg/Gaa.webm":"images/goImg/Gaa.webm"}],"images/rustImg/Zip.webm":[function(require,module,exports) {
 module.exports = "https://xenodochial-almeida-65af43.netlify.app/Zip.befc53d9.webm";
 },{}],"images/rustImg/Editor.webm":[function(require,module,exports) {
 module.exports = "https://xenodochial-almeida-65af43.netlify.app/Editor.2c4e542b.webm";
@@ -40139,7 +40164,7 @@ function Other() {
     titleFontSize: {
       size: titleFontSize
     },
-    title: "erectron-memo",
+    title: "todo-list",
     image: {
       url: ""
     },
@@ -40428,7 +40453,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37935" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37643" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
