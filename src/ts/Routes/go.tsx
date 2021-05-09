@@ -15,6 +15,7 @@ import YoutubeTrendingSave from '../../images/goImg/YoutubeTrendingSave.webm';
 import ImgPost from '../../images/goImg/ImgPost.webm';
 import Slope from '../../images/goImg/Slope.webm';
 import Later from '../../images/goImg/Later.webm';
+import Gaa from '../../images/goImg/Gaa.webm';
 
 function Details(props: FontSize) {
   return (
@@ -75,6 +76,11 @@ function Go() {
       <LinkButtons size={{size:fontSize}} url={["https://github.com/garebareDA/later"]} text={["GitHub"]}/>
       <Text size={fontSize}>Ginで作成しました。MarkDownで記事を書いて投稿できるサイトです。</Text>
       <Text size={fontSize}>ログインにはFirebase,フロントサイドはReactを使っています。</Text>
+
+      <Contents titleFontSize={{ size: titleFontSize }} title="gaa" image={{ url: "" }} video={{ url: Gaa }}></Contents>
+      <LinkButtons size={{size:fontSize}} url={["https://github.com/garebareDA/gaa"]} text={["GitHub"]}/>
+      <Text size={fontSize}>Goで作成しました。小さなWebフレームワークです。</Text>
+      <Text size={fontSize}>HTTPルーターなどを自作しました。</Text>
     </div>
   )
 }
