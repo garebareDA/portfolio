@@ -39460,7 +39460,7 @@ function Rust() {
     titleFontSize: {
       size: titleFontSize
     },
-    title: "web-browser",
+    title: "web_browser",
     image: {
       url: ""
     },
@@ -39471,7 +39471,7 @@ function Rust() {
     size: {
       size: fontSize
     },
-    url: ["https://github.com/garebareDA/web-browser"],
+    url: ["https://github.com/garebareDA/web_browser"],
     text: ["GitHub"]
   }), /*#__PURE__*/React.createElement(textStyled_1.Text, {
     size: fontSize
@@ -40453,7 +40453,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38145" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35663" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
