@@ -42,8 +42,8 @@ function Rust() {
       <LinkButtons size={{ size: fontSize }} url={["https://github.com/garebareDA/editor"]} text={["GitHub"]} />
       <Text size={fontSize}>termionを使って作成しました。自作のテキストエディタです。</Text>
 
-      <Contents titleFontSize={{ size: titleFontSize }} title="web-browser" image={{ url: "" }} video={{ url: WebBrowser }}></Contents>
-      <LinkButtons size={{ size: fontSize }} url={["https://github.com/garebareDA/web-browser"]} text={["GitHub"]} />
+      <Contents titleFontSize={{ size: titleFontSize }} title="web_browser" image={{ url: "" }} video={{ url: WebBrowser }}></Contents>
+      <LinkButtons size={{ size: fontSize }} url={["https://github.com/garebareDA/web_browser"]} text={["GitHub"]} />
       <Text size={fontSize}>HTMLパーサーをから作成した、簡易ブラウザです。</Text>
       <Text size={fontSize}>GUIにはGTKを使っています。</Text>
 
