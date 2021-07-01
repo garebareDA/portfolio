@@ -29,7 +29,7 @@ function Details(props: FontSize) {
 function JSTS() {
   const [fontSize, setFontsize] = React.useState("25px");
   const [titleFontSize, SettitleFontSize] = React.useState("30px");
-  
+
   return (
     <div>
       <Product title={"JavaScript/TypeScript"} fontSize={fontSize} titleFontSize={titleFontSize} setFontsize={setFontsize} setTitleFontSize={SettitleFontSize} details={Details} cassette={{url:JSTSCassette}}/>
@@ -48,7 +48,7 @@ function JSTS() {
       <Text size={fontSize}>3DモデルはBlenderで作成しています。</Text>
 
       <Contents titleFontSize={{ size: titleFontSize }} title="NIT-AR" image={{ url: Marker }} video={{ url: "" }}></Contents>
-      <LinkButtons size={{size:fontSize}} url={["https://github.com/garebareDA/NIT-AR"]} text={["GitHub"]}/>
+      <LinkButtons size={{size:fontSize}} url={["https://github.com/garebareDA/NIT-AR", "https://garebareda.github.io/NIT-AR/"]} text={["GitHub", "GHPages"]}/>
       <Text size={fontSize}>Three.jsとAR.jsで作成したWebARです。上のマーカーを読み取るとキャラクターが表示されます。</Text>
 
       <Contents titleFontSize={{ size: titleFontSize }} title="CoCDiscord-hubot" image={{ url: CoC }} video={{ url: "" }}></Contents>

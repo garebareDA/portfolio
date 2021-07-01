@@ -68,12 +68,12 @@ function Go() {
       <Text size={fontSize}>フロントサイドはVue.jsを使っています。</Text>
 
       <Contents titleFontSize={{ size: titleFontSize }} title="slope" image={{ url: "" }} video={{ url: Slope }}></Contents>
-      <LinkButtons size={{size:fontSize}} url={["https://github.com/garebareDA/slope"]} text={["GitHub"]}/>
+      <LinkButtons size={{size:fontSize}} url={["https://github.com/garebareDA/slope", "https://slope-9080.herokuapp.com/#/"]} text={["GitHub", "Heroku"]}/>
       <Text size={fontSize}>Ginで作成しました。思ったことを文字にして投稿できるサイトです。</Text>
       <Text size={fontSize}>ログインにはFirebase,フロントサイドはVue.jsを使っています。</Text>
 
       <Contents titleFontSize={{ size: titleFontSize }} title="later" image={{ url: "" }} video={{ url: Later }}></Contents>
-      <LinkButtons size={{size:fontSize}} url={["https://github.com/garebareDA/later"]} text={["GitHub"]}/>
+      <LinkButtons size={{size:fontSize}} url={["https://github.com/garebareDA/later", "https://later-090.herokuapp.com/#/"]} text={["GitHub", "Heroku"]}/>
       <Text size={fontSize}>Ginで作成しました。MarkDownで記事を書いて投稿できるサイトです。</Text>
       <Text size={fontSize}>ログインにはFirebase,フロントサイドはReactを使っています。</Text>
 
