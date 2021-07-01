@@ -41,9 +41,9 @@ const Link = styled.a<FontSize>((props) => ({
 });
 
 function LinkButtons(props: URL) {
-
   const items: any = [];
   for (let i = 0; i < props.text.length; i++) {
+    console.log(props.text);
     items.push(< Link key={i} size={props.size.size} href={props.url[i]} target="blank "> {props.text[i]} </Link>);
   }
 

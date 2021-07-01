@@ -12,6 +12,7 @@ import FireBass from '../../images/unityImg/FireBass.webm';
 import Grabi from '../../images/unityImg/Grabi.webm';
 import PixelVtuberMulti from '../../images/unityImg/PixelVtuberMulti.webm';
 import MinosMaze from '../../images/unityImg/MinosMaze.webp';
+import MonsterHouse from '../../images/unityImg/MonsterHouse.webp';
 
 function Details(props: FontSize) {
   return (
@@ -51,6 +52,11 @@ function Unity(){
       <Contents titleFontSize={{ size: titleFontSize }} title="MinosMaze" image={{ url: MinosMaze }} video={{ url: "" }}></Contents>
       <LinkButtons size={{ size: fontSize }} url={["https://garebare.itch.io/minosmaze",]} text={["itch.io"]} />
       <Text size={fontSize}>Unityを使い二人で共同開発したパズル対戦ゲームです。</Text>
+      <Text size={fontSize}>現在itch.ioで配布中です。</Text>
+
+      <Contents titleFontSize={{ size: titleFontSize }} title="MonsterHouse" image={{ url: MonsterHouse }} video={{ url: "" }}></Contents>
+      <LinkButtons size={{ size: fontSize }} url={["https://garebare.itch.io/monsterhouse",]} text={["itch.io"]} />
+      <Text size={fontSize}>マンションでモンスターを育成する育成ゲームです。</Text>
       <Text size={fontSize}>現在itch.ioで配布中です。</Text>
     </div>
   )
