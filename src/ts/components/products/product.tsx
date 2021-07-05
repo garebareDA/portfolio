@@ -17,7 +17,7 @@ type Contents = {
 }
 
 const Space = styled.div({
-  marginTop: "100px",
+  marginTop: "124px",
 });
 
 const Titles = styled.div<FontSize>((props: FontSize) => ({
@@ -53,14 +53,14 @@ function Contents(props: Contents) {
   )
 }
 
-const fontSizePC = "35px";
-const fontSizeMedia = "25px"
-const titleFontSizePC = "60px";
-const titleFontSizeMedia = "30px";
+const fontSizePC = "32px";
+const fontSizeMedia = "24px"
+const titleFontSizePC = "64px";
+const titleFontSizeMedia = "32px";
 
 const Center = styled.div({
   textAlign: "center",
-  marginTop: "30px"
+  marginTop: "32px"
 });
 
 type Products = {

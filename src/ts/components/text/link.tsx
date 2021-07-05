@@ -16,18 +16,18 @@ const Links = styled.a<FontSize>((props: FontSize) => ({
 );
 
 const MediaLink = styled.div({
-  marginTop: "10px",
-  marginLeft: "50px",
+  marginTop: "8px",
+  marginLeft: "56px",
 })
 
 const Title = styled.div({
-  marginBottom: "15px",
-  fontSize:"50px",
+  marginBottom: "16px",
+  fontSize:"56px",
   color: "white",
 });
 
 const MarginBttom = styled.div({
-  marginBottom: "50px"
+  marginBottom: "56px"
 });
 
 function Link() {

@@ -10,7 +10,7 @@ type URL = {
 }
 
 const Center = styled.div({
-  marginBottom:"20px",
+  marginBottom:"24px",
   textAlign: "center"
 });
 
@@ -19,20 +19,20 @@ const Link = styled.a<FontSize>((props) => ({
 }),
   
   {
-  border: "1px",
+  border: "8px",
   paddingBottom: "0.375em",
   paddingTop: "0.375em",
   paddingLeft: "0.75em",
   paddingRight: "0.75em",
   borderStyle: "solid",
   borderColor: "white",
-  borderRadius: "5px",
+  borderRadius: "8px",
   color: "white",
   backgroundColor: "#003e80",
   marginTop:"0.375em",
   marginBottom:"0.375em",
-  marginLeft:"2px",
-  marginRight:"2px",
+  marginLeft:"8px",
+  marginRight:"8px",
   fontSize: `${(props) => {props.size}}`,
   ":hover": {
     color: "#003e80",
