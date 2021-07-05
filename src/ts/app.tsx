@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 import { createGlobalStyle } from 'styled-components';
 import Scroll from './scroll';
-import font from '../../font/k8x12L.ttf';
+import font from '../../font/x12y16pxMaruMonica.ttf';
 
 const GlobalStyles = createGlobalStyle`
   @font-face {

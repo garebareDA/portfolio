@@ -12,7 +12,7 @@ const Portfolio = styled.div<FontSize>((props: FontSize) => ({
 }),
   {
     color: "white",
-    marginTop: "50px",
+    marginTop: "48px",
     fontSize: `${(props: FontSize) => props.size}`,
     textAlign: "center",
   }
@@ -27,8 +27,8 @@ const InlineBlock = styled.div({
 
 const PhoneIcon = styled.div({
   textAlign: "center",
-  marginTop: "100px",
-  marginBottom: "50px"
+  marginTop: "96px",
+  marginBottom: "48px"
 });
 
 const MediaCenter = styled.div({
@@ -41,7 +41,7 @@ const ProfileText = styled.div({
   width: "15em",
   color:"white",
   fontSize:"25px",
-  marginTop:"100px"
+  marginTop:"96px"
 })
 
 function First(): JSX.Element {
@@ -57,7 +57,7 @@ function First(): JSX.Element {
             <Logo width={100} height={100} />
           </InlineBlock>
           <InlineBlock>
-            <Profile textMargin="2px" oneSize="35px" twoSize="35px" />
+            <Profile textMargin="2px" oneSize="32px" twoSize="32px" />
           </InlineBlock>
         </div>
       </MediaCenter>

@@ -36301,8 +36301,8 @@ function ScrollToTop() {
 }
 
 exports.default = ScrollToTop;
-},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js"}],"../font/k8x12L.ttf":[function(require,module,exports) {
-module.exports = "https://garebareda.github.io/portfolio/k8x12L.69bce72b.ttf";
+},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js"}],"../font/x12y16pxMaruMonica.ttf":[function(require,module,exports) {
+module.exports = "https://garebareda.github.io/portfolio/x12y16pxMaruMonica.9a477067.ttf";
 },{}],"images/icon/garebare.jpg":[function(require,module,exports) {
 module.exports = "https://garebareda.github.io/portfolio/garebare.913a3dad.jpg";
 },{}],"ts/components/images/icon.tsx":[function(require,module,exports) {
@@ -36625,7 +36625,7 @@ var Portfolio = styled_components_1.default.div(function (props) {
   };
 }, {
   color: "white",
-  marginTop: "50px",
+  marginTop: "48px",
   fontSize: "" + function (props) {
     return props.size;
   },
@@ -36638,8 +36638,8 @@ var InlineBlock = styled_components_1.default.div({
 });
 var PhoneIcon = styled_components_1.default.div({
   textAlign: "center",
-  marginTop: "100px",
-  marginBottom: "50px"
+  marginTop: "96px",
+  marginBottom: "48px"
 });
 var MediaCenter = styled_components_1.default.div({
   textAlign: "center"
@@ -36650,7 +36650,7 @@ var ProfileText = styled_components_1.default.div({
   width: "15em",
   color: "white",
   fontSize: "25px",
-  marginTop: "100px"
+  marginTop: "96px"
 });
 
 function First() {
@@ -36663,8 +36663,8 @@ function First() {
     height: 100
   })), /*#__PURE__*/React.createElement(InlineBlock, null, /*#__PURE__*/React.createElement(profileName_1.default, {
     textMargin: "2px",
-    oneSize: "35px",
-    twoSize: "35px"
+    oneSize: "32px",
+    twoSize: "32px"
   })))));
 }
 
@@ -36721,17 +36721,17 @@ var React = __importStar(require("react"));
 var styled_components_1 = __importDefault(require("styled-components"));
 
 var Title = styled_components_1.default.div({
-  marginBottom: "15px",
-  fontSize: "50px",
+  marginBottom: "16px",
+  fontSize: "56px",
   color: "white"
 });
 var Text = styled_components_1.default.div({
-  fontSize: "35px",
+  fontSize: "32px",
   color: "white",
-  marginLeft: "50px"
+  marginLeft: "56px"
 });
 var MarginBttom = styled_components_1.default.div({
-  marginBottom: "50px"
+  marginBottom: "56px"
 });
 
 function ProfileEducation() {
@@ -36791,14 +36791,14 @@ var React = __importStar(require("react"));
 var styled_components_1 = __importDefault(require("styled-components"));
 
 var Title = styled_components_1.default.div({
-  marginBottom: "15px",
-  fontSize: "50px",
+  marginBottom: "16px",
+  fontSize: "56px",
   color: "white"
 });
 var Text = styled_components_1.default.div({
-  fontSize: "35px",
+  fontSize: "32px",
   color: "white",
-  marginLeft: "50px"
+  marginLeft: "56px"
 });
 
 function ProfileLangage() {
@@ -36872,16 +36872,16 @@ var Links = styled_components_1.default.a(function (props) {
   }
 });
 var MediaLink = styled_components_1.default.div({
-  marginTop: "10px",
-  marginLeft: "50px"
+  marginTop: "8px",
+  marginLeft: "56px"
 });
 var Title = styled_components_1.default.div({
-  marginBottom: "15px",
-  fontSize: "50px",
+  marginBottom: "16px",
+  fontSize: "56px",
   color: "white"
 });
 var MarginBttom = styled_components_1.default.div({
-  marginBottom: "50px"
+  marginBottom: "56px"
 });
 
 function Link() {
@@ -36974,7 +36974,7 @@ var link_1 = __importDefault(require("../text/link"));
 var Margin = styled_components_1.default.div({
   marginTop: "200px",
   marginBottom: "200px",
-  height: "1000px",
+  height: "800px",
   marginLeft: "auto",
   marginRight: "auto",
   width: "20em"
@@ -38209,7 +38209,7 @@ var Name = styled_components_1.default.div(function (props) {
 var Img = styled_components_1.default.img({
   transitionDuration: "0.3s",
   transform: "scale(1)",
-  marginTop: "5px",
+  marginTop: "8px",
   ":hover": {
     transform: "scale(1.1)",
     transitionDuration: "0.3s"
@@ -38310,8 +38310,8 @@ var PIXBLECassette_webp_1 = __importDefault(require("../../../images/cassette/PI
 var OtherCassette_webp_1 = __importDefault(require("../../../images/cassette/OtherCassette.webp"));
 
 var size = {
-  width: 448,
-  height: 272
+  width: 480,
+  height: 296
 };
 var mediaSize = {
   width: 238,
@@ -38324,28 +38324,28 @@ var ProductsText = styled_components_1.default.div(function (props) {
     fontSize: props.size
   };
 }, {
-  marginTop: "300px",
+  marginTop: "304px",
   fontSize: "" + function (props) {
     return props.size;
   },
   color: "white",
-  marginBottom: "10px"
+  marginBottom: "8px"
 });
 var Inline = styled_components_1.default.div({
   display: "inline-block",
-  margin: "15px"
+  margin: "16px"
 });
 var InlineOut = styled_components_1.default.div({
   display: "inline-block"
 });
 var Center = styled_components_1.default.div(function (props) {
   return {
-    marginBottom: props.isBottom ? "100px" : "0px"
+    marginBottom: props.isBottom ? "96px" : "0px"
   };
 }, {
   textAlign: "center",
   marginBottom: "" + function (props) {
-    return props.isBottom ? "300px" : "0px";
+    return props.isBottom ? "304px" : "0px";
   }
 });
 var Click = styled_components_1.default.div(function (props) {
@@ -38364,9 +38364,9 @@ function Products() {
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Center, {
     isBottom: true
   }, /*#__PURE__*/React.createElement(ProductsText, {
-    size: "60px"
+    size: "56px"
   }, "|Products|", /*#__PURE__*/React.createElement(Click, {
-    size: "30px"
+    size: "32px"
   }, "\u898B\u305F\u3044\u30B8\u30E3\u30F3\u30EB\u306E\u30AB\u30BB\u30C3\u30C8\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u3060\u3055\u3044")), /*#__PURE__*/React.createElement(react_responsive_1.default, {
     query: "(min-width: 768px)"
   }, /*#__PURE__*/React.createElement(InlineOut, null, /*#__PURE__*/React.createElement(Inline, null, /*#__PURE__*/React.createElement(cassette_1.default, {
@@ -38613,7 +38613,7 @@ var size = {
   height: 272
 };
 var mediaSize = {
-  width: 238,
+  width: 232,
   height: 152
 };
 var Center = styled_components_1.default.div({
@@ -38624,7 +38624,7 @@ var TitleText = styled_components_1.default.div(function (props) {
     fontSize: props.size
   };
 }, {
-  marginTop: "25px",
+  marginTop: "24px",
   fontSize: "" + function (props) {
     props.size;
   },
@@ -38654,13 +38654,13 @@ function Title(props) {
   }, "|", props.title, "|"), /*#__PURE__*/React.createElement(react_responsive_1.default, {
     query: "(min-width: 768px)"
   }, /*#__PURE__*/React.createElement(Center, null, /*#__PURE__*/React.createElement(Cassette, {
-    marginTop: "150px",
+    marginTop: "152px",
     size: size,
     src: props.image.url
   }))), /*#__PURE__*/React.createElement(react_responsive_1.default, {
     query: "(max-width: 767px)"
   }, /*#__PURE__*/React.createElement(Cassette, {
-    marginTop: "150px",
+    marginTop: "152px",
     size: mediaSize,
     src: props.image.url
   }))));
@@ -38719,9 +38719,9 @@ var React = __importStar(require("react"));
 var styled_components_1 = __importDefault(require("styled-components"));
 
 var Images = styled_components_1.default.img({
-  maxWidth: "1000px",
-  marginTop: "20px",
-  marginBottom: "20px",
+  maxWidth: "800px",
+  marginTop: "24px",
+  marginBottom: "24px",
   width: "100%",
   height: "100%",
   imageRendering: "pixelated"
@@ -38786,9 +38786,9 @@ var React = __importStar(require("react"));
 var styled_components_1 = __importDefault(require("styled-components"));
 
 var Videos = styled_components_1.default.video({
-  maxWidth: "1000px",
-  marginTop: "20px",
-  marginBottom: "20px",
+  maxWidth: "800px",
+  marginTop: "24px",
+  marginBottom: "24px",
   width: "100%",
   height: "100%"
 });
@@ -38866,7 +38866,7 @@ var image_1 = __importDefault(require("../images/image"));
 var video_1 = __importDefault(require("../images/video"));
 
 var Space = styled_components_1.default.div({
-  marginTop: "100px"
+  marginTop: "124px"
 });
 var Titles = styled_components_1.default.div(function (props) {
   return {
@@ -38903,13 +38903,13 @@ function Contents(props) {
 }
 
 exports.Contents = Contents;
-var fontSizePC = "35px";
-var fontSizeMedia = "25px";
-var titleFontSizePC = "60px";
-var titleFontSizeMedia = "30px";
+var fontSizePC = "32px";
+var fontSizeMedia = "24px";
+var titleFontSizePC = "64px";
+var titleFontSizeMedia = "32px";
 var Center = styled_components_1.default.div({
   textAlign: "center",
-  marginTop: "30px"
+  marginTop: "32px"
 });
 
 function Product(props) {
@@ -39010,7 +39010,7 @@ var React = __importStar(require("react"));
 var styled_components_1 = __importDefault(require("styled-components"));
 
 var Center = styled_components_1.default.div({
-  marginBottom: "20px",
+  marginBottom: "24px",
   textAlign: "center"
 });
 var Link = styled_components_1.default.a(function (props) {
@@ -39018,20 +39018,20 @@ var Link = styled_components_1.default.a(function (props) {
     fontSize: props.size
   };
 }, {
-  border: "1px",
+  border: "8px",
   paddingBottom: "0.375em",
   paddingTop: "0.375em",
   paddingLeft: "0.75em",
   paddingRight: "0.75em",
   borderStyle: "solid",
   borderColor: "white",
-  borderRadius: "5px",
+  borderRadius: "8px",
   color: "white",
   backgroundColor: "#003e80",
   marginTop: "0.375em",
   marginBottom: "0.375em",
-  marginLeft: "2px",
-  marginRight: "2px",
+  marginLeft: "8px",
+  marginRight: "8px",
   fontSize: "" + function (props) {
     props.size;
   },
@@ -40875,16 +40875,16 @@ var styled_components_1 = require("styled-components");
 
 var scroll_1 = __importDefault(require("./scroll"));
 
-var k8x12L_ttf_1 = __importDefault(require("../../font/k8x12L.ttf"));
+var x12y16pxMaruMonica_ttf_1 = __importDefault(require("../../font/x12y16pxMaruMonica.ttf"));
 
-var GlobalStyles = styled_components_1.createGlobalStyle(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  @font-face {\n    font-family:'pixleFont';\n    src: url(", ");\n  }\n  body {\n    font-family: 'pixleFont', sans-serif;\n  }\n"], ["\n  @font-face {\n    font-family:'pixleFont';\n    src: url(", ");\n  }\n  body {\n    font-family: 'pixleFont', sans-serif;\n  }\n"])), k8x12L_ttf_1.default);
+var GlobalStyles = styled_components_1.createGlobalStyle(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  @font-face {\n    font-family:'pixleFont';\n    src: url(", ");\n  }\n  body {\n    font-family: 'pixleFont', sans-serif;\n  }\n"], ["\n  @font-face {\n    font-family:'pixleFont';\n    src: url(", ");\n  }\n  body {\n    font-family: 'pixleFont', sans-serif;\n  }\n"])), x12y16pxMaruMonica_ttf_1.default);
 
 var router_1 = __importDefault(require("./router"));
 
 var app = document.getElementById("app");
 ReactDOM.render( /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(GlobalStyles, null), /*#__PURE__*/React.createElement(react_router_dom_1.HashRouter, null, /*#__PURE__*/React.createElement(scroll_1.default, null), /*#__PURE__*/React.createElement(router_1.default, null))), app);
 var templateObject_1;
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","./scroll":"ts/scroll.tsx","../../font/k8x12L.ttf":"../font/k8x12L.ttf","./router":"ts/router.tsx"}],"../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","./scroll":"ts/scroll.tsx","../../font/x12y16pxMaruMonica.ttf":"../font/x12y16pxMaruMonica.ttf","./router":"ts/router.tsx"}],"../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -40912,7 +40912,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36305" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46483" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

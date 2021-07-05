@@ -18,8 +18,8 @@ type IsBottom = {
 }
 
 const size: Size = {
-  width: 448,
-  height: 272,
+  width: 480,
+  height: 296,
 }
 
 const mediaSize: Size = {
@@ -34,16 +34,16 @@ const ProductsText = styled.div<FontSize>((props: FontSize) => ({
   fontSize: props.size,
 }),
   {
-    marginTop: "300px",
+    marginTop: "304px",
     fontSize: `${(props: FontSize) => props.size}`,
     color: "white",
-    marginBottom: "10px",
+    marginBottom: "8px",
   }
 );
 
 const Inline = styled.div({
   display: "inline-block",
-  margin: "15px"
+  margin: "16px"
 });
 
 const InlineOut = styled.div({
@@ -51,11 +51,11 @@ const InlineOut = styled.div({
 })
 
 const Center = styled.div<IsBottom>((props: IsBottom) => ({
-  marginBottom: props.isBottom ? "100px" : "0px"
+  marginBottom: props.isBottom ? "96px" : "0px"
 }),
   {
     textAlign: "center",
-    marginBottom: `${(props: IsBottom) => props.isBottom ? "300px" : "0px"}`
+    marginBottom: `${(props: IsBottom) => props.isBottom ? "304px" : "0px"}`
   }
 );
 
@@ -75,9 +75,9 @@ function Products() {
   return (
     <div>
       <Center isBottom={true}>
-        <ProductsText size={"60px"}>
+        <ProductsText size={"56px"}>
           |Products|
-          <Click size="30px">
+          <Click size="32px">
             見たいジャンルのカセットをクリックしてださい
           </Click>
         </ProductsText>
