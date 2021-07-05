@@ -4,9 +4,9 @@ import styled from 'styled-components';
 import {Path} from '../../styleType/path';
 
 const Videos = styled.video({
-  maxWidth:"1000px",
-  marginTop:"20px",
-  marginBottom:"20px",
+  maxWidth:"800px",
+  marginTop:"24px",
+  marginBottom:"24px",
   width: "100%",
   height: "100%",
 });

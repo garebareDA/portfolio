@@ -2,19 +2,19 @@ import * as React from 'react';
 import styled from 'styled-components';
 
 const Title = styled.div({
-  marginBottom: "15px",
-  fontSize:"50px",
+  marginBottom: "16px",
+  fontSize:"56px",
   color: "white",
 });
 
 const Text = styled.div({
-  fontSize: "35px",
+  fontSize: "32px",
   color: "white",
-  marginLeft: "50px",
+  marginLeft: "56px",
 });
 
 const MarginBttom = styled.div({
-  marginBottom: "50px"
+  marginBottom: "56px"
 });
 
 function ProfileEducation() {

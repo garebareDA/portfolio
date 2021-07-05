@@ -23,7 +23,7 @@ const size: Size = {
 }
 
 const mediaSize: Size = {
-  width: 238,
+  width: 232,
   height: 152,
 }
 
@@ -35,7 +35,7 @@ const TitleText = styled.div<FontSize>((props: FontSize) => ({
   fontSize: props.size
 }),
   {
-    marginTop: "25px",
+    marginTop: "24px",
     fontSize: `${(props: FontSize) => { props.size }}`,
     color: "white",
   }
@@ -61,11 +61,11 @@ function Title(props: ProductsTitle) {
         <TitleText size={props.titleFontSize.size}>|{props.title}|</TitleText>
         <MediaQuery query="(min-width: 768px)">
           <Center>
-            <Cassette marginTop="150px" size={size} src={props.image.url} />
+            <Cassette marginTop="152px" size={size} src={props.image.url} />
           </Center>
         </MediaQuery>
         <MediaQuery query="(max-width: 767px)">
-          <Cassette marginTop="150px" size={mediaSize} src={props.image.url} />
+          <Cassette marginTop="152px" size={mediaSize} src={props.image.url} />
         </MediaQuery>
       </Center>
     </div>
