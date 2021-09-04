@@ -38,7 +38,7 @@ function ProfileName(props: Props) {
   return (
     <div>
       <TextProfile size={props.textMargin}>
-        <OneText size={props.oneSize}>N</OneText><TwoText size={props.twoSize}>anme:????????</TwoText>
+        <OneText size={props.oneSize}>N</OneText><TwoText size={props.twoSize}>ame:????????</TwoText>
       </TextProfile>
       <TextProfile size={props.textMargin}>
         <OneText size={props.oneSize}>H</OneText><TwoText size={props.twoSize}>andle Name:ガレバレ</TwoText>
