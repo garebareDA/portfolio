@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import icon from '../../../images/icon/garebare.jpg';
+import icon from '../../../images/icon/garebare-pixel.png';
 
 type IsBorder = {
   border: boolean,
