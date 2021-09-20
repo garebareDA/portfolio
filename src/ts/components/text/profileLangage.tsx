@@ -13,6 +13,10 @@ const Text = styled.div({
   marginLeft: "56px",
 });
 
+const MarginBttom = styled.div({
+  marginBottom: "56px"
+});
+
 function ProfileLangage() {
   return (
     <div>
@@ -29,6 +33,7 @@ function ProfileLangage() {
       <Text>Go</Text>
       <Text>Rust</Text>
       <Text>Unity C#</Text>
+      <MarginBttom />
     </div>
   )
 }
