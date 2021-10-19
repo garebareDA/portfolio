@@ -10,6 +10,7 @@ const Images = styled.img({
   width: "100%",
   height: "100%",
   imageRendering:"pixelated",
+  borderRadius: "30px",
 });
 
 function Image(props:Path)
