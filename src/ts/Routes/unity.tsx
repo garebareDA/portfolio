@@ -13,6 +13,7 @@ import Grabi from '../../images/unityImg/Grabi.webm';
 import PixelVtuberMulti from '../../images/unityImg/PixelVtuberMulti.webm';
 import MinosMaze from '../../images/unityImg/MinosMaze.webp';
 import MonsterHouse from '../../images/unityImg/MonsterHouse.webp';
+import Roboteria from '../../images/unityImg/Roboteria.webm';
 
 function Details(props: FontSize) {
   return (
@@ -58,6 +59,10 @@ function Unity(){
       <LinkButtons size={{ size: fontSize }} url={["https://garebare.itch.io/monsterhouse",]} text={["itch.io"]} />
       <Text size={fontSize}>マンションでモンスターを育成する育成ゲームです。</Text>
       <Text size={fontSize}>現在itch.ioで配布中です。</Text>
+
+      <Contents titleFontSize={{ size: titleFontSize }} title="Roboterria(WIP)" image={{ url: "" }} video={{ url: Roboteria }}></Contents>
+      <Text size={fontSize}>島でロボットを使う工業ゲームです。</Text>
+      <Text size={fontSize}>現在基礎的な部分が完成しています。</Text>
     </div>
   )
 }

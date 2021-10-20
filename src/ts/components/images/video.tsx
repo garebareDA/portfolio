@@ -9,6 +9,7 @@ const Videos = styled.video({
   marginBottom:"24px",
   width: "100%",
   height: "100%",
+  borderRadius: "30px",
 });
 
 function Video(props:Path)
