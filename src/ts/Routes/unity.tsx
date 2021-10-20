@@ -58,6 +58,10 @@ function Unity(){
       <LinkButtons size={{ size: fontSize }} url={["https://garebare.itch.io/monsterhouse",]} text={["itch.io"]} />
       <Text size={fontSize}>マンションでモンスターを育成する育成ゲームです。</Text>
       <Text size={fontSize}>現在itch.ioで配布中です。</Text>
+
+      <Contents titleFontSize={{ size: titleFontSize }} title="Roboterria(WIP)" image={{ url: MonsterHouse }} video={{ url: "" }}></Contents>
+      <Text size={fontSize}>島でロボット使う工業ゲームです。</Text>
+      <Text size={fontSize}>現在基礎的な部分が完成しています。</Text>
     </div>
   )
 }
