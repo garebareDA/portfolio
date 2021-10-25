@@ -17,6 +17,7 @@ import Slope from '../../images/goImg/Slope.webm';
 import Later from '../../images/goImg/Later.webm';
 import Gaa from '../../images/goImg/Gaa.webm';
 import JsonParser from '../../images/goImg/JsonParser.webm';
+import ListChat from '../../images/goImg/listchat.webm';
 
 function Details(props: FontSize) {
   return (
@@ -87,6 +88,11 @@ function Go() {
       <LinkButtons size={{ size: fontSize }} url={["https://github.com/garebareDA/json-parser"]} text={["GitHub"]} />
       <Text size={fontSize}>Goで作成したjsonパーサーです。</Text>
       <Text size={fontSize}>jsonをinterfaceにの配列にパースします。</Text>
+
+      <Contents titleFontSize={{ size: titleFontSize }} title="ListChat" image={{ url: "" }} video={{ url: ListChat }}></Contents>
+      <LinkButtons size={{ size: fontSize }} url={["https://github.com/garebareDA/list", "https://stormy-stream-93679.herokuapp.com/#/"]} text={["GitHub", "Heroku"]} />
+      <Text size={fontSize}>サーバーサイドをGo,フロントサイドをTypeScriptで作成しました。</Text>
+      <Text size={fontSize}>リアルタイム性を重視したチャットです。</Text>
     </div>
   )
 }
