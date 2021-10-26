@@ -8,7 +8,6 @@ import Famicom from '../components/home/famicom';
 function Home() {
   return (
     <div>
-      <Famicom/>
       <First />
       <Profile />
       <Products />
