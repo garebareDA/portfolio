@@ -8,7 +8,7 @@ import Links from '../text/link'
 
 const Margin = styled.div({
   marginTop: "200px",
-  marginBottom: "700px",
+  marginBottom: "600px",
   height: "800px",
   marginLeft: "auto",
   marginRight: "auto",

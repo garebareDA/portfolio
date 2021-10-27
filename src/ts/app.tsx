@@ -14,6 +14,7 @@ const GlobalStyles = createGlobalStyle`
   }
   body {
     font-family: 'pixleFont', sans-serif;
+    background-color:#003e80;
   }
 `;
 
