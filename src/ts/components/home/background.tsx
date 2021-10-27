@@ -24,7 +24,6 @@ const NoiseCircle = styled.div((pops: noise) => ({
 });
 
 
-
 const Background: React.FC = () => {
     return (
         <div>
