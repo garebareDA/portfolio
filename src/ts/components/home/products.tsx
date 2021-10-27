@@ -6,6 +6,8 @@ import Cassette from '../images/cassette';
 import { Size } from '../../styleType/size';
 import { FontSize } from '../../styleType/fontSize';
 
+import Famicom from './famicom';
+
 import JSTSCassette from '../../../images/cassette/JSTSCassette.webp';
 import RustCassette from '../../../images/cassette/RustCassette.webp';
 import GOCassette from '../../../images/cassette/GOCassette.webp';
@@ -34,7 +36,6 @@ const ProductsText = styled.div<FontSize>((props: FontSize) => ({
   fontSize: props.size,
 }),
   {
-    marginTop: "304px",
     fontSize: `${(props: FontSize) => props.size}`,
     color: "white",
     marginBottom: "8px",
@@ -77,6 +78,7 @@ function Products() {
       <Center isBottom={true}>
         <ProductsText size={"56px"}>
           |Products|
+          <Famicom/>
           <Click size="32px">
             見たいジャンルのカセットをクリックしてださい
           </Click>
