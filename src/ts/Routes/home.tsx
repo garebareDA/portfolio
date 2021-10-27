@@ -5,14 +5,19 @@ import {Profile} from '../components/home/profile';
 import Products from '../components/home/products';
 import Background from '../components/home/background';
 
+const Content = styled.div`
+    position:relative;
+    overflow:hidden;
+`
+
 function Home() {
   return (
-    <div>
+    <Content>
       <Background />
       <First />
       <Profile />
       <Products />
-    </div>
+    </Content>
   )
 }
 
