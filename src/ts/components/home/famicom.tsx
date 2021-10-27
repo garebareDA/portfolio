@@ -3,6 +3,8 @@ import * as THREE from 'three'
 import { Canvas, useThree, useFrame } from '@react-three/fiber';
 import { PerspectiveCamera, Stage, OrbitControls, useGLTF } from '@react-three/drei';
 
+import famicomGLTF from '../../../models/famicom/famicom.gltf?url';
+
 const Famicom: React.FC = () => {
     return (
         <Suspense fallback={null}>
@@ -24,7 +26,7 @@ export default Famicom;
 
 const Model: React.FC = () => {
     const ref = useRef<THREE.Mesh>();
-    const { scene, } = useGLTF("../../../models/famicom/famicom.gltf");
+    const model = useGLTF(famicomGLTF);
     const { gl } = useThree();
 
     useFrame(() => {
@@ -35,7 +37,7 @@ const Model: React.FC = () => {
     gl.setPixelRatio(0.6);
     return (
         <group dispose={null} >
-            <primitive ref={ref} scale={[1, 1, 1]} object={scene} />
+            <primitive ref={ref} scale={[1, 1, 1]} object={model.scene} />
         </group>
     )
 }
