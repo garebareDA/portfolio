@@ -6,8 +6,6 @@ import Cassette from '../images/cassette';
 import { Size } from '../../styleType/size';
 import { FontSize } from '../../styleType/fontSize';
 
-import Famicom from './famicom';
-
 import JSTSCassette from '../../../images/cassette/JSTSCassette.webp';
 import RustCassette from '../../../images/cassette/RustCassette.webp';
 import GOCassette from '../../../images/cassette/GOCassette.webp';
@@ -78,7 +76,6 @@ function Products() {
       <Center isBottom={true}>
         <ProductsText size={"56px"}>
           |Products|
-          <Famicom/>
           <Click size="32px">
             見たいジャンルのカセットをクリックしてださい
           </Click>
