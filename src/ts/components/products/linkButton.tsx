@@ -19,14 +19,14 @@ const Link = styled.a<FontSize>((props) => ({
 }),
   
   {
-  border: "8px",
+  border: "2px",
   paddingBottom: "0.375em",
   paddingTop: "0.375em",
   paddingLeft: "0.75em",
   paddingRight: "0.75em",
   borderStyle: "solid",
   borderColor: "white",
-  borderRadius: "8px",
+  borderRadius: "10px",
   color: "white",
   backgroundColor: "#003e80",
   marginTop:"0.375em",
@@ -43,7 +43,6 @@ const Link = styled.a<FontSize>((props) => ({
 function LinkButtons(props: URL) {
   const items: any = [];
   for (let i = 0; i < props.text.length; i++) {
-    console.log(props.text);
     items.push(< Link key={i} size={props.size.size} href={props.url[i]} target="blank "> {props.text[i]} </Link>);
   }
 

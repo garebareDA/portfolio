@@ -34,7 +34,6 @@ const ProductsText = styled.div<FontSize>((props: FontSize) => ({
   fontSize: props.size,
 }),
   {
-    marginTop: "304px",
     fontSize: `${(props: FontSize) => props.size}`,
     color: "white",
     marginBottom: "8px",
@@ -95,7 +94,7 @@ function Products() {
           </InlineOut>
           <InlineOut>
             <Inline>
-              <Cassette to="unity" image={{ url: UnityCassette }} name="Unity" size={size} fontSize={{ size: fontSize }}></Cassette>
+              <Cassette to="game" image={{ url: UnityCassette }} name="Game" size={size} fontSize={{ size: fontSize }}></Cassette>
             </Inline>
             <Inline>
               <Cassette to="pixble" image={{ url: PIXBLECassette }} name="Pixel/Blender" size={size} fontSize={{ size: fontSize }}></Cassette>

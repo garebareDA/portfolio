@@ -13,11 +13,13 @@ import Grabi from '../../images/unityImg/Grabi.webm';
 import PixelVtuberMulti from '../../images/unityImg/PixelVtuberMulti.webm';
 import MinosMaze from '../../images/unityImg/MinosMaze.webp';
 import MonsterHouse from '../../images/unityImg/MonsterHouse.webp';
+import Roboteria from '../../images/unityImg/Roboteria.webm';
+import Way from '../../images/unityImg/way.webp';
 
 function Details(props: FontSize) {
   return (
     <div>
-      <Text size={props.size}>Unityでは主にゲームやVtuberなどを作成しています。</Text>
+      <Text size={props.size}>ゲームは主にUnityやFlixelで作られています。</Text>
     </div>
   );
 }
@@ -27,7 +29,7 @@ function Unity(){
   const [titleFontSize, SettitleFontSize] = React.useState("30px");
   return(
     <div>
-      <Product title={"Unity"} fontSize={fontSize} titleFontSize={titleFontSize} setFontsize={setFontsize} setTitleFontSize={SettitleFontSize} details={Details} cassette={{ url: UnityCassette }} />
+      <Product title={"Game"} fontSize={fontSize} titleFontSize={titleFontSize} setFontsize={setFontsize} setTitleFontSize={SettitleFontSize} details={Details} cassette={{ url: UnityCassette }} />
       <Contents titleFontSize={{ size: titleFontSize }} title="MiniVtuber" image={{ url: "" }} video={{ url: MiniVtuber }}></Contents>
       <LinkButtons size={{ size: fontSize }} url={["https://github.com/garebareDA/Vtuber"]} text={["GitHub"]} />
       <Text size={fontSize}>UnityとNode.jsで作成しました。</Text>
@@ -56,8 +58,17 @@ function Unity(){
 
       <Contents titleFontSize={{ size: titleFontSize }} title="MonsterHouse" image={{ url: MonsterHouse }} video={{ url: "" }}></Contents>
       <LinkButtons size={{ size: fontSize }} url={["https://garebare.itch.io/monsterhouse",]} text={["itch.io"]} />
-      <Text size={fontSize}>マンションでモンスターを育成する育成ゲームです。</Text>
+      <Text size={fontSize}>Unityで作成しました。マンションでモンスターを育成する育成ゲームです。</Text>
       <Text size={fontSize}>現在itch.ioで配布中です。</Text>
+
+      <Contents titleFontSize={{ size: titleFontSize }} title="Roboterria(WIP)" image={{ url: "" }} video={{ url: Roboteria }}></Contents>
+      <Text size={fontSize}>Unityで作成しました。島でロボットを使う工業ゲームです。</Text>
+      <Text size={fontSize}>現在基礎的な部分が完成しています。</Text>
+
+      <Contents titleFontSize={{ size: titleFontSize }} title="Way" image={{ url: Way }} video={{ url: ""}}></Contents>
+      <LinkButtons size={{ size: fontSize }} url={["https://garebare.itch.io/way",]} text={["itch.io"]} />
+      <Text size={fontSize}>Flixe, Haxeで作成しました。歩き回って探索するゲームです。</Text>
+      <Text size={fontSize}>BGM, SE以外は自分が担当しました。</Text>
     </div>
   )
 }
