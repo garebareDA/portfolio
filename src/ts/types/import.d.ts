@@ -1,8 +1,0 @@
-declare module "*.jpg"
-declare module "*.svg"
-declare module "*.webp"
-declare module "*.ttf"
-declare module "*.webm"
-declare module "*.glb"
-declare module "*.gltf"
-declare module "*.svg"

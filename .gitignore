@@ -1,6 +1,5 @@
 node_modules
-.vscode
-.cache
-dist
-assets
-index.html
+/.cache
+/netlify/functions/server/index.js
+/public/build
+/.netlify
