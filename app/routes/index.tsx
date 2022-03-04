@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Spacer, Row, Text } from "@nextui-org/react";
 
-import { First } from "~/components/Index/first";
-import { Links } from "~/components/Index/links";
-import { Education, Language, ParticipantEvent } from "~/components/Index/profile";
-import { Products } from "~/components/Index/product";
+import { First } from "~/components/index/first";
+import { Links } from "~/components/index/links";
+import { Education, Language, ParticipantEvent } from "~/components/index/profile";
+import { Products } from "~/components/index/product";
 
 export default function Index(): React.ReactElement {
   return (
