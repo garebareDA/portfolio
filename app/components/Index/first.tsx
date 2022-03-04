@@ -1,15 +1,12 @@
 import React from "react";
 import { Container, Row, Text, Spacer, Link, Card } from "@nextui-org/react";
-import styled from "styled-components";
 import icon from "~/assets/images/icon/garebare-pixel.png";
 
-const Icon = styled.img`
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  border-style: solid;
-  border-color: white;
-`;
+const Icon:React.CSSProperties ={
+  borderRadius: "50%",
+  width: "200px",
+  height: "200px",
+};
 
 export const First: React.VFC = () => {
   return (
@@ -17,7 +14,7 @@ export const First: React.VFC = () => {
       mw: "600px",
     }}>
       <Row justify="center">
-        <Icon src={icon} />
+        <img src={icon} style={Icon}/>
       </Row>
       <Spacer y={1} />
       <Row justify="center">

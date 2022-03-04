@@ -1,7 +1,6 @@
-import React from "react";
-import { Grid, Text } from "@nextui-org/react";
+import React, { ReactElement } from "react";
+import { Grid } from "@nextui-org/react";
 import { Link } from "remix";
-import styled from "styled-components";
 import jsts from "~/assets/images/cassette/JSTSCassette.webp"
 import pixble from "~/assets/images/cassette/PIXBLECassette.webp"
 import go from "~/assets/images/cassette/GOCassette.webp"
@@ -13,15 +12,6 @@ type CassetteLink = {
   src:string,
   path:string,
 };
-
-const Cassette = styled.img({
-  transitionDuration: "0.3s",
-  transform: "scale(1)",
-  ":hover": {
-    transform: "scale(1.1)",
-    transitionDuration: "0.3s",
-  }
-});
 
 export const Products: React.VFC = () => {
   const cassettes: CassetteLink[] = [
@@ -39,7 +29,7 @@ export const Products: React.VFC = () => {
         return (
           <Link to={cassette.path} key={index}>
             <Grid key={index}>
-              <Cassette src={cassette.src} alt="" />
+              <Cassettes src={cassette.src}/>
             </Grid>
           </Link>
         );
@@ -47,3 +37,29 @@ export const Products: React.VFC = () => {
     </Grid.Container>
   );
 };
+
+const Cassette:React.CSSProperties = {
+  transitionDuration: "0.3s",
+  transform: "scale(1)"
+};
+
+const CassetteHover:React.CSSProperties = {
+  transform: "scale(1.1)",
+  transitionDuration: "0.3s",
+}
+
+type CassettesProps = {
+  src:string
+}
+
+const Cassettes:React.VFC<CassettesProps> = ({ src }:CassettesProps):ReactElement => {
+  const [hover, setHover] = React.useState(false);
+  return(
+    <img src={src}
+    alt=""
+    onMouseOver={() => {setHover(true)}}
+    onMouseOut={() => {setHover(false)}}
+    style = {hover ? CassetteHover : Cassette}
+    />
+  );
+}
