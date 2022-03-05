@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Text, Row } from '@nextui-org/react';
+import { Container, Text, Row, Spacer } from '@nextui-org/react';
 
 type Props = {
   name: string;
@@ -9,19 +9,25 @@ type Props = {
 
 export const ProductCassette: React.VFC<Props> = ({ name, detail, src }: Props) => {
   return (
-    <Container>
-      <Row>
+    <Container gap={3}>
+      <Row justify='center'>
         <img src={src} />
       </Row>
+      <Spacer y={2}></Spacer>
       <Row justify='center'>
-        <Text>{name}</Text>
+        <Text size={32} css={{
+          color: 'white',
+        }}>{name}</Text>
       </Row>
       {detail.map((text, index) => {
-        <Row key={index}>
-          <Text>{text}</Text>
-        </Row>
+        return (
+          <Row key={index} justify='center'>
+            <Text css={{
+              color: 'white',
+            }}>{text}</Text>
+          </Row>
+        );
       })}
-
     </Container>
   );
 };

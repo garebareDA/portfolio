@@ -10,27 +10,32 @@ export type ProductProps = {
 
 export const Products: React.VFC<ProductProps> = ({ title, content, details, buttons }: ProductProps) => {
   return (
-    <Card>
-      <Card.Header>
-        <Text>{title}</Text>
+    <Card css={{
+      mw: "700px",
+    }}>
+      <Card.Header css={{ position: 'absolute', zIndex: 1, top: 0, bgColor: "white" }}>
+        <Text size={24}>{title}</Text>
       </Card.Header>
       <Card.Body>
-        <Contents img={content.img} video={content.video} />
+        < Contents img={content.img} video={content.video}/>
       </Card.Body>
       <Card.Footer>
-        <Row>
+        <Row justify="center">
           <Col>
             {details.map((detail, index) => {
               return <Text key={index}>{detail}</Text>;
             })}
           </Col>
         </Row>
-        <Row>
-            {buttons.map((button, index) => {
-              return(
-                <Buttons key={index} title={button.title} url={button.url} />
-              );
-            })}
+        <Row justify="flex-end">
+          {buttons.map((button, index) => {
+            return (
+              <Button.Group key={index}>
+                <Button>↑</Button>
+                <Buttons title={button.title} url={button.url} />
+              </Button.Group>
+            );
+          })}
         </Row>
       </Card.Footer>
     </Card>
@@ -42,9 +47,9 @@ type ButtonProps = {
   url: string;
 }
 
-const Buttons:React.VFC<ButtonProps> = ({title, url}:ButtonProps) => {
+const Buttons: React.VFC<ButtonProps> = ({ title, url }: ButtonProps) => {
   return (
-    <Button onChange={() => {
+    <Button onClick={() => {
       window.open(url, '_blank');
     }}>{title}</Button>
   );
@@ -55,19 +60,23 @@ type ContentsProps = {
   video: string,
 };
 
+const contentStyle: React.CSSProperties = {
+  width: "800px",
+  height: "auto",
+};
+
 const Contents: React.VFC<ContentsProps> = ({ img, video }: ContentsProps) => {
   return (
-    <Container>
+    <div>
       {img !== "" &&
-        <Row justify="center">
-          <Card.Image src={img} />
-        </Row>
+        <img src={img} />
       }
       {video !== "" &&
         <Row justify="center">
-          <video src={video} controls />
+          <video src={video} controls style={contentStyle} />
         </Row>
       }
-    </Container>
+    </div>
+
   );
 };
