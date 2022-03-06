@@ -1,17 +1,17 @@
 import React from 'react';
 import { Container, Text, Row, Spacer } from '@nextui-org/react';
 
-type Props = {
+export type CassetteProps = {
   name: string;
   detail: string[];
   src: string;
 };
 
-export const ProductCassette: React.VFC<Props> = ({ name, detail, src }: Props) => {
+export const ProductCassette: React.VFC<CassetteProps> = ({ name, detail, src }: CassetteProps) => {
   return (
     <Container gap={3}>
       <Row justify='center'>
-        <img src={src} />
+        <img src={"https://garebareda.github.io/portfolio/app/assets/images/cassette/" +  src + ".webp"} />
       </Row>
       <Spacer y={2}></Spacer>
       <Row justify='center'>
