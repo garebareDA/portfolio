@@ -2,8 +2,7 @@ import React from "react";
 import { Container, Spacer, Row, Text } from "@nextui-org/react";
 
 import { First } from "~/components/index/first";
-import { Links } from "~/components/index/links";
-import { Education, Language, ParticipantEvent } from "~/components/index/profile";
+import { Education, Language, ParticipantEvent, Links } from "~/components/index/profile";
 import { Products } from "~/components/index/product";
 
 export default function Index(): React.ReactElement {
