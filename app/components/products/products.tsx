@@ -10,9 +10,11 @@ export type ProductProps = {
 
 export const Products: React.VFC<ProductProps> = ({ title, content, details, buttons }: ProductProps) => {
   return (
-    <Card css={{
-      mw: "600px",
-    }}>
+    <Card css={
+      {
+        mw: "700px",
+      }
+    }>
       <Card.Header>
         <Text size={24}>{title}</Text>
       </Card.Header>
@@ -73,9 +75,9 @@ const contentImg: React.CSSProperties = {
 };
 
 const contentVideo: React.CSSProperties = {
-  width: "600px",
-  height: "400px",
-};
+  width: "100%",
+  height: "100%",
+}
 
 const Contents: React.VFC<ContentsProps> = ({ img, video, url }: ContentsProps) => {
   return (
