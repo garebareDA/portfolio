@@ -9,7 +9,7 @@ const cassette = "JSTSCassette";
 export default function Index(): React.ReactElement {
   const details: string[] = [
     "ElectronやThree.js,Firebaseなどを使い作成したものです。",
-    "フレームワークはVue.jsやReactをよく使います",
+    "フレームワークはVue.jsやReact, Remixをよく使います",
     "こちらは静的ページアプリとNode.jsアプリです。",
   ];
 
@@ -91,6 +91,16 @@ export default function Index(): React.ReactElement {
         { title: "GitHub", url: "https://github.com/garebareDA/GeactOne" }
       ]
     },
+
+    {
+      title: "dottoys",
+      content: { img: "", video: "Dottoys", url: github },
+      details: ["TypeScriptで作成しました。自作Reactです。", "現在はレンダリング、hooksが実装されています。"],
+      buttons: [
+        { title: "GitHub", url: "https://github.com/garebareDA/WebsDevs" },
+        {title: "Netlify", url: "https://dottoys.garebare.net"}
+      ],
+    }
   ];
 
   return (
