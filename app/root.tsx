@@ -22,16 +22,16 @@ export default function App() {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <meta property="og:title" content="garebare-portforio" />
-        <meta property="og:site_name" content="garebare-portforio" />
-        <meta property="og:url" content="https://garebareda.github.io/portfolio/" />
+        <meta property="og:title" content="garebare's portfolio" />
+        <meta property="og:site_name" content="garebare's portfolio" />
+        <meta property="og:url" content="https://www.garebare.net" />
         <meta property="og:description" content="ガレバレのポートフォリオです" />
-        <meta property="og:image" content="https://garebareda.github.io/portfolio/thumbnail/Thumbnail.webp" />
+        <meta property="og:image" content="https://garebareda.github.io/portfolio/app/assets/images/Thumbnail.webp" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="garebare-portforio" />
-        <meta name="twitter:site" content="https://garebareda.github.io/portfolio/" />
-        <meta name="twitter:image" content="https://garebareda.github.io/portfolio/thumbnail/Thumbnail.webp" />
+        <meta name="twitter:title" content="garebare's portfolio" />
+        <meta name="twitter:site" content="https://www.garebare.net" />
+        <meta name="twitter:image" content="https://www.garebareda.github.io/portfolio/app/assets/images/Thumbnail.webp" />
         <Meta />
         <Links />
       </head>
