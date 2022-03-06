@@ -17,7 +17,7 @@ export const Products: React.VFC<ProductProps> = ({ title, content, details, but
         <Text size={24}>{title}</Text>
       </Card.Header>
       <Card.Body>
-        < Contents img={content.img} video={content.video} url={content.url}/>
+        < Contents img={content.img} video={content.video} url={content.url} />
       </Card.Body>
       <Card.Footer>
         <Grid.Container gap={1} justify="flex-end">
@@ -55,9 +55,9 @@ type ButtonProps = {
 
 const Buttons: React.VFC<ButtonProps> = ({ title, url }: ButtonProps) => {
   return (
-    <Button onClick={() => {
-      window.open(url, '_blank');
-    }}>{title}</Button>
+    <a href={url} target="_blank">
+      <Button>{title}</Button>
+    </a>
   );
 }
 
@@ -82,7 +82,7 @@ const Contents: React.VFC<ContentsProps> = ({ img, video, url }: ContentsProps) 
     <div>
       {img !== "" &&
         <Row justify="center">
-          <img src={"https://garebareda.github.io/portfolio/app/assets/images/" + url + "/" + img + ".webp"}  style={contentImg}/>
+          <img src={"https://garebareda.github.io/portfolio/app/assets/images/" + url + "/" + img + ".webp"} style={contentImg} />
         </Row>
       }
       {video !== "" &&
@@ -92,9 +92,9 @@ const Contents: React.VFC<ContentsProps> = ({ img, video, url }: ContentsProps) 
             muted
             loop
             autoPlay
-              style={contentVideo}
-            >
-              <source src={"https://garebareda.github.io/portfolio/app/assets/images/" + url + "/" + video + ".webm"} type="video/webm"></source>
+            style={contentVideo}
+          >
+            <source src={"https://garebareda.github.io/portfolio/app/assets/images/" + url + "/" + video + ".webm"} type="video/webm"></source>
           </video>
         </Row>
       }
