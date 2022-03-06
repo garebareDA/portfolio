@@ -94,7 +94,7 @@ export default function Index(): React.ReactElement {
 
     {
       title: "dottoys",
-      content: { img: "", video: "Dottoys", url: github },
+      content: { img: "Dottoys", video: "", url: github },
       details: ["TypeScriptで作成しました。自作Reactです。", "現在はレンダリング、hooksが実装されています。"],
       buttons: [
         { title: "GitHub", url: "https://github.com/garebareDA/WebsDevs" },
