@@ -74,10 +74,6 @@ const contentImg: React.CSSProperties = {
   height: "100%",
 };
 
-const contentVideoPhone: React.CSSProperties = {
-  width: "290px",
-};
-
 const contentVideo: React.CSSProperties = {
   width: "100%",
   height: "100%",
