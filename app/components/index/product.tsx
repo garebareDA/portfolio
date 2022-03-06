@@ -19,7 +19,7 @@ export const Products: React.VFC = () => {
     { src: pixble, path: "pixble"},
     { src: go, path: "go"},
     { src: rust, path: "rust"},
-    { src: unity, path: "unity"},
+    { src: unity, path: "game"},
     { src: other, path: "other"},
   ];
 

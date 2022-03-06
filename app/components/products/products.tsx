@@ -10,14 +10,16 @@ export type ProductProps = {
 
 export const Products: React.VFC<ProductProps> = ({ title, content, details, buttons }: ProductProps) => {
   return (
-    <Card css={{
-      mw: "600px",
-    }}>
+    <Card css={
+      {
+        mw: "700px",
+      }
+    }>
       <Card.Header>
         <Text size={24}>{title}</Text>
       </Card.Header>
       <Card.Body>
-        < Contents img={content.img} video={content.video} />
+        < Contents img={content.img} video={content.video} url={content.url} />
       </Card.Body>
       <Card.Footer>
         <Grid.Container gap={1} justify="flex-end">
@@ -36,7 +38,6 @@ export const Products: React.VFC<ProductProps> = ({ title, content, details, but
               {buttons.map((button, index) => {
                 return (
                   <Button.Group key={index}>
-                    <Button>↑</Button>
                     <Buttons title={button.title} url={button.url} />
                   </Button.Group>
                 );
@@ -56,28 +57,34 @@ type ButtonProps = {
 
 const Buttons: React.VFC<ButtonProps> = ({ title, url }: ButtonProps) => {
   return (
-    <Button onClick={() => {
-      window.open(url, '_blank');
-    }}>{title}</Button>
+    <a href={url} target="_blank">
+      <Button>{title}</Button>
+    </a>
   );
 }
 
 type ContentsProps = {
   img: string,
   video: string,
+  url: string,
 };
 
-const contentStyle: React.CSSProperties = {
+const contentImg: React.CSSProperties = {
   width: "700px",
   height: "100%",
 };
 
-const Contents: React.VFC<ContentsProps> = ({ img, video }: ContentsProps) => {
+const contentVideo: React.CSSProperties = {
+  width: "100%",
+  height: "100%",
+}
+
+const Contents: React.VFC<ContentsProps> = ({ img, video, url }: ContentsProps) => {
   return (
     <div>
       {img !== "" &&
         <Row justify="center">
-          <img src={img}  style={contentStyle}/>
+          <img src={"https://garebareda.github.io/portfolio/app/assets/images/" + url + "/" + img + ".webp"} style={contentImg} />
         </Row>
       }
       {video !== "" &&
@@ -87,8 +94,9 @@ const Contents: React.VFC<ContentsProps> = ({ img, video }: ContentsProps) => {
             muted
             loop
             autoPlay
-            >
-              <source src={video} type="video/webm"></source>
+            style={contentVideo}
+          >
+            <source src={"https://garebareda.github.io/portfolio/app/assets/images/" + url + "/" + video + ".webm"} type="video/webm"></source>
           </video>
         </Row>
       }
