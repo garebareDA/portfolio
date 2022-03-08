@@ -66,7 +66,7 @@ export const products: ProductProps[] = [
   {
     title: "imgPost",
     content: { img: "", video: "ImgPost", url: github },
-    details: ["Ginで作成しました。", "画像に一言添えて投稿できるサイトです。", "フロントサイドはVue.jsを使っています。", "現在は運用していません。"],
+    details: ["Ginで作成しました。", "画像に一言添えて投稿できるサイトです。", "フロントサイドはVue.jsを使っています。", "現在は運用していません。" ],
     buttons: [
       { url: "https://github.com/garebareDA/imgPost", title: "GitHub", }
     ],
@@ -75,7 +75,7 @@ export const products: ProductProps[] = [
   {
     title: "slope",
     content: { img: "", video: "Slope", url: github },
-    details: ["Ginで作成しました。", "思ったことを文字にして投稿できるサイトです。", "ログインにはFirebase,フロントサイドはVue.jsを使っています。", "現在は運用していません。"],
+    details: ["Ginで作成しました。", "思ったことを文字にして投稿できるサイトです。", "ログインにはFirebase,フロントサイドはVue.jsを使っています。"],
     buttons: [
       { url: "https://github.com/garebareDA/slope", title: "GitHub" },
       { url: "https://slope-9080.herokuapp.com/#/", title: "Heroku" }
@@ -85,7 +85,7 @@ export const products: ProductProps[] = [
   {
     title: "later",
     content: { img: "", video: "Later", url: github },
-    details: ["Ginで作成しました。", "時間を計測して時間を計算してくれるサイトです。", "ログインにはFirebase,フロントサイドはVue.jsを使っています。", "現在は運用していません。"],
+    details: ["Ginで作成しました。", "時間を計測して時間を計算してくれるサイトです。", "ログインにはFirebase,フロントサイドはVue.jsを使っています。"],
     buttons: [
       { url: "https://github.com/garebareDA/later", title: "GitHub" },
       { url: "https://later-090.herokuapp.com/#/", title: "Heroku" }
