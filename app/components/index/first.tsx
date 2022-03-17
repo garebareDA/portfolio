@@ -22,10 +22,14 @@ export const First: React.VFC = () => {
       <Row justify="center">
         <Container justify="center">
           <Row justify="center">
-            <Text size={16}>HandleName:{handleName}</Text>
+            <Text size={16} css={{
+              color: "white",
+            }}>HandleName:{handleName}</Text>
           </Row>
           <Row justify="center">
-            <Text size={16}>Name:{name}</Text>
+            <Text css={{
+              color: "white",
+            }} size={16}>Name:{name}</Text>
           </Row>
         </Container>
       </Row>

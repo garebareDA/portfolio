@@ -6,7 +6,6 @@ import {
   Scripts,
   ScrollRestoration,
   useCatch,
-  useNavigate
 } from "remix";
 import type { MetaFunction, LinksFunction } from "remix";
 import { NextUIProvider } from "@nextui-org/react";
