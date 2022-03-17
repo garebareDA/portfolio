@@ -21,7 +21,7 @@ export const links: LinksFunction = () => {
 };
 
 const backgroundColor:CSSProperties = {
-  backgroundColor: "#003e80"
+  backgroundColor: "#003e80",
 };
 
 export default function App() {

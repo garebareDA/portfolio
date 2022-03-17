@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Container, Spacer, Row, Text } from "@nextui-org/react";
 
 import { First } from "~/components/index/first";
@@ -6,9 +6,21 @@ import { Profiles } from "~/components/index/profile";
 import { profiles } from "~/data/profile/profile";
 import { Products } from "~/components/index/product";
 
+import backGround from "~/assets/images/backGround.svg";
+
 export default function Index(): React.ReactElement {
   return (
-    <Container>
+    <Container css={{
+      background: `url(${backGround})`,
+      width: '100vw',
+      height: '100vh',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      position: 'fixed',
+      zIndex: -1,
+      overflow: "auto",
+    }}>
       <Spacer y={3} />
       <Row justify="center">
         <Text size={40} css={{
