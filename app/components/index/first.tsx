@@ -13,6 +13,7 @@ export const First: React.VFC = () => {
   return (
     <Card css={{
       mw: "600px",
+      bgBlur:"#ffffff"
     }}>
       <Row justify="center">
         <img src={icon} style={Icon}/>

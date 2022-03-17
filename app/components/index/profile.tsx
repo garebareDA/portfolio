@@ -9,7 +9,10 @@ type Props = {
 
 export const Profiles: React.VFC<Props> = ({ name, list }: Props) => {
   return (
-    <Card css={{ mw: "600px" }}>
+    <Card css={{
+      mw: "600px",
+      bgBlur:"#ffffff"
+    }}>
       <Text size={24}>{name}</Text>
       <Spacer y={1} />
       {list.map((l, i) => {

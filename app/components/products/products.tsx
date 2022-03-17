@@ -13,6 +13,7 @@ export const Products: React.VFC<ProductProps> = ({ title, content, details, but
     <Card css={
       {
         mw: "700px",
+        bgBlur: "#ffffff",
       }
     }>
       <Card.Header>
