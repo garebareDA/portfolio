@@ -5,6 +5,8 @@ import { Products } from "~/components/products/products";
 import type { ProductProps } from "~/components/products/products";
 import type { CassetteProps } from "~/components/products/productCassette";
 
+import background from "~/assets/images/backGround.svg";
+
 type Props = {
   cassette: CassetteProps;
   products: ProductProps[];
@@ -15,7 +17,17 @@ export const ProductContents:React.VFC<Props> = ({
   products,
 }) => {
   return(
-    <Container>
+    <Container css={{
+      background: `url(${background})`,
+      width: '100vw',
+      height: '100vh',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      position: 'fixed',
+      zIndex: -1,
+      overflow: "auto",
+    }}>
     <Spacer y={3} />
     <Row>
       <ProductCassette {...cassette}></ProductCassette>

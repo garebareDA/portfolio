@@ -6,7 +6,6 @@ import {
   Scripts,
   ScrollRestoration,
   useCatch,
-  useNavigate
 } from "remix";
 import type { MetaFunction, LinksFunction } from "remix";
 import { NextUIProvider } from "@nextui-org/react";
@@ -22,7 +21,7 @@ export const links: LinksFunction = () => {
 };
 
 const backgroundColor:CSSProperties = {
-  backgroundColor: "#003e80"
+  backgroundColor: "#003e80",
 };
 
 export default function App() {

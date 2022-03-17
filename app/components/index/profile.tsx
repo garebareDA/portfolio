@@ -9,22 +9,27 @@ type Props = {
 
 export const Profiles: React.VFC<Props> = ({ name, list }: Props) => {
   return (
-    <Card css={{ mw: "600px" }}>
-      <Text size={24}>{name}</Text>
+    <Card css={{
+      mw: "600px",
+      bgBlur:"#ffffff"
+    }}>
+      <Text size={24} color="white">{name}</Text>
       <Spacer y={1} />
       {list.map((l, i) => {
         return (
           <Row key={i} justify="center">
             {
               l.link != null &&
-              <Link href={l.link} target="blank">
-                <Text size={16} color="primary">{l.title}</Text>
+              <Link href={l.link} target="blank" css={{
+                color: "blue",
+              }} icon>
+                <Text size={16} color="blue">{l.title}</Text>
               </Link>
             }
 
             {
               l.link == null &&
-              <Text size={16}>{l.title}</Text>
+              <Text color="white" size={16}>{l.title}</Text>
             }
           </Row>
         );
