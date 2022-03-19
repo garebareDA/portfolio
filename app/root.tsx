@@ -39,6 +39,7 @@ export default function App() {
     <html lang="ja" style={backgroundColor}>
       <head>
         <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta property="og:title" content="garebare's portfolio" />
         <meta property="og:site_name" content="garebare's portfolio" />
         <meta property="og:url" content="https://www.garebare.net" />
