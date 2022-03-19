@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Row, Textarea, Input, Spacer, Card, Button, Text } from "@nextui-org/react";
-import { useEffect } from "react";
 
 type Props = {
   mailKey: string
@@ -10,10 +9,10 @@ export const Form: React.VFC<Props> = ({ mailKey }: Props) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [isNameError, setIsNameError] = useState(false);
   const [isEmailError, setIsEmailError] = useState(false);
-  const [isMessageError, setIsMessageError] = useState(false);
   const regex = /^[a-zA-Z0-9_+-]+(.[a-zA-Z0-9_+-]+)*@([a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9]*\.)+[a-zA-Z]{2,}$/;
+  const [isSendError, setIsSendError] = useState(false);
+  const [isSend, setIsSend] = useState(false);
 
   const postEmail = () => {
     if (name !== "" && email !== "" && message !== "" && regex.test(email) === true) {
@@ -29,8 +28,11 @@ export const Form: React.VFC<Props> = ({ mailKey }: Props) => {
         setName("");
         setEmail("");
         setMessage("");
+        setIsSendError(false);
+        setIsSend(true);
       }).catch((e) => {
-        console.log(e);
+        setIsSendError(true);
+        setIsSend(false);
       });
     }
   };
@@ -49,7 +51,7 @@ export const Form: React.VFC<Props> = ({ mailKey }: Props) => {
       <Spacer y={2} />
       <Row justify="center">
         <Input
-          status={isNameError ? "error" : "default"}
+          status="default"
           placeholder="名前"
           aria-label="名前"
           css={{
@@ -81,7 +83,7 @@ export const Form: React.VFC<Props> = ({ mailKey }: Props) => {
       <Spacer y={2} />
       <Row justify="center">
         <Textarea
-          status={isMessageError ? "error" : "default"}
+          status="default"
           placeholder="本文"
           aria-label="本文"
           css={{
@@ -101,8 +103,13 @@ export const Form: React.VFC<Props> = ({ mailKey }: Props) => {
           onClick={() => {
             postEmail();
           }}>
-            送る
+          送る
         </Button>
+      </Row>
+      <Spacer y={1} />
+      <Row justify="center">
+        {isSendError && <Text color="error">送信に失敗しました</Text>}
+        {isSend && <Text color="white">送信しました</Text>}
       </Row>
     </Card>
   );
