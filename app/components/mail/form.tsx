@@ -20,7 +20,7 @@ export const Form: React.VFC<Props> = ({ mailKey }: Props) => {
       console.log("send!");
       fetch(`https://maker.ifttt.com/trigger/${mailKey}`, {
         method: "POST",
-        mode: 'cors',
+        mode: 'no-cors',
         headers: {
           "Content-Type": "application/x-www-form-urlencoded"
         },
