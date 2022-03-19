@@ -12,13 +12,11 @@ export const Products: React.VFC<ProductProps> = ({ title, content, details, but
   return (
     <Card css={
       {
-        mw: "700px",
-        bgBlur: "#ffffff",
+        mw: "600px",
       }
     }>
       <Card.Header>
         <Text css={{
-          color: "white",
         }} size={24}>{title}</Text>
       </Card.Header>
       <Card.Body>
@@ -30,9 +28,7 @@ export const Products: React.VFC<ProductProps> = ({ title, content, details, but
             <Row justify="center">
               <Col>
                 {details.map((detail, index) => {
-                  return <Text key={index} css={{
-                    color: "white",
-                  }}>{detail}</Text>;
+                  return <Text key={index}>{detail}</Text>;
                 })}
               </Col>
             </Row>
