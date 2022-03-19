@@ -11,6 +11,7 @@ import type { MetaFunction, LinksFunction } from "remix";
 import { NextUIProvider } from "@nextui-org/react";
 import { Container, Text, Card, Row, Spacer, Button } from "@nextui-org/react";
 import React, { CSSProperties } from "react";
+import backGround from "~/assets/images/backGround.svg";
 
 export const meta: MetaFunction = () => {
   return { title: "Garebare's Portfolio" };
@@ -22,6 +23,15 @@ export const links: LinksFunction = () => {
 
 const backgroundColor:CSSProperties = {
   backgroundColor: "#003e80",
+  background: `url(${backGround})`,
+  width: '100vw',
+  height: '100vh',
+  backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  position: 'fixed',
+  zIndex: -1,
+  overflow: "auto",
 };
 
 export default function App() {
@@ -29,7 +39,6 @@ export default function App() {
     <html lang="ja" style={backgroundColor}>
       <head>
         <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta property="og:title" content="garebare's portfolio" />
         <meta property="og:site_name" content="garebare's portfolio" />
         <meta property="og:url" content="https://www.garebare.net" />

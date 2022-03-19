@@ -17,17 +17,7 @@ export const ProductContents:React.VFC<Props> = ({
   products,
 }) => {
   return(
-    <Container css={{
-      background: `url(${background})`,
-      width: '100vw',
-      height: '100vh',
-      backgroundPosition: 'center',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      position: 'fixed',
-      zIndex: -1,
-      overflow: "auto",
-    }}>
+    <Container>
     <Spacer y={3} />
     <Row>
       <ProductCassette {...cassette}></ProductCassette>
