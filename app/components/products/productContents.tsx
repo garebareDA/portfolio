@@ -5,6 +5,8 @@ import { Products } from "~/components/products/products";
 import type { ProductProps } from "~/components/products/products";
 import type { CassetteProps } from "~/components/products/productCassette";
 
+import background from "~/assets/images/backGround.svg";
+
 type Props = {
   cassette: CassetteProps;
   products: ProductProps[];
