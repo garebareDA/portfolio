@@ -16,7 +16,6 @@ export const Form: React.VFC<Props> = ({ mailKey }: Props) => {
 
   const postEmail = () => {
     if (name !== "" && email !== "" && message !== "" && regex.test(email) === true) {
-      console.log("send!");
       fetch(`https://maker.ifttt.com/trigger/${mailKey}`, {
         method: "POST",
         mode: 'no-cors',
