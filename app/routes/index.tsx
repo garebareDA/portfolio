@@ -1,26 +1,21 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import { Container, Spacer, Row, Text } from "@nextui-org/react";
 
 import { First } from "~/components/index/first";
 import { Profiles } from "~/components/index/profile";
 import { profiles } from "~/data/profile/profile";
 import { Products } from "~/components/index/product";
+import { Form } from "~/components/mail/form";
+import { LoaderFunction, useLoaderData } from "remix";
 
-import backGround from "~/assets/images/backGround.svg";
+export const loader:LoaderFunction = () => {
+  return process.env.EMAIL;
+}
 
 export default function Index(): React.ReactElement {
+  const email = useLoaderData();
   return (
-    <Container css={{
-      background: `url(${backGround})`,
-      width: '100vw',
-      height: '100vh',
-      backgroundPosition: 'center',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      position: 'fixed',
-      zIndex: -1,
-      overflow: "auto",
-    }}>
+    <Container>
       <Spacer y={3} />
       <Row justify="center">
         <Text size={40} css={{
@@ -61,7 +56,21 @@ export default function Index(): React.ReactElement {
       </Row>
       <Spacer y={4} />
       <Products />
-      <Spacer y={5} />
+
+      <Spacer y={4} />
+      <Row justify="center">
+        <Text size={40} css={{
+          color: "white",
+        }}
+        >
+          Contact
+        </Text>
+      </Row>
+      <Spacer y={1} />
+      <Row justify="center">
+        <Form mailKey={email}/>
+      </Row>
+      <Spacer y={1} />
     </Container>
   );
 }
