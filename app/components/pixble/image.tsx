@@ -14,9 +14,7 @@ const contentImg: React.CSSProperties = {
 export const Image: React.VFC<Props> = ({ src }: Props): React.ReactElement => {
   return (
     <Grid>
-      <Card css={{
-        bgBlur: "#ffffff",
-      }}>
+      <Card>
         <img src={"https://garebareda.github.io/portfolio/app/assets/images/image/" + src + ".webp"} style={contentImg}></img>
       </Card>
     </Grid>
