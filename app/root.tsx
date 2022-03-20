@@ -21,8 +21,15 @@ export const links: LinksFunction = () => {
   return [{ rel: "shortcut icon", href: "https://garebareda.github.io/portfolio/app/assets/images/icon/garebare-pixel.png" }];
 };
 
-const backgroundColor:CSSProperties = {
-  backgroundColor: "#003e80",
+const backgroundColor: CSSProperties = {
+  backgroundImage: `url(${backGround})`,
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  backgroundAttachment: "fixed",
+  position: "absolute",
+  width: "100vw",
+  height: "100vh",
 };
 
 export default function App() {
@@ -95,9 +102,9 @@ export function CatchBoundary(): React.ReactElement {
                 </Row>
                 <Spacer y={3} />
                 <Row justify="center">
-                    <Button onClick={() => {
-                      location.href = "/";
-                    }}>メインページに戻る</Button>
+                  <Button onClick={() => {
+                    location.href = "/";
+                  }}>メインページに戻る</Button>
                 </Row>
               </Card>
             </Row>
