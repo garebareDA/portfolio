@@ -118,5 +118,17 @@ export const products: ProductProps[] = [
     buttons: [
       { url: "https://github.com/garebareDA/rekoto", title: "GitHub", }
     ]
+  },
+
+  {
+    title:"g_rs_command",
+    content: { img: "GRSCommands", video: "", url: github },
+    details: [
+      "自作のコマンド郡です。",
+      "ls, rm, cat, touch, which, ps が実装されています。"
+    ],
+    buttons: [
+      { url: "https://github.com/garebareDA/g_rs_commands", title: "GitHub"}
+    ]
   }
 ];
