@@ -88,6 +88,16 @@ export const products: ProductProps[] = [
   },
 
   {
+    title: "Kal",
+    content: { img: "Kal", video: "", url: github },
+    details: ["Remixで作成しました。自分フォローしてる人だけが見られるブログです。", "たふみさんの許可を取って作成されました。"],
+    buttons: [
+      { title: "GitHub", url: "https://github.com/garebareDA/Kal" },
+      {title: "たふみさんのZennの記事", url: "https://zenn.dev/qsf/articles/85fa1461500f18"},
+    ]
+  },
+
+  {
     title: "dottoys",
     content: { img: "Dottoys", video: "", url: github },
     details: ["Remixで作成しました。", "DevToysに影響を受けたツール郡です"],
@@ -95,5 +105,5 @@ export const products: ProductProps[] = [
       { title: "GitHub", url: "https://github.com/garebareDA/WebsDevs" },
       { title: "Netlify", url: "https://dottoys.garebare.net" }
     ],
-  }
+  },
 ];

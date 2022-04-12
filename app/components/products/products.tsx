@@ -101,6 +101,14 @@ const Contents: React.VFC<ContentsProps> = ({ img, video, url }: ContentsProps) 
           </video>
         </Row>
       }
+      {
+        (img === "" && video === "") &&
+        <Row justify="center" align="center">
+          <Text h1 css={{
+            w: "540px",
+          }}>No Image</Text>
+        </Row>
+      }
     </div>
   );
 };

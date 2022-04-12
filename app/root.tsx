@@ -14,7 +14,16 @@ import React, { CSSProperties } from "react";
 import backGround from "~/assets/images/backGround.svg";
 
 export const meta: MetaFunction = () => {
-  return { title: "Garebare's Portfolio" };
+  return {
+    "charSet": "utf-8",
+    title: "Garebare's Portfolio",
+    "viewport": "width=device-width, initial-scale=1",
+    "og:title": "Garebare's Portfolio",
+    "og:description": "Garebare's Portfolio",
+    "og:url": "https://www.garebare.net",
+    "og:image": "https://garebareda.github.io/portfolio/app/assets/images/Thumbnail.webp",
+    "twitter:card": "summary_large_image",
+  };
 };
 
 export const links: LinksFunction = () => {
@@ -36,19 +45,6 @@ export default function App() {
   return (
     <html lang="ja" style={backgroundColor}>
       <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <meta property="og:title" content="garebare's portfolio" />
-        <meta property="og:site_name" content="garebare's portfolio" />
-        <meta property="og:url" content="https://www.garebare.net" />
-        <meta property="og:description" content="ガレバレのポートフォリオです" />
-        <meta property="og:image" content="https://garebareda.github.io/portfolio/app/assets/images/Thumbnail.webp" />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="garebare's portfolio" />
-        <meta name="twitter:site" content="https://www.garebare.net" />
-        <meta name="twitter:image" content="https://www.garebareda.github.io/portfolio/app/assets/images/Thumbnail.webp" />
-
         <Meta />
         <Links />
       </head>
@@ -69,19 +65,6 @@ export function CatchBoundary(): React.ReactElement {
   return (
     <html lang="ja" style={backgroundColor}>
       <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <meta property="og:title" content="garebare's portfolio" />
-        <meta property="og:site_name" content="garebare's portfolio" />
-        <meta property="og:url" content="https://www.garebare.net" />
-        <meta property="og:description" content="ガレバレのポートフォリオです" />
-        <meta property="og:image" content="https://garebareda.github.io/portfolio/app/assets/images/Thumbnail.webp" />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="garebare's portfolio" />
-        <meta name="twitter:site" content="https://www.garebare.net" />
-        <meta name="twitter:image" content="https://www.garebareda.github.io/portfolio/app/assets/images/Thumbnail.webp" />
-
         <Meta />
         <Links />
         <title> {caught.status}  </title>

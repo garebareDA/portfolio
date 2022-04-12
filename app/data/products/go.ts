@@ -118,5 +118,14 @@ export const products: ProductProps[] = [
       { url: "https://github.com/garebareDA/list", title: "GitHub" },
       { url: "https://stormy-stream-93679.herokuapp.com/#/", title: "Heroku" }
     ]
+  },
+
+  {
+    title: "discordRadio",
+    content: { img: "", video: "", url: github },
+    details: ["DiscordGoで作成しました。", "Discordのチャットでラジオを流します。"],
+    buttons: [
+      { url: "https://github.com/garebareDA/discordRadio", title: "GitHub" },
+    ]
   }
 ];
