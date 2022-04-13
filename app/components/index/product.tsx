@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import { Grid } from "@nextui-org/react";
-import { Link } from "remix";
+import { Link } from "@remix-run/react";
 import jsts from "~/assets/images/cassette/JSTSCassette.webp"
 import pixble from "~/assets/images/cassette/PIXBLECassette.webp"
 import go from "~/assets/images/cassette/GOCassette.webp"
