@@ -51,8 +51,8 @@ export const Form: React.VFC<Props> = ({ mailKey }: Props) => {
       <Row justify="center">
         <Input
           status="default"
-          placeholder="名前"
-          aria-label="名前"
+          placeholder="name"
+          aria-label="name"
           css={{
             width: "100%",
             color: "white",
@@ -66,8 +66,8 @@ export const Form: React.VFC<Props> = ({ mailKey }: Props) => {
       <Row justify="center">
         <Input
           status={isEmailError ? "error" : "default"}
-          placeholder="メールアドレス"
-          aria-label="メールアドレス"
+          placeholder="address"
+          aria-label="address"
           helperColor="error"
           helperText={isEmailError ? "サポートされていない形式です" : ""}
           css={{
@@ -83,8 +83,8 @@ export const Form: React.VFC<Props> = ({ mailKey }: Props) => {
       <Row justify="center">
         <Textarea
           status="default"
-          placeholder="本文"
-          aria-label="本文"
+          placeholder="message"
+          aria-label="message"
           css={{
             width: "100%",
           }}
