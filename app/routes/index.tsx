@@ -6,7 +6,8 @@ import { Profiles } from "~/components/index/profile";
 import { profiles } from "~/data/profile/profile";
 import { Products } from "~/components/index/product";
 import { Form } from "~/components/mail/form";
-import { LoaderFunction, useLoaderData } from "remix";
+import { useLoaderData } from "@remix-run/react";
+import { LoaderFunction } from "@remix-run/node";
 
 export const loader:LoaderFunction = () => {
   return process.env.EMAIL;
