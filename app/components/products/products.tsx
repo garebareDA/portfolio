@@ -104,9 +104,7 @@ const Contents: React.VFC<ContentsProps> = ({ img, video, url }: ContentsProps) 
       {
         (img === "" && video === "") &&
         <Row justify="center" align="center">
-          <Text h1 css={{
-            w: "540px",
-          }}>No Image</Text>
+          <Text h1 css={{}}>No Image</Text>
         </Row>
       }
     </div>
