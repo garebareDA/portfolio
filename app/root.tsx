@@ -1,3 +1,4 @@
+import type { MetaFunction, LinksFunction } from "@remix-run/node";
 import {
   Links,
   LiveReload,
@@ -6,8 +7,7 @@ import {
   Scripts,
   ScrollRestoration,
   useCatch,
-} from "remix";
-import type { MetaFunction, LinksFunction } from "remix";
+} from "@remix-run/react";
 import { NextUIProvider } from "@nextui-org/react";
 import { Container, Text, Card, Row, Spacer, Button } from "@nextui-org/react";
 import React, { CSSProperties } from "react";
@@ -15,8 +15,8 @@ import backGround from "~/assets/images/backGround.svg";
 
 export const meta: MetaFunction = () => {
   return {
-    "charSet": "utf-8",
     title: "Garebare's Portfolio",
+    charset: "utf-8",
     "viewport": "width=device-width, initial-scale=1",
     "og:title": "Garebare's Portfolio",
     "og:description": "Garebare's Portfolio",
@@ -41,7 +41,7 @@ const backgroundColor: CSSProperties = {
   height: "100vh",
 };
 
-export default function App() {
+export default function App(): React.ReactElement {
   return (
     <html lang="ja" style={backgroundColor}>
       <head>
