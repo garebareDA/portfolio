@@ -123,7 +123,7 @@ export const products: ProductProps[] = [
   {
     title: "discordRadio",
     content: { img: "", video: "", url: github },
-    details: ["DiscordGoで作成しました。", "Discordのチャットでラジオを流します。"],
+    details: ["DiscordGoで作成しました。", "Discordのチャットでラジオを流します。", "Google画像検索APIを使って画像を検索する機能がおまけで実装されてあります。"],
     buttons: [
       { url: "https://github.com/garebareDA/discordRadio", title: "GitHub" },
     ]
