@@ -78,7 +78,6 @@ export const products: ProductProps[] = [
     details: ["Ginで作成しました。", "思ったことを文字にして投稿できるサイトです。", "ログインにはFirebase,フロントサイドはVue.jsを使っています。"],
     buttons: [
       { url: "https://github.com/garebareDA/slope", title: "GitHub" },
-      { url: "https://slope-9080.herokuapp.com/#/", title: "Heroku" }
     ]
   },
 
@@ -88,7 +87,6 @@ export const products: ProductProps[] = [
     details: ["Ginで作成しました。", "時間を計測して時間を計算してくれるサイトです。", "ログインにはFirebase,フロントサイドはVue.jsを使っています。"],
     buttons: [
       { url: "https://github.com/garebareDA/later", title: "GitHub" },
-      { url: "https://later-090.herokuapp.com/#/", title: "Heroku" }
     ]
   },
 
@@ -116,7 +114,6 @@ export const products: ProductProps[] = [
     details: ["サーバーサイドをGo,フロントサイドをTypeScriptで作成しました。", "リアルタイム性を重視したチャットです。"],
     buttons: [
       { url: "https://github.com/garebareDA/list", title: "GitHub" },
-      { url: "https://stormy-stream-93679.herokuapp.com/#/", title: "Heroku" }
     ]
   },
 
