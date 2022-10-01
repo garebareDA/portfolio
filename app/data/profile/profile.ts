@@ -44,7 +44,7 @@ const events: Profile[] = [
   { title: "【技術?LT】NEW DEBUG!! #3.0 (身内LT大会) 2021年3月20日", link: "https://caspur.wintu.dev/front/lives/167" },
   {title: "NEW DEBUG!!!!身内LT-WWDC- 2022年6月17日", link: "https://caspur.wintu.dev/front/lives/264"},
   { title: "DeNAオータムハッカソン2021 2021年9月16日~19日" },
-  {title: "株式会社Re-ere 長期インターンシップ 2022年5月1日~現在"},
+  {title: "株式会社Re-ere 長期インターンシップ 2022年5月1日~9月30日"},
   {title: "株式会社バイセルテクノロジーズ 短期インターンシップ 2022年8月22日~26日"},
   {title: "ヘイ株式会社 短期インターンシップ 2022年9月6日~16日"},
   {title: "スマートキャンプ株式会社 長期インターンシップ参加予定"}
