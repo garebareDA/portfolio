@@ -36,6 +36,7 @@ const language: Profile[] = [
   { title: "Rust" },
   { title: "Unity C#" },
   { title: "Haxe" },
+  { title: "Ruby" }
 ];
 
 const events: Profile[] = [
