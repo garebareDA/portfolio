@@ -42,10 +42,10 @@ export const Form: React.VFC<Props> = ({ mailKey }: Props) => {
       bgBlur: "#ffffff"
     }}>
       <Row justify="center">
-        <Text color="white">返信はcontact@garebare.netから行われます。</Text>
+        <Text color="white">返信はgmailから行われます。</Text>
       </Row>
       <Row justify="center">
-        <Text color="white">直接問い合わせる場合はTwitterまたはcontact@garebare.netにお願いします。</Text>
+        <Text color="white">直接問い合わせる場合はTwitterまたは各種SNSにお願いします。</Text>
       </Row>
       <Spacer y={2} />
       <Row justify="center">
