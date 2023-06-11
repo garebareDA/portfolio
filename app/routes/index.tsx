@@ -2,8 +2,7 @@ import React from "react";
 import { Container, Spacer, Row, Text } from "@nextui-org/react";
 
 import { First } from "~/components/index/first";
-import { Profiles } from "~/components/index/profile";
-import { profiles } from "~/data/profile/profile";
+import { Resume } from "~/components/index/resume";
 import { Products } from "~/components/index/product";
 import { Form } from "~/components/mail/form";
 import { useLoaderData } from "@remix-run/react";
@@ -27,18 +26,11 @@ export default function Index(): React.ReactElement {
       <Row justify="center">
         <First />
       </Row>
-      {
-        profiles.map((p, i) => {
-          return (
-            <div key={i}>
-              <Spacer y={2} />
-              <Row justify="center">
-                <Profiles name={p.title} list={p.profiles} />
-              </Row>
-            </div>
-          );
-        })
-      }
+
+      <Spacer y={2}/>
+      <Row justify="center">
+        <Resume/>
+      </Row>
 
       <Spacer y={4} />
       <Row justify="center">
